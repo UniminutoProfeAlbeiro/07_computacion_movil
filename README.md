@@ -9,7 +9,7 @@
 ### 7. [Iniciar Sesión](resources/steps/07_iniciar_sesion.md)
 ### 8. [Cerrar Sesión](resources/steps/08_cerrar_sesion.md)
 ---
-### [ANEXOS]
-1. [Subir el Proyecto a Github](resources/steps/02_estructura_carpetas_y_archivos.md)
-2. [Clonar el Proyecto de Github](resources/steps/02_estructura_carpetas_y_archivos.md)
-3. [Puesta en Marcha del Proyecto](resources/steps/02_estructura_carpetas_y_archivos.md)
+### ANEXOS
+1. [Subir el Proyecto a Github](resources/steps/anexo01_subir_proyecto_github.md)
+2. [Clonar el Proyecto de Github](resources/steps/anexo02_clonar_proyecto_github.md)
+3. [Puesta en Marcha del Proyecto](resources/steps/anexo03_puesta_en_marcha_proyecto.md)
