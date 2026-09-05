@@ -2,25 +2,23 @@
 
 ## 📚 Explicación
 
-Antes de empezar a codificar, necesitamos preparar nuestro entorno de trabajo. Este proyecto utiliza **React** con **Vite** como bundler, y se conecta a un **backend Node.js + Express** con autenticación JWT.
+### 1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
-### Tecnologías principales
+### 2. Instalar Visual Studio Code
+    ⦿   En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
 
-| Tecnología | Versión | Propósito |
-| ------------------------------ | ------ | -------------------------------------- |
-| **Node.js**                    | v18+   | Entorno de ejecución JavaScript        |
-| **Vite**                       | 8.0.4  | Bundler rápido para aplicaciones React |
-| **React**                      | 19.2.4 | Biblioteca para interfaces de usuario  |
-| **React Router DOM**           | 7.14.0 | Enrutamiento para SPA                  |
-| **JWT Decode**                 | 4.0.0  | Decodificación de tokens JWT           |
-| **ESLint**                     | 9.39.4 | Linter para calidad de código          |
+### 3. Abrir Visual Studio Code
 
-### Requisitos previos
+### 4. Instalar los siguientes extensiones en Visual Studio Code
+    ⦿   Material Icon Theme
+    ⦿   ES7 React/Redux/React-Native snippets
+    ⦿   Simple React Snippets
+    ⦿   Auto Close Tag
+    ⦿   Paste JSON as Code
+    ⦿   TypeScript importerM
 
-- ✅ Node.js instalado (v18+)
-- ✅ Editor de código (VS Code recomendado)
-- ✅ Conocimiento básico de terminal
-- ✅ Conexión a Internet
+
+
 
 ### Estructura del proyecto al finalizar
 
