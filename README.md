@@ -1,4 +1,4 @@
-##  <h1 align="center">FRONTEND: REACT NATIVE</h1>
+##  <h2 align="center">FRONTEND: REACT NATIVE</h2>
 
 1. [Entorno de Desarrollo](resources/steps/01_entorno_de_desarrollo.md)
 2. [Estructura del Proyecto](resources/steps/02_estructura_del_proyecto.md)
