@@ -7,12 +7,6 @@
 ### 5. [Crear el Emulador den Android Studio](#1-instalar-visual-studio-code-1)
 ### 6. [Configurar las variables de Entorno del Sistema](#1-instalar-visual-studio-code-1)
 ---
-
-<br>
-<br>
-<br>
-
----
 ## 1. Instalar Visual Studio Code
 
 1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
@@ -33,11 +27,6 @@
       TypeScript importerM
 
 1.5. Cerrar Visual Studio Code 
-
----
-<br>
-<br>
-<br>
 
 ---
 ## 2. Instalar NodeJs
