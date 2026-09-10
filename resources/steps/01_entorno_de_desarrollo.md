@@ -1,48 +1,22 @@
 # Punto 1: Entorno de Desarrollo
 
-## 📚 Explicación
-
 ### 1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
 ### 2. Instalar Visual Studio Code
-    ⦿   En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
+    En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
 
 ### 3. Abrir Visual Studio Code
 
 ### 4. Instalar los siguientes extensiones en Visual Studio Code
-    ⦿   Material Icon Theme
-    ⦿   ES7 React/Redux/React-Native snippets
-    ⦿   Simple React Snippets
-    ⦿   Auto Close Tag
-    ⦿   Paste JSON as Code
-    ⦿   TypeScript importerM
+    Material Icon Theme
+    ES7 React/Redux/React-Native snippets
+    Simple React Snippets
+    Auto Close Tag
+    Paste JSON as Code
+    TypeScript importerM
 
+### 5. Cerrar Visual Studio Code 
 
-
-
-### Estructura del proyecto al finalizar
-
-```bash
-frontend_web/
-└── react_node_express/
-    ├── node_modules/          # Dependencias del proyecto
-    ├── public/                # Archivos estáticos
-    │   └── vite.svg           # Favicon de Vite
-    ├── src/                   # Código fuente (lo crearemos después)
-    │   ├── App.css
-    │   ├── App.jsx
-    │   ├── index.css
-    │   └── main.jsx
-    ├── .gitignore             # Archivos ignorados por Git
-    ├── eslint.config.js       # Configuración de ESLint
-    ├── index.html             # Página principal HTML
-    ├── package-lock.json      # Versiones exactas de dependencias
-    ├── package.json           # Configuración del proyecto
-    ├── README.md              # Documentación
-    └── vite.config.js         # Configuración de Vite
-```
-
----
 
 ## 📝 Paso a paso
 
