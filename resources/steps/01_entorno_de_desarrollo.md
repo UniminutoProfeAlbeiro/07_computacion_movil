@@ -1,24 +1,47 @@
 # Punto 1: Entorno de Desarrollo
 
-### 1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
+### 1. [Instalar Visual Studio Code](#1-instalar-visual-studio-code-1)
+### 2. [Instalar Nodejs](#2-instalar-nodejs-1)
+### 3. [Modificar Directivas en PowerShell](#1-instalar-visual-studio-code-1)
+### 4. [Instalar Instalar Android Studio](#1-instalar-visual-studio-code-1)
+### 5. [Crear el Emulador den Android Studio](#1-instalar-visual-studio-code-1)
+### 6. [Configurar las variables de Entorno del Sistema](#1-instalar-visual-studio-code-1)
+---
 
-### 2. Instalar Visual Studio Code
-    En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
+<br>
+<br>
+<br>
 
-### 3. Abrir Visual Studio Code
+---
+## 1. Instalar Visual Studio Code
 
-### 4. Instalar los siguientes extensiones en Visual Studio Code
-    Material Icon Theme
-    ES7 React/Redux/React-Native snippets
-    Simple React Snippets
-    Auto Close Tag
-    Paste JSON as Code
-    TypeScript importerM
+1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
-### 5. Cerrar Visual Studio Code 
+1.2. Instalar Visual Studio Code
 
+     En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
 
-## 📝 Paso a paso
+1.3. Abrir Visual Studio Code
+
+1.4. Instalar los siguientes extensiones en Visual Studio Code
+
+      Material Icon Theme
+      ES7 React/Redux/React-Native snippets
+      Simple React Snippets
+      Auto Close Tag
+      Paste JSON as Code
+      TypeScript importerM
+
+1.5. Cerrar Visual Studio Code 
+
+---
+<br>
+<br>
+<br>
+
+---
+## 2. Instalar NodeJs
+
 
 ### 1. Verificar Node.js instalado
 
