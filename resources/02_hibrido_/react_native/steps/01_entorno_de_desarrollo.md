@@ -90,8 +90,14 @@ npm --version # Debe mostrar v9.x.x o superior
 ## 4. Instalar Instalar Android Studio
 <br>
 
-4.1. Abrir PowerShell
+4.1. [Desacargar Android Studio](https://developer.android.com/studio?hl=es-419)
 
+4.2. Instalar Android Studio
+
+      Dejar habilitado:   ☑ 'Android Virtual Device'.
+      Dar clic a 'Don't send' / 'Next' / 'Next' / '☑ Acepto' / 'Finalizar'.
+
+![Pantalla Principal Android](img/android_studio_01.png)
 
 
 ---
