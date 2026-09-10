@@ -11,8 +11,7 @@
 
 
 ## 1. Instalar Visual Studio Code 
-<div align="right"><a href="#">Volver al Menú</a></div><br>
-
+<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 
 1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
