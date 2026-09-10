@@ -97,7 +97,7 @@ npm --version # Debe mostrar v9.x.x o superior
       Dejar habilitado:   ☑ 'Android Virtual Device'.
       Dar clic a 'Don't send' / 'Next' / 'Next' / '☑ Acepto' / 'Finalizar'.
 
-![Pantalla Principal Android](img/android_studio_01.png)
+![Pantalla Principal Android](img/01_android_studio.png)
 
 
 ---
