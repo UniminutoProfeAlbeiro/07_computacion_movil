@@ -15,6 +15,6 @@
 
 -----
 ### ANEXOS
-1. [Subir el Proyecto a Github](resources/steps/anexo01_subir_proyecto_github.md)
-2. [Clonar el Proyecto de Github](resources/steps/anexo02_clonar_proyecto_github.md)
-3. [Puesta en Marcha del Proyecto](resources/steps/anexo03_puesta_en_marcha_proyecto.md)
+1. [Subir el Proyecto a Github](resources/anexos/anexo01_subir_proyecto_github.md)
+2. [Clonar el Proyecto de Github](resources/anexos/anexo02_clonar_proyecto_github.md)
+3. [Puesta en Marcha del Proyecto](resources/anexos/anexo03_puesta_en_marcha_proyecto.md)
