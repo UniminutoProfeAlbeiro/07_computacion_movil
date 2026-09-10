@@ -1,11 +1,11 @@
 # Punto 1: Entorno de Desarrollo
 
-### 1. [Instalar Visual Studio Code](#1-instalar-visual-studio-code-1)
-### 2. [Instalar Nodejs](#2-instalar-nodejs-1)
-### 3. [Modificar Directivas en PowerShell](#1-instalar-visual-studio-code-1)
-### 4. [Instalar Instalar Android Studio](#1-instalar-visual-studio-code-1)
-### 5. [Crear el Emulador den Android Studio](#1-instalar-visual-studio-code-1)
-### 6. [Configurar las variables de Entorno del Sistema](#1-instalar-visual-studio-code-1)
+1. [Instalar Visual Studio Code](#1-instalar-visual-studio-code-1)
+2. [Instalar Nodejs](#2-instalar-nodejs-1)
+3. [Modificar Directivas en PowerShell](#1-instalar-visual-studio-code-1)
+4. [Instalar Instalar Android Studio](#1-instalar-visual-studio-code-1)
+5. [Crear el Emulador den Android Studio](#1-instalar-visual-studio-code-1)
+6. [Configurar las variables de Entorno del Sistema](#1-instalar-visual-studio-code-1)
 ---
 ## 1. Instalar Visual Studio Code
 
