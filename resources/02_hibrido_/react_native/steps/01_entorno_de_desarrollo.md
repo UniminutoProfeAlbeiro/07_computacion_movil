@@ -7,10 +7,10 @@
 5. [Crear el Emulador den Android Studio](#)
 6. [Configurar las variables de Entorno del Sistema](#)
 ---
-
-
+<br>
 
 ## 1. Instalar Visual Studio Code
+<br>
 
 1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
@@ -37,6 +37,7 @@
 <br>
 
 ## 2. Instalar Node.js
+<br>
 
 2.1. [Desacargar Node.js](https://nodejs.org/es/)
 
@@ -48,6 +49,7 @@
 <br>
 
 ## 3. Modificar Directivas en PowerShell
+<br>
 
 3.1. Abrir PowerShell
 
@@ -86,6 +88,7 @@ npm --version # Debe mostrar v9.x.x o superior
 <br>
 
 ## 4. Instalar Instalar Android Studio
+<br>
 
 4.1. Abrir PowerShell
 
