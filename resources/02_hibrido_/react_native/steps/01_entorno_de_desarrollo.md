@@ -30,6 +30,7 @@
       TypeScript importerM
 
 1.5. Cerrar Visual Studio Code 
+
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
@@ -40,6 +41,8 @@
 2.1. [Desacargar Node.js](https://nodejs.org/es/)
 
 2.2. Instalar Node.js
+
+<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
 <br>
@@ -76,6 +79,8 @@ node --version # Debe mostrar v18.x.x o superior
 ```powershell
 npm --version # Debe mostrar v9.x.x o superior
 ```
+
+<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
 <br>
