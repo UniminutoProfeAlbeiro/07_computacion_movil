@@ -1,4 +1,4 @@
-# Punto 1: Entorno de Desarrollo
+## Punto 1: Entorno de Desarrollo
 
 1. [Instalar Visual Studio Code](#1-instalar-visual-studio-code)
 2. [Instalar Nodejs](#2-instalar-nodejs)
@@ -6,6 +6,7 @@
 4. [Instalar Instalar Android Studio](#4-instalar-instalar-android-studio)
 5. [Crear el Emulador den Android Studio](#)
 6. [Configurar las variables de Entorno del Sistema](#)
+
 ---
 &nbsp;
 &nbsp;
