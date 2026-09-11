@@ -123,4 +123,4 @@ En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguien
 &nbsp;
 &nbsp;
 
-Paso 2. [Estructura del Proyecto](steps/02_estructura_del_proyecto.md)
+Paso 2. [Estructura del Proyecto](02_estructura_del_proyecto.md)
