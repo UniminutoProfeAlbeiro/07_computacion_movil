@@ -117,8 +117,10 @@ En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguien
 
 ![Pantalla Principal Android](img/01_android_studio.png)
 
+<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
-<br>
+&nbsp;
+&nbsp;
 
 Paso 2. [Estructura del Proyecto](steps/02_estructura_del_proyecto.md)
