@@ -279,7 +279,7 @@ Si tiene dificultades, abra el abra el puerto 3000 en Firewall con los siguiente
 
 NOTA:
 
-Si está en Github, puede utilizar este recurso https://download-directory.github.io/ para descargar las imágenes copiando el enlace
+Si está en Github, puede utilizar este recurso https://download-directory.github.io/ para descargar las imágenes pasándole el enlace
 
 &nbsp;
 
