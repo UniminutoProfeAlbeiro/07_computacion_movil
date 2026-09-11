@@ -31,7 +31,9 @@ npx create-expo-app frontend_mob --template blank-typescript
 	√ Downloaded and extracted project files.
 	> npm install
                     
-1.6. Modificar el 'package.json' para que funcione con el Emulador:
+1.6. Modificar el 'package.json' para instalar las dependencias necesarias para el proyecto, según se requiera para que funcione con o sin el emulador Android. 
+
+1.6.1. Para que funcione CON el Emulador:
                     
 ```bash
 {
@@ -65,7 +67,7 @@ npx create-expo-app frontend_mob --template blank-typescript
 }
 ```
 
-1.7. Modificar el 'package.json' para que funcione sin el Emulador:
+1.6.2. Para que funcione SIN el Emulador:
                     
 ```bash
 {
