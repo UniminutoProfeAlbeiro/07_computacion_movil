@@ -91,8 +91,7 @@ npm --version # Debe mostrar v9.x.x o superior
 
 4.2. Instalar Android Studio
 
-      Dejar habilitado:   ☑ 'Android Virtual Device'.
-      Dar clic a 'Don't send' / 'Next' / 'Next' / '☑ Acepto' / 'Finalizar'.
+      'Next' /  ☑ 'Android Virtual Device' / 'Next' / 'Install' / 'Next'/ 'Finish'.
 
 
 NOTA:
