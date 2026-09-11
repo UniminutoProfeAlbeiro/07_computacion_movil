@@ -3,17 +3,14 @@
 1. [Instalar Visual Studio Code](#1-instalar-visual-studio-code)
 2. [Instalar Nodejs](#2-instalar-nodejs)
 3. [Modificar Directivas en PowerShell](#3-modificar-directivas-en-powershell)
-4. [Instalar Instalar Android Studio](#4-instalar-instalar-android-studio)
-5. [Crear el Emulador den Android Studio](#)
-6. [Configurar las variables de Entorno del Sistema](#)
+4. [Instalar Android Studio](#4-instalar-instalar-android-studio)
+5. [Crear el Emulador de Android Studio](#5-crear-el-emulador-de-android-studio)
+6. [Configurar las variables de Entorno del Sistema](#6-configurar-las-variables-de-entorno-del-sistema)
 
 ---
 &nbsp;
-&nbsp;
-
-
 ## 1. Instalar Visual Studio Code
-<br>
+&nbsp;
 
 1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
@@ -38,10 +35,8 @@
 
 ---
 &nbsp;
-&nbsp;
-
 ## 2. Instalar Node.js
-<br>
+&nbsp;
 
 2.1. [Desacargar Node.js](https://nodejs.org/es/)
 
@@ -51,10 +46,8 @@
 
 ---
 &nbsp;
-&nbsp;
-
 ## 3. Modificar Directivas en PowerShell
-<br>
+&nbsp;
 
 3.1. Abrir PowerShell
 
@@ -91,10 +84,8 @@ npm --version # Debe mostrar v9.x.x o superior
 
 ---
 &nbsp;
-&nbsp;
-
 ## 4. Instalar Instalar Android Studio
-<br>
+&nbsp;
 
 4.1. [Desacargar Android Studio](https://developer.android.com/studio?hl=es-419)
 
@@ -110,13 +101,46 @@ Si la instalación no sale como se espera porque hay una versión de Android Stu
 
 En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguiente programa para eliminar carpetas o archivos: [iobit-unlocker](https://www.iobit.com/es/iobit-unlocker.php#)
 
-<br>
-4.3. Instalar Android Studio
-<br>
+<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
-![Pantalla Principal Android](img/01_android_studio.png)
+---
+&nbsp;
+## 5. Crear el Emulador de Android Studio
+&nbsp;
+
+5.1. Seleccionar 'More Actions / Virtual Device Manager'
+
+5.2. Seleccionar la opción '(+) Create Virtual Device' y buscar un emulador que tenga los servicios de Google Service para probar las
+    aplicaciones sin restricciones
+
+5.3. Seleccionar, por ejemplo, 'Pixel 4' con el icono de Play Store
+
+5.4. Dar click a 'Finish / Finish'.
+
+5.5. Ejecutar el Emulador dando clic en la punta de flecha (columna 'Actions', la primera vez demorará más tiempo)
+
+<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+
+---
+&nbsp;
+## 6. Configurar las variables de Entorno del Sistema
+&nbsp;
+
+6.1. Buscar en el menú Windows 'Editar las variables de entorno del sistema' para enrutar al SDK de Java y Android SDK
+
+6.2. Dar clic en 'Variables de entorno ...'
+
+6.3. En las 'Variables de usuario ...' dar clic en 'Nueva ...'
+
+      Nombre de la variable:  JAVA_HOME
+      Valor de la variable:   'Examinar Directorio': C:\Program Files\Android\Android Studio\jbr\bin
+
+      Nombre de la variable:  ANDROID_HOME
+      Valor de la variable:   'Examinar Directorio': C:\Users\{usuario_del_sistema}\AppData\Local\Android\Sdk
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
 Paso 2. [Estructura del Proyecto](02_estructura_del_proyecto.md)
+
+<!-- ![Pantalla Principal Android](img/01_android_studio.png) -->
