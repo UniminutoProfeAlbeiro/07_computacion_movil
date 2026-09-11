@@ -110,8 +110,7 @@ En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguien
 
 5.1. Seleccionar 'More Actions / Virtual Device Manager'
 
-5.2. Seleccionar la opción '(+) Create Virtual Device' y buscar un emulador que tenga los servicios de Google Service para probar las
-    aplicaciones sin restricciones
+5.2. Seleccionar la opción '(+) Create Virtual Device' y buscar un emulador que tenga los servicios de Google Service para probar las aplicaciones sin restricciones
 
 5.3. Seleccionar, por ejemplo, 'Pixel 4' con el icono de Play Store
 
