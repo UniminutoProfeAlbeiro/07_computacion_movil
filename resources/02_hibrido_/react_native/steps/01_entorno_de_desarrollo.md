@@ -7,7 +7,7 @@
 5. [Crear el Emulador den Android Studio](#)
 6. [Configurar las variables de Entorno del Sistema](#)
 
-<hr style="height: 1px; background-color: gray;">
+<hr style="height: 1px; background-color: gray;" />
 <br>
 <br>
 
