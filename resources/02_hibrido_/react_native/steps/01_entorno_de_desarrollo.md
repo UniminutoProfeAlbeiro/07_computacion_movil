@@ -11,6 +11,7 @@
 &nbsp;
 &nbsp;
 
+
 ## 1. Instalar Visual Studio Code
 <br>
 
@@ -36,8 +37,8 @@
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
-<br>
-<br>
+&nbsp;
+&nbsp;
 
 ## 2. Instalar Node.js
 <br>
@@ -49,8 +50,8 @@
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
-<br>
-<br>
+&nbsp;
+&nbsp;
 
 ## 3. Modificar Directivas en PowerShell
 <br>
@@ -89,8 +90,8 @@ npm --version # Debe mostrar v9.x.x o superior
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
-<br>
-<br>
+&nbsp;
+&nbsp;
 
 ## 4. Instalar Instalar Android Studio
 <br>
