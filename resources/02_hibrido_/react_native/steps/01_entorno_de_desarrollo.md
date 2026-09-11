@@ -112,13 +112,11 @@ En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguien
 
 <br>
 4.3. Instalar Android Studio
+<br>
 
 ![Pantalla Principal Android](img/01_android_studio.png)
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
-&nbsp;
-&nbsp;
-
 Paso 2. [Estructura del Proyecto](02_estructura_del_proyecto.md)
