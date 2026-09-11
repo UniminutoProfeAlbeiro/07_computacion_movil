@@ -1,41 +1,112 @@
 ## Punto 2: Estructura del Proyecto
 
-1. [Instalar Visual Studio Code](#)
-2. [Instalar Nodejs](#)
-3. [Modificar Directivas en PowerShell](#)
-4. [Instalar Android Studio](#)
-5. [Crear el Emulador de Android Studio](#)
-6. [Configurar las variables de Entorno del Sistema](#)
+1. [Iniciar el Proyecto](#1-crear-la-carpeta-raíz-del-proyecto)
+2. [Ejecutar 'frontend_mob' en el emulador Android](#2-ejecutar-frontend_mob-en-el-emulador-android)
+3. [Ejecutar 'frontend_mob' en un dispositivo físico Android](#3-ejecutar-frontend_mob-en-un-dispositivo-físico-android)
+4. [Modificar el mensaje de inicio del proyecto en 'frontend_mob/App.tsx'](#4-modificar-el-mensaje-de-inicio-del-proyecto-en-frontend_mobapptsx)
+5. [Crear la Estructura de Carpetas y Archivos del Proyecto](#5-crear-la-estructura-de-carpetas-y-archivos-del-proyecto)
+
 
 ---
 &nbsp;
-## 1. Instalar Visual Studio Code
+## 1. Iniciar el Proyecto
 &nbsp;
 
-1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
+1.1. Descargar el '.ZIP' del Repositorio [07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main) en GitHub (Download ZIP).
 
-1.2. Instalar Visual Studio Code
+1.2. Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
 
-      En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
+1.3. Abrir su cuenta Github y crear un repositorio con el nombre proyecto ([Ver anexo01_subir_proyecto_github](../../../anexos/anexo01_subir_proyecto_github.md)).
 
-1.3. Abrir Visual Studio Code
+1.4. Abrir el proyecto con Visual Studio Code.
 
-1.4. Instalar los siguientes extensiones en Visual Studio Code
+1.5. Abrir una terminal de Visual Studio Code para crear el proyecto con el siguiente comando:
 
-      Material Icon Theme
-      ES7 React/Redux/React-Native snippets
-      Simple React Snippets
-      Auto Close Tag
-      Paste JSON as Code
-      TypeScript importerM
+```bash
+npx create-expo-app frontend_mob --template blank-typescript
+```
 
-1.5. Cerrar Visual Studio Code 
+	Creating an Expo project using the blank-typescript template.
+
+	√ Downloaded and extracted project files.
+	> npm install
+                    
+1.6. Modificar el 'package.json' para que funcione con el Emulador:
+                    
+```bash
+{
+	"name": "frontend_mob",
+	"version": "1.0.0",
+	"main": "index.ts",
+	"scripts": {
+		"start": "expo start",
+		"android": "expo start --android",
+		"ios": "expo start --ios",
+		"web": "expo start --web"
+	},
+	"dependencies": {
+		"@react-native-async-storage/async-storage": "2.2.0",
+		"@react-navigation/native": "^7.1.28",
+		"@react-navigation/native-stack": "^7.10.1",
+		"@react-navigation/stack": "^7.6.16",
+		"axios": "^1.13.2",
+		"expo": "~54.0.32",
+		"expo-status-bar": "~3.0.9",
+		"react": "19.1.0",
+		"react-native": "0.81.5",
+		"react-native-safe-area-context": "~5.6.0",
+		"react-native-screens": "~4.16.0"
+	},
+	"devDependencies": {
+		"@types/react": "~19.1.0",
+		"typescript": "~5.9.2"
+	},
+	"private": true
+}
+```
+
+1.7. Modificar el 'package.json' para que funcione sin el Emulador:
+                    
+```bash
+{
+	"name": "frontend_mob",
+	"version": "1.0.0",
+	"main": "index.ts",
+	"scripts": {    
+		"start": "expo start --tunnel --clear",
+		"start:local": "expo start --host lan --clear",
+		"start:offline": "expo start --offline --clear",
+		"android": "echo 'NO USAR - Busca emulador' && exit 1",
+		"ios": "echo 'NO USAR - Busca emulador' && exit 1",
+		"web": "expo start --web"
+	},
+	"dependencies": {
+		"@react-native-async-storage/async-storage": "2.2.0",
+		"@react-navigation/native": "^7.1.28",
+		"@react-navigation/native-stack": "^7.10.1",
+		"@react-navigation/stack": "^7.6.16",
+		"axios": "^1.13.2",
+		"expo": "~54.0.32",
+		"expo-status-bar": "~3.0.9",
+		"react": "19.1.0",
+		"react-native": "0.81.5",
+		"react-native-safe-area-context": "~5.6.0",
+		"react-native-screens": "~4.16.0"
+	},
+	"devDependencies": {
+		"@types/react": "~19.1.0",
+		"typescript": "~5.9.2"
+	},
+	"private": true
+}
+
+```
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
 &nbsp;
-## 2. Instalar Node.js
+## 2. Ejecutar 'frontend_mob' en el emulador Android
 &nbsp;
 
 2.1. [Desacargar Node.js](https://nodejs.org/es/)
@@ -46,7 +117,7 @@
 
 ---
 &nbsp;
-## 3. Modificar Directivas en PowerShell
+## 3. Ejecutar 'frontend_mob' en un dispositivo físico Android
 &nbsp;
 
 3.1. Abrir PowerShell
@@ -84,7 +155,7 @@ npm --version # Debe mostrar v9.x.x o superior
 
 ---
 &nbsp;
-## 4. Instalar Instalar Android Studio
+## 4. Modificar el mensaje de inicio del proyecto en 'frontend_mob/App.tsx'
 &nbsp;
 
 4.1. [Desacargar Android Studio](https://developer.android.com/studio?hl=es-419)
@@ -105,7 +176,7 @@ En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguien
 
 ---
 &nbsp;
-## 5. Crear el Emulador de Android Studio
+## 5. Crear la Estructura de Carpetas y Archivos del Proyecto
 &nbsp;
 
 5.1. Seleccionar 'More Actions / Virtual Device Manager'
@@ -118,7 +189,6 @@ En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguien
 5.4. Dar click a 'Finish / Finish'.
 
 5.5. Ejecutar el Emulador dando clic en la punta de flecha (columna 'Actions', la primera vez demorará más tiempo)
-
 
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
