@@ -6,13 +6,9 @@
 4. [Instalar Instalar Android Studio](#4-instalar-instalar-android-studio)
 5. [Crear el Emulador den Android Studio](#)
 6. [Configurar las variables de Entorno del Sistema](#)
-
-
-<ins></ins>
-
-
-<br>
-<br>
+---
+&nbsp;
+&nbsp;
 
 ## 1. Instalar Visual Studio Code
 <br>
