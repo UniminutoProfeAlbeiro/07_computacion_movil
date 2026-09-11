@@ -276,9 +276,11 @@ Si tiene dificultades, abra el abra el puerto 3000 en Firewall con los siguiente
 4.1. Copiar de este mismo proyecto las imágenes que se encuentra en [assets](../assets/). 
 
 &nbsp;
+
 NOTA:
 
 Si está en Github, puede utilizar este recurso https://download-directory.github.io/ para descargar las imágenes copiando el enlace
+
 &nbsp;
 
 
