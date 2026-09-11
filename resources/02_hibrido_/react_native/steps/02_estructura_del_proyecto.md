@@ -275,17 +275,18 @@ Si tiene dificultades, abra el abra el puerto 3000 en Firewall con los siguiente
 
 4.1. Copiar de este mismo proyecto las imágenes que se encuentra en [assets](../assets/). 
 
+&nbsp;
 NOTA:
 
 Si está en Github, puede utilizar este recurso https://download-directory.github.io/ para descargar las imágenes copiando el enlace
-
 &nbsp;
+
 
 4.2. Pegar las imágenes al proyecto, en la carpeta 'frontend/frontend_mob/assets'.
 
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 ---
-Paso 2. [Estructura del Proyecto](02_estructura_del_proyecto.md)
+Paso 3. [Vista del Formulario de Registro](03_vista_del_formulario_de_registro.md)
 
 <!-- ![Pantalla Principal Android](img/01_android_studio.png) -->
