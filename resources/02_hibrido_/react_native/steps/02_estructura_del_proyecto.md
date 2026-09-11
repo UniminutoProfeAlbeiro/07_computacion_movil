@@ -273,7 +273,13 @@ Si tiene dificultades, abra el abra el puerto 3000 en Firewall con los siguiente
 			├── package.json                                   # A. Manifiesto del proyecto frontend_mob (nombre, dependencias, scripts).
 			└── tsconfig.json                                  # A. Configuración para el compilador de TypeScript.
 
-4.1. Copiar de este mismo proyecto las imágenes que se encuentra en [assets](../assets/)
+4.1. Copiar de este mismo proyecto las imágenes que se encuentra en [assets](../assets/). 
+
+NOTA:
+
+Si está en Github, puede utilizar este recurso https://download-directory.github.io/ para descargar las imágenes copiando el enlace
+
+&nbsp;
 
 4.2. Pegar las imágenes al proyecto, en la carpeta 'frontend/frontend_mob/assets'.
 
