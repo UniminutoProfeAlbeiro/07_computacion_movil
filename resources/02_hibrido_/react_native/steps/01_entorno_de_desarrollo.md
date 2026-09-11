@@ -109,9 +109,7 @@ En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguien
 
 5.1. Seleccionar 'More Actions / Virtual Device Manager'
 
-5.2. Seleccionar la opción '(+) Create Virtual Device' y buscar un emulador que tenga los servicios de Google Service para probar las aplicaciones sin restricciones
-
-5.3. Seleccionar, por ejemplo, 'Pixel 4' con el icono de Play Store
+5.2. Seleccionar la opción '(+) Create Virtual Device' y buscar un emulador, por ejemplo, 'Pixel 6a' con el icono de Play Store.
 
 5.4. Dar click a 'Finish / Finish'.
 
@@ -128,7 +126,7 @@ En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguien
 
 6.2. Dar clic en 'Variables de entorno ...'
 
-6.3. En las 'Variables de usuario ...' dar clic en 'Nueva ...'
+6.3. En las 'Variables de Sistema ...' dar clic en 'Nueva ...'
 
       Nombre de la variable:  JAVA_HOME
       Valor de la variable:   'Examinar Directorio': C:\Program Files\Android\Android Studio\jbr\bin
