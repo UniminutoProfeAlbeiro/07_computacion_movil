@@ -1,6 +1,6 @@
 ## Punto 2: Estructura del Proyecto
 
-1. [Iniciar el Proyecto](#1-crear-la-carpeta-raíz-del-proyecto)
+1. [Iniciar el Proyecto](#1-iniciar-el-proyecto)
 2. [Ejecutar 'frontend_mob' en el emulador Android](#2-ejecutar-frontend_mob-en-el-emulador-android)
 3. [Ejecutar 'frontend_mob' en un dispositivo físico Android](#3-ejecutar-frontend_mob-en-un-dispositivo-físico-android)
 4. [Modificar el mensaje de inicio del proyecto en 'frontend_mob/App.tsx'](#4-modificar-el-mensaje-de-inicio-del-proyecto-en-frontend_mobapptsx)
