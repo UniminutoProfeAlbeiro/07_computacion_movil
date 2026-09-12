@@ -110,15 +110,18 @@ $ git push
 
 <div align="right"><a href="#anexo-01-trabajar-con-github">Volver al Menú</a></div>
 
-
 ---
 
-<table border="0" width="100%">
-  <tr>
-    <td align="left">Texto a la izquierda</td>
-    <td align="right">Texto a la derecha</td>
-  </tr>
-</table>
+<div align="right">
+  <table border="0">
+    <tr>
+      <td align="left">Texto a la izquierda</td>
+      <td align="right">Texto a la derecha</td>
+    </tr>
+  </table>
+</div>
+
+
 
 | Anexo 01. [Trabajar con Github](anexo01_trabajar_con_github.md) | Anexo 03. [Anexo](#) |
 | ------------------------------ | -------------------------------------- |
