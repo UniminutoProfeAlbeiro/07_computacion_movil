@@ -1,7 +1,7 @@
 ## ANEXO 01: Trabajar con GitHub
 
-1. [Subir el proyecto a un repositorio 'Github'](#1-instalar-visual-studio-code)
-2. [Clonar un Proyecto 'Github'](#2-instalar-nodejs)
+1. [Subir el proyecto a un repositorio 'Github'](#1-subir-el-proyecto-a-un-repositorio-github)
+2. [Clonar un Proyecto 'Github'](#2-clonar-un-proyecto-github)
 
 ---
 &nbsp;
