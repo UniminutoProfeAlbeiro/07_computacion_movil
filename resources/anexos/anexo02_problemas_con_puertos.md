@@ -115,16 +115,10 @@ $ git push
 <div align="right">
   <table border="0">
     <tr>
-      <td align="left">Texto a la izquierda</td>
-      <td align="right">Texto a la derecha</td>
+      <td align="left">Anexo 01. <a href="anexo01_trabajar_con_github.md">Trabajar con Github</a></td>
+      <td align="right">Anexo 03. <a href="#">Otro Anexo</a></td>
     </tr>
   </table>
 </div>
-
-
-
-| Anexo 01. [Trabajar con Github](anexo01_trabajar_con_github.md) | Anexo 03. [Anexo](#) |
-| ------------------------------ | -------------------------------------- |
-
 
 <!-- ![Pantalla Principal Android](img/01_android_studio.png) -->
