@@ -111,6 +111,13 @@ $ git push
 
 
 ---
-Anexo 02. [Problemas con Puertos](anexo02_problemas_con_puertos.md)
+
+<div align="right">
+  <table border="0">
+    <tr>      
+      <td align="right">Anexo 02. <a href="anexo02_problemas_con_puertos.md">Problemas con Puertos</a></td>
+    </tr>
+  </table>
+</div>
 
 <!-- ![Pantalla Principal Android](img/01_android_studio.png) -->
