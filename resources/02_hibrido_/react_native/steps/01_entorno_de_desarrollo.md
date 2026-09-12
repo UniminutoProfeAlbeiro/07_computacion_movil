@@ -20,6 +20,7 @@
 	- En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
 
 <br>
+
 3. Abrir Visual Studio Code
 
 4. Instalar los siguientes extensiones en Visual Studio Code
@@ -42,9 +43,11 @@ Paste JSON as Code
 ```
 TypeScript importerM
 ```
-&nbsp;
 
-5. Cerrar Visual Studio Code 
+<br>
+
+
+5. Cerrar Visual Studio Code
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
