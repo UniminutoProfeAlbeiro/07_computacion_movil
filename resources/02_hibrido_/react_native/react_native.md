@@ -52,6 +52,6 @@ npm run android
 
 6.  Comprobar que se ejecute correctamente la aplicación.
 
-<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+<div align="right"><a href="#react-native">Volver al Menú</a></div>
 
 ---
