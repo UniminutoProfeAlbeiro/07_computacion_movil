@@ -18,8 +18,8 @@
 2. Instalar Visual Studio Code. 
 		
 	- En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
-&nbsp;
 
+&nbsp;
 3. Abrir Visual Studio Code
 
 4. Instalar los siguientes extensiones en Visual Studio Code
