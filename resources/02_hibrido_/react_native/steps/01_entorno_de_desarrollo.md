@@ -18,6 +18,7 @@
 2. Instalar Visual Studio Code. 
 		
 	- En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
+&nbsp;
 
 3. Abrir Visual Studio Code
 
@@ -41,6 +42,7 @@ Paste JSON as Code
 ```
 TypeScript importerM
 ```
+&nbsp;
 
 5. Cerrar Visual Studio Code 
 
