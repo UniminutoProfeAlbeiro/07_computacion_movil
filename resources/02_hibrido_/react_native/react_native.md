@@ -8,5 +8,46 @@
 6. [Registrar un Usuario](steps/06_registrar_un_usuario.md)
 7. [Iniciar Sesión](steps/07_iniciar_sesion.md)
 8. [Cerrar Sesión](steps/08_cerrar_sesion.md)
------
-[Puesta en Marcha del Proyecto](#)
+
+---
+##  Puesta en marcha del Proyecto
+
+1. Garantizar en el Computador el Entorno de Desarrollo (1. [Entorno de Desarrollo](steps/01_entorno_de_desarrollo.md)).
+            
+2.  Clonar el proyecto desde Github (Anexo 01. [Trabajar con Github](resources/anexos/anexo01_trabajar_con_github.md)).
+
+3.  Abrir el proyecto en Visual Studio Code.
+
+4.  Abrir una terminal en 'Visual Studio Code' y ejecutar los siguientes comandos:
+
+```powershell
+ipconfig
+```
+NOTA:
+Tomar en cuenta la 'ipconfig' del 'node_js/server.js' y 'my-app/src/Data/sources/remote/api/apiDelivery.tsx' ya que deben coincidir
+```powershell
+cd backend
+```
+```powershell
+npm i
+```
+```powershell
+node index.js
+```
+
+5.  Abrir otra terminal en 'Visual Studio Code' y ejecutar los siguientes comandos:
+
+```powershell
+cd frontend_mob
+```
+```powershell
+npm install -g expo-cli exp
+```
+```powershell
+npm i
+```
+```powershell
+npm run android
+```
+
+6.  Comprobar que se ejecute correctamente la aplicación.
