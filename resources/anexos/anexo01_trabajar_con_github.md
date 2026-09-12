@@ -1,11 +1,23 @@
 ## ANEXO 01: Trabajar con GitHub
 
-1. [Subir el proyecto a un repositorio 'Github'](#1-subir-el-proyecto-a-un-repositorio-github)
-2. [Clonar un Proyecto 'Github'](#2-clonar-un-proyecto-github)
+1. [Instalar Git](#1-instalar-git)
+2. [Subir el proyecto a un repositorio 'Github'](#2-subir-el-proyecto-a-un-repositorio-github)
+3. [Clonar un Proyecto 'Github'](#3-clonar-un-proyecto-github)
 
 ---
 &nbsp;
-## 1. Subir el proyecto a un repositorio 'Github'
+## 1. Instalar Git
+&nbsp;
+
+1. Descargar [Git](https://git-scm.com/downloads).
+
+2. Instalar Git, siguiendo los pasos del instalador.
+
+<div align="right"><a href="#anexo-01-trabajar-con-github">Volver al Menú</a></div>
+
+---
+&nbsp;
+## 2. Subir el proyecto a un repositorio 'Github'
 &nbsp;
 
 Para evitar confusiones y seguir los pasos correctamente, la carpeta raíz del proyecto se llamará 'proyecto'.
@@ -21,63 +33,84 @@ De no funcionar este método porque no tiene acceso al Panel de control, pruebe 
 echo "protocol=https`nhost=github.com`n" | git credential-manager erase
 ```
 
-2. Crear una cuenta en [Github](https://github.com/signup?source=login).
-&nbsp;
+2. Crear una carpeta en su computador con el nombre 'proyecto'. Verificar que tenga por lo menos un archivo, ya que Github no guarda carpetas, solo archivos.
 
-3. Abrir su cuenta de 'Github' y en la parte superior derecha, dar click al 'Nombre de su cuenta / Your Repositories'. Dar click en 'New'. En el control de texto 'Repository name', escribir el nombre de la carpeta raíz de su proyecto (ejemplo, 'proyecto'. La carpeta raíz no debe tener espacios, ni caracteres compuesto, ni caracteres especiales) y dar click en 'Create Repository'.
+3. Crear una cuenta en [Github](https://github.com/signup?source=login).
 
-				Si no tiene cuenta en 'GitHub', debe crear una.
+4. Estando en su cuenta de 'Github', en la parte superior derecha dar click al 'Nombre de su cuenta / Your Repositories'. Dar click en 'New'. En el control de texto 'Repository name', escribir el nombre de la carpeta raíz de su proyecto (ejemplo, 'proyecto'. La carpeta raíz no debe tener espacios, ni caracteres compuesto, ni caracteres especiales) y dar click en 'Create Repository'.
 
-4. Click derecho sobre la carpeta raíz (ejemplo, 'proyecto') y seleccionar la opción 'Open Git Bash here'; si no se 
-		encuentra la opción, hay que instalar 'Git'.
+5. Click derecho sobre la carpeta raíz (ejemplo, 'proyecto') y seleccionar la opción 'Open Git Bash here'.
 
-5. En el 'Git Bash' escribir lo siguiente:
+6. En el 'Git Bash' escribir lo siguiente:
 
-				$ git config --global user.name "nombre de su cuenta"
-				$ git config --global user.email "correo de su cuenta"
+```bash
+$ git config --global user.name "nombre de su cuenta"  # Nombre con el que creò su cuenta en 'Github'.
+```
+```bash
+$ git config --global user.email "correo de su cuenta" # Correo con el que registró su cuenta en 'Github'.
+```
+```bash
+$ git init
+```
+```bash
+$ git branch -M main
+```
+```bash
+$ git remote add origin 'enlace al repositorio' # Lo puede copiar del repositorio que está creando en 'Github'.
+```
+```bash
+$ git add .
+```
+```bash
+$ git commit -m "Subiendo Proyecto"
+```
+```bash
+$ git push -u origin main
+```
 
-				$ git init
-				$ git branch -M main
-				$ git remote add origin https://github.com/SenaProfeAlbeiro/proyecto.git
-				$ git add .
-				$ git commit -m "Subiendo Proyecto"
-				$ git push -u origin main
+7. Va a aparecer una ventana denominada 'Connect to Github', dar click en la opción 'Sign in with your browser', dar click en 'Authentication Succeeded'. Verificar que se haya abierto en el navegador en donde tiene la cuenta activa, de lo contrario hay que escribir nuevamente las credenciales de 'Github'. En el 'Git Bash' debe aparecer texto similar al siguiente:
 
-5. Va a aparecer una ventana denominada 'Connect to Github', dar click en la opción 'Sign in with your browser', dar click en 'Authentication 
-		Succeeded'. Verificar que se haya abierto en el navegador en donde tiene la cuenta activa, de lo contrario hay que escribir nuevamente las
-		credenciales de 'Github'. En el 'Git Bash' debe aparecer texto similar al siguiente:
+```
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 226 bytes | 226.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/SenaProfeAlbeiro/proyecto.git
+* [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+```
 
-				Enumerating objects: 3, done.
-				Counting objects: 100% (3/3), done.
-				Writing objects: 100% (3/3), 226 bytes | 226.00 KiB/s, done.
-				Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-				To https://github.com/SenaProfeAlbeiro/proyecto.git
-				* [new branch]      main -> main
-				branch 'main' set up to track 'origin/main'.
+8. Actualizar la ventana del navegador donde se encuentra abierta su cuenta de 'Github'
 
-06. Actualizar la ventana del navegador donde se encuentra abierta su cuenta de 'Github'
 
-07. Para actualizar la información del proyecto en 'Github', en el 'Git bash' escribir los siguientes comandos:
+9. Para actualizar la información del proyecto en 'Github' (Cuando haya realizado cualquier cambio en los archivos o el código), en el 'Git bash' escribir los siguientes comandos:
 
-				$ git add .
-				$ git commit -m "Comentario del cambio"
-				$ git push 
+```bash
+$ git add .
+```
+```bash
+$ git commit -m "Comentario del cambio"
+```
+```bash
+$ git push 
+```
 
-<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+<div align="right"><a href="#anexo-01-trabajar-con-github">Volver al Menú</a></div>
 
 ---
 &nbsp;
-## 2. Clonar un Proyecto 'Github'
+## 3. Clonar un Proyecto 'Github'
 &nbsp;
 
-2.1. [Desacargar Node.js](https://nodejs.org/es/)
+1. fdafd
 
-2.2. Instalar Node.js
+2. fdafd
 
-<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+
+<div align="right"><a href="#anexo-01-trabajar-con-github">Volver al Menú</a></div>
 
 
 ---
-Paso 2. [Estructura del Proyecto](02_estructura_del_proyecto.md)
+Anexo 02. [Problemas con Puertos](anexo02_problemas_con_puertos.md)
 
 <!-- ![Pantalla Principal Android](img/01_android_studio.png) -->
