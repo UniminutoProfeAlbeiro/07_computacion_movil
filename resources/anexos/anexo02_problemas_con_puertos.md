@@ -112,7 +112,16 @@ $ git push
 
 
 ---
-| Anexo 01. [Trabajar con Github](anexo01_trabajar_con_github.md) |  | Anexo 03. [Anexo](#) |
+
+<table border="0" width="100%">
+  <tr>
+    <td align="left">Texto a la izquierda</td>
+    <td align="right">Texto a la derecha</td>
+  </tr>
+</table>
+
+| Anexo 01. [Trabajar con Github](anexo01_trabajar_con_github.md) | Anexo 03. [Anexo](#) |
+| ------------------------------ | -------------------------------------- |
 
 
 <!-- ![Pantalla Principal Android](img/01_android_studio.png) -->
