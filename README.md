@@ -1,4 +1,4 @@
-### <h3 align="center">NATIVO</h3>
+<h3 align="center">NATIVO</h3>
 
 1. [Android](#)
 ---
@@ -15,5 +15,5 @@
 
 -----
 ### ANEXOS
-1. [Subir el Proyecto a Github](resources/anexos/anexo01_subir_proyecto_github.md)
-2. [Clonar el Proyecto de Github](resources/anexos/anexo02_clonar_proyecto_github.md)
+1. [Trabajar con Github](resources/anexos/anexo01_trabajar_con_github.md)
+2. [Problemas con Puertos](resources/anexos/anexo02_problemas_con_puertos.md)
