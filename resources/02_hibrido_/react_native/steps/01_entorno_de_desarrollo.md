@@ -17,7 +17,7 @@
 
 2. Instalar Visual Studio Code. 
 		
-- En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
+	- En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
 
 3. Abrir Visual Studio Code
 
@@ -104,7 +104,7 @@ npm --version # Debe mostrar v9.x.x o superior
 
 2. Instalar Android Studio
 
-'Next' /  ☑ 'Android Virtual Device' / 'Next' / 'Install' / 'Next'/ 'Finish'.
+	- 'Next' /  ☑ 'Android Virtual Device' / 'Next' / 'Install' / 'Next'/ 'Finish'.
 
 
 NOTA:
