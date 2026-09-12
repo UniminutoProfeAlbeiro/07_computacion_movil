@@ -1,26 +1,25 @@
 ## Punto 1: Entorno de Desarrollo
 
 1. [Instalar Visual Studio Code](#1-instalar-visual-studio-code)
-2. [Instalar Nodejs](#2-instalar-nodejs)
+2. [Instalar Node.js](#2-instalar-nodejs)
 3. [Modificar Directivas en PowerShell](#3-modificar-directivas-en-powershell)
-4. [Instalar Android Studio](#4-instalar-instalar-android-studio)
+4. [Instalar Instalar Android Studio](#4-instalar-instalar-android-studio)
 5. [Crear el Emulador de Android Studio](#5-crear-el-emulador-de-android-studio)
 6. [Configurar las variables de Entorno del Sistema](#6-configurar-las-variables-de-entorno-del-sistema)
+7. [Instalar Expo Go](#7-instalar-expo-go)
 
 ---
 &nbsp;
 ## 1. Instalar Visual Studio Code
 &nbsp;
 
-1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
+1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
-1.2. Instalar Visual Studio Code
+2. Instalar Visual Studio Code. En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
 
-      En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
+3. Abrir Visual Studio Code
 
-1.3. Abrir Visual Studio Code
-
-1.4. Instalar los siguientes extensiones en Visual Studio Code
+4. Instalar los siguientes extensiones en Visual Studio Code
 
       Material Icon Theme
       ES7 React/Redux/React-Native snippets
@@ -29,7 +28,7 @@
       Paste JSON as Code
       TypeScript importerM
 
-1.5. Cerrar Visual Studio Code 
+5. Cerrar Visual Studio Code 
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
@@ -137,6 +136,20 @@ En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguien
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
-Paso 2. [Estructura del Proyecto](02_estructura_del_proyecto.md)
+&nbsp;
+## 7. Instalar Expo Go
+&nbsp;
+
+1. Buscar en el menú Windows 'Editar las variables de entorno del sistema' para enrutar al SDK de Java y Android SDK
+
+<div align="right">
+  <table border="0">
+    <tr>
+      <td align="center"><a href="#"></a></td>
+      <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
+      <td align="center">2. <a href="#">Estructura del Proyecto</a></td>
+    </tr>
+  </table>
+</div>
 
 <!-- ![Pantalla Principal Android](img/01_android_studio.png) -->

@@ -10,7 +10,7 @@
 8. [Cerrar Sesión](steps/08_cerrar_sesion.md)
 
 ---
-##  Puesta en marcha del Proyecto
+##  Puesta en Marcha del Proyecto
 
 1. Garantizar en el Computador el Entorno de Desarrollo (1. [Entorno de Desarrollo](steps/01_entorno_de_desarrollo.md)).
             
@@ -55,3 +55,13 @@ npm run android
 <div align="right"><a href="#react-native">Volver al Menú</a></div>
 
 ---
+
+<div align="right">
+  <table border="0">
+    <tr>      
+      <td align="right">1. <a href="steps/01_entorno_de_desarrollo.md">Entorno de Desarrollo</a></td>
+    </tr>
+  </table>
+</div>
+
+<!-- ![Pantalla Principal Android](img/01_android_studio.png) -->
