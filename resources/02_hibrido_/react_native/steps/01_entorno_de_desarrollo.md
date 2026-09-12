@@ -15,7 +15,8 @@
 
 1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
-2. Instalar Visual Studio Code. En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
+2. Instalar Visual Studio Code. 
+En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
 
 3. Abrir Visual Studio Code
 
@@ -49,9 +50,9 @@ TypeScript importerM
 ## 2. Instalar Node.js
 &nbsp;
 
-2.1. [Desacargar Node.js](https://nodejs.org/es/)
+1. [Desacargar Node.js](https://nodejs.org/es/)
 
-2.2. Instalar Node.js
+2. Instalar Node.js
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
@@ -60,15 +61,15 @@ TypeScript importerM
 ## 3. Modificar Directivas en PowerShell
 &nbsp;
 
-3.1. Abrir PowerShell
+1. Abrir PowerShell
 
-3.2. Ejecutar el siguiente comando:
+2. Ejecutar el siguiente comando:
       
 ```powershell
 Get-ExecutionPolicy
 ```
 
-3.3. Si aparece 'Restricted', hay que cambiarla a 'Unrestricted' de la siguiente forma:
+3. Si aparece 'Restricted', hay que cambiarla a 'Unrestricted' de la siguiente forma:
 
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser
@@ -81,7 +82,7 @@ Set-ExecutionPolicy -Scope CurrentUser
 Unrestricted
 ```
 
-3.4. Verificar la versión de 'node' y 'npm':
+4. Verificar la versión de 'node' y 'npm':
 
 ```bash
 node --version # Debe mostrar v18.x.x o superior
@@ -98,11 +99,11 @@ npm --version # Debe mostrar v9.x.x o superior
 ## 4. Instalar Instalar Android Studio
 &nbsp;
 
-4.1. [Desacargar Android Studio](https://developer.android.com/studio?hl=es-419)
+1. [Desacargar Android Studio](https://developer.android.com/studio?hl=es-419)
 
-4.2. Instalar Android Studio
+2. Instalar Android Studio
 
-      'Next' /  ☑ 'Android Virtual Device' / 'Next' / 'Install' / 'Next'/ 'Finish'.
+'Next' /  ☑ 'Android Virtual Device' / 'Next' / 'Install' / 'Next'/ 'Finish'.
 
 
 NOTA:
@@ -118,13 +119,13 @@ En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguien
 ## 5. Crear el Emulador de Android Studio
 &nbsp;
 
-5.1. Seleccionar 'More Actions / Virtual Device Manager'
+1. Seleccionar 'More Actions / Virtual Device Manager'
 
-5.2. Seleccionar la opción '(+) Create Virtual Device' y buscar un emulador, por ejemplo, 'Pixel 6a' con el icono de Play Store.
+2. Seleccionar la opción '(+) Create Virtual Device' y buscar un emulador, por ejemplo, 'Pixel 6a' con el icono de Play Store.
 
-5.4. Dar click a 'Finish / Finish'.
+4. Dar click a 'Finish / Finish'.
 
-5.5. Ejecutar el Emulador dando clic en la punta de flecha (columna 'Actions', la primera vez demorará más tiempo)
+5. Ejecutar el Emulador dando clic en la punta de flecha (columna 'Actions', la primera vez demorará más tiempo)
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
@@ -133,11 +134,11 @@ En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguien
 ## 6. Configurar las variables de Entorno del Sistema
 &nbsp;
 
-6.1. Buscar en el menú Windows 'Editar las variables de entorno del sistema' para enrutar al SDK de Java y Android SDK
+1. Buscar en el menú Windows 'Editar las variables de entorno del sistema' para enrutar al SDK de Java y Android SDK
 
-6.2. Dar clic en 'Variables de entorno ...'
+2. Dar clic en 'Variables de entorno ...'
 
-6.3. En las 'Variables de Sistema ...' dar clic en 'Nueva ...'
+3. En las 'Variables de Sistema ...' dar clic en 'Nueva ...'
 
       Nombre de la variable:  JAVA_HOME
       Valor de la variable:   'Examinar Directorio': C:\Program Files\Android\Android Studio\jbr\bin
@@ -154,6 +155,9 @@ En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguien
 
 1. Buscar en el menú Windows 'Editar las variables de entorno del sistema' para enrutar al SDK de Java y Android SDK
 
+<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+
+---
 <div align="right">
   <table border="0">
     <tr>
