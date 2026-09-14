@@ -6,7 +6,7 @@
 4. [Instalar Instalar Android Studio](#4-instalar-instalar-android-studio)
 5. [Crear el Emulador de Android Studio](#5-crear-el-emulador-de-android-studio)
 6. [Configurar las variables de Entorno del Sistema](#6-configurar-las-variables-de-entorno-del-sistema)
-7. [Instalar Expo Go](#7-instalar-expo-go)
+7. [Instalar Expo Go en el Celular](#7-instalar-expo-go-en-el-celular)
 
 ---
 &nbsp;
@@ -148,7 +148,7 @@
 
 ---
 &nbsp;
-## 7. Instalar Expo Go
+## 7. Instalar Expo Go en el Celular
 
 #### 7.1. En el celular, abrir la tienda de aplicaciones y buscar 'Expo Go' para instalarlo.
 
