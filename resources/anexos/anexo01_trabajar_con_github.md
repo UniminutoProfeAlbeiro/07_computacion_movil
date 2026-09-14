@@ -1,9 +1,8 @@
 ## ANEXO 01: Trabajar con GitHub
 
-- [ANEXO 01: Trabajar con GitHub](#anexo-01-trabajar-con-github)
-- [1. Instalar Git](#1-instalar-git)
-- [2. Subir el proyecto a un repositorio 'Github'](#2-subir-el-proyecto-a-un-repositorio-github)
-- [3. Clonar un Proyecto 'Github'](#3-clonar-un-proyecto-github)
+1. [Instalar Git](#1-instalar-git)
+2. [Subir el proyecto a un repositorio 'Github'](#2-subir-el-proyecto-a-un-repositorio-github)
+3. [Clonar un Proyecto 'Github'](#3-clonar-un-proyecto-github)
 
 ---
 &nbsp;
