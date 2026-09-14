@@ -14,8 +14,6 @@
 6. **[Pruebas de Software](steps/06_pruebas_software.md)**
 
 ---
-
-&nbsp;
 ## 📝 Puesta en Marcha del Proyecto
 &nbsp;
 
