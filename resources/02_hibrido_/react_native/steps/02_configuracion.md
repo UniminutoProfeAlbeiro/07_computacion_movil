@@ -22,24 +22,22 @@
 - Colocar el nombre del proyecto al Repositorio Creado 
 - En caso de no tener cuenta en Github, crear una ([Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_subir_proyecto_github.md)).
 
-1.4. Abrir el proyecto con Visual Studio Code.
+#### 1.4. Abrir el proyecto con Visual Studio Code.
 
-1.5. Abrir una terminal de Visual Studio Code e ingresar a la carpeta 'frontend':
+#### 1.5. Abrir una terminal de Visual Studio Code e ingresar a la carpeta 'frontend':
 
 ```bash
 cd frontend
 ```
 
-NOTA:
+#### NOTA:
 
 Puede cambiar el nombre y color de la Terminal de la siguiente forma:
 
-01. Cambiar el nombre de la terminal a 'frontend_mob', seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
-02. Cambiar el color de la terminal 'frontend_mob', dando click derecho / Chage Color... / Seleccionar el color
+- Cambiar el nombre de la terminal a 'frontend_mob', seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
+- Cambiar el color de la terminal 'frontend_mob', dando click derecho / Chage Color... / Seleccionar el color
 
-
-&nbsp;
-1.6. En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
+#### 1.6. En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
 
 ```bash
 npx create-expo-app frontend_mob --template blank-typescript
@@ -50,7 +48,9 @@ npx create-expo-app frontend_mob --template blank-typescript
 	√ Downloaded and extracted project files.
 	> npm install
                     
-1.7. Modificar el 'package.json' para instalar las dependencias necesarias para el proyecto, según se requiera para que funcione con o sin el emulador Android. 
+#### 1.7. Modificar el 'package.json' 
+
+- Modificar el código del 'package.json', para asegurar que el proyecto funcione correctamente. Se incluyen las dependencias necesarias para el proyecto, según se requiera para que funcione con o sin el emulador Android. 
 
 - Para que funcione CON el Emulador:
                     
@@ -123,13 +123,13 @@ npx create-expo-app frontend_mob --template blank-typescript
 
 ```
 
-1.8. En la terminal de Visual Studio Code ingresar al proyecto creado "frontend_mob" con el siguiente comando:
+#### 1.8. En la terminal de Visual Studio Code ingresar al proyecto creado "frontend_mob" con el siguiente comando:
 
 ```bash
 cd frontend_mob
 ```
 
-1.9. En la terminal de Visual Studio Code instalar las dependencias necesarias para el proyecto, ya que se modificó el 'package.json' con el siguiente comando:
+#### 1.9. En la terminal de Visual Studio Code instalar las dependencias necesarias para el proyecto, ya que se modificó el 'package.json' con el siguiente comando:
 
 ```bash
 cd npm i
@@ -138,8 +138,8 @@ cd npm i
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 ---
-&nbsp;
 ## 2. Ejecutar el Proyecto
+&nbsp;
 
 2.1. CON el Emulador Android:
 
@@ -177,7 +177,6 @@ Si tiene dificultades, abra el abra el puerto 3000 en Firewall con los siguiente
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 ---
-&nbsp;
 ## 3. Modificar el mensaje de inicio del proyecto
 &nbsp;
 
@@ -209,8 +208,8 @@ Si tiene dificultades, abra el abra el puerto 3000 en Firewall con los siguiente
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 ---
-&nbsp;
 ## 4. Crear la Estructura de Carpetas y Archivos del Proyecto
+&nbsp;
 
 
 	# C = Carpetas
@@ -296,9 +295,9 @@ Si está en Github, puede utilizar este recurso https://download-directory.githu
 <div align="right">
   <table border="0">
     <tr>      
-      <td align="center">1. <a href="01_entorno_de_desarrollo.md">Entorno de Desarrollo</a></td>
+      <td align="center">1. <a href="01_entorno.md">Entorno de Desarrollo</a></td>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
-      <td align="center">2. <a href="03_vista_del_formulario_de_registro.md">Estructura del Proyecto</a></td>
+      <td align="center">2. <a href="03_frontend.md">Estructura del Proyecto</a></td>
     </tr>
   </table>
 </div>
