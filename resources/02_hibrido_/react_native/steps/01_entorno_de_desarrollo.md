@@ -77,9 +77,9 @@ Get-ExecutionPolicy
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser
 ```
-    cmdlet Set-ExecutionPolicy en la posición 1 de la canalización de comandos
-    Proporcione valores para los parámetros siguientes:
-    ExecutionPolicy: 
+cmdlet Set-ExecutionPolicy en la posición 1 de la canalización de comandos
+Proporcione valores para los parámetros siguientes:
+ExecutionPolicy: 
 
 ```powershell
 Unrestricted
@@ -102,14 +102,14 @@ npm --version # Debe mostrar v9.x.x o superior
 ## 4. Instalar Instalar Android Studio
 &nbsp;
 
-1. [Desacargar Android Studio](https://developer.android.com/studio?hl=es-419)
+#### 4.1. [Desacargar Android Studio](https://developer.android.com/studio?hl=es-419)
 
-2. Instalar Android Studio
+#### 4.2. Instalar Android Studio
 
-	- 'Next' /  ✅ 'Android Virtual Device' / 'Next' / 'Install' / 'Next'/ 'Finish'.
+- 'Next' /  ✅ 'Android Virtual Device' / 'Next' / 'Install' / 'Next'/ 'Finish'.
 
 
-NOTA:
+#### NOTA:
 
 - Si la instalación no sale como se espera porque hay una versión de Android Studio instalada, revise el siguiente enlace para desinstalarlo totalmente y repita los pasos 4.1 y 4.2: [Desinstalar completamente Android Studio](https://blog.buhoos.com/como-desinstalar-completamente-android-studio-de-windows-10/)
 
@@ -122,13 +122,13 @@ NOTA:
 ## 5. Crear el Emulador de Android Studio
 &nbsp;
 
-1. Seleccionar 'More Actions / Virtual Device Manager'
+#### 5.1. Seleccionar 'More Actions / Virtual Device Manager'
 
-2. Seleccionar la opción '(+) Create Virtual Device' y buscar un emulador, por ejemplo, 'Pixel 6a' con el icono de Play Store.
+#### 5.2. Seleccionar la opción '(+) Create Virtual Device' y buscar un emulador, por ejemplo, 'Pixel 6a' con el icono de Play Store.
 
-4. Dar click a 'Finish / Finish'.
+#### 5.4. Dar click a 'Finish / Finish'.
 
-5. Ejecutar el Emulador dando clic en la punta de flecha (columna 'Actions', la primera vez demorará más tiempo)
+#### 5.5. Ejecutar el Emulador dando clic en la punta de flecha (columna 'Actions', la primera vez demorará más tiempo)
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
@@ -137,11 +137,11 @@ NOTA:
 ## 6. Configurar las variables de Entorno del Sistema
 &nbsp;
 
-1. Buscar en el menú Windows 'Editar las variables de entorno del sistema' para enrutar al SDK de Java y Android SDK
+#### 6.1. Buscar en el menú Windows 'Editar las variables de entorno del sistema' para enrutar al SDK de Java y Android SDK
 
-2. Dar clic en 'Variables de entorno ...'
+#### 6.2. Dar clic en 'Variables de entorno ...'
 
-3. En las 'Variables de Sistema ...' dar clic en 'Nueva ...'
+#### 6.3. En las 'Variables de Sistema ...' dar clic en 'Nueva ...'
 
       Nombre de la variable:  JAVA_HOME
       Valor de la variable:   'Examinar Directorio': C:\Program Files\Android\Android Studio\jbr\bin
@@ -156,7 +156,7 @@ NOTA:
 ## 7. Instalar Expo Go
 &nbsp;
 
-1. Buscar en el menú Windows 'Editar las variables de entorno del sistema' para enrutar al SDK de Java y Android SDK
+#### 7.1. Buscar en el menú Windows 'Editar las variables de entorno del sistema' para enrutar al SDK de Java y Android SDK
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
