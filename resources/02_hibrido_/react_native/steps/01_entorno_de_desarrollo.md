@@ -13,7 +13,7 @@
 ## 1. Instalar Visual Studio Code
 &nbsp;
 
-####      1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
+#### 1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
 #### 1.2. Instalar Visual Studio Code. 
 		
@@ -77,15 +77,17 @@
   ```powershell
   Set-ExecutionPolicy -Scope CurrentUser
   ```
-    cmdlet Set-ExecutionPolicy en la posición 1 de la canalización de comandos
-    Proporcione valores para los parámetros siguientes:
-    ExecutionPolicy: 
+      cmdlet Set-ExecutionPolicy en la posición 1 de la canalización de comandos
+      Proporcione valores para los parámetros siguientes:
+      ExecutionPolicy: 
 
   ```powershell
   Unrestricted
   ```
 
-#### 3.3. Verificar versiones del 'node' y 'npm':
+#### 3.3. Verificar versiones 'node' y 'npm':
+
+- Ejecutar el siguiente comando en PowerShell para verificar la versión de 'node' y 'npm':
 
   ```bash
   node --version # Debe mostrar v18.x.x o superior
