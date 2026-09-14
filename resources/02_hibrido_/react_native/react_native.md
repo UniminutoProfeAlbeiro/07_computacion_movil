@@ -3,7 +3,7 @@
 1. [Entorno de Desarrollo](steps/01_entorno_de_desarrollo.md)
 2. [Configuración del Proyecto](steps/02_estructura_del_proyecto.md)
 3. [Fronend](steps/03_vista_del_formulario_de_registro.md)
-3.1. Vista del Formulario de Registro
+**3.1. Vista del Formulario de Registro**
 3.2. Vista del Formulario de Inicio de Sesión
 4. [Backend](steps/05_api_restfull_de_usarios.md)
 4.1 API de Usuarios
