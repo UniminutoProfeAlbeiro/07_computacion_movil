@@ -63,7 +63,7 @@
 	cd frontend_mob
 	```
 
-#### 2.3. Ejecutar el proyecto:
+#### 2.3. Ejecutar el proyecto
 
 - En la terminal de Visual Studio Code ejecutar el siguiente comando para iniciar el proyecto en el emulador Android:
 
@@ -80,7 +80,7 @@
 
 #### 3.1. Modificar el archivo 'package.json' 
 
-- Para que funcione correctamente SIN el emulador Android:
+- Para que funcione correctamente SIN el emulador Android, modificar el código del 'package.json' de la siguiente manera:
                     
 	```bash
 	{
@@ -118,16 +118,19 @@
 
 #### 3.2. Abrir la aplicación 'Expo Go' en el dispositivo.
 #### 3.3. Escanear el 'código QR' con el dispositivo.
-	- Los dos equipos deben estar en la misma red
-#### 3.4. Abrir la aplicación 'Expo Go' en el dispositivo.
-#### 3.5. Ejecutar el sigiuente comando en la terminal de Visual Studio Code:
 
-	```bash
-	npx expo start --tunnel --clear
-	```
+- Los dos equipos deben estar en la misma red
+
+#### 3.4. Abrir la aplicación 'Expo Go' en el dispositivo.
+#### 3.5. Ejecutar el proyecto
+
+- Para que funcione correctamente SIN el emulador Android, modificar el código del 'package.json' de la siguiente manera:
+	
+```bash
+npx expo start --tunnel --clear
+```
 
 #### 3.6. Escanear el 'código QR' con el dispositivo. Los dos equipos deben estar en la misma red.
-
 
 
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
