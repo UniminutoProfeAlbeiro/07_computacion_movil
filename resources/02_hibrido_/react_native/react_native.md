@@ -1,17 +1,17 @@
 ###  <h2 align="center">REACT NATIVE</h2>
 
-1. **[Entorno de Desarrollo](steps/01_entorno_de_desarrollo.md)**
-2. **[Configuración del Proyecto](steps/02_estructura_del_proyecto.md)**
-3. **[Frontend](steps/03_vista_del_formulario_de_registro.md)**
+1. **[Entorno de Desarrollo](steps/01_entorno.md)**
+2. **[Configuración del Proyecto](steps/02_configuracion.md)**
+3. **[Frontend](steps/03_frontend.md)**
 <br> 3.1. **Vista del Formulario de Registro**
 <br> 3.2. **Vista del Formulario de Inicio de Sesión**
-4. **[Backend](steps/05_api_restfull_de_usarios.md)**
+4. **[Backend](steps/04_backend.md)**
 <br> 4.1. **API de Usuarios**
-5. **[Integración Backend - Frontend](steps/05_api_restfull_de_usarios.md)**
+5. **[Integración Backend - Frontend](steps/05_integracion_front_back.md)**
 <br> 5.1. **Registrar un Usuario**
 <br> 5.2. **Iniciar Sesión**
 <br> 5.3. **Cerrar Sesión**
-6. **[Pruebas de Software](steps/05_api_restfull_de_usarios.md)**
+6. **[Pruebas de Software](steps/06_pruebas_software.md)**
 
 ---
 
