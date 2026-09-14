@@ -15,13 +15,13 @@
 
 #### 1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
-2. Instalar Visual Studio Code. 
+#### 1.2. Instalar Visual Studio Code. 
 		
-	- En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
+- En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
 
-3. Abrir Visual Studio Code
+#### 1.3. Abrir Visual Studio Code
 
-4. Instalar los siguientes extensiones en Visual Studio Code
+#### 1.4. Instalar los siguientes extensiones en Visual Studio Code
 
 ```
 Material Icon Theme
@@ -41,7 +41,7 @@ Paste JSON as Code
 ```
 TypeScript importerM
 ```
-5. Cerrar Visual Studio Code
+#### 1.5. Cerrar Visual Studio Code
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
