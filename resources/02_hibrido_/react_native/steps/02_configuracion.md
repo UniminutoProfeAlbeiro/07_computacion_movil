@@ -26,7 +26,6 @@
 
 #### 1.5. Abrir una terminal de Visual Studio Code e ingresar a la carpeta 'frontend':
 
-	
 	```bash
 	cd frontend
 	```
