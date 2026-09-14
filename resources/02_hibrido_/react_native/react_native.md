@@ -1,18 +1,22 @@
 ###  <h2 align="center">REACT NATIVE</h2>
 
 1. [Entorno de Desarrollo](steps/01_entorno_de_desarrollo.md)
-2. [Estructura del Proyecto](steps/02_estructura_del_proyecto.md)
-3. [Vista del Formulario de Registro](steps/03_vista_del_formulario_de_registro.md)
-4. [Vista del Formulario de Inicio de Sesión](steps/04_vista_del_formulario_de_inicio_de_sesion.md)
-5. [API Restfull de Usuarios](steps/05_api_restfull_de_usarios.md)
-6. [Registrar un Usuario](steps/06_registrar_un_usuario.md)
-7. [Iniciar Sesión](steps/07_iniciar_sesion.md)
-8. [Cerrar Sesión](steps/08_cerrar_sesion.md)
+2. [Configuración del Proyecto](steps/02_estructura_del_proyecto.md)
+3. [Fronend](steps/03_vista_del_formulario_de_registro.md)
+3.1. Vista del Formulario de Registro
+3.2. Vista del Formulario de Inicio de Sesión
+4. [Backend](steps/05_api_restfull_de_usarios.md)
+4.1 API de Usuarios
+5. [Integración Backend - Frontend](steps/05_api_restfull_de_usarios.md)
+5.1. Registrar un Usuario
+5.2. Iniciar Sesión
+5.3. Cerrar Sesión
+6. [Pruebas de Software](steps/05_api_restfull_de_usarios.md)
 
 ---
 
 &nbsp;
-##  📝 Puesta en Marcha del Proyecto
+## 📝 Puesta en Marcha del Proyecto
 &nbsp;
 
 #### 1. Garantizar en el Computador el Entorno de Desarrollo (1. [Entorno de Desarrollo](steps/01_entorno_de_desarrollo.md)).
