@@ -21,7 +21,9 @@
 
 #### 1.3. Abrir Visual Studio Code
 
-#### 1.4. Instalar los siguientes extensiones en Visual Studio Code
+#### 1.4. Instalar extensiones en Visual Studio Code
+
+- En Visual Studio Code agregar las siguientes extensiones:
 
 ```
 Material Icon Theme
@@ -50,9 +52,9 @@ TypeScript importerM
 ## 2. Instalar Node.js
 &nbsp;
 
-1. [Desacargar Node.js](https://nodejs.org/es/)
+#### 2.1. [Desacargar Node.js](https://nodejs.org/es/)
 
-2. Instalar Node.js
+#### 2.2. Instalar Node.js
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
@@ -61,15 +63,16 @@ TypeScript importerM
 ## 3. Modificar Directivas en PowerShell
 &nbsp;
 
-1. Abrir PowerShell
+#### 3.1. Abrir PowerShell
 
-2. Ejecutar el siguiente comando:
-      
+#### 3.2. Verificar restricciones del 'npm'
+
+- Ejecutar el siguiente comando en PowerShell para verificar la política de ejecución:
+
 ```powershell
 Get-ExecutionPolicy
 ```
-
-3. Si aparece 'Restricted', hay que cambiarla a 'Unrestricted' de la siguiente forma:
+- Si aparece 'Restricted', hay que cambiarla a 'Unrestricted' de la siguiente forma:
 
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser
@@ -82,7 +85,7 @@ Set-ExecutionPolicy -Scope CurrentUser
 Unrestricted
 ```
 
-4. Verificar la versión de 'node' y 'npm':
+#### 3.3. Verificar versiones del 'node' y 'npm':
 
 ```bash
 node --version # Debe mostrar v18.x.x o superior
