@@ -1,9 +1,10 @@
 # 📝Punto 2: Configuración del Proyecto
 
 1. **[Preparar del Proyecto](#1-iniciar-el-proyecto)**
-2. **[Ejecutar el Proyecto](#1-iniciar-el-proyecto)**
-3. **[Configurar el Proyecto](#1-iniciar-el-proyecto)**
-4. **[Crear la Estructura del Proyecto](#4-crear-la-estructura-de-carpetas-y-archivos-del-proyecto)**
+2. **[Ejecutar el Proyecto CON el Emulador Android](#1-iniciar-el-proyecto)**
+3. **[Ejecutar el Proyecto SIN el Emulador Android](#1-iniciar-el-proyecto)**
+4. **[Configurar el Proyecto](#1-iniciar-el-proyecto)**
+5. **[Crear la Estructura del Proyecto](#4-crear-la-estructura-de-carpetas-y-archivos-del-proyecto)**
 
 <br>
 
@@ -13,8 +14,8 @@
 
 #### 1.1. Descargar el '.ZIP' del Repositorio :
 
-- Ir a [07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main) y descargar el archivo '.ZIP'.
-- Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
+1. Ir a [07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main) y descargar el archivo '.ZIP'.
+2. Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
 
 #### 1.2. Crear un repositorio en Github
 
@@ -23,11 +24,11 @@
 
 #### 1.3. Abrir el Proyecto en Visual Studio Code.
 
-- Asociar el proyecto con Visual Studio Code
-- Abrir una terminal de Visual Studio Code
+1. Asociar el proyecto con Visual Studio Code
+2. Abrir una terminal de Visual Studio Code
 	- Cambiar el nombre de la terminal a 'frontend_mob', seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
 	- Cambiar el color de la terminal 'frontend_mob', dando click derecho / Chage Color... / Seleccionar el color
-- Ingresar a la carpeta 'frontend':
+3. Ingresar a la carpeta 'frontend':
 
   ```bash
 	cd frontend
@@ -35,7 +36,7 @@
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 ---
-## 2. Ejecutar el Proyecto
+## 2. Ejecutar el Proyecto CON el Emulador Android
 &nbsp;
 
 
@@ -53,7 +54,100 @@
 		> npm install
 
 
+#### 2.2. Ingresar a la carpeta "frontend_mob"
 
+- En la terminal de Visual Studio Code ingresar al proyecto creado "frontend_mob" con el siguiente comando:
+
+	```bash
+	cd frontend_mob
+	```
+
+#### 2.3. Ejecutar CON el Emulador Android:
+
+- En la terminal de Visual Studio Code ejecutar el siguiente comando para iniciar el proyecto en el emulador Android:
+
+	```bash
+	npm run android
+	```
+
+---
+## 3. Ejecutar el Proyecto SIN el Emulador Android
+&nbsp;
+
+
+#### 3.1. Modificar el archivo 'package.json' 
+
+- Para que funcione correctamente SIN el emulador Android:
+                    
+	```bash
+	{
+		"name": "frontend_mob",
+		"version": "1.0.0",
+		"main": "index.ts",
+		"scripts": {    
+			"start": "expo start --tunnel --clear",
+			"start:local": "expo start --host lan --clear",
+			"start:offline": "expo start --offline --clear",
+			"android": "echo 'NO USAR - Busca emulador' && exit 1",
+			"ios": "echo 'NO USAR - Busca emulador' && exit 1",
+			"web": "expo start --web"
+		},
+		"dependencies": {
+			"@react-native-async-storage/async-storage": "2.2.0",
+			"@react-navigation/native": "^7.1.28",
+			"@react-navigation/native-stack": "^7.10.1",
+			"@react-navigation/stack": "^7.6.16",
+			"axios": "^1.13.2",
+			"expo": "~54.0.32",
+			"expo-status-bar": "~3.0.9",
+			"react": "19.1.0",
+			"react-native": "0.81.5",
+			"react-native-safe-area-context": "~5.6.0",
+			"react-native-screens": "~4.16.0"
+		},
+		"devDependencies": {
+			"@types/react": "~19.1.0",
+			"typescript": "~5.9.2"
+		},
+		"private": true
+	}
+	```
+
+#### 3.2. Abrir la aplicación 'Expo Go' en el dispositivo.
+#### 3.3. Escanear el 'código QR' con el dispositivo.
+	- Los dos equipos deben estar en la misma red
+#### 3.4. Abrir la aplicación 'Expo Go' en el dispositivo.
+#### 3.5. Ejecutar el sigiuente comando en la terminal de Visual Studio Code:
+
+	```bash
+	npx expo start --tunnel --clear
+	```
+
+#### 3.6. Escanear el 'código QR' con el dispositivo. Los dos equipos deben estar en la misma red.
+
+
+
+
+
+
+
+
+
+&nbsp;
+#### NOTA:
+
+Si tiene dificultades, abra el abra el puerto 3000 en Firewall con los siguiente pasos:
+
+01.	Presione Windows + R, escriba wf.msc y presiona Enter															
+02.	Vaya a "Reglas de entrada" en el panel izquierdo															
+03.	Haga clic en "Acción" → "Nueva regla..."															
+04.	Seleccione "Puerto" → Siguiente															
+05.	En "Puertos locales específicos" escriba: 3000															
+06.	Seleccione "Permitir la conexión" → Siguiente															
+07.	Marque todas las opciones (Dominio, Privado, Público) → Siguiente															
+08.	Póngale un nombre como "Puerto 3000 Backend" → Finalizar
+
+<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 
 
@@ -95,96 +189,9 @@
 	}
 	```
 
-- Para que funcione SIN el Emulador:
-                    
-	```bash
-	{
-		"name": "frontend_mob",
-		"version": "1.0.0",
-		"main": "index.ts",
-		"scripts": {    
-			"start": "expo start --tunnel --clear",
-			"start:local": "expo start --host lan --clear",
-			"start:offline": "expo start --offline --clear",
-			"android": "echo 'NO USAR - Busca emulador' && exit 1",
-			"ios": "echo 'NO USAR - Busca emulador' && exit 1",
-			"web": "expo start --web"
-		},
-		"dependencies": {
-			"@react-native-async-storage/async-storage": "2.2.0",
-			"@react-navigation/native": "^7.1.28",
-			"@react-navigation/native-stack": "^7.10.1",
-			"@react-navigation/stack": "^7.6.16",
-			"axios": "^1.13.2",
-			"expo": "~54.0.32",
-			"expo-status-bar": "~3.0.9",
-			"react": "19.1.0",
-			"react-native": "0.81.5",
-			"react-native-safe-area-context": "~5.6.0",
-			"react-native-screens": "~4.16.0"
-		},
-		"devDependencies": {
-			"@types/react": "~19.1.0",
-			"typescript": "~5.9.2"
-		},
-		"private": true
-	}
-	```
-
-#### 1.8. En la terminal de Visual Studio Code ingresar al proyecto creado "frontend_mob" con el siguiente comando:
-
-	```bash
-	cd frontend_mob
-	```
-
-#### 1.9. En la terminal de Visual Studio Code instalar las dependencias necesarias para el proyecto, ya que se modificó el 'package.json' con el siguiente comando:
-
-	```bash
-	cd npm i
-	```
-
-<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 
 
----
-## 2. Ejecutar el Proyecto
-&nbsp;
-
-2.1. CON el Emulador Android:
-
-	```bash
-	npm run android
-	```
-
-2.2. SIN el Emulador Android:
-
-1. En el dispositivo de Android, ir a la tienda de Play Store, buscar 'Expo go' e instalarlo.
-2. Abrir la aplicación 'Expo Go' en el dispositivo.
-3. Ejecutar el sigiuente comando en la terminal de Visual Studio Code:
-
-	```bash
-	npx expo start --tunnel --clear
-	```
-
-4. Escanear el 'código QR' con el dispositivo. Los dos equipos deben estar en la misma red.
-
-
-&nbsp;
-#### NOTA:
-
-Si tiene dificultades, abra el abra el puerto 3000 en Firewall con los siguiente pasos:
-
-01.	Presione Windows + R, escriba wf.msc y presiona Enter															
-02.	Vaya a "Reglas de entrada" en el panel izquierdo															
-03.	Haga clic en "Acción" → "Nueva regla..."															
-04.	Seleccione "Puerto" → Siguiente															
-05.	En "Puertos locales específicos" escriba: 3000															
-06.	Seleccione "Permitir la conexión" → Siguiente															
-07.	Marque todas las opciones (Dominio, Privado, Público) → Siguiente															
-08.	Póngale un nombre como "Puerto 3000 Backend" → Finalizar
-
-<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 ---
 ## 3. Modificar el mensaje de inicio del proyecto
