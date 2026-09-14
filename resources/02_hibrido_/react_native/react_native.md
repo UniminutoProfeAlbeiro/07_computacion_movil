@@ -1,4 +1,4 @@
-##  <h2 align="center">REACT NATIVE</h2>
+###  <h2 align="center">REACT NATIVE</h2>
 
 1. [Entorno de Desarrollo](steps/01_entorno_de_desarrollo.md)
 2. [Estructura del Proyecto](steps/02_estructura_del_proyecto.md)
@@ -10,15 +10,16 @@
 8. [Cerrar Sesión](steps/08_cerrar_sesion.md)
 
 ---
-##  Puesta en Marcha del Proyecto
+
+###  Puesta en Marcha del Proyecto
 
 1. Garantizar en el Computador el Entorno de Desarrollo (1. [Entorno de Desarrollo](steps/01_entorno_de_desarrollo.md)).
-            
-2.  Clonar el proyecto desde Github (Anexo 01. [Trabajar con Github](resources/anexos/anexo01_trabajar_con_github.md)).
 
-3.  Abrir el proyecto en Visual Studio Code.
+2. Clonar el proyecto desde Github (Anexo 01. [Trabajar con Github](resources/anexos/anexo01_trabajar_con_github.md)).
 
-4.  Abrir una terminal en 'Visual Studio Code' y ejecutar los siguientes comandos:
+3. Abrir el proyecto en Visual Studio Code.
+
+4. Abrir una terminal en 'Visual Studio Code' y ejecutar los siguientes comandos:
 
 ```powershell
 ipconfig
@@ -35,7 +36,7 @@ npm i
 node index.js
 ```
 
-5.  Abrir otra terminal en 'Visual Studio Code' y ejecutar los siguientes comandos:
+5. Abrir otra terminal en 'Visual Studio Code' y ejecutar los siguientes comandos:
 
 ```powershell
 cd frontend_mob
@@ -50,7 +51,7 @@ npm i
 npm run android
 ```
 
-6.  Comprobar que se ejecute correctamente la aplicación.
+6. Comprobar que se ejecute correctamente la aplicación.
 
 <div align="right"><a href="#react-native">Volver al Menú</a></div>
 
@@ -58,8 +59,10 @@ npm run android
 
 <div align="right">
   <table border="0">
-    <tr>      
-      <td align="right">1. <a href="steps/01_entorno_de_desarrollo.md">Entorno de Desarrollo</a></td>
+    <tr>
+      <td align="center"><a href="#"></a></td>
+      <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
+      <td align="center">2. <a href="#">Estructura del Proyecto</a></td>
     </tr>
   </table>
 </div>
