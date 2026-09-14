@@ -1,4 +1,4 @@
-# Punto 2: Estructura del Proyecto
+# 📝 Punto 2: Estructura del Proyecto
 
 1. [Iniciar el Proyecto](#1-iniciar-el-proyecto)
 2. [Ejecutar el Proyecto](#2-ejecutar-el-proyecto)
@@ -9,11 +9,12 @@
 ---
 &nbsp;
 ## 1. Iniciar el Proyecto
-&nbsp;
 
-1.1. Descargar el '.ZIP' del Repositorio [07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main) en GitHub (Download ZIP).
+#### 1.1. Descargar el '.ZIP' del Repositorio :
 
-1.2. Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
+- Ir a [07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main) y descargar el archivo '.ZIP'.
+
+#### 1.2. Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
 
 1.3. Abrir su cuenta Github y crear un repositorio con el nombre proyecto ([Ver anexo01_subir_proyecto_github](../../../anexos/anexo01_subir_proyecto_github.md)).
 
