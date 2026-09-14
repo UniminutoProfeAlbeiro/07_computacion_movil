@@ -33,6 +33,7 @@
   ```bash
 	cd frontend
   ```
+
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 ---
@@ -62,13 +63,15 @@
 	cd frontend_mob
 	```
 
-#### 2.3. Ejecutar CON el Emulador Android:
+#### 2.3. Ejecutar el proyecto:
 
 - En la terminal de Visual Studio Code ejecutar el siguiente comando para iniciar el proyecto en el emulador Android:
 
 	```bash
 	npm run android
 	```
+
+<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 ---
 ## 3. Ejecutar el Proyecto SIN el Emulador Android
@@ -127,27 +130,13 @@
 
 
 
-
-
-
-
-
-
-&nbsp;
-#### NOTA:
-
-Si tiene dificultades, abra el abra el puerto 3000 en Firewall con los siguiente pasos:
-
-01.	Presione Windows + R, escriba wf.msc y presiona Enter															
-02.	Vaya a "Reglas de entrada" en el panel izquierdo															
-03.	Haga clic en "Acción" → "Nueva regla..."															
-04.	Seleccione "Puerto" → Siguiente															
-05.	En "Puertos locales específicos" escriba: 3000															
-06.	Seleccione "Permitir la conexión" → Siguiente															
-07.	Marque todas las opciones (Dominio, Privado, Público) → Siguiente															
-08.	Póngale un nombre como "Puerto 3000 Backend" → Finalizar
-
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
+
+
+
+
+
+
 
 
 
@@ -305,6 +294,25 @@ Si está en Github, puede utilizar este recurso https://download-directory.githu
 
 
 4.2. Pegar las imágenes al proyecto, en la carpeta 'frontend/frontend_mob/assets'.
+
+
+<div align="right"><a href="#-punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+
+
+&nbsp;
+#### NOTA:
+
+Si tiene dificultades, abra el abra el puerto 3000 en Firewall con los siguiente pasos:
+
+01.	Presione Windows + R, escriba wf.msc y presiona Enter															
+02.	Vaya a "Reglas de entrada" en el panel izquierdo															
+03.	Haga clic en "Acción" → "Nueva regla..."															
+04.	Seleccione "Puerto" → Siguiente															
+05.	En "Puertos locales específicos" escriba: 3000															
+06.	Seleccione "Permitir la conexión" → Siguiente															
+07.	Marque todas las opciones (Dominio, Privado, Público) → Siguiente															
+08.	Póngale un nombre como "Puerto 3000 Backend" → Finalizar
+
 
 <div align="right"><a href="#-punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
