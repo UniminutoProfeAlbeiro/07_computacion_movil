@@ -29,7 +29,7 @@
   ```bash
 	cd frontend
   ```
-	
+
 #### NOTA:
 
 Puede cambiar el nombre y color de la Terminal de la siguiente forma:
@@ -39,9 +39,9 @@ Puede cambiar el nombre y color de la Terminal de la siguiente forma:
 
 #### 1.6. En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
 
-	```bash
+  ```bash
 	npx create-expo-app frontend_mob --template blank-typescript
-	```
+  ```	
 
 		Creating an Expo project using the blank-typescript template.
 
