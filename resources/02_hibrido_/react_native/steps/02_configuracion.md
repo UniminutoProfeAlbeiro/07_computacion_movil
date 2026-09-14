@@ -4,7 +4,7 @@
 2. **[Iniciar el Proyecto](#1-iniciar-el-proyecto)**
 3. **[Ejecutar el Proyecto](#2-ejecutar-el-proyecto)**
 4. **[Estructura de Carpetas y Archivos del Proyecto](#4-crear-la-estructura-de-carpetas-y-archivos-del-proyecto)**
-<br>
+
 <br>
 
 ---
@@ -26,9 +26,10 @@
 
 #### 1.5. Abrir una terminal de Visual Studio Code e ingresar a la carpeta 'frontend':
 
-```bash
-cd frontend
-```
+	
+	```bash
+	cd frontend
+	```
 
 #### NOTA:
 
@@ -39,14 +40,14 @@ Puede cambiar el nombre y color de la Terminal de la siguiente forma:
 
 #### 1.6. En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
 
-```bash
-npx create-expo-app frontend_mob --template blank-typescript
-```
+	```bash
+	npx create-expo-app frontend_mob --template blank-typescript
+	```
 
-	Creating an Expo project using the blank-typescript template.
+		Creating an Expo project using the blank-typescript template.
 
-	√ Downloaded and extracted project files.
-	> npm install
+		√ Downloaded and extracted project files.
+		> npm install
                     
 #### 1.7. Modificar el 'package.json' 
 
@@ -54,86 +55,85 @@ npx create-expo-app frontend_mob --template blank-typescript
 
 - Para que funcione CON el Emulador:
                     
-```bash
-{
-	"name": "frontend_mob",
-	"version": "1.0.0",
-	"main": "index.ts",
-	"scripts": {
-		"start": "expo start",
-		"android": "expo start --android",
-		"ios": "expo start --ios",
-		"web": "expo start --web"
-	},
-	"dependencies": {
-		"@react-native-async-storage/async-storage": "2.2.0",
-		"@react-navigation/native": "^7.1.28",
-		"@react-navigation/native-stack": "^7.10.1",
-		"@react-navigation/stack": "^7.6.16",
-		"axios": "^1.13.2",
-		"expo": "~54.0.32",
-		"expo-status-bar": "~3.0.9",
-		"react": "19.1.0",
-		"react-native": "0.81.5",
-		"react-native-safe-area-context": "~5.6.0",
-		"react-native-screens": "~4.16.0"
-	},
-	"devDependencies": {
-		"@types/react": "~19.1.0",
-		"typescript": "~5.9.2"
-	},
-	"private": true
-}
-```
+	```bash
+	{
+		"name": "frontend_mob",
+		"version": "1.0.0",
+		"main": "index.ts",
+		"scripts": {
+			"start": "expo start",
+			"android": "expo start --android",
+			"ios": "expo start --ios",
+			"web": "expo start --web"
+		},
+		"dependencies": {
+			"@react-native-async-storage/async-storage": "2.2.0",
+			"@react-navigation/native": "^7.1.28",
+			"@react-navigation/native-stack": "^7.10.1",
+			"@react-navigation/stack": "^7.6.16",
+			"axios": "^1.13.2",
+			"expo": "~54.0.32",
+			"expo-status-bar": "~3.0.9",
+			"react": "19.1.0",
+			"react-native": "0.81.5",
+			"react-native-safe-area-context": "~5.6.0",
+			"react-native-screens": "~4.16.0"
+		},
+		"devDependencies": {
+			"@types/react": "~19.1.0",
+			"typescript": "~5.9.2"
+		},
+		"private": true
+	}
+	```
 
 - Para que funcione SIN el Emulador:
                     
-```bash
-{
-	"name": "frontend_mob",
-	"version": "1.0.0",
-	"main": "index.ts",
-	"scripts": {    
-		"start": "expo start --tunnel --clear",
-		"start:local": "expo start --host lan --clear",
-		"start:offline": "expo start --offline --clear",
-		"android": "echo 'NO USAR - Busca emulador' && exit 1",
-		"ios": "echo 'NO USAR - Busca emulador' && exit 1",
-		"web": "expo start --web"
-	},
-	"dependencies": {
-		"@react-native-async-storage/async-storage": "2.2.0",
-		"@react-navigation/native": "^7.1.28",
-		"@react-navigation/native-stack": "^7.10.1",
-		"@react-navigation/stack": "^7.6.16",
-		"axios": "^1.13.2",
-		"expo": "~54.0.32",
-		"expo-status-bar": "~3.0.9",
-		"react": "19.1.0",
-		"react-native": "0.81.5",
-		"react-native-safe-area-context": "~5.6.0",
-		"react-native-screens": "~4.16.0"
-	},
-	"devDependencies": {
-		"@types/react": "~19.1.0",
-		"typescript": "~5.9.2"
-	},
-	"private": true
-}
-
-```
+	```bash
+	{
+		"name": "frontend_mob",
+		"version": "1.0.0",
+		"main": "index.ts",
+		"scripts": {    
+			"start": "expo start --tunnel --clear",
+			"start:local": "expo start --host lan --clear",
+			"start:offline": "expo start --offline --clear",
+			"android": "echo 'NO USAR - Busca emulador' && exit 1",
+			"ios": "echo 'NO USAR - Busca emulador' && exit 1",
+			"web": "expo start --web"
+		},
+		"dependencies": {
+			"@react-native-async-storage/async-storage": "2.2.0",
+			"@react-navigation/native": "^7.1.28",
+			"@react-navigation/native-stack": "^7.10.1",
+			"@react-navigation/stack": "^7.6.16",
+			"axios": "^1.13.2",
+			"expo": "~54.0.32",
+			"expo-status-bar": "~3.0.9",
+			"react": "19.1.0",
+			"react-native": "0.81.5",
+			"react-native-safe-area-context": "~5.6.0",
+			"react-native-screens": "~4.16.0"
+		},
+		"devDependencies": {
+			"@types/react": "~19.1.0",
+			"typescript": "~5.9.2"
+		},
+		"private": true
+	}
+	```
 
 #### 1.8. En la terminal de Visual Studio Code ingresar al proyecto creado "frontend_mob" con el siguiente comando:
 
-```bash
-cd frontend_mob
-```
+	```bash
+	cd frontend_mob
+	```
 
 #### 1.9. En la terminal de Visual Studio Code instalar las dependencias necesarias para el proyecto, ya que se modificó el 'package.json' con el siguiente comando:
 
-```bash
-cd npm i
-```
+	```bash
+	cd npm i
+	```
 
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
@@ -143,9 +143,9 @@ cd npm i
 
 2.1. CON el Emulador Android:
 
-```bash
-npm run android
-```
+	```bash
+	npm run android
+	```
 
 2.2. SIN el Emulador Android:
 
@@ -153,15 +153,15 @@ npm run android
 2. Abrir la aplicación 'Expo Go' en el dispositivo.
 3. Ejecutar el sigiuente comando en la terminal de Visual Studio Code:
 
-```bash
-npx expo start --tunnel --clear
-```
+	```bash
+	npx expo start --tunnel --clear
+	```
 
 4. Escanear el 'código QR' con el dispositivo. Los dos equipos deben estar en la misma red.
 
 
 &nbsp;
-NOTA:
+#### NOTA:
 
 Si tiene dificultades, abra el abra el puerto 3000 en Firewall con los siguiente pasos:
 
