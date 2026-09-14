@@ -5,6 +5,7 @@
 3. **[Ejecutar el Proyecto](#2-ejecutar-el-proyecto)**
 4. **[Estructura de Carpetas y Archivos del Proyecto](#4-crear-la-estructura-de-carpetas-y-archivos-del-proyecto)**
 &nbsp;
+&nbsp;
 ---
 ## 1. Preparar el Proyecto
 &nbsp;

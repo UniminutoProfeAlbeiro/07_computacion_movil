@@ -8,6 +8,7 @@
 6. **[Configurar las variables de Entorno del Sistema](#6-configurar-las-variables-de-entorno-del-sistema)**
 7. **[Instalar Expo Go en el Celular](#7-instalar-expo-go-en-el-celular)**
 &nbsp;
+&nbsp;
 ---
 ## 1. Instalar Visual Studio Code
 &nbsp;
