@@ -8,9 +8,10 @@
 6. [Configurar las variables de Entorno del Sistema](#6-configurar-las-variables-de-entorno-del-sistema)
 7. [Instalar Expo Go en el Celular](#7-instalar-expo-go-en-el-celular)
 
----
 &nbsp;
+---
 ## 1. Instalar Visual Studio Code
+&nbsp;
 
 #### 1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
@@ -47,8 +48,8 @@
 <div align="right"><a href="#-punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
-&nbsp;
 ## 2. Instalar Node.js
+&nbsp;
 
 #### 2.1. [Desacargar Node.js](https://nodejs.org/es/)
 
@@ -57,8 +58,8 @@
 <div align="right"><a href="#-punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
-&nbsp;
 ## 3. Modificar Directivas en PowerShell
+&nbsp;
 
 #### 3.1. Abrir PowerShell
 
@@ -96,8 +97,8 @@
 <div align="right"><a href="#-punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
-&nbsp;
 ## 4. Instalar Instalar Android Studio
+&nbsp;
 
 #### 4.1. [Desacargar Android Studio](https://developer.android.com/studio?hl=es-419)
 
@@ -115,8 +116,8 @@
 <div align="right"><a href="#-punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
-&nbsp;
 ## 5. Crear el Emulador de Android Studio
+&nbsp;
 
 #### 5.1. Seleccionar 'More Actions / Virtual Device Manager'
 
@@ -129,8 +130,8 @@
 <div align="right"><a href="#-punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
-&nbsp;
 ## 6. Configurar las variables de Entorno del Sistema
+&nbsp;
 
 #### 6.1. Buscar en el menú Windows 'Editar las variables de entorno del sistema' para enrutar al SDK de Java y Android SDK
 
@@ -147,8 +148,8 @@
 <div align="right"><a href="#-punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
-&nbsp;
 ## 7. Instalar Expo Go en el Celular
+&nbsp;
 
 #### 7.1. En el celular, abrir la tienda de aplicaciones y buscar 'Expo Go' para instalarlo.
 
