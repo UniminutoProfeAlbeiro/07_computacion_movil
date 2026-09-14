@@ -25,7 +25,7 @@
 ipconfig
 ```
 ### NOTA:
-Tomar en cuenta la 'ipconfig' del 'node_js/server.js' y 'my-app/src/Data/sources/remote/api/apiDelivery.tsx' ya que deben coincidir
+Tomar en cuenta la 'ipconfig' del **'node_js/server.js'** y **'my-app/src/Data/sources/remote/api/apiDelivery.tsx'** ya que deben coincidir
 ```powershell
 cd backend
 ```
