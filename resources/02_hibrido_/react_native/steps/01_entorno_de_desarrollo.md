@@ -11,7 +11,6 @@
 ---
 &nbsp;
 ## 1. Instalar Visual Studio Code
-&nbsp;
 
 #### 1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
@@ -50,7 +49,6 @@
 ---
 &nbsp;
 ## 2. Instalar Node.js
-&nbsp;
 
 #### 2.1. [Desacargar Node.js](https://nodejs.org/es/)
 
@@ -61,7 +59,6 @@
 ---
 &nbsp;
 ## 3. Modificar Directivas en PowerShell
-&nbsp;
 
 #### 3.1. Abrir PowerShell
 
@@ -101,7 +98,6 @@
 ---
 &nbsp;
 ## 4. Instalar Instalar Android Studio
-&nbsp;
 
 #### 4.1. [Desacargar Android Studio](https://developer.android.com/studio?hl=es-419)
 
@@ -121,7 +117,6 @@
 ---
 &nbsp;
 ## 5. Crear el Emulador de Android Studio
-&nbsp;
 
 #### 5.1. Seleccionar 'More Actions / Virtual Device Manager'
 
@@ -136,7 +131,6 @@
 ---
 &nbsp;
 ## 6. Configurar las variables de Entorno del Sistema
-&nbsp;
 
 #### 6.1. Buscar en el menú Windows 'Editar las variables de entorno del sistema' para enrutar al SDK de Java y Android SDK
 
@@ -155,7 +149,6 @@
 ---
 &nbsp;
 ## 7. Instalar Expo Go
-&nbsp;
 
 #### 7.1. En el celular, abrir la tienda de aplicaciones y buscar 'Expo Go' para instalarlo.
 
