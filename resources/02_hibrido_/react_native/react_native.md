@@ -5,7 +5,7 @@
 3. **[Frontend](steps/03_vista_del_formulario_de_registro.md)**
 <br> 3.1. **Vista del Formulario de Registro**
 <br> 3.2. **Vista del Formulario de Inicio de Sesión**
-4. **[Backend](steps/05_api_restfull_de_usarios.md)
+4. **[Backend](steps/05_api_restfull_de_usarios.md)**
 <br> 4.1 **API de Usuarios**
 5. **[Integración Backend - Frontend](steps/05_api_restfull_de_usarios.md)**
 <br> **5.1. Registrar un Usuario**
