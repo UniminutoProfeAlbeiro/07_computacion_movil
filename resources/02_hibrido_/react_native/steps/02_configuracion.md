@@ -26,10 +26,10 @@
 
 #### 1.5. Abrir una terminal de Visual Studio Code e ingresar a la carpeta 'frontend':
 
-	```bash
+  ```bash
 	cd frontend
-	```
-
+  ```
+	
 #### NOTA:
 
 Puede cambiar el nombre y color de la Terminal de la siguiente forma:
