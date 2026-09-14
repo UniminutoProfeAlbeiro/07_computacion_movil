@@ -13,7 +13,7 @@
 ## 1. Instalar Visual Studio Code
 &nbsp;
 
-#### 1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
+####      1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
 #### 1.2. Instalar Visual Studio Code. 
 		
