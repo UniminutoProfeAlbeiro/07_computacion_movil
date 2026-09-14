@@ -17,13 +17,13 @@
 
 #### 1.2. Instalar Visual Studio Code. 
 		
-    En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
+- En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
 
 #### 1.3. Abrir Visual Studio Code
 
 #### 1.4. Instalar extensiones en Visual Studio Code
 
-    En Visual Studio Code agregar las siguientes extensiones:
+- En Visual Studio Code agregar las siguientes extensiones:
 
   ```
   Material Icon Theme
@@ -67,12 +67,12 @@
 
 #### 3.2. Verificar restricciones del 'npm'
 
-  Ejecutar el siguiente comando en PowerShell para verificar la política de ejecución:
+- Ejecutar el siguiente comando en PowerShell para verificar la política de ejecución:
 
   ```powershell
   Get-ExecutionPolicy
   ```
-  Si aparece 'Restricted', hay que cambiarla a 'Unrestricted' de la siguiente forma:
+- Si aparece 'Restricted', hay que cambiarla a 'Unrestricted' de la siguiente forma:
 
   ```powershell
   Set-ExecutionPolicy -Scope CurrentUser
@@ -90,7 +90,6 @@
   ```bash
   node --version # Debe mostrar v18.x.x o superior
   ```
-
   ```bash
   npm --version # Debe mostrar v9.x.x o superior
   ```
@@ -106,7 +105,7 @@
 
 #### 4.2. Instalar Android Studio
 
-  'Next' /  ✅ 'Android Virtual Device' / 'Next' / 'Install' / 'Next'/ 'Finish'.
+- 'Next' /  ✅ 'Android Virtual Device' / 'Next' / 'Install' / 'Next'/ 'Finish'.
 
 
 #### NOTA:
