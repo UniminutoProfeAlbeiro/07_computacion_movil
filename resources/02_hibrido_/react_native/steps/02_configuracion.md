@@ -1,9 +1,9 @@
 # 📝Punto 2: Configuración del Proyecto
 
 1. **[Preparar del Proyecto](#1-iniciar-el-proyecto)**
-2. **[Iniciar el Proyecto](#1-iniciar-el-proyecto)**
-3. **[Ejecutar el Proyecto](#2-ejecutar-el-proyecto)**
-4. **[Estructura de Carpetas y Archivos del Proyecto](#4-crear-la-estructura-de-carpetas-y-archivos-del-proyecto)**
+2. **[Ejecutar el Proyecto](#1-iniciar-el-proyecto)**
+3. **[Configurar el Proyecto](#1-iniciar-el-proyecto)**
+4. **[Crear la Estructura del Proyecto](#4-crear-la-estructura-de-carpetas-y-archivos-del-proyecto)**
 
 <br>
 
@@ -19,21 +19,27 @@
 #### 1.2. Crear un repositorio en Github
 
 - Colocar el nombre del proyecto al Repositorio Creado 
-- En caso de no tener cuenta en Github, crear una ([Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_subir_proyecto_github.md)).
+- En caso de no tener cuenta en Github, crear una ([Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_trabajar_con_github.md)).
 
-#### 1.3. Abrir Visual Studio Code.
+#### 1.3. Abrir el Proyecto en Visual Studio Code.
 
 - Asociar el proyecto con Visual Studio Code
 - Abrir una terminal de Visual Studio Code
-- Cambiar el nombre de la terminal a 'frontend_mob', seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
-- Cambiar el color de la terminal 'frontend_mob', dando click derecho / Chage Color... / Seleccionar el color
+	- Cambiar el nombre de la terminal a 'frontend_mob', seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
+	- Cambiar el color de la terminal 'frontend_mob', dando click derecho / Chage Color... / Seleccionar el color
 - Ingresar a la carpeta 'frontend':
 
   ```bash
 	cd frontend
   ```
+<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
-#### 1.4. Iniciar el Proyecto
+---
+## 2. Ejecutar el Proyecto
+&nbsp;
+
+
+#### 2.1. Iniciar el Proyecto
 
 - En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
 
@@ -41,11 +47,10 @@
 	npx create-expo-app frontend_mob --template blank-typescript
   ```	
 
-	Creating an Expo project using the blank-typescript template.
+		Creating an Expo project using the blank-typescript template.
 
-	√ Downloaded and extracted project files.
-	> npm install
-
+		√ Downloaded and extracted project files.
+		> npm install
 
 
 
