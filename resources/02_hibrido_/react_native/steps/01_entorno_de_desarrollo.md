@@ -162,7 +162,7 @@
     <tr>      
       <td align="center">1. <a href="#-punto-1-entorno-de-desarrollo">Entorno de Desarrollo</a></td>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
-      <td align="center">2. <a href="steps/02_estructura_del_proyecto.md">Estructura del Proyecto</a></td>
+      <td align="center">2. <a href="02_estructura_del_proyecto.md">Estructura del Proyecto</a></td>
     </tr>
   </table>
 </div>
