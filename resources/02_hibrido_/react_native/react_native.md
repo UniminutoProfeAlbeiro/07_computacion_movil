@@ -6,11 +6,11 @@
 <br> 3.1. **Vista del Formulario de Registro**
 <br> 3.2. **Vista del Formulario de Inicio de Sesión**
 4. **[Backend](steps/05_api_restfull_de_usarios.md)**
-<br> 4.1 **API de Usuarios**
+<br> 4.1. **API de Usuarios**
 5. **[Integración Backend - Frontend](steps/05_api_restfull_de_usarios.md)**
-<br> **5.1. Registrar un Usuario**
-<br> **5.2. Iniciar Sesión**
-<br> **5.3. Cerrar Sesión**
+<br> 5.1. **Registrar un Usuario**
+<br> 5.2. **Iniciar Sesión**
+<br> 5.3. **Cerrar Sesión**
 6. **[Pruebas de Software](steps/05_api_restfull_de_usarios.md)**
 
 ---
