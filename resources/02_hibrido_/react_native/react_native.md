@@ -11,20 +11,22 @@
 
 ---
 
-##  Puesta en Marcha del Proyecto
+&nbsp;
+##  📝 Puesta en Marcha del Proyecto
+&nbsp;
 
-#### 1. Garantizar en el Computador el Entorno de Desarrollo (1. [Entorno de Desarrollo](steps/01_entorno_de_desarrollo.md)).
+### 1. Garantizar en el Computador el Entorno de Desarrollo (1. [Entorno de Desarrollo](steps/01_entorno_de_desarrollo.md)).
 
-#### 2. Clonar el proyecto desde Github (Anexo 01. [Trabajar con Github](resources/anexos/anexo01_trabajar_con_github.md)).
+### 2. Clonar el proyecto desde Github (Anexo 01. [Trabajar con Github](resources/anexos/anexo01_trabajar_con_github.md)).
 
-#### 3. Abrir el proyecto en Visual Studio Code.
+### 3. Abrir el proyecto en Visual Studio Code.
 
-#### 4. Abrir una terminal en 'Visual Studio Code' y ejecutar los siguientes comandos:
+### 4. Abrir una terminal en 'Visual Studio Code' y ejecutar los siguientes comandos:
 
 ```powershell
 ipconfig
 ```
-#### NOTA:
+### NOTA:
 Tomar en cuenta la 'ipconfig' del **'node_js/server.js'** y **'my-app/src/Data/sources/remote/api/apiDelivery.tsx'** ya que deben coincidir
 ```powershell
 cd backend
@@ -36,7 +38,7 @@ npm i
 node index.js
 ```
 
-#### 5. Abrir otra terminal en 'Visual Studio Code' y ejecutar los siguientes comandos:
+### 5. Abrir otra terminal en 'Visual Studio Code' y ejecutar los siguientes comandos:
 
 ```powershell
 cd frontend_mob
@@ -51,7 +53,7 @@ npm i
 npm run android
 ```
 
-#### 6. Comprobar que se ejecute correctamente la aplicación.
+### 6. Comprobar que se ejecute correctamente la aplicación.
 
 <div align="right"><a href="#react-native">Volver al Menú</a></div>
 
