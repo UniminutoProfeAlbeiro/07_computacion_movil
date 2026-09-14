@@ -17,7 +17,7 @@
 
 #### 1.2. Instalar Visual Studio Code. 
 		
-  - En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
+1. En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
 
 #### 1.3. Abrir Visual Studio Code
 
