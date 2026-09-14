@@ -1,7 +1,6 @@
 ###  <h2 align="center">REACT NATIVE</h2>
 
-**
-1. [Entorno de Desarrollo](steps/01_entorno_de_desarrollo.md)
+1. **[Entorno de Desarrollo](steps/01_entorno_de_desarrollo.md)**
 2. [Configuración del Proyecto](steps/02_estructura_del_proyecto.md)
 3. [Frontend](steps/03_vista_del_formulario_de_registro.md)
 <br> 3.1. Vista del Formulario de Registro
@@ -13,7 +12,6 @@
 <br> 5.2. Iniciar Sesión
 <br> 5.3. Cerrar Sesión
 6. [Pruebas de Software](steps/05_api_restfull_de_usarios.md)
-**
 
 ---
 
