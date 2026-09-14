@@ -14,42 +14,44 @@
 #### 1.1. Descargar el '.ZIP' del Repositorio :
 
 - Ir a [07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main) y descargar el archivo '.ZIP'.
+- Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
 
-#### 1.2. Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
-
-#### 1.3. Abrir su cuenta Github y Crear un repositorio
+#### 1.2. Crear un repositorio en Github
 
 - Colocar el nombre del proyecto al Repositorio Creado 
 - En caso de no tener cuenta en Github, crear una ([Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_subir_proyecto_github.md)).
 
-#### 1.4. Abrir el proyecto con Visual Studio Code.
+#### 1.3. Abrir Visual Studio Code.
 
-#### 1.5. Abrir una terminal de Visual Studio Code
-
+- Asociar el proyecto con Visual Studio Code
+- Abrir una terminal de Visual Studio Code
+- Cambiar el nombre de la terminal a 'frontend_mob', seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
+- Cambiar el color de la terminal 'frontend_mob', dando click derecho / Chage Color... / Seleccionar el color
 - Ingresar a la carpeta 'frontend':
 
   ```bash
 	cd frontend
   ```
 
-#### NOTA:
+#### 1.4. Iniciar el Proyecto
 
-Puede cambiar el nombre y color de la Terminal de la siguiente forma:
-
-- Cambiar el nombre de la terminal a 'frontend_mob', seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
-- Cambiar el color de la terminal 'frontend_mob', dando click derecho / Chage Color... / Seleccionar el color
-
-#### 1.6. En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
+- En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
 
   ```bash
 	npx create-expo-app frontend_mob --template blank-typescript
   ```	
 
-		Creating an Expo project using the blank-typescript template.
+	Creating an Expo project using the blank-typescript template.
 
-		√ Downloaded and extracted project files.
-		> npm install
-                    
+	√ Downloaded and extracted project files.
+	> npm install
+
+
+
+
+
+
+
 #### 1.7. Modificar el 'package.json' 
 
 - Modificar el código del 'package.json', para asegurar que el proyecto funcione correctamente. Se incluyen las dependencias necesarias para el proyecto, según se requiera para que funcione con o sin el emulador Android. 
@@ -137,6 +139,8 @@ Puede cambiar el nombre y color de la Terminal de la siguiente forma:
 	```
 
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
+
+
 
 ---
 ## 2. Ejecutar el Proyecto
