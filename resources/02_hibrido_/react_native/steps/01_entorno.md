@@ -9,7 +9,6 @@
 7. **[Instalar Expo Go en el Celular](#7-instalar-expo-go-en-el-celular)**
 
 &nbsp;
-
 ---
 ## 1. Instalar Visual Studio Code
 &nbsp;
@@ -164,7 +163,7 @@
     <tr>      
       <td align="center">1. <a href="#punto-1-entorno-de-desarrollo">Entorno de Desarrollo</a></td>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
-      <td align="center">2. <a href="02_configuracion.md">Estructura del Proyecto</a></td>
+      <td align="center">2. <a href="02_configuracion.md">Configuración del Proyecto</a></td>
     </tr>
   </table>
 </div>

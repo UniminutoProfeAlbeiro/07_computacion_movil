@@ -1,14 +1,14 @@
-# 📝 Punto 2: Estructura del Proyecto
+# 📝Punto 2: Configuración del Proyecto
 
-1. [Iniciar el Proyecto](#1-iniciar-el-proyecto)
-2. [Ejecutar el Proyecto](#2-ejecutar-el-proyecto)
-3. [Modificar el mensaje de inicio del proyecto](#3-modificar-el-mensaje-de-inicio-del-proyecto)
-4. [Crear la Estructura de Carpetas y Archivos del Proyecto](#4-crear-la-estructura-de-carpetas-y-archivos-del-proyecto)
+1. **[Preparar del Proyecto](#1-iniciar-el-proyecto)**
+2. **[Iniciar el Proyecto](#1-iniciar-el-proyecto)**
+3. **[Ejecutar el Proyecto](#2-ejecutar-el-proyecto)**
+4. **[Estructura de Carpetas y Archivos del Proyecto](#4-crear-la-estructura-de-carpetas-y-archivos-del-proyecto)**
 
-
----
 &nbsp;
-## 1. Iniciar el Proyecto
+---
+## 1. Preparar el Proyecto
+&nbsp;
 
 #### 1.1. Descargar el '.ZIP' del Repositorio :
 
@@ -16,7 +16,10 @@
 
 #### 1.2. Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
 
-1.3. Abrir su cuenta Github y crear un repositorio con el nombre proyecto ([Ver anexo01_subir_proyecto_github](../../../anexos/anexo01_subir_proyecto_github.md)).
+#### 1.3. Abrir su cuenta Github y Crear un repositorio
+
+- Colocar el nombre del proyecto al Repositorio Creado 
+- En caso de no tener cuenta en Github, crear una ([Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_subir_proyecto_github.md)).
 
 1.4. Abrir el proyecto con Visual Studio Code.
 
@@ -136,7 +139,6 @@ cd npm i
 ---
 &nbsp;
 ## 2. Ejecutar el Proyecto
-&nbsp;
 
 2.1. CON el Emulador Android:
 
