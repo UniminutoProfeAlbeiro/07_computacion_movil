@@ -69,21 +69,21 @@
 
 - Ejecutar el siguiente comando en PowerShell para verificar la política de ejecución:
 
-```powershell
-Get-ExecutionPolicy
-```
+  ```powershell
+  Get-ExecutionPolicy
+  ```
 - Si aparece 'Restricted', hay que cambiarla a 'Unrestricted' de la siguiente forma:
 
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser
-```
-cmdlet Set-ExecutionPolicy en la posición 1 de la canalización de comandos
-Proporcione valores para los parámetros siguientes:
-ExecutionPolicy: 
+  ```powershell
+  Set-ExecutionPolicy -Scope CurrentUser
+  ```
+  cmdlet Set-ExecutionPolicy en la posición 1 de la canalización de comandos
+  Proporcione valores para los parámetros siguientes:
+  ExecutionPolicy: 
 
-```powershell
-Unrestricted
-```
+  ```powershell
+  Unrestricted
+  ```
 
 #### 3.3. Verificar versiones del 'node' y 'npm':
 
