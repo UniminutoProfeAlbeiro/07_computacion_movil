@@ -1,8 +1,8 @@
 # 📝Punto 2: Configuración del Proyecto
 
 1. **[Preparar del Proyecto](#1-iniciar-el-proyecto)**
-2. **[Ejecutar el Proyecto CON el Emulador Android](#1-iniciar-el-proyecto)**
-3. **[Ejecutar el Proyecto SIN el Emulador Android](#1-iniciar-el-proyecto)**
+2. **[Iniciar del Proyecto](#1-iniciar-el-proyecto)**
+3. **[Ejecutar el Proyecto](#1-iniciar-el-proyecto)**
 4. **[Configurar el Proyecto](#1-iniciar-el-proyecto)**
 5. **[Crear la Estructura del Proyecto](#4-crear-la-estructura-de-carpetas-y-archivos-del-proyecto)**
 
@@ -37,11 +37,10 @@
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 ---
-## 2. Ejecutar el Proyecto CON el Emulador Android
+## 2. Iniciar el Proyecto
 &nbsp;
 
-
-#### 2.1. Iniciar el Proyecto
+#### 2.1. Crear el Proyecto
 
 - En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
 
@@ -54,6 +53,11 @@
 		√ Downloaded and extracted project files.
 		> npm install
 
+<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
+
+---
+## 3. Ejecutar el Proyecto CON el Emulador
+&nbsp;
 
 #### 2.2. Ingresar a la carpeta "frontend_mob"
 
@@ -74,7 +78,7 @@
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 ---
-## 3. Ejecutar el Proyecto SIN el Emulador Android
+## 3. Ejecutar el Proyecto SIN el Emulador
 &nbsp;
 
 
