@@ -1,8 +1,8 @@
-## Punto 2: Estructura del Proyecto
+# Punto 2: Estructura del Proyecto
 
 1. [Iniciar el Proyecto](#1-iniciar-el-proyecto)
 2. [Ejecutar el Proyecto](#2-ejecutar-el-proyecto)
-3. [Modificar el mensaje de inicio del proyecto'](#3-modificar-el-mensaje-de-inicio-del-proyecto)
+3. [Modificar el mensaje de inicio del proyecto](#3-modificar-el-mensaje-de-inicio-del-proyecto)
 4. [Crear la Estructura de Carpetas y Archivos del Proyecto](#4-crear-la-estructura-de-carpetas-y-archivos-del-proyecto)
 
 
@@ -286,9 +286,17 @@ Si está en Github, puede utilizar este recurso https://download-directory.githu
 
 4.2. Pegar las imágenes al proyecto, en la carpeta 'frontend/frontend_mob/assets'.
 
-<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
+<div align="right"><a href="#-punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
 ---
-Paso 3. [Vista del Formulario de Registro](03_vista_del_formulario_de_registro.md)
+<div align="right">
+  <table border="0">
+    <tr>      
+      <td align="center">1. <a href="01_entorno_de_desarrollo.md">Entorno de Desarrollo</a></td>
+      <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
+      <td align="center">2. <a href="03_vista_del_formulario_de_registro.md">Estructura del Proyecto</a></td>
+    </tr>
+  </table>
+</div>
 
 <!-- ![Pantalla Principal Android](img/01_android_studio.png) -->
