@@ -25,9 +25,9 @@
 
 - En Visual Studio Code agregar las siguientes extensiones:
 
-```
-Material Icon Theme
-```
+    ```
+    Material Icon Theme
+    ```
 ```
 ES7 React/Redux/React-Native snippets
 ```
@@ -156,7 +156,9 @@ npm --version # Debe mostrar v9.x.x o superior
 ## 7. Instalar Expo Go
 &nbsp;
 
-#### 7.1. Buscar en el menú Windows 'Editar las variables de entorno del sistema' para enrutar al SDK de Java y Android SDK
+#### 7.1. En el celular, abrir la tienda de aplicaciones y buscar 'Expo Go' para instalarlo.
+
+#### 7.2. Instalar la aplicación 'Expo Go' en el celular.
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
