@@ -59,10 +59,9 @@ npm run android
 
 <div align="right">
   <table border="0">
-    <tr>
-      <td align="center"><a href="#"></a></td>
+    <tr>      
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
-      <td align="center">2. <a href="#">Estructura del Proyecto</a></td>
+      <td align="center">1. <a href="steps/01_entorno_de_desarrollo.md">Entorno de Desarrollo</a></td>
     </tr>
   </table>
 </div>
