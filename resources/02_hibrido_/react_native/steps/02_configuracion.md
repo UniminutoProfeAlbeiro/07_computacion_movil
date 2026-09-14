@@ -24,7 +24,9 @@
 
 #### 1.4. Abrir el proyecto con Visual Studio Code.
 
-#### 1.5. Abrir una terminal de Visual Studio Code e ingresar a la carpeta 'frontend':
+#### 1.5. Abrir una terminal de Visual Studio Code
+
+- Ingresar a la carpeta 'frontend':
 
   ```bash
 	cd frontend
