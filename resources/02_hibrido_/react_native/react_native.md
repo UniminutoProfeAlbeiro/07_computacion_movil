@@ -11,7 +11,7 @@
 
 ---
 
-###  Puesta en Marcha del Proyecto
+## 📝 Puesta en Marcha del Proyecto
 
 ### 1. Garantizar en el Computador el Entorno de Desarrollo 
 
