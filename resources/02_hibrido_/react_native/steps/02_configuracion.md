@@ -30,9 +30,9 @@
 	- Cambiar el color de la terminal 'frontend_mob', dando click derecho / Chage Color... / Seleccionar el color
 3. Ingresar a la carpeta 'frontend':
 
-  ```bash
-	cd frontend
-  ```
+		```bash
+		cd frontend
+		```
 
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
