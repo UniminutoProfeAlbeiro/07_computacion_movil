@@ -17,7 +17,7 @@
 ## 📝 Puesta en Marcha del Proyecto
 &nbsp;
 
-#### 1. Garantizar en el Computador el Entorno de Desarrollo (1. [Entorno de Desarrollo](steps/01_entorno_de_desarrollo.md)).
+#### 1. Garantizar en el Computador el Entorno de Desarrollo (1. [Entorno de Desarrollo](steps/01_entorno.md)).
 
 #### 2. Clonar el proyecto desde Github (Anexo 01. [Trabajar con Github](resources/anexos/anexo01_trabajar_con_github.md)).
 
