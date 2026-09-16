@@ -1,6 +1,6 @@
 # 📝Punto 2: Configuración del Proyecto
 
-1. **[Preparar del Proyecto](#1-iniciar-el-proyecto)**
+1. **[Preparar del Proyecto](#1-preparar-el-proyecto)**
 2. **[Iniciar del Proyecto](#1-iniciar-el-proyecto)**
 3. **[Ejecutar el Proyecto](#1-iniciar-el-proyecto)**
 4. **[Configurar el Proyecto](#1-iniciar-el-proyecto)**
@@ -12,7 +12,7 @@
 ## 1. Preparar el Proyecto
 &nbsp;
 
-#### 1.1. Descargar el '.ZIP' del Repositorio :
+### 1.1. Descargar el '.ZIP' del Repositorio :
 
 1. Ir a [07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main) y descargar el archivo '.ZIP'.
 2. Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
