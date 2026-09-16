@@ -4,7 +4,7 @@
 2. **[Iniciar del Proyecto](#2-iniciar-el-proyecto)**
 3. **[Ejecutar el Proyecto](#3-ejecutar-el-proyecto)**
 4. **[Configurar el Proyecto](#4-configurar-el-proyecto)**
-5. **[Crear la Estructura del Proyecto](#4-crear-la-estructura-de-carpetas-y-archivos-del-proyecto)**
+5. **[Crear la Estructura del Proyecto](#5-crear-la-estructura-del-proyecto)**
 
 <br>
 
@@ -140,7 +140,7 @@
 - **Problemas de conexión**: Si no conecta, presionar **Ctrl+C en la terminal para detener el servidor** y ejecutar: 
 
 	```bash
-	npx expo start --tunnel # Esto usa un túnel para sortear restricciones de red
+	npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
 	```
 
 **<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
@@ -150,8 +150,9 @@
 ## 4. Configurar el Proyecto
 &nbsp;
 
---- 
 ### 4.1. Modificar el archivo 'package.json' 
+
+- Modificar el código del 'package.json', para asegurar que el proyecto funcione correctamente. Se incluyen las dependencias necesarias para el proyecto, según se requiera para que funcione con o sin el emulador Android. 
 
 - Para que funcione CON el Emulador:
                     
@@ -224,64 +225,37 @@
 	}
 	```
 
-- Para que funcione correctamente SIN el emulador Android, modificar el código del 'package.json' de la siguiente manera:
-	
-```bash
-npx expo start --tunnel --clear
-```
+### 4.2. Modificar el archivo 'App.tsx' 
 
-<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
+- En 'frontend_mob/App.tsx' modificar la línea 7 :
 
+				```tsx
+				1    import { StatusBar } from 'expo-status-bar';
+				2    import { StyleSheet, Text, View } from 'react-native';
+				3  
+				4    export default function App() {
+				5      return (
+				6        <View style={styles.container}>
+				7          <Text>¡Hola Mundo!</Text>
+				8          <StatusBar style="auto" />
+				9        </View>
+				10      );
+				11    }
+				12  
+				13    const styles = StyleSheet.create({
+				14      container: {
+				15        flex: 1,
+				16        backgroundColor: '#fff',
+				17        alignItems: 'center',
+				18        justifyContent: 'center',
+				19      },
+				20    });
+				```
 
-
-
-
-
-
-
-
-### 1.7. Modificar el 'package.json' 
-
-- Modificar el código del 'package.json', para asegurar que el proyecto funcione correctamente. Se incluyen las dependencias necesarias para el proyecto, según se requiera para que funcione con o sin el emulador Android. 
-
-
-
-
-
-
----
-## 3. Modificar el mensaje de inicio del proyecto
-&nbsp;
-
-3.1. En 'frontend_mob/App.tsx' modifique la línea 7 :
-
-```tsx
- 1    import { StatusBar } from 'expo-status-bar';
- 2    import { StyleSheet, Text, View } from 'react-native';
- 3  
- 4    export default function App() {
- 5      return (
- 6        <View style={styles.container}>
- 7          <Text>¡Hola Mundo!</Text>
- 8          <StatusBar style="auto" />
- 9        </View>
-10      );
-11    }
-12  
-13    const styles = StyleSheet.create({
-14      container: {
-15        flex: 1,
-16        backgroundColor: '#fff',
-17        alignItems: 'center',
-18        justifyContent: 'center',
-19      },
-20    });
-```
-
-<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
+**<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
 
 ---
-## 4. Crear la Estructura de Carpetas y Archivos del Proyecto
+## 5. Crear la Estructura del Proyecto
 &nbsp;
 
 
