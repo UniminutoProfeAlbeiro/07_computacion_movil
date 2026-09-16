@@ -137,11 +137,27 @@
 - Abrir la app Expo Go en el teléfono.
 - **Android**: Tocar el botón **"Scan QR code"** y escanear el código QR que aparece en la terminal del computador.
 - **iOS**: Abrir la aplicación de **Cámara de tu iPhone** y apuntar al código QR. Preguntará si se desea abrir en Expo Go.
+
+### 3.4. Ejecutar el proyecto en el dispositivo móvil sin abrir el Emulador Android
+
 - **Problemas de conexión**: Si no conecta, presionar **Ctrl+C en la terminal para detener el servidor** y ejecutar: 
 
 	```bash
-	npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
+	npm install -g @expo/ngrok@^4.1.0 						# instalación global
 	```
+
+	```bash
+	npm install --save-dev @expo/ngrok@^4.1.0			# instalación local como dependencia de desarrollo
+	```
+
+	```bash
+	npx expo start --tunnel --clear								# Esto usa un túnel para sortear restricciones de red
+	```
+
+### 3.5. Ejecutar el proyecto en el navegador web
+
+
+
 
 **<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
 
