@@ -92,7 +92,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; npm notice<br>
 <br>
 
-<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
+**<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
 
 ---
 ## 3. Ejecutar el Proyecto
