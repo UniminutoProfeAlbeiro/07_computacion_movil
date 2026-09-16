@@ -14,8 +14,8 @@
 
 ### 1.1. Descargar el '.ZIP' del Repositorio :
 
-1. Ir a [07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main) y descargar el archivo '.ZIP'.
-2. Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
+- Ir a [07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main) y descargar el archivo '.ZIP'.
+- Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
 
 ### 1.2. Crear un repositorio en Github
 
@@ -24,11 +24,11 @@
 
 ### 1.3. Abrir el Proyecto en Visual Studio Code.
 
-1. Asociar el proyecto con Visual Studio Code
-2. Abrir una terminal de Visual Studio Code
+- Asociar el proyecto con Visual Studio Code
+- Abrir una terminal de Visual Studio Code
 	- Cambiar el nombre de la terminal a 'frontend_mob', seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
 	- Cambiar el color de la terminal 'frontend_mob', dando click derecho / Chage Color... / Seleccionar el color
-3. Ingresar a la carpeta 'frontend':
+- Ingresar a la carpeta 'frontend':
 
 	```bash
 	cd frontend
