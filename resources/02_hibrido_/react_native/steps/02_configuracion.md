@@ -1,7 +1,7 @@
 # 📝Punto 2: Configuración del Proyecto
 
 1. **[Preparar del Proyecto](#1-preparar-el-proyecto)**
-2. **[Iniciar del Proyecto](#1-iniciar-el-proyecto)**
+2. **[Iniciar del Proyecto](#2-iniciar-el-proyecto)**
 3. **[Ejecutar el Proyecto](#1-iniciar-el-proyecto)**
 4. **[Configurar el Proyecto](#1-iniciar-el-proyecto)**
 5. **[Crear la Estructura del Proyecto](#4-crear-la-estructura-de-carpetas-y-archivos-del-proyecto)**
@@ -78,7 +78,7 @@
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 ---
-## 3. Ejecutar el Proyecto SIN el Emulador
+## 3. Ejecutar el Proyecto
 &nbsp;
 
 
