@@ -143,11 +143,11 @@
 
 ### 6.3. En las 'Variables de Sistema ...' dar clic en 'Nueva ...' y escribir lo siguiente:
 
-      Nombre de la variable:  JAVA_HOME
-      Valor de la variable:   'Examinar Directorio': C:\Program Files\Android\Android Studio\jbr\bin
+        Nombre de la variable:  JAVA_HOME
+        Valor de la variable:   'Examinar Directorio': C:\Program Files\Android\Android Studio\jbr\bin
 
-      Nombre de la variable:  ANDROID_HOME
-      Valor de la variable:   'Examinar Directorio': C:\Users\{usuario_del_sistema}\AppData\Local\Android\Sdk
+        Nombre de la variable:  ANDROID_HOME
+        Valor de la variable:   'Examinar Directorio': C:\Users\{usuario_del_sistema}\AppData\Local\Android\Sdk
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
