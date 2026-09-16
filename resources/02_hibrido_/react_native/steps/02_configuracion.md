@@ -2,8 +2,8 @@
 
 1. **[Preparar del Proyecto](#1-preparar-el-proyecto)**
 2. **[Iniciar del Proyecto](#2-iniciar-el-proyecto)**
-3. **[Ejecutar el Proyecto](#1-iniciar-el-proyecto)**
-4. **[Configurar el Proyecto](#1-iniciar-el-proyecto)**
+3. **[Ejecutar el Proyecto](#3-ejecutar-el-proyecto)**
+4. **[Configurar el Proyecto](#4-configurar-el-proyecto)**
 5. **[Crear la Estructura del Proyecto](#4-crear-la-estructura-de-carpetas-y-archivos-del-proyecto)**
 
 <br>
@@ -109,6 +109,38 @@
 	```bash
 	npm run android
 	```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > frontend@1.0.0 android<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > expo start --android<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Starting project at D:\PROYECTOS\07_computacion_movil\frontend<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Starting Metro Bundler<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Opening emulator Pixel_6a<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Opening exp://192.168.78.145:8081 on Pixel_6a
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █   █▄ ▀▄██ ▄▄▄▄▄ █
+█ █   █ █ ▀▄ █▀▄█▀█ █   █ █
+█ █▄▄▄█ █▀██▀▀ █▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ █▄▀ █▄▄▄▄▄▄▄█
+█▄ █▀▄ ▄█▀▀▀▄▀▀▄ ▄██ ▀▄▄ ▄█
+█▄ ▄▄█ ▄█▀█▀ ▄█ ▄█▀ █▄  ▀██
+█ ▀█▀ █▄▀█▀▄█▄█▄▀▄▀▄▀▀▄ ▀██
+███  █▄▄▀▀█ █▀▄█▄▄▄█▄▀ ▀███
+█▄▄█▄▄▄▄█▀█▀▄ █▄▄ ▄▄▄ ▀ ▄▄█
+█ ▄▄▄▄▄ █▀▄  ▄██▀ █▄█ ▀▀███
+█ █   █ █▄ ▄▀▀▀▄█▄▄ ▄▄▀ ▀▀█
+█ █▄▄▄█ █▀ ▀ ███▄██▄▀█▀▀ ██
+█▄▄▄▄▄▄▄█▄▄▄▄██▄████▄▄▄▄▄▄█
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Scan the QR code above to open in Expo Go.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Metro: exp://192.168.78.145:8081<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Using Expo Go (Press s to switch to development build)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Press ? │ show all commands<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Logs for your project will appear below. Press Ctrl+C to exit.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Android Bundled 4881ms index.ts (708 modules)
 
 ### 3.3. Ejecutar el proyecto en el dispositivo móvil
 
