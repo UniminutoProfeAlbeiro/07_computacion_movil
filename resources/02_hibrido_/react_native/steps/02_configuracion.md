@@ -28,8 +28,8 @@
 
 - Asociar el proyecto con Visual Studio Code
 - Abrir una terminal de Visual Studio Code
-	- Cambiar el nombre de la terminal a **'frontend_mob'**, seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
-	- Cambiar el color de la terminal **'frontend_mob'**, dando click derecho / Chage Color... / Seleccionar el color
+	- Cambiar el nombre de la terminal a **'frontend'**, seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
+	- Cambiar el color de la terminal **'frontend'**, dando click derecho / Chage Color... / Seleccionar el color
 - Ingresar a la carpeta **'frontend'** y eliminar el archivo **'delete'**:
 
 **<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
