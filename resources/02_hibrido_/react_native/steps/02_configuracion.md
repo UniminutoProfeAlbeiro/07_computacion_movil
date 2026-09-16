@@ -140,7 +140,7 @@
 
 ### 3.4. Ejecutar el proyecto en el dispositivo móvil a través de un Tunel (sin abrir el Emulador Android)
 
-- Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code: 
+- Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code. 
 
 - Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el dispositivo móvil a través de un túnel: 
 
@@ -163,28 +163,26 @@
 	 6        "expo": "~57.0.23",
 	 7        "expo-status-bar": "~57.0.1",
 	 8        "react": "19.2.3",
-	 9        "react-dom": "19.2.3",
-	10        "react-native": "0.86.3",
-	11        "react-native-web": "^0.21.2"
-	12      },
-	13      "devDependencies": {
-	14        "@expo/ngrok": "^4.1.3",
-	15        "@types/react": "~19.2.2",
-	16        "typescript": "~6.0.3"
-	17      },
-	18      "scripts": {    
-	19        "start": "expo start --tunnel --clear",
-	20        "start:local": "expo start --host lan --clear",
-	21        "start:offline": "expo start --offline --clear",
-	22        "android": "expo start --android",
-	23        "ios": "expo start --ios",
-	24        "web": "expo start --web"
-	25      },
-	26      "private": true
-	27    }
+	 9        "react-native": "0.86.3"
+	10      },
+	11      "devDependencies": {
+	12        "@expo/ngrok": "^4.1.3",
+	13        "@types/react": "~19.2.2",
+	14        "typescript": "~6.0.3"
+	15      },
+	16      "scripts": {
+	17        "start": "expo start --tunnel --clear",
+	18        "start:local": "expo start --host lan --clear",
+	19        "start:offline": "expo start --offline --clear",
+	20        "android": "expo start --android",
+	21        "ios": "expo start --ios",
+	22        "web": "expo start --web"
+	23      },
+	24      "private": true
+	25    }
 	```
 
-- Ejecutar en el tunel el siguiente comando:
+- Ejecutar en el Visual Studio Code el siguiente comando:
 
 	```bash
 	npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
@@ -192,8 +190,19 @@
 
 ### 3.5. Ejecutar el proyecto en el navegador web
 
+- Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
 
+- Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el navegador web: 
 
+	```bash
+	npx expo install react-dom react-native-web
+	```
+
+- Ejecutar en el Visual Studio Code el siguiente comando:
+
+	```bash
+	npm run web
+	```
 
 
 **<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
