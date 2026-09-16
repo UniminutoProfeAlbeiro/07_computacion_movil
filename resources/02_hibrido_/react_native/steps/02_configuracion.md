@@ -22,14 +22,14 @@
 ### 1.2. Crear un repositorio en Github
 
 - Colocar el nombre del proyecto al Repositorio Creado 
-- En caso de no tener cuenta en Github, crear una ([Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_trabajar_con_github.md)).
+- En caso de no tener cuenta en Github, crear una (**[Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_trabajar_con_github.md)**).
 
 ### 1.3. Abrir el Proyecto en Visual Studio Code.
 
 - Asociar el proyecto con Visual Studio Code
 - Abrir una terminal de Visual Studio Code
-	- Cambiar el nombre de la terminal a 'frontend_mob', seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
-	- Cambiar el color de la terminal 'frontend_mob', dando click derecho / Chage Color... / Seleccionar el color
+	- Cambiar el nombre de la terminal a **'frontend_mob'**, seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
+	- Cambiar el color de la terminal **'frontend_mob'**, dando click derecho / Chage Color... / Seleccionar el color
 - Ingresar a la carpeta 'frontend':
 
 	```bash
