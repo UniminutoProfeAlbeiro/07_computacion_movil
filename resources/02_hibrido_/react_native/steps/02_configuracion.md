@@ -56,7 +56,7 @@
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 ---
-## 3. Ejecutar el Proyecto CON el Emulador
+## 3. Ejecutar el Proyecto
 &nbsp;
 
 ### 2.2. Ingresar a la carpeta "frontend_mob"
