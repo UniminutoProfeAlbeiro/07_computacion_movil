@@ -137,11 +137,11 @@
 ## 6. Configurar las variables de Entorno del Sistema
 &nbsp;
 
-### 6.1. Buscar en el menú Windows 'Editar las variables de entorno del sistema' para enrutar al SDK de Java y Android SDK
+### 6.1. En el Menú Windows buscar 'Editar las variables de entorno del sistema'
 
 ### 6.2. Dar clic en 'Variables de entorno ...'
 
-### 6.3. En las 'Variables de Sistema ...' dar clic en 'Nueva ...'
+### 6.3. En las 'Variables de Sistema ...' dar clic en 'Nueva ...' y escribir lo siguiente:
 
       Nombre de la variable:  JAVA_HOME
       Valor de la variable:   'Examinar Directorio': C:\Program Files\Android\Android Studio\jbr\bin
