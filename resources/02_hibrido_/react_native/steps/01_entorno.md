@@ -10,6 +10,8 @@
 
 <br>
 
+<div align="center"><a href="../../../README.md">Menú Principal</a></div>
+
 ---
 ## 1. Instalar Visual Studio Code
 &nbsp;
