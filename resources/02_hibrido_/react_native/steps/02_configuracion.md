@@ -130,7 +130,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Logs for your project will appear below. Press Ctrl+C to exit.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Android Bundled 4881ms index.ts (708 modules)
 
-### 3.3. Ejecutar el proyecto en el dispositivo móvil
+### 3.3. Ejecutar el proyecto en el Dispositivo Móvil
 
 - **Requisito previo**: Descargar e instalar la aplicación **"Expo Go"** desde la **Google Play Store (Android)** o **App Store (iOS)** en el teléfono.
 - Asegurar que el teléfono y el computador estén **conectados a la misma red Wi-Fi**.
@@ -138,7 +138,7 @@
 - **Android**: Tocar el botón **"Scan QR code"** y escanear el código QR que aparece en la terminal del computador.
 - **iOS**: Abrir la aplicación de **Cámara de tu iPhone** y apuntar al código QR. Preguntará si se desea abrir en Expo Go.
 
-### 3.4. Ejecutar el proyecto en el dispositivo móvil a través de un Tunel (sin abrir el Emulador Android)
+### 3.4. Ejecutar el proyecto en el Dispositivo Móvil a través de un Tunel (sin abrir el Emulador Android)
 
 - Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code. 
 
@@ -188,7 +188,7 @@
 	npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
 	```
 
-### 3.5. Ejecutar el proyecto en el navegador web
+### 3.5. Ejecutar el proyecto en el Navegador Web
 
 - Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
 
@@ -203,6 +203,12 @@
 	```bash
 	npm run web
 	```
+
+- Con el Navegador Web abierto, presionar F12 para abrir el inspector de propiedades.
+
+- Seleccionar la opción **'Toggle device toolbar'**.
+
+- Seleccionar en **'Dimensions'** un dispositivo móvil.
 
 
 **<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
