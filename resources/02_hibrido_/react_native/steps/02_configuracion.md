@@ -138,9 +138,9 @@
 - **Android**: Tocar el botón **"Scan QR code"** y escanear el código QR que aparece en la terminal del computador.
 - **iOS**: Abrir la aplicación de **Cámara de tu iPhone** y apuntar al código QR. Preguntará si se desea abrir en Expo Go.
 
-### 3.4. Ejecutar el proyecto en el dispositivo móvil sin abrir el Emulador Android
+### 3.4. Ejecutar el proyecto en el dispositivo móvil a través de un Tunel (sin abrir el Emulador Android)
 
-- **Problemas de conexión**: Si no conecta, presionar **Ctrl+C en la terminal para detener el servidor** y ejecutar: 
+- Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el dispositivo móvil a través de un túnel: 
 
 	```bash
 	npm install -g @expo/ngrok@^4.1.0 # instalación global
@@ -150,11 +150,46 @@
 	npm install --save-dev @expo/ngrok@^4.1.0 # instalación local como dependencia de desarrollo
 	```
 
+- **Modificar el package.json**:
+
+	```json
+	 1    {
+	 2      "name": "frontend",
+	 3      "version": "1.0.0",
+	 4      "main": "index.ts",
+	 5      "dependencies": {
+	 6        "expo": "~57.0.23",
+	 7        "expo-status-bar": "~57.0.1",
+	 8        "react": "19.2.3",
+	 9        "react-dom": "19.2.3",
+	10        "react-native": "0.86.3",
+	11        "react-native-web": "^0.21.2"
+	12      },
+	13      "devDependencies": {
+	14        "@expo/ngrok": "^4.1.3",
+	15        "@types/react": "~19.2.2",
+	16        "typescript": "~6.0.3"
+	17      },
+	18      "scripts": {    
+	19        "start": "expo start --tunnel --clear",
+	20        "start:local": "expo start --host lan --clear",
+	21        "start:offline": "expo start --offline --clear",
+	22        "android": "expo start --android",
+	23        "ios": "expo start --ios",
+	24        "web": "expo start --web"
+	25      },
+	26      "private": true
+	27    }
+	```
+
+- **Ejecutar en el tunel el siguiente comando**:
+
 	```bash
 	npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
 	```
 
 ### 3.5. Ejecutar el proyecto en el navegador web
+
 
 
 
@@ -223,6 +258,10 @@
 	23      "private": true
 	24    }
 	```
+
+- Por tunel
+
+	
 
 - Modificar el código del 'package.json', para asegurar que el proyecto funcione correctamente. Se incluyen las dependencias necesarias para el proyecto, según se requiera para que funcione con o sin el emulador Android. 
 
