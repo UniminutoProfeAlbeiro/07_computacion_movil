@@ -65,7 +65,7 @@ npm run android
   <table border="0">
     <tr>      
       <td align="center"><a href="../../../README.md">Menú Principal</a></td>
-      <td align="center">1. <a href="steps/01_entorno_de_desarrollo.md">Entorno de Desarrollo</a></td>
+      <td align="center">1. <a href="steps/01_entorno.md">Entorno de Desarrollo</a></td>
     </tr>
   </table>
 </div>
