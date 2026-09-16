@@ -152,11 +152,67 @@
 
 ### 4.1. Modificar el archivo 'package.json' 
 
+- Archivo Original
+
+	```json
+	1    {
+	2      "name": "frontend",
+	3      "version": "1.0.0",
+	4      "main": "index.ts",
+	5      "dependencies": {
+	6        "expo": "~57.0.23",
+	7        "expo-status-bar": "~57.0.1",
+	8        "react": "19.2.3",
+	9        "react-native": "0.86.3"
+	10      },
+	11      "devDependencies": {
+	12        "@types/react": "~19.2.2",
+	13        "typescript": "~6.0.3"
+	14      },
+	15      "scripts": {
+	16        "start": "expo start",
+	17        "android": "expo start --android",
+	18        "ios": "expo start --ios",
+	19        "web": "expo start --web"
+	20      },
+	21      "private": true
+	22    }
+	```
+
+- Archivo Modificado para la web
+
+	```json
+	1    {
+	2      "name": "frontend",
+	3      "version": "1.0.0",
+	4      "main": "index.ts",
+	5      "dependencies": {
+	6        "expo": "~57.0.23",
+	7        "expo-status-bar": "~57.0.1",
+	8        "react": "19.2.3",
+	9        "react-dom": "19.2.3",
+	10        "react-native": "0.86.3",
+	11        "react-native-web": "^0.21.2"
+	12      },
+	13      "devDependencies": {
+	14        "@types/react": "~19.2.2",
+	15        "typescript": "~6.0.3"
+	16      },
+	17      "scripts": {
+	18        "start": "expo start",
+	19        "android": "expo start --android",
+	20        "ios": "expo start --ios",
+	21        "web": "expo start --web"
+	22      },
+	23      "private": true
+	24    }
+	```
+
 - Modificar el código del 'package.json', para asegurar que el proyecto funcione correctamente. Se incluyen las dependencias necesarias para el proyecto, según se requiera para que funcione con o sin el emulador Android. 
 
 - Para que funcione CON el Emulador:
                     
-	```bash
+	```json
 	{
 		"name": "frontend_mob",
 		"version": "1.0.0",
@@ -229,28 +285,28 @@
 
 - En 'frontend_mob/App.tsx' modificar la línea 7 :
 
-				```tsx
-				1    import { StatusBar } from 'expo-status-bar';
-				2    import { StyleSheet, Text, View } from 'react-native';
-				3  
-				4    export default function App() {
-				5      return (
-				6        <View style={styles.container}>
-				7          <Text>¡Hola Mundo!</Text>
-				8          <StatusBar style="auto" />
-				9        </View>
-				10      );
-				11    }
-				12  
-				13    const styles = StyleSheet.create({
-				14      container: {
-				15        flex: 1,
-				16        backgroundColor: '#fff',
-				17        alignItems: 'center',
-				18        justifyContent: 'center',
-				19      },
-				20    });
-				```
+		```tsx
+		 1    import { StatusBar } from 'expo-status-bar';
+		 2    import { StyleSheet, Text, View } from 'react-native';
+		 3  
+		 4    export default function App() {
+		 5      return (
+		 6        <View style={styles.container}>
+		 7          <Text>¡Hola Mundo!</Text>
+		 8          <StatusBar style="auto" />
+		 9        </View>
+		10      );
+		11    }
+		12  
+		13    const styles = StyleSheet.create({
+		14      container: {
+		15        flex: 1,
+		16        backgroundColor: '#fff',
+		17        alignItems: 'center',
+		18        justifyContent: 'center',
+		19      },
+		20    });
+		```
 
 **<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
 
