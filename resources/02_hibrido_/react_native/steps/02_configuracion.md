@@ -132,18 +132,16 @@
 
 ### 3.3. Ejecutar el proyecto en el dispositivo móvil
 
-- **Requisito previo**: Descarga e instala la aplicación **"Expo Go"** desde la **Google Play Store (Android)** o **App Store (iOS)** en tu teléfono .
-- Asegúrate de que tu teléfono y tu computadora estén **conectados a la misma red Wi-Fi**.
-- Abre la app Expo Go en tu teléfono.
-- **Android**: Toca el botón **"Scan QR code"** y escanea el código QR que aparece en la terminal de tu computadora .
-- **iOS**: Abre la aplicación de **Cámara de tu iPhone** y apunta al código QR. Te preguntará si deseas abrirlo en Expo Go.
-- **Problemas de conexión**: Si no conecta, presiona **Ctrl+C en la terminal para detener el servidor** y ejecuta 
+- **Requisito previo**: Descargar e instalar la aplicación **"Expo Go"** desde la **Google Play Store (Android)** o **App Store (iOS)** en el teléfono.
+- Asegurar que el teléfono y el computador estén **conectados a la misma red Wi-Fi**.
+- Abrir la app Expo Go en el teléfono.
+- **Android**: Tocar el botón **"Scan QR code"** y escanear el código QR que aparece en la terminal del computador.
+- **iOS**: Abrir la aplicación de **Cámara de tu iPhone** y apuntar al código QR. Preguntará si se desea abrir en Expo Go.
+- **Problemas de conexión**: Si no conecta, presionar **Ctrl+C en la terminal para detener el servidor** y ejecutar: 
 
 	```bash
-	npx expo start --tunnel
+	npx expo start --tunnel # Esto usa un túnel para sortear restricciones de red
 	```
-
-- Esto usa un túnel para sortear restricciones de red .
 
 **<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
 
