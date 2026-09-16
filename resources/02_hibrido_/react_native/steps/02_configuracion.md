@@ -143,15 +143,15 @@
 - **Problemas de conexión**: Si no conecta, presionar **Ctrl+C en la terminal para detener el servidor** y ejecutar: 
 
 	```bash
-	npm install -g @expo/ngrok@^4.1.0 						# instalación global
+	npm install -g @expo/ngrok@^4.1.0 # instalación global
 	```
 
 	```bash
-	npm install --save-dev @expo/ngrok@^4.1.0			# instalación local como dependencia de desarrollo
+	npm install --save-dev @expo/ngrok@^4.1.0 # instalación local como dependencia de desarrollo
 	```
 
 	```bash
-	npx expo start --tunnel --clear								# Esto usa un túnel para sortear restricciones de red
+	npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
 	```
 
 ### 3.5. Ejecutar el proyecto en el navegador web
