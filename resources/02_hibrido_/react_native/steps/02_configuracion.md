@@ -51,7 +51,7 @@
 	```	
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ? Select an Expo SDK version: » - Use arrow-keys. Return to submit.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > &nbsp;&nbsp;   Latest (SDK 57) - Recommended for most projects **# Seleccionar esta opción**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > &nbsp;&nbsp;   Latest (SDK 57) - Recommended for most projects **<u># Seleccionar esta opción**</u><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Other SDK version…<br>
 
 
