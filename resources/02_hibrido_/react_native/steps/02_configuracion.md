@@ -48,10 +48,10 @@
 	npx create-expo-app frontend_mob --template blank-typescript
   ```	
 
-		Creating an Expo project using the blank-typescript template.
-
-		√ Downloaded and extracted project files.
-		> npm install
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Creating an Expo project using the blank-typescript template.<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; √ Downloaded and extracted project files.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > npm install<br>
 
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
