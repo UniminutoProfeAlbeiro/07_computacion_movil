@@ -204,7 +204,7 @@
 	npm run web
 	```
 
-- Con el Navegador Web abierto, presionar F12 para abrir el inspector de propiedades.
+- Con el Navegador Web abierto, Presionar la **Tecla F12** para abrir el inspector de propiedades.
 
 - Seleccionar la opción **'Toggle device toolbar'**.
 
