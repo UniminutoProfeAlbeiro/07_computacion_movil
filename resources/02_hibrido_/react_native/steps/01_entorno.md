@@ -129,7 +129,7 @@
 
 ### 5.4. Dar click a 'Finish / Finish'.
 
-### 5.5. Ejecutar el Emulador dando clic en la punta de flecha (columna 'Actions', la primera vez demorará más tiempo)
+### 5.5. Ejecutar el Emulador dando click en la punta de flecha (columna 'Actions')
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
