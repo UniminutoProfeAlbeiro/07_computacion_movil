@@ -49,7 +49,7 @@
 
 ### 1.5. Cerrar Visual Studio Code
 
-<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+**<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
 ---
 ## 2. Instalar Node.js
@@ -59,7 +59,7 @@
 
 ### 2.2. Instalar Node.js
 
-<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+**<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
 ---
 ## 3. Modificar Directivas en PowerShell
@@ -94,7 +94,7 @@
   npm --version # Debe mostrar v9.x.x o superior
   ```
 
-<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+**<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
 ---
 ## 4. Instalar Instalar Android Studio
@@ -113,7 +113,7 @@
 
 - En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguiente programa para eliminar carpetas o archivos: [iobit-unlocker](https://www.iobit.com/es/iobit-unlocker.php#)
 
-<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+**<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
 ---
 ## 5. Crear el Emulador de Android Studio
@@ -129,7 +129,7 @@
 
 ### 5.5. Ejecutar el Emulador dando click en la punta de flecha (columna 'Actions')
 
-<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+**<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
 ---
 ## 6. Configurar las variables de Entorno del Sistema
@@ -147,7 +147,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Nombre de la variable**:  ANDROID_HOME<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Valor de la variable**:   'Examinar Directorio': C:\Users\{usuario_del_sistema}\AppData\Local\Android\Sdk
 
-<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+**<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
 ---
 ## 7. Instalar Expo Go en el Celular
@@ -157,7 +157,7 @@
 
 ### 7.2. Instalar la aplicación 'Expo Go' en el celular.
 
-<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+**<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
 ---
 <div align="right">
