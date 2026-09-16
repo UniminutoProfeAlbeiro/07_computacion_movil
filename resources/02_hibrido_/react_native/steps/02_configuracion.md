@@ -36,7 +36,7 @@
 	cd frontend
 	```
 
-<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
+**<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
 
 ---
 ## 2. Iniciar el Proyecto

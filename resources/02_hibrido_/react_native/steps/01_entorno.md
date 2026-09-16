@@ -160,6 +160,7 @@
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
 ---
+
 <div align="right">
   <table border="0">
     <tr>      
@@ -169,5 +170,4 @@
     </tr>
   </table>
 </div>
-
 <!-- ![Pantalla Principal Android](img/01_android_studio.png) -->
