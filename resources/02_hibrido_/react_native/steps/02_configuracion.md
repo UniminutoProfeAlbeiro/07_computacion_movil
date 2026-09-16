@@ -30,11 +30,7 @@
 - Abrir una terminal de Visual Studio Code
 	- Cambiar el nombre de la terminal a **'frontend_mob'**, seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
 	- Cambiar el color de la terminal **'frontend_mob'**, dando click derecho / Chage Color... / Seleccionar el color
-- Ingresar a la carpeta 'frontend':
-
-	```bash
-	cd frontend
-	```
+- Ingresar a la carpeta **'frontend'** y eliminar el archivo **'delete'**:
 
 **<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
 
@@ -47,14 +43,14 @@
 - En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
 
   ```bash
-  npx create-expo-app frontend_mob --template blank-typescript
+  npx create-expo-app frontend --template blank-typescript
 	```	
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ? Select an Expo SDK version: » - Use arrow-keys. Return to submit.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > Latest (SDK 57) - Recommended for most projects **# <ins>Seleccionar esta opción**</ins><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Other SDK version…<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Creating frontend_mob using the blank-typescript template.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Creating frontend using the blank-typescript template.<br>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; √ Downloaded and extracted project files.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > npm install<br>
@@ -80,7 +76,7 @@
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To run your project, navigate to the directory and run one of the following npm commands.<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - cd frontend_mob<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - cd frontend<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - npm run android<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - npm run web<br>
