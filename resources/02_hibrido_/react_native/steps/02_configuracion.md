@@ -132,8 +132,12 @@
 
 ### 3.3. Ejecutar el proyecto en el dispositivo móvil
 
-- Abrir la aplicación 'Expo Go' en el dispositivo.
-- Escanear el 'código QR' que está en la terminal de Visual Studio Code con el dispositivo.
+- Requisito previo: Descarga e instala la aplicación "Expo Go" desde la Google Play Store (Android) o App Store (iOS) en tu teléfono .
+- Asegúrate de que tu teléfono y tu computadora estén conectados a la misma red Wi-Fi .
+- Abre la app Expo Go en tu teléfono.
+- Android: Toca el botón "Scan QR code" y escanea el código QR que aparece en la terminal de tu computadora .
+- iOS: Abre la aplicación de Cámara de tu iPhone y apunta al código QR. Te preguntará si deseas abrirlo en Expo Go.
+- Problemas de conexión: Si no conecta, presiona Ctrl+C en la terminal para detener el servidor y ejecuta npx expo start --tunnel. Esto usa un túnel para - sortear restricciones de red .
 
 **<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
 
@@ -144,6 +148,41 @@
 
 --- 
 ### 4.1. Modificar el archivo 'package.json' 
+
+- Para que funcione CON el Emulador:
+                    
+	```bash
+	{
+		"name": "frontend_mob",
+		"version": "1.0.0",
+		"main": "index.ts",
+		"scripts": {
+			"start": "expo start",
+			"android": "expo start --android",
+			"ios": "expo start --ios",
+			"web": "expo start --web"
+		},
+		"dependencies": {
+			"@react-native-async-storage/async-storage": "2.2.0",
+			"@react-navigation/native": "^7.1.28",
+			"@react-navigation/native-stack": "^7.10.1",
+			"@react-navigation/stack": "^7.6.16",
+			"axios": "^1.13.2",
+			"expo": "~54.0.32",
+			"expo-status-bar": "~3.0.9",
+			"react": "19.1.0",
+			"react-native": "0.81.5",
+			"react-native-safe-area-context": "~5.6.0",
+			"react-native-screens": "~4.16.0"
+		},
+		"devDependencies": {
+			"@types/react": "~19.1.0",
+			"typescript": "~5.9.2"
+		},
+		"private": true
+	}
+	```
+
 
 - Para que funcione correctamente SIN el emulador Android, modificar el código del 'package.json' de la siguiente manera:
                     
@@ -187,9 +226,6 @@
 npx expo start --tunnel --clear
 ```
 
-### 3.6. Escanear el 'código QR' con el dispositivo. Los dos equipos deben estar en la misma red.
-
-
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
 
 
@@ -204,39 +240,6 @@ npx expo start --tunnel --clear
 
 - Modificar el código del 'package.json', para asegurar que el proyecto funcione correctamente. Se incluyen las dependencias necesarias para el proyecto, según se requiera para que funcione con o sin el emulador Android. 
 
-- Para que funcione CON el Emulador:
-                    
-	```bash
-	{
-		"name": "frontend_mob",
-		"version": "1.0.0",
-		"main": "index.ts",
-		"scripts": {
-			"start": "expo start",
-			"android": "expo start --android",
-			"ios": "expo start --ios",
-			"web": "expo start --web"
-		},
-		"dependencies": {
-			"@react-native-async-storage/async-storage": "2.2.0",
-			"@react-navigation/native": "^7.1.28",
-			"@react-navigation/native-stack": "^7.10.1",
-			"@react-navigation/stack": "^7.6.16",
-			"axios": "^1.13.2",
-			"expo": "~54.0.32",
-			"expo-status-bar": "~3.0.9",
-			"react": "19.1.0",
-			"react-native": "0.81.5",
-			"react-native-safe-area-context": "~5.6.0",
-			"react-native-screens": "~4.16.0"
-		},
-		"devDependencies": {
-			"@types/react": "~19.1.0",
-			"typescript": "~5.9.2"
-		},
-		"private": true
-	}
-	```
 
 
 
