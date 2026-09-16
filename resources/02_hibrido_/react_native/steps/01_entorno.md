@@ -77,9 +77,9 @@
   ```powershell
   Set-ExecutionPolicy -Scope CurrentUser
   ```
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cmdlet Set-ExecutionPolicy en la posición 1 de la canalización de comandos
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proporcione valores para los parámetros siguientes:
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ExecutionPolicy: 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cmdlet Set-ExecutionPolicy en la posición 1 de la canalización de comandos
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proporcione valores para los parámetros siguientes:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ExecutionPolicy: 
 
   ```powershell
   Unrestricted
