@@ -13,6 +13,8 @@
 <br> 5.3. **Cerrar Sesión**
 6. **[Pruebas de Software](steps/06_pruebas_software.md)**
 
+<div align="right"><a href="../../../README.md">Menú Principal</a></div>
+
 ---
 ## 📝 Puesta en Marcha del Proyecto
 &nbsp;
