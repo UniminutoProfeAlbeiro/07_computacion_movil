@@ -94,15 +94,15 @@
 ## 3. Ejecutar el Proyecto
 &nbsp;
 
-### 2.2. Ingresar a la carpeta "frontend_mob"
+### 3.1. Ingresar a la carpeta "frontend"
 
-- En la terminal de Visual Studio Code ingresar al proyecto creado "frontend_mob" con el siguiente comando:
+- En la terminal de Visual Studio Code ingresar al proyecto creado "frontend" con el siguiente comando:
 
 	```bash
-	cd frontend_mob
+	cd frontend
 	```
 
-### 2.3. Ejecutar el proyecto
+### 3.2. Ejecutar el proyecto en el Emulador Android
 
 - En la terminal de Visual Studio Code ejecutar el siguiente comando para iniciar el proyecto en el emulador Android:
 
