@@ -140,11 +140,10 @@
 ### 6.3. En las 'Variables de Sistema ...' dar clic en 'Nueva ...' y escribir lo siguiente:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nombre de la variable:  JAVA_HOME<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valor de la variable:   'Examinar Directorio': C:\Program Files\Android\Android Studio\jbr\bin<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valor de la variable:   'Examinar Directorio': C:\Program Files\Android\Android Studio\jbr\bin<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nombre de la variable:  ANDROID_HOME<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valor de la variable:   'Examinar Directorio':<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C:\Users\{usuario_del_sistema}\AppData\Local\Android\Sdk
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Valor de la variable:   'Examinar Directorio': C:\Users\{usuario_del_sistema}\AppData\Local\Android\Sdk
 
 <div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
 
