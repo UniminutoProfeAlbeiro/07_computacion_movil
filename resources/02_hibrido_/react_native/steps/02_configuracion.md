@@ -17,12 +17,12 @@
 1. Ir a [07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main) y descargar el archivo '.ZIP'.
 2. Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
 
-#### 1.2. Crear un repositorio en Github
+### 1.2. Crear un repositorio en Github
 
 - Colocar el nombre del proyecto al Repositorio Creado 
 - En caso de no tener cuenta en Github, crear una ([Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_trabajar_con_github.md)).
 
-#### 1.3. Abrir el Proyecto en Visual Studio Code.
+### 1.3. Abrir el Proyecto en Visual Studio Code.
 
 1. Asociar el proyecto con Visual Studio Code
 2. Abrir una terminal de Visual Studio Code
@@ -40,7 +40,7 @@
 ## 2. Iniciar el Proyecto
 &nbsp;
 
-#### 2.1. Crear el Proyecto
+### 2.1. Crear el Proyecto
 
 - En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
 
@@ -59,7 +59,7 @@
 ## 3. Ejecutar el Proyecto CON el Emulador
 &nbsp;
 
-#### 2.2. Ingresar a la carpeta "frontend_mob"
+### 2.2. Ingresar a la carpeta "frontend_mob"
 
 - En la terminal de Visual Studio Code ingresar al proyecto creado "frontend_mob" con el siguiente comando:
 
@@ -67,7 +67,7 @@
 	cd frontend_mob
 	```
 
-#### 2.3. Ejecutar el proyecto
+### 2.3. Ejecutar el proyecto
 
 - En la terminal de Visual Studio Code ejecutar el siguiente comando para iniciar el proyecto en el emulador Android:
 
@@ -82,7 +82,7 @@
 &nbsp;
 
 
-#### 3.1. Modificar el archivo 'package.json' 
+### 3.1. Modificar el archivo 'package.json' 
 
 - Para que funcione correctamente SIN el emulador Android, modificar el código del 'package.json' de la siguiente manera:
                     
@@ -120,13 +120,13 @@
 	}
 	```
 
-#### 3.2. Abrir la aplicación 'Expo Go' en el dispositivo.
-#### 3.3. Escanear el 'código QR' con el dispositivo.
+### 3.2. Abrir la aplicación 'Expo Go' en el dispositivo.
+### 3.3. Escanear el 'código QR' con el dispositivo.
 
 - Los dos equipos deben estar en la misma red
 
-#### 3.4. Abrir la aplicación 'Expo Go' en el dispositivo.
-#### 3.5. Ejecutar el proyecto
+### 3.4. Abrir la aplicación 'Expo Go' en el dispositivo.
+### 3.5. Ejecutar el proyecto
 
 - Para que funcione correctamente SIN el emulador Android, modificar el código del 'package.json' de la siguiente manera:
 	
@@ -134,7 +134,7 @@
 npx expo start --tunnel --clear
 ```
 
-#### 3.6. Escanear el 'código QR' con el dispositivo. Los dos equipos deben estar en la misma red.
+### 3.6. Escanear el 'código QR' con el dispositivo. Los dos equipos deben estar en la misma red.
 
 
 <div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
@@ -147,7 +147,7 @@ npx expo start --tunnel --clear
 
 
 
-#### 1.7. Modificar el 'package.json' 
+### 1.7. Modificar el 'package.json' 
 
 - Modificar el código del 'package.json', para asegurar que el proyecto funcione correctamente. Se incluyen las dependencias necesarias para el proyecto, según se requiera para que funcione con o sin el emulador Android. 
 
@@ -307,7 +307,7 @@ Si está en Github, puede utilizar este recurso https://download-directory.githu
 
 
 &nbsp;
-#### NOTA:
+### NOTA:
 
 Si tiene dificultades, abra el abra el puerto 3000 en Firewall con los siguiente pasos:
 
