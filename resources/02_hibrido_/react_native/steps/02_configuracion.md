@@ -140,6 +140,8 @@
 
 ### 3.4. Ejecutar el proyecto en el dispositivo móvil a través de un Tunel (sin abrir el Emulador Android)
 
+- Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code: 
+
 - Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el dispositivo móvil a través de un túnel: 
 
 	```bash
@@ -150,7 +152,7 @@
 	npm install --save-dev @expo/ngrok@^4.1.0 # instalación local como dependencia de desarrollo
 	```
 
-- **Modificar el package.json**:
+- Modificar el package.json:
 
 	```json
 	 1    {
@@ -182,7 +184,7 @@
 	27    }
 	```
 
-- **Ejecutar en el tunel el siguiente comando**:
+- Ejecutar en el tunel el siguiente comando:
 
 	```bash
 	npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
