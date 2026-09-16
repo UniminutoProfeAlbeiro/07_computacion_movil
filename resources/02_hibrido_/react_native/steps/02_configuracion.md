@@ -154,7 +154,7 @@
 
 - Archivo Original
 
-```json
+	```json
 	 1    {
 	 2      "name": "frontend",
 	 3      "version": "1.0.0",
@@ -177,7 +177,7 @@
 	20      },
 	21      "private": true
 	22    }
-```
+	```
 
 - Archivo Modificado para la web
 
