@@ -154,59 +154,59 @@
 
 - Archivo Original
 
-	```json
-	1    {
-	2      "name": "frontend",
-	3      "version": "1.0.0",
-	4      "main": "index.ts",
-	5      "dependencies": {
-	6        "expo": "~57.0.23",
-	7        "expo-status-bar": "~57.0.1",
-	8        "react": "19.2.3",
-	9        "react-native": "0.86.3"
-	10      },
-	11      "devDependencies": {
-	12        "@types/react": "~19.2.2",
-	13        "typescript": "~6.0.3"
-	14      },
-	15      "scripts": {
-	16        "start": "expo start",
-	17        "android": "expo start --android",
-	18        "ios": "expo start --ios",
-	19        "web": "expo start --web"
-	20      },
-	21      "private": true
-	22    }
-	```
+```json
+ 1    {
+ 2      "name": "frontend",
+ 3      "version": "1.0.0",
+ 4      "main": "index.ts",
+ 5      "dependencies": {
+ 6        "expo": "~57.0.23",
+ 7        "expo-status-bar": "~57.0.1",
+ 8        "react": "19.2.3",
+ 9        "react-native": "0.86.3"
+10      },
+11      "devDependencies": {
+12        "@types/react": "~19.2.2",
+13        "typescript": "~6.0.3"
+14      },
+15      "scripts": {
+16        "start": "expo start",
+17        "android": "expo start --android",
+18        "ios": "expo start --ios",
+19        "web": "expo start --web"
+20      },
+21      "private": true
+22    }
+```
 
 - Archivo Modificado para la web
 
-	```json
-	1    {
-	2      "name": "frontend",
-	3      "version": "1.0.0",
-	4      "main": "index.ts",
-	5      "dependencies": {
-	6        "expo": "~57.0.23",
-	7        "expo-status-bar": "~57.0.1",
-	8        "react": "19.2.3",
-	9        "react-dom": "19.2.3",
-	10        "react-native": "0.86.3",
-	11        "react-native-web": "^0.21.2"
-	12      },
-	13      "devDependencies": {
-	14        "@types/react": "~19.2.2",
-	15        "typescript": "~6.0.3"
-	16      },
-	17      "scripts": {
-	18        "start": "expo start",
-	19        "android": "expo start --android",
-	20        "ios": "expo start --ios",
-	21        "web": "expo start --web"
-	22      },
-	23      "private": true
-	24    }
-	```
+```json
+ 1    {
+ 2      "name": "frontend",
+ 3      "version": "1.0.0",
+ 4      "main": "index.ts",
+ 5      "dependencies": {
+ 6        "expo": "~57.0.23",
+ 7        "expo-status-bar": "~57.0.1",
+ 8        "react": "19.2.3",
+ 9        "react-dom": "19.2.3",
+10        "react-native": "0.86.3",
+11        "react-native-web": "^0.21.2"
+12      },
+13      "devDependencies": {
+14        "@types/react": "~19.2.2",
+15        "typescript": "~6.0.3"
+16      },
+17      "scripts": {
+18        "start": "expo start",
+19        "android": "expo start --android",
+20        "ios": "expo start --ios",
+21        "web": "expo start --web"
+22      },
+23      "private": true
+24    }
+```
 
 - Modificar el código del 'package.json', para asegurar que el proyecto funcione correctamente. Se incluyen las dependencias necesarias para el proyecto, según se requiera para que funcione con o sin el emulador Android. 
 
