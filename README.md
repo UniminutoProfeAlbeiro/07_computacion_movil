@@ -1,18 +1,16 @@
-<h3 align="center">NATIVO</h3>
-<hr>
+# <div align="center">NATIVO</div>
+
 1. **[Android](#)**
 
 ---
-<h3 align="center">HÍBRIDO</h3>
-<hr>
+# <div align="center">HÍBRIDO</div>
 
 1. **[Capacitor](#)**
 2. **[Flutter](#)**
 3. **[React Native](resources/02_hibrido_/react_native/react_native.md)**
 
 ---
-<h3 align="center">PWA</h3>
-<hr>
+# <div align="center">PWA</div>
 
 1. **[Angular](#)**
 2. **[PHP](#)**
