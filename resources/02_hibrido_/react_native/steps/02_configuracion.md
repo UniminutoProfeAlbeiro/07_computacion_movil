@@ -110,14 +110,20 @@
 	npm run android
 	```
 
-<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>
+### 3.3. Ejecutar el proyecto en el dispositivo móvil
+
+- Abrir la aplicación 'Expo Go' en el dispositivo.
+- Escanear el 'código QR' que está en la terminal de Visual Studio Code con el dispositivo.
+
+**<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
+
 
 ---
-## 3. Ejecutar el Proyecto
+## 4. Configurar el Proyecto
 &nbsp;
 
-
-### 3.1. Modificar el archivo 'package.json' 
+--- 
+### 4.1. Modificar el archivo 'package.json' 
 
 - Para que funcione correctamente SIN el emulador Android, modificar el código del 'package.json' de la siguiente manera:
                     
@@ -154,14 +160,6 @@
 		"private": true
 	}
 	```
-
-### 3.2. Abrir la aplicación 'Expo Go' en el dispositivo.
-### 3.3. Escanear el 'código QR' con el dispositivo.
-
-- Los dos equipos deben estar en la misma red
-
-### 3.4. Abrir la aplicación 'Expo Go' en el dispositivo.
-### 3.5. Ejecutar el proyecto
 
 - Para que funcione correctamente SIN el emulador Android, modificar el código del 'package.json' de la siguiente manera:
 	
