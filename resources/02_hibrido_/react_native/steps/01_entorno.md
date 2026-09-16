@@ -125,6 +125,8 @@
 
 ### 5.2. Seleccionar la opción '(+) Create Virtual Device' y buscar un emulador, por ejemplo, 'Pixel 6a' con el icono de Play Store.
 
+### 5.3. Seleccionar un Emulador, por ejemplo, 'Pixel 6a' con el icono de Play Store.
+
 ### 5.4. Dar click a 'Finish / Finish'.
 
 ### 5.5. Ejecutar el Emulador dando clic en la punta de flecha (columna 'Actions', la primera vez demorará más tiempo)
