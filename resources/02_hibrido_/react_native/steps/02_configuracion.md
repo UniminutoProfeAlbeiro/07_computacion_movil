@@ -45,8 +45,8 @@
 - En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
 
   ```bash
-	npx create-expo-app frontend_mob --template blank-typescript
-  ```	
+  npx create-expo-app frontend_mob --template blank-typescript
+	```	
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Creating an Expo project using the blank-typescript template.<br>
 <br>
