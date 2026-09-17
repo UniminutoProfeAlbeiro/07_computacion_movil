@@ -125,7 +125,7 @@
 
 ### 5.3. Seleccionar un Emulador, por ejemplo, 'Pixel 6a' (Con el icono de Play Store)  / 'Next'.
 
-### 5.4. Dar click a 'Next' / 'Select system image' (Por ejemplo API 33 "Tiramisu"; Android 13.0 / Google Play Intel x86_64 Atom System Image) / Finish / Yes / 'Finish'.
+### 5.4. Dar click a 'Next' / 'Select system image' (Por ejemplo API 33 "Tiramisu"; Android 13.0 / Google Play Intel &nbsp;&nbsp; x86_64 Atom System Image) / Finish / Yes / 'Finish'.
 
 ### 5.5. Ejecutar el Emulador dando click en la punta de flecha (columna 'Actions')
 
