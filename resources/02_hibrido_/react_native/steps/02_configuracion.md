@@ -210,9 +210,34 @@
 
 - Seleccionar en **'Dimensions'** un dispositivo móvil.
 
+### 3.6. Modificar el Mensaje e Inicio de la App
+
+- En 'frontend_mob/App.tsx' modificar la línea 7 :
+
+  ```tsx
+   1    import { StatusBar } from 'expo-status-bar';
+   2    import { StyleSheet, Text, View } from 'react-native';
+   3  
+   4    export default function App() {
+   5      return (
+   6        <View style={styles.container}>
+   7          <Text>¡Hola Mundo!</Text>
+   8          <StatusBar style="auto" />
+   9        </View>
+  10      );
+  11    }
+  12  
+  13    const styles = StyleSheet.create({
+  14      container: {
+  15        flex: 1,
+  16        backgroundColor: '#fff',
+  17        alignItems: 'center',
+  18        justifyContent: 'center',
+  19      },
+  20    });
+  ```
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
-
 
 ---
 ## 4. Configurar el Proyecto
@@ -355,30 +380,7 @@
 
 ### 4.2. Modificar el archivo 'App.tsx' 
 
-- En 'frontend_mob/App.tsx' modificar la línea 7 :
 
-		```tsx
-		 1    import { StatusBar } from 'expo-status-bar';
-		 2    import { StyleSheet, Text, View } from 'react-native';
-		 3  
-		 4    export default function App() {
-		 5      return (
-		 6        <View style={styles.container}>
-		 7          <Text>¡Hola Mundo!</Text>
-		 8          <StatusBar style="auto" />
-		 9        </View>
-		10      );
-		11    }
-		12  
-		13    const styles = StyleSheet.create({
-		14      container: {
-		15        flex: 1,
-		16        backgroundColor: '#fff',
-		17        alignItems: 'center',
-		18        justifyContent: 'center',
-		19      },
-		20    });
-		```
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
