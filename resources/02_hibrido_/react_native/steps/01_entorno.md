@@ -125,7 +125,7 @@
 
 ### 5.3. Seleccionar un Emulador, por ejemplo, 'Pixel 6a' (Con el icono de Play Store)  / 'Next'.
 
-### 5.4. 'Next' / 'Select system image' (Por ejemplo, API 33 "Tiramisu"; Android 13.0 / Google Play Intel x86_64 Atom System Image).
+### 5.4. 'Next' / 'API 33 "Tiramisu"; Android 13.0' / Google Play Intel x86_64 Atom System Image.
 
 ### 5.5. 'Finish' / 'Yes' / 'Finish'.
 
