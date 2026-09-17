@@ -249,7 +249,7 @@
 
 - Incluir en el código del 'package.json' las dependencias para asegurar que el proyecto funcione correctamente:
                     
-	```json
+	```js
    1    {
    2      "name": "frontend",
    3      "version": "1.0.0",
