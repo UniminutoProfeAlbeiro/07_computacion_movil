@@ -245,69 +245,9 @@
 
 ### 4.1. Modificar el archivo 'package.json' 
 
-- Archivo Original
+- Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
 
-	```json
-	 1    {
-	 2      "name": "frontend",
-	 3      "version": "1.0.0",
-	 4      "main": "index.ts",
-	 5      "dependencies": {
-	 6        "expo": "~57.0.23",
-	 7        "expo-status-bar": "~57.0.1",
-	 8        "react": "19.2.3",
-	 9        "react-native": "0.86.3"
-	10      },
-	11      "devDependencies": {
-	12        "@types/react": "~19.2.2",
-	13        "typescript": "~6.0.3"
-	14      },
-	15      "scripts": {
-	16        "start": "expo start",
-	17        "android": "expo start --android",
-	18        "ios": "expo start --ios",
-	19        "web": "expo start --web"
-	20      },
-	21      "private": true
-	22    }
-	```
-
-- Archivo Modificado para la web
-
-	```json
-	 1    {
-	 2      "name": "frontend",
-	 3      "version": "1.0.0",
-	 4      "main": "index.ts",
-	 5      "dependencies": {
-	 6        "expo": "~57.0.23",
-	 7        "expo-status-bar": "~57.0.1",
-	 8        "react": "19.2.3",
-	 9        "react-dom": "19.2.3",
-	10        "react-native": "0.86.3",
-	11        "react-native-web": "^0.21.2"
-	12      },
-	13      "devDependencies": {
-	14        "@types/react": "~19.2.2",
-	15        "typescript": "~6.0.3"
-	16      },
-	17      "scripts": {
-	18        "start": "expo start",
-	19        "android": "expo start --android",
-	20        "ios": "expo start --ios",
-	21        "web": "expo start --web"
-	22      },
-	23      "private": true
-	24    }
-	```
-
-- Por tunel
-
-	
-
-- Modificar el código del 'package.json', para asegurar que el proyecto funcione correctamente. Se incluyen las dependencias necesarias para el proyecto, según se requiera para que funcione con o sin el emulador Android. 
-
-- Para que funcione CON el Emulador:
+- Incluir en el código del 'package.json' las dependencias para asegurar que el proyecto funcione correctamente:
                     
 	```json
 	{
@@ -340,46 +280,11 @@
 		"private": true
 	}
 	```
+- Instalar las dependencias desde la terminar de Visual Studio Code el siguiente comando:
 
-
-- Para que funcione correctamente SIN el emulador Android, modificar el código del 'package.json' de la siguiente manera:
-                    
 	```bash
-	{
-		"name": "frontend_mob",
-		"version": "1.0.0",
-		"main": "index.ts",
-		"scripts": {    
-			"start": "expo start --tunnel --clear",
-			"start:local": "expo start --host lan --clear",
-			"start:offline": "expo start --offline --clear",
-			"android": "echo 'NO USAR - Busca emulador' && exit 1",
-			"ios": "echo 'NO USAR - Busca emulador' && exit 1",
-			"web": "expo start --web"
-		},
-		"dependencies": {
-			"@react-native-async-storage/async-storage": "2.2.0",
-			"@react-navigation/native": "^7.1.28",
-			"@react-navigation/native-stack": "^7.10.1",
-			"@react-navigation/stack": "^7.6.16",
-			"axios": "^1.13.2",
-			"expo": "~54.0.32",
-			"expo-status-bar": "~3.0.9",
-			"react": "19.1.0",
-			"react-native": "0.81.5",
-			"react-native-safe-area-context": "~5.6.0",
-			"react-native-screens": "~4.16.0"
-		},
-		"devDependencies": {
-			"@types/react": "~19.1.0",
-			"typescript": "~5.9.2"
-		},
-		"private": true
-	}
+	npm i
 	```
-
-### 4.2. Modificar el archivo 'App.tsx' 
-
 
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
