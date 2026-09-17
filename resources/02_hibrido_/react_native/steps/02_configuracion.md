@@ -32,7 +32,7 @@
 	- Cambiar el color de la terminal **'frontend'**, dando click derecho / Chage Color... / Seleccionar el color
 - Ingresar a la carpeta **'frontend'** y eliminar el archivo **'delete'**:
 
-**<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
+**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
 ## 2. Iniciar el Proyecto
@@ -88,7 +88,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; npm notice<br>
 <br>
 
-**<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
+**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
 ## 3. Ejecutar el Proyecto
@@ -211,7 +211,7 @@
 - Seleccionar en **'Dimensions'** un dispositivo móvil.
 
 
-**<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
+**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 
 ---
@@ -380,7 +380,7 @@
 		20    });
 		```
 
-**<div align="right"><a href="#punto-2-estructura-del-proyecto">Volver al Menú</a></div>**
+**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
 ## 5. Crear la Estructura del Proyecto
@@ -465,7 +465,7 @@ Si está en Github, puede utilizar este recurso https://download-directory.githu
 4.2. Pegar las imágenes al proyecto, en la carpeta 'frontend/frontend_mob/assets'.
 
 
-<div align="right"><a href="#-punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 
 &nbsp;
@@ -483,7 +483,7 @@ Si tiene dificultades, abra el abra el puerto 3000 en Firewall con los siguiente
 08.	Póngale un nombre como "Puerto 3000 Backend" → Finalizar
 
 
-<div align="right"><a href="#-punto-1-entorno-de-desarrollo">Volver al Menú</a></div>
+**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
 <div align="right">
