@@ -4,7 +4,7 @@
 2. **[Iniciar del Proyecto](#2-iniciar-el-proyecto)**
 3. **[Ejecutar el Proyecto](#3-ejecutar-el-proyecto)**
 4. **[Configurar el Proyecto](#4-configurar-el-proyecto)**
-5. **[Crear la Estructura del Proyecto](#5-crear-la-estructura-del-proyecto)**
+5. **[Estructurar del Proyecto](#5-estructurar-del-proyecto)**
 
 <br>
 
@@ -285,7 +285,10 @@
    33      "private": true
    34    }
 	```
-- Instalar las dependencias desde la terminar de Visual Studio Code el siguiente comando:
+
+### 4.2. Instalar las dependencias del Proyecto:
+
+- Actualizar las dependencias incluidas en el **'package.json'** desde la terminar de Visual Studio Code el siguiente comando:
 
 	```bash
 	npm i
@@ -295,9 +298,8 @@
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
-## 5. Crear la Estructura del Proyecto
+## 5. Estructurar del Proyecto
 &nbsp;
-
 
 	# C = Carpetas
 	# A = Archivos
@@ -367,9 +369,21 @@
 			├── package.json                                 # A. Manifiesto del frontend (nombre, dependencias, scripts).
 			└── tsconfig.json                                # A. Configuración para el compilador de TypeScript.
 
-4.1. Copiar de este mismo proyecto las imágenes que se encuentra en [assets](../assets/). 
 
-&nbsp;
+### 5.1. Crear la Estructura del Proyecto:
+
+- 
+
+### 5.2. Cargar las imágenes del Proyecto:
+
+- Ubicar las imágenes del proyecto que se encuentran en [assets](../assets/). 
+
+- Copiar el enlace de las imágenes del proyecto. 
+
+- Ir a la Plataforma [Directory Github](https://download-directory.github.io/). 
+
+- Pegar el enlace las imágenes del proyecto. 
+
 
 NOTA:
 
