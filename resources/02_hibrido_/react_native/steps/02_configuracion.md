@@ -360,7 +360,7 @@
 			├── AGENTS.md                                      # A. Archivo específico para trabajar con Agentes de Claude.
 			├── app.json                                       # A. Configuración utilizada por Expo para configurar la app.
 			├── App.tsx                                        # A. Raíz de la aplicación React Native (punto de entrada UI).
-			├── CLAUDE.md                                      # A. Contexto que le indica a los asistentes de IA (como Claude Code)
+			├── CLAUDE.md                                      # A. Contexto para los asistentes de IA (como Claude Code)
 			├── index.ts                                       # A. Punto de entrada para la aplicación React Native.
 			├── LICENSE                                        # A. Define qué se puede y qué no puede hacer en el código.
 			├── package-lock.json                              # A. Registra las versiones de las dependencias del frontend.
