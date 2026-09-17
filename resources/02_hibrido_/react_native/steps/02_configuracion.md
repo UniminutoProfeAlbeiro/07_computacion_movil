@@ -303,16 +303,17 @@
 	# A = Archivos
 
 	proyecto/                                      		       # C. Proyecto móvil en React Native.
-	└── frontend_mob/                                 		   # C. Carpeta raíz del proyecto en React Native.
-			├── .expo/                                         # C. Configuraciones del proyecto utilizados por la herramienta 'Expo'
+	└── frontend/                                     		   # C. Carpeta raíz del proyecto en React Native.
+			├── .claude/                                         # C. Importaciones al proyecto que vienen de 'Claude'
+			├── .expo/                                         # C. Configuraciones del proyecto utilizados por 'Expo'
 			├── assets/                                        # C. Recursos estáticos (imágenes, fuentes).
-			├── node_modules/                                  # C. Dependencias (librerías) instaladas para el frontend_mob.
+			├── node_modules/                                  # C. Dependencias (librerías) instaladas para el frontend.
 			├── src/                                           # C. Carpetas y archivos de la aplicación React Native.
 			│   ├── data/                                      # C. Capa para obtención y manipulación de datos.
 			│   │   ├── repositories/                          # C. Interfaces para acceder a diferentes fuentes de datos.
 			│   │   │   ├── AuthRepository.tsx                 # A. Lógica para la autenticación.
 			│   │   │   └── UserLocalRepository.tsx            # A. Gestión de datos del usuario a nivel local (AsyncStorage).
-			│   │   └── sources/                               # C. Implementaciones concretas de las fuentes de datos (local, remota).
+			│   │   └── sources/                               # C. Implementaciones  de las fuentes de datos (local, remota).
 			│   │       ├── local/                             # C. Lógica para acceder a datos almacenados localmente.
 			│   │       │   └── LocalStorage.tsx               # A. Interactua con el almacenamiento local (AsyncStorage).
 			│   │       └── remote/                            # C. Interactua con la API del backend (clientes API).
@@ -327,40 +328,43 @@
 			│   │   │   ├── AuthRepository.tsx                 # A. Interfaz para las operaciones de autenticación.
 			│   │   │   └── UserLocalRepository.tsx            # A. Interfaz para la gestión de datos locales del usuario.
 			│   │   └── useCases/                              # C. Lógica de negocio específica de la aplicación (dominio/data).
-			│   │       ├── auth/                              # C. Casos de uso relacionados con la autenticación (Login, Register).
+			│   │       ├── auth/                              # C. Casos de uso para la autenticación (Login, Register).
 			│   │       │   ├── LoginAuth.tsx                  # A. Lógica para el proceso de inicio de sesión del usuario.
 			│   │       │   └── RegisterAuth.tsx               # A. Lógica para el proceso de registro de nuevos usuarios.
 			│   │       └── userLocal/                         # C. Casos de uso relacionados con la gestión local del usuario.
 			│   │           ├── GetUserLocal.tsx               # A. Obtener información del usuario almacenado localmente.
 			│   │           ├── RemoveUserLocal.tsx            # A. Eliminar información del usuario almacenado localmente.
 			│   │           └── SaveUserLocal.tsx              # A. Guardar la información del usuario localmente.
-			│   └── presentation/                              # C. Capa de la interfaz y presentación de datos (components, views).
+			│   └── presentation/                              # C. Capa de interfaz y presentación de datos (components, views).
 			│       ├── components/                            # C. Componentes de interfaz de usuario (inputs, buttons).
 			│       │   ├── CustomTextInput.tsx                # A. Componente de entrada de texto personalizado con estilos.
 			│       │   └── RoundedButton.tsx                  # A. Componente de botón con estilos de bordes redondeados.
 			│       ├── hooks/                                 # C. Hooks personalizados para lógica de presentación reutilizable.
-			│       │   └── useUserLocal.tsx                   # A. Hook personalizado para manipular la información local del usuario.
+			│       │   └── useUserLocal.tsx                   # A. Hook para manipular la información local del usuario.
 			│       ├── theme/                                 # C. Estilos y la temática visual general de la aplicación.
 			│       │   └── AppTheme.tsx                       # A. Paleta de colores, tipografía y estilos consistentes.
 			│       └── views/                                 # C. Pantallas o vistas principales de la aplicación.
-			│           ├── home/                              # C. Archivos relacionados con la pantalla principal de la aplicación.
+			│           ├── home/                              # C. Archivos relacionados con la pantalla principal.
 			│           │   ├── Home.tsx                       # A. Componente principal de la pantalla inicio (Home).
 			│           │   ├── Styles.tsx                     # A. Estilos específicos para los componentes de la pantalla inicio.
 			│           │   └── ViewModel.tsx                  # A. Lógica de presentación para la pantalla inicio.
 			│           ├── profile/                           # C. Archivos relacionados con la pantalla de perfil del usuario.
-			│           │   └── info/                          # C. Archivos relacionados con la información del perfil del usuario.
+			│           │   └── info/                          # C. Archivos relacionados con el perfil del usuario.
 			│           │       ├── ProfileInfo.tsx            # A. Componente para mostrar la información del perfil del usuario.
-			│           │       └── ViewModel.tsx              # A. Lógica de presentación para la información del perfil del usuario.
+			│           │       └── ViewModel.tsx              # A. Lógica de presentación para el perfil del usuario.
 			│           └── register/                          # C. Archivos relacionados con la pantalla de registro de usuarios.
 			│               ├── Register.tsx                   # A. Componente principal de la pantalla de registro de usuarios.
-			│               ├── Styles.tsx                     # A. Estilos específicos para los componentes de la pantalla de registro.
+			│               ├── Styles.tsx                     # A. Estilos para los componentes de la pantalla de registro.
 			│               └── ViewModel.tsx                  # A. Lógica de presentación para la pantalla de registro de usuarios.
 			├── .gitignore                                     # A. Archivos y carpetas que Git debe ignorar (node_modules, etc.).
+			├── AGENTS.md                                      # A. Archivo específico para trabajar con Agentes de Claude.
 			├── app.json                                       # A. Configuración utilizada por Expo para configurar la app.
 			├── App.tsx                                        # A. Raíz de la aplicación React Native (punto de entrada UI).
-			├── index.ts                                       # A. Punto de entrada para la aplicación React Native (fuera de Expo).
-			├── package-lock.json                              # A. Registra las versiones exactas de las dependencias del frontend_mob.
-			├── package.json                                   # A. Manifiesto del proyecto frontend_mob (nombre, dependencias, scripts).
+			├── CLAUDE.md                                      # A. Contexto que le indica a los asistentes de IA (como Claude Code)
+			├── index.ts                                       # A. Punto de entrada para la aplicación React Native.
+			├── LICENSE                                        # A. Define qué se puede y qué no puede hacer en el código.
+			├── package-lock.json                              # A. Registra las versiones de las dependencias del frontend.
+			├── package.json                                   # A. Manifiesto del frontend (nombre, dependencias, scripts).
 			└── tsconfig.json                                  # A. Configuración para el compilador de TypeScript.
 
 4.1. Copiar de este mismo proyecto las imágenes que se encuentra en [assets](../assets/). 
