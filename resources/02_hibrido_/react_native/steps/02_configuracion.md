@@ -318,7 +318,7 @@
 			│   │       │   └── LocalStorage.tsx             # A. Interactua con el almacenamiento local (AsyncStorage).
 			│   │       └── remote/                          # C. Interactua con la API del backend (clientes API).
 			│   │           ├── api/                         # C. Clientes o servicios para realizar llamadas a la API.
-			│   │           │   └── ApiDelivery.tsx          # A. Cliente para interactuar con la API relacionada con "delivery".
+			│   │           │   └── ApiDelivery.tsx          # A. Cliente para interactuar la API con "delivery".
 			│   │           └── models/                      # C. Estructuras de datos que se reciben de la API.
 			│   │               └── ResponseApiDelivery.tsx	 # A. Tipo de la respuesta de la API de "delivery".
 			│   ├── domain/                                  # C. Lógica de negocio y entidades del dominio (independiente).
@@ -327,7 +327,7 @@
 			│   │   ├── repositories/                        # C. Interfaces para acceder a los datos (implementado en Data).
 			│   │   │   ├── AuthRepository.tsx               # A. Interfaz para las operaciones de autenticación.
 			│   │   │   └── UserLocalRepository.tsx          # A. Interfaz para la gestión de datos locales del usuario.
-			│   │   └── useCases/                            # C. Lógica de negocio específica de la aplicación (dominio/data).
+			│   │   └── useCases/                            # C. Lógica de negocio de la aplicación (dominio/data).
 			│   │       ├── auth/                            # C. Casos de uso para la autenticación (Login, Register).
 			│   │       │   ├── LoginAuth.tsx                # A. Lógica para el proceso de inicio de sesión del usuario.
 			│   │       │   └── RegisterAuth.tsx             # A. Lógica para el proceso de registro de nuevos usuarios.
@@ -346,17 +346,17 @@
 			│       └── views/                               # C. Pantallas o vistas principales de la aplicación.
 			│           ├── home/                            # C. Archivos relacionados con la pantalla principal.
 			│           │   ├── Home.tsx                     # A. Componente principal de la pantalla inicio (Home).
-			│           │   ├── Styles.tsx                   # A. Estilos específicos para los componentes de la pantalla inicio.
+			│           │   ├── Styles.tsx                   # A. Estilos para los componentes de la pantalla inicio.
 			│           │   └── ViewModel.tsx                # A. Lógica de presentación para la pantalla inicio.
-			│           ├── profile/                         # C. Archivos relacionados con la pantalla de perfil del usuario.
+			│           ├── profile/                         # C. Archivos relacionados con el perfil del usuario.
 			│           │   └── info/                        # C. Archivos relacionados con el perfil del usuario.
-			│           │       ├── ProfileInfo.tsx          # A. Componente para mostrar la información del perfil del usuario.
+			│           │       ├── ProfileInfo.tsx          # A. Componente para mostrar información del perfil del usuario.
 			│           │       └── ViewModel.tsx            # A. Lógica de presentación para el perfil del usuario.
 			│           └── register/                        # C. Archivos relacionados con la pantalla de registro de usuarios.
 			│               ├── Register.tsx                 # A. Componente principal de la pantalla de registro de usuarios.
 			│               ├── Styles.tsx                   # A. Estilos para los componentes de la pantalla de registro.
-			│               └── ViewModel.tsx                # A. Lógica de presentación para la pantalla de registro de usuarios.
-			├── .gitignore                                   # A. Archivos y carpetas que Git debe ignorar (node_modules, etc.).
+			│               └── ViewModel.tsx                # A. Lógica de presentación para la pantalla registro de usuarios.
+			├── .gitignore                                   # A. Archivos y carpetas que Git debe ignorar.
 			├── AGENTS.md                                    # A. Archivo específico para trabajar con Agentes de Claude.
 			├── app.json                                     # A. Configuración utilizada por Expo para configurar la app.
 			├── App.tsx                                      # A. Raíz de la aplicación React Native (punto de entrada UI).
