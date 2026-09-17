@@ -250,35 +250,40 @@
 - Incluir en el código del 'package.json' las dependencias para asegurar que el proyecto funcione correctamente:
                     
 	```json
-	{
-		"name": "frontend_mob",
-		"version": "1.0.0",
-		"main": "index.ts",
-		"scripts": {
-			"start": "expo start",
-			"android": "expo start --android",
-			"ios": "expo start --ios",
-			"web": "expo start --web"
-		},
-		"dependencies": {
-			"@react-native-async-storage/async-storage": "2.2.0",
-			"@react-navigation/native": "^7.1.28",
-			"@react-navigation/native-stack": "^7.10.1",
-			"@react-navigation/stack": "^7.6.16",
-			"axios": "^1.13.2",
-			"expo": "~54.0.32",
-			"expo-status-bar": "~3.0.9",
-			"react": "19.1.0",
-			"react-native": "0.81.5",
-			"react-native-safe-area-context": "~5.6.0",
-			"react-native-screens": "~4.16.0"
-		},
-		"devDependencies": {
-			"@types/react": "~19.1.0",
-			"typescript": "~5.9.2"
-		},
-		"private": true
-	}
+   1    {
+   2      "name": "frontend",
+   3      "version": "1.0.0",
+   4      "main": "index.ts",
+   5      "dependencies": {
+   6        "expo": "~57.0.23",
+   7        "expo-status-bar": "~57.0.1",
+   8        "react": "19.2.3",
+   9        "react-dom": "19.2.3",
+  10        "react-native": "0.86.3",
+  11        "react-native-web": "^0.21.2",
+  12        "@react-native-async-storage/async-storage": "2.2.0",
+  13        "@react-navigation/native": "^7.1.28",
+  14        "@react-navigation/native-stack": "^7.10.1",    
+  15        "@react-navigation/stack": "^7.6.16",
+  16        "axios": "^1.13.2",
+  17        "react-native-safe-area-context": "~5.6.0",
+  18        "react-native-screens": "~4.16.0"    
+  19      },
+  20      "devDependencies": {
+  21        "@expo/ngrok": "^4.1.3",
+  22        "@types/react": "~19.2.2",
+  23        "typescript": "~6.0.3"
+  24      },
+  25      "scripts": {
+  26        "start": "expo start --tunnel --clear",
+  27        "start:local": "expo start --host lan --clear",
+  28        "start:offline": "expo start --offline --clear",
+  29        "android": "expo start --android",
+  30        "ios": "expo start --ios",
+  31        "web": "expo start --web"
+  32      },
+  33      "private": true
+  34    }
 	```
 - Instalar las dependencias desde la terminar de Visual Studio Code el siguiente comando:
 
