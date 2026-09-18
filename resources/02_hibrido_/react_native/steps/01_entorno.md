@@ -26,7 +26,7 @@
 
 ### 1.1.4. Instalar extensiones en Visual Studio Code
 
-- En Visual Studio Code agregar las siguientes extensiones:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En Visual Studio Code agregar las siguientes extensiones:
 
   ```
   Material Icon Theme
