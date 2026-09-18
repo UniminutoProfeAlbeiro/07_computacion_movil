@@ -65,7 +65,7 @@ TypeScript importerM
 
 #### 1.3.2. Verificar restricciones del 'npm'
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar el siguiente comando en PowerShell para verificar la política de ejecución:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar el siguiente comando en PowerShell para verificar la política de ejecución:
 
 ```powershell
 Get-ExecutionPolicy
