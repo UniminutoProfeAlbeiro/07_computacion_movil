@@ -379,8 +379,8 @@
   ```bash
   mkdir -p src/data
   mkdir -p src/data/entities
-  touch -p src/data/AuthRepository.tsx
   mkdir -p src/data/repositories
+  ni src/data/repositories/AuthRepository.tsx -ItemType File -Force
   mkdir -p src/data/sources
   mkdir -p src/data/sources/local
   mkdir -p src/data/sources/remote
