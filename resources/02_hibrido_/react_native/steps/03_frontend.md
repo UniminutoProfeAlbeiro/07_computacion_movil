@@ -1,7 +1,13 @@
 # 📝Punto 3: Frontend
 
-3.1. **[Vista del Formulario de Registro](#31-vista-del-formulario-de-registro)**
+3.1. **[Vista del Formulario de Autoregistro](#31-vista-del-formulario-de-autoregistro)**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.1.1. **[Estilos Globales](#)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.1.2. **[Componente controles tipo Texto](#)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.1.3. **[Componente controles tipo Botón](#)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.1.4. **[Estilos Formulario](#)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.1.5. **[Lógica Pantalla de Autoregistro](#)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.1.6. **[Presentación Pantalla de Autoregistro](#)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.1.7. **[Ajustes Finales](#)**
 <br>3.2. **[Vista del Formulario de Inicio de Sesión](#2-iniciar-el-proyecto)**
 
 <br>
@@ -9,7 +15,7 @@
 **<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 
 ---
-## 3.1. Vista del Formulario de Registro
+## 3.1. Vista del Formulario de Autoregistro
 &nbsp;
 
 ### 3.1.1. Descargar el '.ZIP' del Repositorio :
