@@ -374,9 +374,9 @@
 
 ### 5.2. Crear la Estructura del Proyecto:
 
-- Crear las **Carpetas** y **Archivos** del proyecto, copiando el siguiente código
+- Crear las **Carpetas** y **Archivos** del proyecto, copiando el siguiente código:
 
-  ```powershell
+  ```bash
   mkdir -p src/data
   mkdir -p src/data/repositories
   ni src/data/repositories/AuthRepository.tsx -ItemType File -Force
