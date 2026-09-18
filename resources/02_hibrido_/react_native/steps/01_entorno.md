@@ -106,25 +106,26 @@ npm --version # Debe mostrar v9.x.x o superior
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Si la instalación no sale como se espera porque hay una versión de Android Studio instalada, revise el siguiente enlace para 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; desinstalarlo totalmente y repita los pasos 4.1 y 4.2: [Desinstalar completamente Android Studio](https://blog.buhoos.com/como-desinstalar-completamente-android-studio-de-windows-10/)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguiente programa para eliminar carpetas o archivos: [iobit-unlocker](https://www.iobit.com/es/iobit-unlocker.php#)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguiente programa para eliminar carpetas o archivos:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [iobit-unlocker](https://www.iobit.com/es/iobit-unlocker.php#)
 
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
 ---
-## 5. Crear el Emulador de Android Studio
+## 1.5. Crear el Emulador de Android Studio
 &nbsp;
 
-### 5.1. Seleccionar 'More Actions / Virtual Device Manager'
+### 1.5.1. Seleccionar 'More Actions / Virtual Device Manager'
 
-### 5.2. Seleccionar la opción '(+) Create Virtual Device'.
+### 1.5.2. Seleccionar la opción '(+) Create Virtual Device'.
 
-### 5.3. Seleccionar un Emulador, por ejemplo, 'Pixel 6a' (Con el icono de Play Store)  / 'Next'.
+### 1.5.3. Seleccionar un Emulador, por ejemplo, 'Pixel 6a' (Con el icono de Play Store)  / 'Next'.
 
-### 5.4. 'Next' / 'API 33 "Tiramisu"; Android 13.0' / Google Play Intel x86_64 Atom System Image.
+### 1.5.4. 'Next' / 'API 33 "Tiramisu"; Android 13.0' / Google Play Intel x86_64 Atom System Image.
 
-### 5.5. 'Finish' / 'Yes' / 'Finish'.
+### 1.5.5. 'Finish' / 'Yes' / 'Finish'.
 
-### 5.6. Ejecutar el Emulador dando click en la punta de flecha (columna 'Actions')
+### 1.5.6. Ejecutar el Emulador dando click en la punta de flecha (columna 'Actions')
 
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
