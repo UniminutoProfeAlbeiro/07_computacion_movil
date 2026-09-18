@@ -1,10 +1,10 @@
 # 📝Punto 2: Configuración del Proyecto
 
 2.1. **[Preparar del Proyecto](#21-preparar-el-proyecto)**
-2.2. **[Iniciar del Proyecto](#22-iniciar-el-proyecto)**
-2.3. **[Ejecutar el Proyecto](#23-ejecutar-el-proyecto)**
-2.4. **[Configurar el Proyecto](#24-configurar-el-proyecto)**
-2.5. **[Estructurar el Proyecto](#25-estructurar-el-proyecto)**
+<br>2.2. **[Iniciar del Proyecto](#22-iniciar-el-proyecto)**
+<br>2.3. **[Ejecutar el Proyecto](#23-ejecutar-el-proyecto)**
+<br>2.4. **[Configurar el Proyecto](#24-configurar-el-proyecto)**
+<br>2.5. **[Estructurar el Proyecto](#25-estructurar-el-proyecto)**
 
 <br>
 
