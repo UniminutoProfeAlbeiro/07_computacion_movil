@@ -431,11 +431,11 @@
 
 ### 5.3. Cargar las imágenes del Proyecto a la carpeta 'assets':
 
-- Ubicar las imágenes del proyecto que se encuentran en **[assets](../assets/)**. 
+- Ubicar las imágenes del proyecto que se encuentran en la carpeta **[assets](../assets/)** ubicada en los recursos. 
 
-- Copiar todas las imágenes **'assets'**
+- Copiar todas las imágenes de la carpeta **'assets'**
 
-- Pegar en la carpeta  del proyecto **'frontend/assets'**. 
+- Pegar las imágenes en la carpeta **'frontend/assets'**. 
 
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
