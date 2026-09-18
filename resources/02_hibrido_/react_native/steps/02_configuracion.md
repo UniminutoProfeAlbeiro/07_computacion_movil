@@ -192,7 +192,7 @@ npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones 
 #### 2.3.5. Ejecutar el proyecto en el Navegador Web
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el navegador web: 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias para poder ejecutar el proyecto en el navegador web: 
 
 ```bash
 npx expo install react-dom react-native-web
@@ -210,30 +210,30 @@ npm run web
 
 #### 2.3.6. Modificar el Mensaje e Inicio de la App
 
-- En 'frontend_mob/App.tsx' modificar la línea 7 :
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En 'frontend_mob/App.tsx' modificar la línea 7 :
 
-  ```tsx
-   1    import { StatusBar } from 'expo-status-bar';
-   2    import { StyleSheet, Text, View } from 'react-native';
-   3  
-   4    export default function App() {
-   5      return (
-   6        <View style={styles.container}>
-   7          <Text>¡Hola Mundo!</Text>
-   8          <StatusBar style="auto" />
-   9        </View>
-  10      );
-  11    }
-  12  
-  13    const styles = StyleSheet.create({
-  14      container: {
-  15        flex: 1,
-  16        backgroundColor: '#fff',
-  17        alignItems: 'center',
-  18        justifyContent: 'center',
-  19      },
-  20    });
-  ```
+```tsx
+ 1    import { StatusBar } from 'expo-status-bar';
+ 2    import { StyleSheet, Text, View } from 'react-native';
+ 3  
+ 4    export default function App() {
+ 5      return (
+ 6        <View style={styles.container}>
+ 7          <Text>¡Hola Mundo!</Text>
+ 8          <StatusBar style="auto" />
+ 9        </View>
+10      );
+11    }
+12  
+13    const styles = StyleSheet.create({
+14      container: {
+15        flex: 1,
+16        backgroundColor: '#fff',
+17        alignItems: 'center',
+18        justifyContent: 'center',
+19      },
+20    });
+```
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
@@ -243,55 +243,54 @@ npm run web
 
 #### 2.4.1. Modificar el archivo 'package.json' 
 
-- Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
 
-- Incluir en el código del 'package.json' las dependencias para asegurar que el proyecto funcione correctamente:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Incluir en el código del 'package.json' las dependencias para asegurar que el proyecto funcione correctamente:
                     
-	```json
-    1    {
-    2      "name": "frontend",
-    3      "version": "1.0.0",
-    4      "main": "index.ts",
-    5      "dependencies": {
-    6        "expo": "~57.0.23",
-    7        "expo-status-bar": "~57.0.1",
-    8        "react": "19.2.3",
-    9        "react-dom": "19.2.3",
-   10        "react-native": "0.86.3",
-   11        "react-native-web": "^0.21.2",
-   12        "@react-native-async-storage/async-storage": "2.2.0",
-   13        "@react-navigation/native": "^7.1.28",
-   14        "@react-navigation/native-stack": "^7.10.1",    
-   15        "@react-navigation/stack": "^7.6.16",
-   16        "axios": "^1.13.2",
-   17        "react-native-safe-area-context": "~5.6.0",
-   18        "react-native-screens": "~4.16.0"    
-   19      },
-   20      "devDependencies": {
-   21        "@expo/ngrok": "^4.1.3",
-   22        "@types/react": "~19.2.2",
-   23        "typescript": "~6.0.3"
-   24      },
-   25      "scripts": {
-   26        "start": "expo start --tunnel --clear",
-   27        "start:local": "expo start --host lan --clear",
-   28        "start:offline": "expo start --offline --clear",
-   29        "android": "expo start --android",
-   30        "ios": "expo start --ios",
-   31        "web": "expo start --web"
-   32      },
-   33      "private": true
-   34    }
-	```
+```json
+ 1    {
+ 2      "name": "frontend",
+ 3      "version": "1.0.0",
+ 4      "main": "index.ts",
+ 5      "dependencies": {
+ 6        "expo": "~57.0.23",
+ 7        "expo-status-bar": "~57.0.1",
+ 8        "react": "19.2.3",
+ 9        "react-dom": "19.2.3",
+10        "react-native": "0.86.3",
+11        "react-native-web": "^0.21.2",
+12        "@react-native-async-storage/async-storage": "2.2.0",
+13        "@react-navigation/native": "^7.1.28",
+14        "@react-navigation/native-stack": "^7.10.1",    
+15        "@react-navigation/stack": "^7.6.16",
+16        "axios": "^1.13.2",
+17        "react-native-safe-area-context": "~5.6.0",
+18        "react-native-screens": "~4.16.0"    
+19      },
+20      "devDependencies": {
+21        "@expo/ngrok": "^4.1.3",
+22        "@types/react": "~19.2.2",
+23        "typescript": "~6.0.3"
+24      },
+25      "scripts": {
+26        "start": "expo start --tunnel --clear",
+27        "start:local": "expo start --host lan --clear",
+28        "start:offline": "expo start --offline --clear",
+29        "android": "expo start --android",
+30        "ios": "expo start --ios",
+31        "web": "expo start --web"
+32      },
+33      "private": true
+34    }
+```
 
 #### 2.4.2. Instalar las dependencias del Proyecto:
 
-- Actualizar las dependencias incluidas en el **'package.json'** desde la terminar de Visual Studio Code el siguiente comando:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Actualizar las dependencias incluidas en el **'package.json'** desde la terminar de Visual Studio Code el siguiente comando:
 
-	```bash
-	npm i
-	```
-
+```bash
+npm i
+```
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
@@ -372,67 +371,65 @@ npm run web
 
 #### 2.5.2. Crear la Estructura del Proyecto:
 
-- Crear las **Carpetas** y **Archivos** del proyecto, copiando el siguiente código:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Crear las **Carpetas** y **Archivos** del proyecto, copiando el siguiente código:
 
-  ```bash
-  mkdir -p src/data
-  mkdir -p src/data/repositories
-  ni src/data/repositories/AuthRepository.tsx -ItemType File -Force
-  ni src/data/repositories/UserLocalRepository.tsx -ItemType File -Force
-  mkdir -p src/data/sources
-  mkdir -p src/data/sources/local
-  ni src/data/sources/local/LocalStorage.tsx -ItemType File -Force
-  mkdir -p src/data/sources/remote
-  mkdir -p src/data/sources/remote/api
-  ni src/data/sources/remote/api/ApiDelivery.tsx -ItemType File -Force
-  mkdir -p src/data/sources/remote/models
-  ni src/data/sources/remote/models/ResponseApiDelivery.tsx -ItemType File -Force
-  mkdir -p src/domain
-  mkdir -p src/domain/entities
-  ni src/domain/entities/User.tsx -ItemType File -Force
-  mkdir -p src/domain/repositories
-  ni src/domain/repositories/AuthRepository.tsx -ItemType File -Force
-  ni src/domain/repositories/UserLocalRepository.tsx -ItemType File -Force
-  mkdir -p src/domain/useCases
-  mkdir -p src/domain/useCases/auth
-  ni src/domain/useCases/auth/LoginAuth.tsx -ItemType File -Force
-  ni src/domain/useCases/auth/RegisterAuth.tsx -ItemType File -Force
-  mkdir -p src/domain/useCases/userLocal
-  ni src/domain/useCases/userLocal/GetUserLocal.tsx -ItemType File -Force
-  ni src/domain/useCases/userLocal/RemoveUserLocal.tsx -ItemType File -Force
-  ni src/domain/useCases/userLocal/SaveUserLocal.tsx -ItemType File -Force
-  mkdir -p src/presentation
-  mkdir -p src/presentation/components
-  ni src/presentation/components/CustomTextInput.tsx -ItemType File -Force
-  ni src/presentation/components/RoundedButton.tsx -ItemType File -Force
-  mkdir -p src/presentation/hooks
-  ni src/presentation/hooks/useUserLocal.tsx -ItemType File -Force
-  mkdir -p src/presentation/theme
-  ni src/presentation/theme/AppTheme.tsx -ItemType File -Force
-  mkdir -p src/presentation/views
-  mkdir -p src/presentation/views/home
-  ni src/presentation/views/home/Home.tsx -ItemType File -Force
-  ni src/presentation/views/home/Styles.tsx -ItemType File -Force
-  ni src/presentation/views/home/ViewModel.tsx -ItemType File -Force
-  mkdir -p src/presentation/views/profile
-  mkdir -p src/presentation/views/profile/info
-  ni src/presentation/views/profile/info/ProfileInfo.tsx -ItemType File -Force
-  ni src/presentation/views/profile/info/ViewModel.tsx -ItemType File -Force
-  mkdir -p src/presentation/views/register
-  ni src/presentation/views/register/Register.tsx -ItemType File -Force
-  ni src/presentation/views/register/Styles.tsx -ItemType File -Force
-  ni src/presentation/views/register/ViewModel.tsx -ItemType File -Force
+```bash
+mkdir -p src/data
+mkdir -p src/data/repositories
+ni src/data/repositories/AuthRepository.tsx -ItemType File -Force
+ni src/data/repositories/UserLocalRepository.tsx -ItemType File -Force
+mkdir -p src/data/sources
+mkdir -p src/data/sources/local
+ni src/data/sources/local/LocalStorage.tsx -ItemType File -Force
+mkdir -p src/data/sources/remote
+mkdir -p src/data/sources/remote/api
+ni src/data/sources/remote/api/ApiDelivery.tsx -ItemType File -Force
+mkdir -p src/data/sources/remote/models
+ni src/data/sources/remote/models/ResponseApiDelivery.tsx -ItemType File -Force
+mkdir -p src/domain
+mkdir -p src/domain/entities
+ni src/domain/entities/User.tsx -ItemType File -Force
+mkdir -p src/domain/repositories
+ni src/domain/repositories/AuthRepository.tsx -ItemType File -Force
+ni src/domain/repositories/UserLocalRepository.tsx -ItemType File -Force
+mkdir -p src/domain/useCases
+mkdir -p src/domain/useCases/auth
+ni src/domain/useCases/auth/LoginAuth.tsx -ItemType File -Force
+ni src/domain/useCases/auth/RegisterAuth.tsx -ItemType File -Force
+mkdir -p src/domain/useCases/userLocal
+ni src/domain/useCases/userLocal/GetUserLocal.tsx -ItemType File -Force
+ni src/domain/useCases/userLocal/RemoveUserLocal.tsx -ItemType File -Force
+ni src/domain/useCases/userLocal/SaveUserLocal.tsx -ItemType File -Force
+mkdir -p src/presentation
+mkdir -p src/presentation/components
+ni src/presentation/components/CustomTextInput.tsx -ItemType File -Force
+ni src/presentation/components/RoundedButton.tsx -ItemType File -Force
+mkdir -p src/presentation/hooks
+ni src/presentation/hooks/useUserLocal.tsx -ItemType File -Force
+mkdir -p src/presentation/theme
+ni src/presentation/theme/AppTheme.tsx -ItemType File -Force
+mkdir -p src/presentation/views
+mkdir -p src/presentation/views/home
+ni src/presentation/views/home/Home.tsx -ItemType File -Force
+ni src/presentation/views/home/Styles.tsx -ItemType File -Force
+ni src/presentation/views/home/ViewModel.tsx -ItemType File -Force
+mkdir -p src/presentation/views/profile
+mkdir -p src/presentation/views/profile/info
+ni src/presentation/views/profile/info/ProfileInfo.tsx -ItemType File -Force
+ni src/presentation/views/profile/info/ViewModel.tsx -ItemType File -Force
+mkdir -p src/presentation/views/register
+ni src/presentation/views/register/Register.tsx -ItemType File -Force
+ni src/presentation/views/register/Styles.tsx -ItemType File -Force
+ni src/presentation/views/register/ViewModel.tsx -ItemType File -Force
 
-	```
+```
 
-- Pegar el código en la terminal de Visual Studio Code (Verificar que esté en **..\frontend>**) y presione la tecla **ENTER**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Pegar el código en la terminal de Visual Studio Code (Verificar que esté en **..\frontend>**) y presione la tecla **ENTER**.
 
 #### 2.5.3. Cargar las imágenes del Proyecto a la carpeta '../frontend/assets':
 
-- Copiar las imágenes del proyecto que se encuentran en la carpeta **../resources/02_hibrido_/react_native/assets**. 
-
-- Pegar las imágenes en la carpeta **'../frontend/assets'**. 
-
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Copiar las imágenes del proyecto que se encuentran en la carpeta **../resources/02_hibrido_/react_native/assets**.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Pegar las imágenes en la carpeta **'../frontend/assets'**. 
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
