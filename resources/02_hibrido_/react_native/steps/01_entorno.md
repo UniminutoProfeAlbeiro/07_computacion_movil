@@ -16,15 +16,15 @@
 ## 1.1. Instalar Visual Studio Code
 &nbsp;
 
-### 1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
+### 1.1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
-### 2. Instalar Visual Studio Code. 
+### 1.1.2. Instalar Visual Studio Code. 
 		
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
 
-### 3. Abrir Visual Studio Code
+### 1.1.3. Abrir Visual Studio Code
 
-### 4. Instalar extensiones en Visual Studio Code
+### 1.1.4. Instalar extensiones en Visual Studio Code
 
 - En Visual Studio Code agregar las siguientes extensiones:
 
@@ -47,7 +47,7 @@
   TypeScript importerM
   ```
 
-### 5. Cerrar Visual Studio Code
+### 1.1.5. Cerrar Visual Studio Code
 
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
