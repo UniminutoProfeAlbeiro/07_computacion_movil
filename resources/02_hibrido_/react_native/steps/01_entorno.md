@@ -101,7 +101,7 @@ npm --version # Debe mostrar v9.x.x o superior
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; 'Next' / ✅ 'Android Virtual Device' - 'Next' / ✅ 'Standard' - 'Next' / 'Next' / ✅ 'Accept' - 'Next' / 'Install' / 'Finish'.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Nota**:
+### Nota:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Si la instalación no sale como se espera porque hay una versión de Android Studio instalada, revise el siguiente enlace para 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; desinstalarlo totalmente y repita los pasos 4.1 y 4.2: [Desinstalar completamente Android Studio](https://blog.buhoos.com/como-desinstalar-completamente-android-studio-de-windows-10/)
@@ -130,14 +130,14 @@ npm --version # Debe mostrar v9.x.x o superior
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
 ---
-## 6. Configurar las variables de Entorno del Sistema
+## 1.6. Configurar las variables de Entorno del Sistema
 &nbsp;
 
-### 6.1. En el Menú Windows buscar 'Editar las variables de entorno del sistema'
+### 1.6.1. En el Menú Windows buscar 'Editar las variables de entorno del sistema'
 
-### 6.2. Dar clic en 'Variables de entorno ...'
+### 1.6.2. Dar clic en 'Variables de entorno ...'
 
-### 6.3. En las 'Variables de Sistema ...' dar clic en 'Nueva ...' y escribir lo siguiente:
+### 1.6.3. En las 'Variables de Sistema ...' dar clic en 'Nueva ...' y escribir lo siguiente:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Nombre de la variable**:  JAVA_HOME<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Valor de la variable**:   'Examinar Directorio': C:\Program Files\Android\Android Studio\jbr\bin<br>
@@ -148,12 +148,12 @@ npm --version # Debe mostrar v9.x.x o superior
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
 ---
-## 7. Instalar Expo Go en el Celular
+## 1.7. Instalar Expo Go en el Celular
 &nbsp;
 
-### 7.1. En el celular, abrir la tienda de aplicaciones y buscar 'Expo Go' para instalarlo.
+### 1.7.1. En el celular, abrir la tienda de aplicaciones y buscar 'Expo Go' para instalarlo.
 
-### 7.2. Instalar la aplicación 'Expo Go' en el celular.
+### 1.7.2. Instalar la aplicación 'Expo Go' en el celular.
 
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
