@@ -427,7 +427,7 @@
 
 	```
 
-- Pegue el código en la terminal de Visual Studio Code (Verifique que esté en **..\frontend>**) y presione la tecla **ENTER**.
+- Pegar el código en la terminal de Visual Studio Code (Verificar que esté en **..\frontend>**) y presione la tecla **ENTER**.
 
 ### 5.3. Cargar las imágenes del Proyecto a la carpeta 'assets':
 
