@@ -16,22 +16,22 @@
 
 #### 2.1.1. Descargar el '.ZIP' del Repositorio
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ir a **[07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main)** y descargar el archivo '.ZIP'.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ir a **[07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main)** y descargar el archivo '.ZIP'.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
 
 #### 2.1.2. Crear un repositorio en Github
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Colocar el nombre del proyecto al Repositorio Creado 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso de no tener cuenta en Github, crear una (**[Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_trabajar_con_github.md)**).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Colocar el nombre del proyecto al Repositorio Creado 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso de no tener cuenta en Github, crear una (**[Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_trabajar_con_github.md)**).
 
 #### 2.1.3. Abrir el Proyecto en Visual Studio Code
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Asociar el proyecto con Visual Studio Code
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir una terminal de Visual Studio Code
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Asociar el proyecto con Visual Studio Code
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir una terminal de Visual Studio Code
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el nombre de la terminal a **'frontend'**, seleccionándola en la parte inferior derecha y presionando 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F2 / Rename...
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el color de la terminal **'frontend'**, dando click derecho / Chage Color... / Seleccionar el color
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ingresar a la carpeta **'frontend'** y eliminar el archivo **'delete'**:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ingresar a la carpeta **'frontend'** y eliminar el archivo **'delete'**:
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
@@ -41,7 +41,7 @@
 
 #### 2.2.1. Crear el Proyecto
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
 
 ```bash
 npx create-expo-app frontend --template blank-typescript
@@ -97,7 +97,7 @@ npx create-expo-app frontend --template blank-typescript
 
 #### 2.3.1. Ingresar a la carpeta "frontend"
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la terminal ir a la carpeta "frontend" con el siguiente comando:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la terminal ir a la carpeta "frontend" con el siguiente comando:
 
 ```bash
 cd frontend
@@ -105,7 +105,7 @@ cd frontend
 
 #### 2.3.2. Ejecutar el proyecto en el Emulador Android
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Para abrir el proyecto en el emulador Android, escribir en la terminal:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Para abrir el proyecto en el emulador Android, escribir en la terminal:
 
 ```bash
 npm run android
@@ -133,17 +133,17 @@ npm run android
 
 #### 2.3.3. Ejecutar el proyecto en el Dispositivo Móvil
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **Requisito previo**: Descargar e instalar la aplicación **"Expo Go"** desde la **Google Play Store (Android)** o **App 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **Requisito previo**: Descargar e instalar la aplicación **"Expo Go"** desde la **Google Play Store (Android)** o **App 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Store (iOS)** en el teléfono.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Asegurar que el teléfono y el computador estén **conectados a la misma red Wi-Fi**.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir la app Expo Go en el teléfono.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **Android**: Tocar el botón **"Scan QR code"** y escanear el código QR que aparece en la terminal del computador.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **iOS**: Abrir la aplicación de **Cámara de tu iPhone** y apuntar al código QR. Preguntará si se desea abrir en Expo Go.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Asegurar que el teléfono y el computador estén **conectados a la misma red Wi-Fi**.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir la app Expo Go en el teléfono.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **Android**: Tocar el botón **"Scan QR code"** y escanear el código QR que aparece en la terminal del computador.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **iOS**: Abrir la aplicación de **Cámara de tu iPhone** y apuntar al código QR. Preguntará si se desea abrir en Expo Go.
 
 #### 2.3.4. Ejecutar el proyecto en el Dispositivo Móvil a través de un Tunel (sin abrir el Emulador Android)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el dispositivo móvil a través de un túnel: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el dispositivo móvil a través de un túnel: 
 
 ```bash
 npm install -g @expo/ngrok@^4.1.0 # instalación global
@@ -153,7 +153,7 @@ npm install -g @expo/ngrok@^4.1.0 # instalación global
 npm install --save-dev @expo/ngrok@^4.1.0 # instalación local como dependencia de desarrollo
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Modificar el package.json:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Modificar el package.json:
 
 ```json
  1    {
@@ -183,7 +183,7 @@ npm install --save-dev @expo/ngrok@^4.1.0 # instalación local como dependencia 
 25    }
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar en el Visual Studio Code el siguiente comando:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar en el Visual Studio Code el siguiente comando:
 
 ```bash
 npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
@@ -191,26 +191,26 @@ npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones 
 
 #### 2.3.5. Ejecutar el proyecto en el Navegador Web
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias para poder ejecutar el proyecto en el navegador web: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias para poder ejecutar el proyecto en el navegador web: 
 
 ```bash
 npx expo install react-dom react-native-web
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar en el Visual Studio Code el siguiente comando:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar en el Visual Studio Code el siguiente comando:
 
 ```bash
 npm run web
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Con el Navegador Web abierto, Presionar la **Tecla F12** para abrir el inspector de propiedades.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Seleccionar la opción **'Toggle device toolbar'**.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Seleccionar en **'Dimensions'** un dispositivo móvil.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Con el Navegador Web abierto, Presionar la **Tecla F12** para abrir el inspector de propiedades.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Seleccionar la opción **'Toggle device toolbar'**.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Seleccionar en **'Dimensions'** un dispositivo móvil.
 
 #### 2.3.6. Modificar el Mensaje e Inicio de la App
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En 'frontend_mob/App.tsx' modificar la línea 7 :
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En 'frontend_mob/App.tsx' modificar la línea 7 :
 
 ```tsx
  1    import { StatusBar } from 'expo-status-bar';
@@ -243,8 +243,8 @@ npm run web
 
 #### 2.4.1. Modificar el archivo 'package.json' 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Incluir en el código del 'package.json' las dependencias para asegurar que el proyecto funcione correctamente:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Incluir en el código del 'package.json' las dependencias para asegurar que el proyecto funcione correctamente:
                     
 ```json
  1    {
@@ -285,7 +285,7 @@ npm run web
 
 #### 2.4.2. Instalar las dependencias del Proyecto:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Actualizar las dependencias incluidas en el **'package.json'** desde la terminar de Visual Studio Code el siguiente comando:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Actualizar las dependencias incluidas en el **'package.json'** desde la terminar de Visual Studio Code el siguiente comando:
 
 ```bash
 npm i
@@ -370,7 +370,7 @@ npm i
 
 #### 2.5.2. Crear la Estructura del Proyecto:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Crear las **Carpetas** y **Archivos** del proyecto, copiando el siguiente código:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Crear las **Carpetas** y **Archivos** del proyecto, copiando el siguiente código:
 
 ```bash
 mkdir -p src/data
@@ -423,12 +423,12 @@ ni src/presentation/views/register/ViewModel.tsx -ItemType File -Force
 
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Pegar el código en la terminal de Visual Studio Code (Verificar que esté en **..\frontend>**) y presione la tecla **ENTER**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Pegar el código en la terminal de Visual Studio Code (Verificar que esté en **..\frontend>**) y presione la tecla **ENTER**.
 
 #### 2.5.3. Cargar las imágenes del Proyecto a la carpeta '../frontend/assets':
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Copiar las imágenes del proyecto que se encuentran en la carpeta **../resources/02_hibrido_/react_native/assets**.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Pegar las imágenes en la carpeta **'../frontend/assets'**. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Copiar las imágenes del proyecto que se encuentran en la carpeta **../resources/02_hibrido_/react_native/assets**.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Pegar las imágenes en la carpeta **'../frontend/assets'**. 
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
