@@ -19,33 +19,29 @@
 ### 1.1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
 ### 1.1.2. Instalar Visual Studio Code. 
-		
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
 
 ### 1.1.3. Abrir Visual Studio Code
 
 ### 1.1.4. Instalar extensiones en Visual Studio Code
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En Visual Studio Code agregar las siguientes extensiones:
-
-  ```
-  Material Icon Theme
-  ```
-  ```
-  ES7 React/Redux/React-Native snippets
-  ```
-  ```
-  Simple React Snippets
-  ```
-  ```
-  Auto Close Tag
-  ```
-  ```
-  Paste JSON as Code
-  ```
-  ```
-  TypeScript importerM
-  ```
+```
+Material Icon Theme
+```
+```
+ES7 React/Redux/React-Native snippets
+```
+```
+Simple React Snippets
+```
+```
+Auto Close Tag
+```
+```
+Paste JSON as Code
+```
+```
+TypeScript importerM
+```
 
 ### 1.1.5. Cerrar Visual Studio Code
 
