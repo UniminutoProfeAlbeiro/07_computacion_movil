@@ -142,9 +142,9 @@ npm run android
 
 #### 2.3.4. Ejecutar el proyecto en el Dispositivo Móvil a través de un Tunel (sin abrir el Emulador Android)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code. 
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el dispositivo móvil a través de un túnel: 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el dispositivo móvil a través de un túnel: 
 
 ```bash
 npm install -g @expo/ngrok@^4.1.0 # instalación global
@@ -154,7 +154,7 @@ npm install -g @expo/ngrok@^4.1.0 # instalación global
 npm install --save-dev @expo/ngrok@^4.1.0 # instalación local como dependencia de desarrollo
 ```
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Modificar el package.json:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Modificar el package.json:
 
 ```json
  1    {
@@ -184,7 +184,7 @@ npm install --save-dev @expo/ngrok@^4.1.0 # instalación local como dependencia 
 25    }
 ```
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Ejecutar en el Visual Studio Code el siguiente comando:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar en el Visual Studio Code el siguiente comando:
 
 ```bash
 npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
