@@ -431,7 +431,7 @@
 
 ### 5.3. Cargar las imágenes del Proyecto a la carpeta 'assets':
 
-- Copiar las imágenes del proyecto que se encuentran en la carpeta **[../resources/02_hibrido_/react_native/assets](../assets/)**. 
+- Copiar las imágenes del proyecto que se encuentran en la carpeta **../resources/02_hibrido_/react_native/assets**. 
 
 - Pegar las imágenes en la carpeta **'../frontend/assets'**. 
 
