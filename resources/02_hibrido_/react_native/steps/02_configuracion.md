@@ -244,7 +244,6 @@ npm run web
 #### 2.4.1. Modificar el archivo 'package.json' 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
-
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Incluir en el código del 'package.json' las dependencias para asegurar que el proyecto funcione correctamente:
                     
 ```json
@@ -286,7 +285,7 @@ npm run web
 
 #### 2.4.2. Instalar las dependencias del Proyecto:
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Actualizar las dependencias incluidas en el **'package.json'** desde la terminar de Visual Studio Code el siguiente comando:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Actualizar las dependencias incluidas en el **'package.json'** desde la terminar de Visual Studio Code el siguiente comando:
 
 ```bash
 npm i
@@ -428,7 +427,7 @@ ni src/presentation/views/register/ViewModel.tsx -ItemType File -Force
 
 #### 2.5.3. Cargar las imágenes del Proyecto a la carpeta '../frontend/assets':
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Copiar las imágenes del proyecto que se encuentran en la carpeta **../resources/02_hibrido_/react_native/assets**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Copiar las imágenes del proyecto que se encuentran en la carpeta **../resources/02_hibrido_/react_native/assets**.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Pegar las imágenes en la carpeta **'../frontend/assets'**. 
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
