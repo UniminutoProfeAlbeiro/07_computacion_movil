@@ -429,7 +429,7 @@
 
 - Pegar el código en la terminal de Visual Studio Code (Verificar que esté en **..\frontend>**) y presione la tecla **ENTER**.
 
-### 5.3. Cargar las imágenes del Proyecto a la carpeta 'assets':
+### 5.3. Cargar las imágenes del Proyecto a la carpeta '../frontend/assets':
 
 - Copiar las imágenes del proyecto que se encuentran en la carpeta **../resources/02_hibrido_/react_native/assets**. 
 
