@@ -1,6 +1,6 @@
 # 📝Punto 1: Entorno de Desarrollo
 
-1.1. **[Instalar Visual Studio Code](#1-instalar-visual-studio-code)**
+1.1. **[Instalar Visual Studio Code](#11-instalar-visual-studio-code)**
 <br>1.2. **[Instalar Node.js](#12-instalar-nodejs)**
 <br>1.3. **[Modificar Directivas en PowerShell](#13-modificar-directivas-en-powershell)**
 <br>1.4. **[Instalar Instalar Android Studio](#14-instalar-instalar-android-studio)**
