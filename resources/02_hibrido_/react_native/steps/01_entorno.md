@@ -77,7 +77,7 @@ Set-ExecutionPolicy -Scope CurrentUser
 ```
 &nbsp;&nbsp;&nbsp; cmdlet Set-ExecutionPolicy en la posición 1 de la canalización de comandos<br>
 &nbsp;&nbsp;&nbsp; Proporcione valores para los parámetros siguientes:<br>
-&nbsp;&nbsp;&nbsp; ExecutionPolicy: **Unrestricted**<br>
+&nbsp;&nbsp;&nbsp; ExecutionPolicy: ***Unrestricted***<br>
 
 #### 1.3.3. Verificar versiones 'node' y 'npm':
 
