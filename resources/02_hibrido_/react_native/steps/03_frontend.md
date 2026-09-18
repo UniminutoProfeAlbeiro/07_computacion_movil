@@ -1,6 +1,6 @@
 # 📝Punto 3: Frontend
 
-3.1. **[Vista del Formulario de Registro](#31-vista-del-formulario-de-registro)**
+3.1. **[Vista del Formulario de Registro](#31-vista-del-formulario-de-registro)**<br>
 3.2. **[Vista del Formulario de Inicio de Sesión](#2-iniciar-el-proyecto)**
 
 <br>
