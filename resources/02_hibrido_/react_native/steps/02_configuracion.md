@@ -14,17 +14,17 @@
 ## 2.1. Preparar el Proyecto
 &nbsp;
 
-### 2.1.1. Descargar el '.ZIP' del Repositorio
+##### 2.1.1. Descargar el '.ZIP' del Repositorio
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ir a **[07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main)** y descargar el archivo '.ZIP'.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
 
-### 2.1.2. Crear un repositorio en Github
+##### 2.1.2. Crear un repositorio en Github
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Colocar el nombre del proyecto al Repositorio Creado 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso de no tener cuenta en Github, crear una (**[Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_trabajar_con_github.md)**).
 
-### 2.1.3. Abrir el Proyecto en Visual Studio Code
+##### 2.1.3. Abrir el Proyecto en Visual Studio Code
 
 - Asociar el proyecto con Visual Studio Code
 - Abrir una terminal de Visual Studio Code
@@ -38,7 +38,7 @@
 ## 2.2. Iniciar el Proyecto
 &nbsp;
 
-### 2.2.1. Crear el Proyecto
+#### 2.2.1. Crear el Proyecto
 
 - En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
 
@@ -94,7 +94,7 @@
 ## 2.3. Ejecutar el Proyecto
 &nbsp;
 
-### 2.3.1. Ingresar a la carpeta "frontend"
+#### 2.3.1. Ingresar a la carpeta "frontend"
 
 - En la terminal de Visual Studio Code ingresar al proyecto creado "frontend" con el siguiente comando:
 
@@ -102,7 +102,7 @@
 	cd frontend
 	```
 
-### 2.3.2. Ejecutar el proyecto en el Emulador Android
+#### 2.3.2. Ejecutar el proyecto en el Emulador Android
 
 - En la terminal de Visual Studio Code ejecutar el siguiente comando para iniciar el proyecto en el emulador Android:
 
@@ -130,7 +130,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Logs for your project will appear below. Press Ctrl+C to exit.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Android Bundled 4881ms index.ts (708 modules)
 
-### 2.3.3. Ejecutar el proyecto en el Dispositivo Móvil
+#### 2.3.3. Ejecutar el proyecto en el Dispositivo Móvil
 
 - **Requisito previo**: Descargar e instalar la aplicación **"Expo Go"** desde la **Google Play Store (Android)** o **App Store (iOS)** en el teléfono.
 - Asegurar que el teléfono y el computador estén **conectados a la misma red Wi-Fi**.
@@ -138,7 +138,7 @@
 - **Android**: Tocar el botón **"Scan QR code"** y escanear el código QR que aparece en la terminal del computador.
 - **iOS**: Abrir la aplicación de **Cámara de tu iPhone** y apuntar al código QR. Preguntará si se desea abrir en Expo Go.
 
-### 2.3.4. Ejecutar el proyecto en el Dispositivo Móvil a través de un Tunel (sin abrir el Emulador Android)
+#### 2.3.4. Ejecutar el proyecto en el Dispositivo Móvil a través de un Tunel (sin abrir el Emulador Android)
 
 - Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code. 
 
@@ -188,7 +188,7 @@
 	npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
 	```
 
-### 2.3.5. Ejecutar el proyecto en el Navegador Web
+#### 2.3.5. Ejecutar el proyecto en el Navegador Web
 
 - Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
 
@@ -210,7 +210,7 @@
 
 - Seleccionar en **'Dimensions'** un dispositivo móvil.
 
-### 2.3.6. Modificar el Mensaje e Inicio de la App
+#### 2.3.6. Modificar el Mensaje e Inicio de la App
 
 - En 'frontend_mob/App.tsx' modificar la línea 7 :
 
@@ -243,7 +243,7 @@
 ## 2.4. Configurar el Proyecto
 &nbsp;
 
-### 2.4.1. Modificar el archivo 'package.json' 
+#### 2.4.1. Modificar el archivo 'package.json' 
 
 - Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
 
@@ -286,7 +286,7 @@
    34    }
 	```
 
-### 2.4.2. Instalar las dependencias del Proyecto:
+#### 2.4.2. Instalar las dependencias del Proyecto:
 
 - Actualizar las dependencias incluidas en el **'package.json'** desde la terminar de Visual Studio Code el siguiente comando:
 
@@ -301,7 +301,7 @@
 ## 2.5. Estructurar el Proyecto
 &nbsp;
 
-### 2.5.1. Estructura del Proyecto:
+#### 2.5.1. Estructura del Proyecto:
 
 	# C = Carpetas
 	# A = Archivos
@@ -372,7 +372,7 @@
 			└── tsconfig.json                                # A. Configuración para el compilador de TypeScript.
 
 
-### 2.5.2. Crear la Estructura del Proyecto:
+#### 2.5.2. Crear la Estructura del Proyecto:
 
 - Crear las **Carpetas** y **Archivos** del proyecto, copiando el siguiente código:
 
@@ -429,7 +429,7 @@
 
 - Pegar el código en la terminal de Visual Studio Code (Verificar que esté en **..\frontend>**) y presione la tecla **ENTER**.
 
-### 2.5.3. Cargar las imágenes del Proyecto a la carpeta '../frontend/assets':
+#### 2.5.3. Cargar las imágenes del Proyecto a la carpeta '../frontend/assets':
 
 - Copiar las imágenes del proyecto que se encuentran en la carpeta **../resources/02_hibrido_/react_native/assets**. 
 
