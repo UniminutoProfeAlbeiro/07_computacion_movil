@@ -192,23 +192,20 @@ npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones 
 #### 2.3.5. Ejecutar el proyecto en el Navegador Web
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
-
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el navegador web: 
 
 ```bash
 npx expo install react-dom react-native-web
 ```
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar en el Visual Studio Code el siguiente comando:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar en el Visual Studio Code el siguiente comando:
 
 ```bash
 npm run web
 ```
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Con el Navegador Web abierto, Presionar la **Tecla F12** para abrir el inspector de propiedades.
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Con el Navegador Web abierto, Presionar la **Tecla F12** para abrir el inspector de propiedades.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Seleccionar la opción **'Toggle device toolbar'**.
-
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Seleccionar en **'Dimensions'** un dispositivo móvil.
 
 #### 2.3.6. Modificar el Mensaje e Inicio de la App
