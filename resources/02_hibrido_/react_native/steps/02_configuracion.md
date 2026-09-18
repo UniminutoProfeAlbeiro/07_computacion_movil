@@ -378,21 +378,52 @@
 
   ```bash
   mkdir -p src/data
-  mkdir -p src/data/entities
   mkdir -p src/data/repositories
   ni src/data/repositories/AuthRepository.tsx -ItemType File -Force
+  ni src/data/repositories/UserLocalRepository.tsx -ItemType File -Force
   mkdir -p src/data/sources
   mkdir -p src/data/sources/local
+  ni src/data/sources/local/LocalStorage.tsx -ItemType File -Force
   mkdir -p src/data/sources/remote
   mkdir -p src/data/sources/remote/api
+  ni src/data/sources/remote/api/ApiDelivery.tsx -ItemType File -Force
   mkdir -p src/data/sources/remote/models
+  ni src/data/sources/remote/models/ResponseApiDelivery.tsx -ItemType File -Force
   mkdir -p src/domain
   mkdir -p src/domain/entities
+  ni src/domain/entities/User.tsx -ItemType File -Force
   mkdir -p src/domain/repositories
+  ni src/domain/repositories/AuthRepository.tsx -ItemType File -Force
+  ni src/domain/repositories/UserLocalRepository.tsx -ItemType File -Force
   mkdir -p src/domain/useCases
   mkdir -p src/domain/useCases/auth
+  ni src/domain/useCases/auth/LoginAuth.tsx -ItemType File -Force
+  ni src/domain/useCases/auth/RegisterAuth.tsx -ItemType File -Force
   mkdir -p src/domain/useCases/userLocal
+  ni src/domain/useCases/userLocal/GetUserLocal.tsx -ItemType File -Force
+  ni src/domain/useCases/userLocal/RemoveUserLocal.tsx -ItemType File -Force
+  ni src/domain/useCases/userLocal/SaveUserLocal.tsx -ItemType File -Force
   mkdir -p src/presentation
+  mkdir -p src/presentation/components
+  ni src/presentation/components/CustomTextInput.tsx -ItemType File -Force
+  ni src/presentation/components/RoundedButton.tsx -ItemType File -Force
+  mkdir -p src/presentation/hooks
+  ni src/presentation/hooks/useUserLocal.tsx -ItemType File -Force
+  mkdir -p src/presentation/theme
+  ni src/presentation/theme/AppTheme.tsx -ItemType File -Force
+  mkdir -p src/presentation/views
+  mkdir -p src/presentation/views/home
+  ni src/presentation/views/home/Home.tsx -ItemType File -Force
+  ni src/presentation/views/home/Styles.tsx -ItemType File -Force
+  ni src/presentation/views/home/ViewModel.tsx -ItemType File -Force
+  mkdir -p src/presentation/views/profile
+  mkdir -p src/presentation/views/profile/info
+  ni src/presentation/views/profile/info/ProfileInfo.tsx -ItemType File -Force
+  ni src/presentation/views/profile/info/ViewModel.tsx -ItemType File -Force
+  mkdir -p src/presentation/views/register
+  ni src/presentation/views/register/Register.tsx -ItemType File -Force
+  ni src/presentation/views/register/Styles.tsx -ItemType File -Force
+  ni src/presentation/views/register/ViewModel.tsx -ItemType File -Force
 
 	```
 
