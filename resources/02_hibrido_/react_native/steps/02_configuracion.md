@@ -376,7 +376,7 @@
 
 - Crear las **Carpetas** y **Archivos** del proyecto, copiando el siguiente código
 
-  ```bash
+  ```powershell
   mkdir -p src/data
   mkdir -p src/data/repositories
   ni src/data/repositories/AuthRepository.tsx -ItemType File -Force
