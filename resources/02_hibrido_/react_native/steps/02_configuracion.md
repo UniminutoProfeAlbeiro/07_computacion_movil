@@ -4,7 +4,7 @@
 2. **[Iniciar del Proyecto](#2-iniciar-el-proyecto)**
 3. **[Ejecutar el Proyecto](#3-ejecutar-el-proyecto)**
 4. **[Configurar el Proyecto](#4-configurar-el-proyecto)**
-5. **[Estructurar del Proyecto](#5-estructurar-del-proyecto)**
+5. **[Estructurar el Proyecto](#5-estructurar-el-proyecto)**
 
 <br>
 
@@ -298,7 +298,7 @@
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
-## 5. Estructurar del Proyecto
+## 5. Estructurar el Proyecto
 &nbsp;
 
 	# C = Carpetas
