@@ -16,13 +16,13 @@
 ## 1.1. Instalar Visual Studio Code
 &nbsp;
 
-### 1.1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
+#### 1.1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
-### 1.1.2. Instalar Visual Studio Code. 
+#### 1.1.2. Instalar Visual Studio Code. 
 
-### 1.1.3. Abrir Visual Studio Code
+#### 1.1.3. Abrir Visual Studio Code
 
-### 1.1.4. Instalar extensiones en Visual Studio Code
+#### 1.1.4. Instalar extensiones en Visual Studio Code
 
 ```
 Material Icon Theme
