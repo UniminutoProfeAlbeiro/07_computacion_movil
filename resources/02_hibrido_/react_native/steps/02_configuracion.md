@@ -97,19 +97,19 @@ npx create-expo-app frontend --template blank-typescript
 
 #### 2.3.1. Ingresar a la carpeta "frontend"
 
-- En la terminal de Visual Studio Code ingresar al proyecto creado "frontend" con el siguiente comando:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la terminal ir a la carpeta "frontend" con el siguiente comando:
 
-	```bash
-	cd frontend
-	```
+```bash
+cd frontend
+```
 
 #### 2.3.2. Ejecutar el proyecto en el Emulador Android
 
-- En la terminal de Visual Studio Code ejecutar el siguiente comando para iniciar el proyecto en el emulador Android:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Para abrir el proyecto en el emulador Android, escribir en la terminal:
 
-	```bash
-	npm run android
-	```
+```bash
+npm run android
+```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > frontend@1.0.0 android<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > expo start --android<br>
