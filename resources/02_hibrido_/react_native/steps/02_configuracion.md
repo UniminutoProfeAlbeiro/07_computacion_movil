@@ -379,7 +379,7 @@
   ```bash
   mkdir -p src/data
   mkdir -p src/data/entities
-  touch src/data/AuthRepository.tsx
+  touch -p src/data/AuthRepository.tsx
   mkdir -p src/data/repositories
   mkdir -p src/data/sources
   mkdir -p src/data/sources/local
@@ -393,6 +393,7 @@
   mkdir -p src/domain/useCases/auth
   mkdir -p src/domain/useCases/userLocal
   mkdir -p src/presentation
+
 	```
 
 ### 5.3. Cargar las imágenes del Proyecto a la carpeta 'assets':
