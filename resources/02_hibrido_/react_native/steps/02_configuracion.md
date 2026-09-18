@@ -374,7 +374,7 @@
 
 ### 5.2. Crear la Estructura del Proyecto:
 
-- Crear las **Carpetas** y **Archivos** del proyecto
+- Crear las **Carpetas** y **Archivos** del proyecto, copiando el siguiente código
 
   ```bash
   mkdir -p src/data
@@ -426,6 +426,8 @@
   ni src/presentation/views/register/ViewModel.tsx -ItemType File -Force
 
 	```
+
+- Pegue el Código en la terminal de Visual Studio Code en la carpeta **frontend**.
 
 ### 5.3. Cargar las imágenes del Proyecto a la carpeta 'assets':
 
