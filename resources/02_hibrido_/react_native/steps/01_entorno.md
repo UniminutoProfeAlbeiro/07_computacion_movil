@@ -1,12 +1,12 @@
 # 📝Punto 1: Entorno de Desarrollo
 
-1. **[Instalar Visual Studio Code](#1-instalar-visual-studio-code)**
-2. **[Instalar Node.js](#2-instalar-nodejs)**
-3. **[Modificar Directivas en PowerShell](#3-modificar-directivas-en-powershell)**
-4. **[Instalar Instalar Android Studio](#4-instalar-instalar-android-studio)**
-5. **[Crear el Emulador de Android Studio](#5-crear-el-emulador-de-android-studio)**
-6. **[Configurar las variables de Entorno del Sistema](#6-configurar-las-variables-de-entorno-del-sistema)**
-7. **[Instalar Expo Go en el Celular](#7-instalar-expo-go-en-el-celular)**
+1.1. **[Instalar Visual Studio Code](#1-instalar-visual-studio-code)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.2. **[Instalar Node.js](#2-instalar-nodejs)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.3. **[Modificar Directivas en PowerShell](#3-modificar-directivas-en-powershell)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.4. **[Instalar Instalar Android Studio](#4-instalar-instalar-android-studio)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.5. **[Crear el Emulador de Android Studio](#5-crear-el-emulador-de-android-studio)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.6. **[Configurar las variables de Entorno del Sistema](#6-configurar-las-variables-de-entorno-del-sistema)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.7. **[Instalar Expo Go en el Celular](#7-instalar-expo-go-en-el-celular)**
 
 <br>
 
