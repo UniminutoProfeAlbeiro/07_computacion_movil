@@ -13,14 +13,14 @@
 **<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 
 ---
-## 1. Instalar Visual Studio Code
+## 1.1. Instalar Visual Studio Code
 &nbsp;
 
 ### 1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
 
 ### 1.2. Instalar Visual Studio Code. 
 		
-- En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En el asistente de instalación dejar marcado ✅ 'Agregar PATH...'.
 
 ### 1.3. Abrir Visual Studio Code
 
