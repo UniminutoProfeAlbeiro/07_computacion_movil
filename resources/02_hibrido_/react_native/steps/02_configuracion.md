@@ -26,11 +26,11 @@
 
 #### 2.1.3. Abrir el Proyecto en Visual Studio Code
 
-- Asociar el proyecto con Visual Studio Code
-- Abrir una terminal de Visual Studio Code
-	- Cambiar el nombre de la terminal a **'frontend'**, seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
-	- Cambiar el color de la terminal **'frontend'**, dando click derecho / Chage Color... / Seleccionar el color
-- Ingresar a la carpeta **'frontend'** y eliminar el archivo **'delete'**:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Asociar el proyecto con Visual Studio Code
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir una terminal de Visual Studio Code
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Cambiar el nombre de la terminal a **'frontend'**, seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Cambiar el color de la terminal **'frontend'**, dando click derecho / Chage Color... / Seleccionar el color
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ingresar a la carpeta **'frontend'** y eliminar el archivo **'delete'**:
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
