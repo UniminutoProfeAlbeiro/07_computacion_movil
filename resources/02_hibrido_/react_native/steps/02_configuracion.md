@@ -133,11 +133,11 @@ npm run android
 
 #### 2.3.3. Ejecutar el proyecto en el Dispositivo Móvil
 
-- **Requisito previo**: Descargar e instalar la aplicación **"Expo Go"** desde la **Google Play Store (Android)** o **App Store (iOS)** en el teléfono.
-- Asegurar que el teléfono y el computador estén **conectados a la misma red Wi-Fi**.
-- Abrir la app Expo Go en el teléfono.
-- **Android**: Tocar el botón **"Scan QR code"** y escanear el código QR que aparece en la terminal del computador.
-- **iOS**: Abrir la aplicación de **Cámara de tu iPhone** y apuntar al código QR. Preguntará si se desea abrir en Expo Go.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **Requisito previo**: Descargar e instalar la aplicación **"Expo Go"** desde la **Google Play Store (Android)** o **App Store (iOS)** en el teléfono.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Asegurar que el teléfono y el computador estén **conectados a la misma red Wi-Fi**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir la app Expo Go en el teléfono.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **Android**: Tocar el botón **"Scan QR code"** y escanear el código QR que aparece en la terminal del computador.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **iOS**: Abrir la aplicación de **Cámara de tu iPhone** y apuntar al código QR. Preguntará si se desea abrir en Expo Go.
 
 #### 2.3.4. Ejecutar el proyecto en el Dispositivo Móvil a través de un Tunel (sin abrir el Emulador Android)
 
