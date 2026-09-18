@@ -111,25 +111,25 @@ cd frontend
 npm run android
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > frontend@1.0.0 android<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > expo start --android<br>
+&nbsp;&nbsp;&nbsp;&nbsp;> frontend@1.0.0 android<br>
+&nbsp;&nbsp;&nbsp;&nbsp;> expo start --android<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Starting project at D:\PROYECTOS\07_computacion_movil\frontend<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Starting Metro Bundler<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Starting project at D:\PROYECTOS\07_computacion_movil\frontend<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Starting Metro Bundler<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Opening emulator Pixel_6a<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Opening exp://192.168.78.145:8081 on Pixel_6a<br>
+&nbsp;&nbsp;&nbsp;&nbsp;› Opening emulator Pixel_6a<br>
+&nbsp;&nbsp;&nbsp;&nbsp;› Opening exp://192.168.78.145:8081 on Pixel_6a<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![QR](img/expo_go/01_expo_go.PNG)
+&nbsp;&nbsp;&nbsp;&nbsp;![QR](img/expo_go/01_expo_go.PNG)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Scan the QR code above to open in Expo Go.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Metro: exp://192.168.78.145:8081<br>
+&nbsp;&nbsp;&nbsp;&nbsp;› Scan the QR code above to open in Expo Go.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;› Metro: exp://192.168.78.145:8081<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Using Expo Go (Press s to switch to development build)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Press ? │ show all commands<br>
+&nbsp;&nbsp;&nbsp;&nbsp;› Using Expo Go (Press s to switch to development build)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;› Press ? │ show all commands<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Logs for your project will appear below. Press Ctrl+C to exit.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Android Bundled 4881ms index.ts (708 modules)
+&nbsp;&nbsp;&nbsp;&nbsp;Logs for your project will appear below. Press Ctrl+C to exit.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Android Bundled 4881ms index.ts (708 modules)
 
 #### 2.3.3. Ejecutar el proyecto en el Dispositivo Móvil
 
