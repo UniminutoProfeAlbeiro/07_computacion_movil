@@ -153,7 +153,7 @@ npm install -g @expo/ngrok@^4.1.0 # instalación global
 npm install --save-dev @expo/ngrok@^4.1.0 # instalación local como dependencia de desarrollo
 ```
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Modificar el package.json:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Modificar el package.json:
 
 ```json
  1    {
@@ -183,7 +183,7 @@ npm install --save-dev @expo/ngrok@^4.1.0 # instalación local como dependencia 
 25    }
 ```
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar en el Visual Studio Code el siguiente comando:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar en el Visual Studio Code el siguiente comando:
 
 ```bash
 npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
@@ -191,25 +191,25 @@ npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones 
 
 #### 2.3.5. Ejecutar el proyecto en el Navegador Web
 
-- Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
 
-- Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el navegador web: 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el navegador web: 
 
-	```bash
-	npx expo install react-dom react-native-web
-	```
+```bash
+npx expo install react-dom react-native-web
+```
 
-- Ejecutar en el Visual Studio Code el siguiente comando:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar en el Visual Studio Code el siguiente comando:
 
-	```bash
-	npm run web
-	```
+```bash
+npm run web
+```
 
-- Con el Navegador Web abierto, Presionar la **Tecla F12** para abrir el inspector de propiedades.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Con el Navegador Web abierto, Presionar la **Tecla F12** para abrir el inspector de propiedades.
 
-- Seleccionar la opción **'Toggle device toolbar'**.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Seleccionar la opción **'Toggle device toolbar'**.
 
-- Seleccionar en **'Dimensions'** un dispositivo móvil.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Seleccionar en **'Dimensions'** un dispositivo móvil.
 
 #### 2.3.6. Modificar el Mensaje e Inicio de la App
 
