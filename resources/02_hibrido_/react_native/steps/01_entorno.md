@@ -48,36 +48,36 @@ TypeScript importerM
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
 ---
-## 2. Instalar Node.js
+## 1.2. Instalar Node.js
 &nbsp;
 
-### 2.1. [Desacargar Node.js](https://nodejs.org/es/)
+### 1.2.1. [Desacargar Node.js](https://nodejs.org/es/)
 
-### 2.2. Instalar Node.js
+### 1.2.2. Instalar Node.js
 
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
 ---
-## 3. Modificar Directivas en PowerShell
+## 1.3. Modificar Directivas en PowerShell
 &nbsp;
 
-### 3.1. Abrir PowerShell
+### 1.3.1. Abrir PowerShell
 
-### 3.2. Verificar restricciones del 'npm'
+### 1.3.2. Verificar restricciones del 'npm'
 
-- Ejecutar el siguiente comando en PowerShell para verificar la política de ejecución:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar el siguiente comando en PowerShell para verificar la política de ejecución:
 
-  ```powershell
-  Get-ExecutionPolicy
-  ```
-- Si aparece 'Restricted', hay que cambiarla a 'Unrestricted' de la siguiente forma:
+```powershell
+Get-ExecutionPolicy
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Si aparece 'Restricted', hay que cambiarla a 'Unrestricted' de la siguiente forma:
 
-  ```powershell
-  Set-ExecutionPolicy -Scope CurrentUser
-  ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cmdlet Set-ExecutionPolicy en la posición 1 de la canalización de comandos<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Proporcione valores para los parámetros siguientes:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ExecutionPolicy: **Unrestricted**<br>
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser
+```
+&nbsp;&nbsp; cmdlet Set-ExecutionPolicy en la posición 1 de la canalización de comandos<br>
+&nbsp;&nbsp; Proporcione valores para los parámetros siguientes:<br>
+&nbsp;&nbsp; ExecutionPolicy: **Unrestricted**<br>
 
 ### 3.3. Verificar versiones 'node' y 'npm':
 
