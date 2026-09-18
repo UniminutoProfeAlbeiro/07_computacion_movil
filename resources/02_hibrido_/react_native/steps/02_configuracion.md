@@ -374,43 +374,13 @@
 
 - 
 
-### 5.2. Cargar las imágenes del Proyecto:
+### 5.2. Cargar las imágenes del Proyecto a la carpeta 'assets':
 
-- Ubicar las imágenes del proyecto que se encuentran en [assets](../assets/). 
+- Ubicar las imágenes del proyecto que se encuentran en **[assets](../assets/)**. 
 
-- Copiar el enlace de las imágenes del proyecto. 
+- Copiar todas las imágenes **'assets'**
 
-- Ir a la Plataforma [Directory Github](https://download-directory.github.io/). 
-
-- Pegar el enlace las imágenes del proyecto. 
-
-
-NOTA:
-
-Si está en Github, puede utilizar este recurso https://download-directory.github.io/ para descargar las imágenes pasándole el enlace
-
-&nbsp;
-
-
-4.2. Pegar las imágenes al proyecto, en la carpeta 'frontend/frontend_mob/assets'.
-
-
-**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
-
-
-&nbsp;
-### NOTA:
-
-Si tiene dificultades, abra el abra el puerto 3000 en Firewall con los siguiente pasos:
-
-01.	Presione Windows + R, escriba wf.msc y presiona Enter															
-02.	Vaya a "Reglas de entrada" en el panel izquierdo															
-03.	Haga clic en "Acción" → "Nueva regla..."															
-04.	Seleccione "Puerto" → Siguiente															
-05.	En "Puertos locales específicos" escriba: 3000															
-06.	Seleccione "Permitir la conexión" → Siguiente															
-07.	Marque todas las opciones (Dominio, Privado, Público) → Siguiente															
-08.	Póngale un nombre como "Puerto 3000 Backend" → Finalizar
+- Pegar en la carpeta  del proyecto **'frontend/assets'**. 
 
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
