@@ -43,7 +43,7 @@ Paste JSON as Code
 TypeScript importerM
 ```
 
-### 1.1.5. Cerrar Visual Studio Code
+#### 1.1.5. Cerrar Visual Studio Code
 
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
@@ -51,9 +51,9 @@ TypeScript importerM
 ## 1.2. Instalar Node.js
 &nbsp;
 
-### 1.2.1. [Desacargar Node.js](https://nodejs.org/es/)
+#### 1.2.1. [Desacargar Node.js](https://nodejs.org/es/)
 
-### 1.2.2. Instalar Node.js
+#### 1.2.2. Instalar Node.js
 
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
@@ -61,9 +61,9 @@ TypeScript importerM
 ## 1.3. Modificar Directivas en PowerShell
 &nbsp;
 
-### 1.3.1. Abrir PowerShell
+#### 1.3.1. Abrir PowerShell
 
-### 1.3.2. Verificar restricciones del 'npm'
+#### 1.3.2. Verificar restricciones del 'npm'
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar el siguiente comando en PowerShell para verificar la política de ejecución:
 
@@ -79,7 +79,7 @@ Set-ExecutionPolicy -Scope CurrentUser
 &nbsp;&nbsp;&nbsp; Proporcione valores para los parámetros siguientes:<br>
 &nbsp;&nbsp;&nbsp; ExecutionPolicy: **Unrestricted**<br>
 
-### 1.3.3. Verificar versiones 'node' y 'npm':
+#### 1.3.3. Verificar versiones 'node' y 'npm':
 
 ```bash
 node --version # Debe mostrar v18.x.x o superior
@@ -94,9 +94,9 @@ npm --version # Debe mostrar v9.x.x o superior
 ## 1.4. Instalar Instalar Android Studio
 &nbsp;
 
-### 1.4.1. [Desacargar Android Studio](https://developer.android.com/studio?hl=es-419)
+#### 1.4.1. [Desacargar Android Studio](https://developer.android.com/studio?hl=es-419)
 
-### 1.4.2. Instalar Android Studio
+#### 1.4.2. Instalar Android Studio
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; 'Next' / ✅ 'Android Virtual Device' - 'Next' / ✅ 'Standard' - 'Next' / 'Next' / ✅ 'Accept' - 'Next' / 'Install' / 'Finish'.
 
@@ -115,17 +115,17 @@ npm --version # Debe mostrar v9.x.x o superior
 ## 1.5. Crear el Emulador de Android Studio
 &nbsp;
 
-### 1.5.1. Seleccionar 'More Actions / Virtual Device Manager'
+#### 1.5.1. Seleccionar 'More Actions / Virtual Device Manager'
 
-### 1.5.2. Seleccionar la opción '(+) Create Virtual Device'.
+#### 1.5.2. Seleccionar la opción '(+) Create Virtual Device'.
 
-### 1.5.3. Seleccionar un Emulador, por ejemplo, 'Pixel 6a' (Con el icono de Play Store)  / 'Next'.
+#### 1.5.3. Seleccionar un Emulador, por ejemplo, 'Pixel 6a' (Con el icono de Play Store)  / 'Next'.
 
-### 1.5.4. 'Next' / 'API 33 "Tiramisu"; Android 13.0' / Google Play Intel x86_64 Atom System Image.
+#### 1.5.4. 'Next' / 'API 33 "Tiramisu"; Android 13.0' / Google Play Intel x86_64 Atom System Image.
 
-### 1.5.5. 'Finish' / 'Yes' / 'Finish'.
+#### 1.5.5. 'Finish' / 'Yes' / 'Finish'.
 
-### 1.5.6. Ejecutar el Emulador dando click en la punta de flecha (columna 'Actions')
+#### 1.5.6. Ejecutar el Emulador dando click en la punta de flecha (columna 'Actions')
 
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
@@ -133,11 +133,11 @@ npm --version # Debe mostrar v9.x.x o superior
 ## 1.6. Configurar las variables de Entorno del Sistema
 &nbsp;
 
-### 1.6.1. En el Menú Windows buscar 'Editar las variables de entorno del sistema'
+#### 1.6.1. En el Menú Windows buscar 'Editar las variables de entorno del sistema'
 
-### 1.6.2. Dar clic en 'Variables de entorno ...'
+#### 1.6.2. Dar clic en 'Variables de entorno ...'
 
-### 1.6.3. En las 'Variables de Sistema ...' dar clic en 'Nueva ...' y escribir lo siguiente:
+#### 1.6.3. En las 'Variables de Sistema ...' dar clic en 'Nueva ...' y escribir lo siguiente:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Nombre de la variable**:  JAVA_HOME<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Valor de la variable**:   'Examinar Directorio': C:\Program Files\Android\Android Studio\jbr\bin<br>
@@ -151,9 +151,9 @@ npm --version # Debe mostrar v9.x.x o superior
 ## 1.7. Instalar Expo Go en el Celular
 &nbsp;
 
-### 1.7.1. En el celular, abrir la tienda de aplicaciones y buscar 'Expo Go' para instalarlo.
+#### 1.7.1. En el celular, abrir la tienda de aplicaciones y buscar 'Expo Go' para instalarlo.
 
-### 1.7.2. Instalar la aplicación 'Expo Go' en el celular.
+#### 1.7.2. Instalar la aplicación 'Expo Go' en el celular.
 
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
