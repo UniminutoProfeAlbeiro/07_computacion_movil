@@ -20,7 +20,7 @@
 
 ### 3.1.1. Descargar el '.ZIP' del Repositorio :
 
-- Ir a **[07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main)** y descargar el archivo '.ZIP'.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Ir a **[07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main)** y descargar el archivo '.ZIP'.
 - Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
 
 ### 1.2. Crear un repositorio en Github
