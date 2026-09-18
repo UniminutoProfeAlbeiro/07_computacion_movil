@@ -442,9 +442,9 @@
 <div align="right">
   <table border="0">
     <tr>      
-      <td align="center">1. <a href="01_entorno.md">Entorno de Desarrollo</a></td>
+      <td align="center">2. <a href="01_entorno.md">Entorno de Desarrollo</a></td>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
-      <td align="center">2. <a href="03_frontend.md">Estructura del Proyecto</a></td>
+      <td align="center">3. <a href="03_frontend.md">Frontend</a></td>
     </tr>
   </table>
 </div>
