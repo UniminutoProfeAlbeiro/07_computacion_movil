@@ -79,35 +79,33 @@ Set-ExecutionPolicy -Scope CurrentUser
 &nbsp;&nbsp;&nbsp; Proporcione valores para los parámetros siguientes:<br>
 &nbsp;&nbsp;&nbsp; ExecutionPolicy: **Unrestricted**<br>
 
-### 3.3. Verificar versiones 'node' y 'npm':
+### 1.3.3. Verificar versiones 'node' y 'npm':
 
-- Ejecutar el siguiente comando en PowerShell para verificar la versión de 'node' y 'npm':
-
-  ```bash
-  node --version # Debe mostrar v18.x.x o superior
-  ```
-  ```bash
-  npm --version # Debe mostrar v9.x.x o superior
-  ```
+```bash
+node --version # Debe mostrar v18.x.x o superior
+```
+```bash
+npm --version # Debe mostrar v9.x.x o superior
+```
 
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
 ---
-## 4. Instalar Instalar Android Studio
+## 1.4. Instalar Instalar Android Studio
 &nbsp;
 
-### 4.1. [Desacargar Android Studio](https://developer.android.com/studio?hl=es-419)
+### 1.4.1. [Desacargar Android Studio](https://developer.android.com/studio?hl=es-419)
 
-### 4.2. Instalar Android Studio
+### 1.4.2. Instalar Android Studio
 
-- 'Next' / ✅ 'Android Virtual Device' - 'Next' / ✅ 'Standard' - 'Next' / 'Next' / ✅ 'Accept' - 'Next' / 'Install' / 'Finish'.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; 'Next' / ✅ 'Android Virtual Device' - 'Next' / ✅ 'Standard' - 'Next' / 'Next' / ✅ 'Accept' - 'Next' / 'Install' / 'Finish'.
 
 
 ### Nota:
 
-- Si la instalación no sale como se espera porque hay una versión de Android Studio instalada, revise el siguiente enlace para desinstalarlo totalmente y repita los pasos 4.1 y 4.2: [Desinstalar completamente Android Studio](https://blog.buhoos.com/como-desinstalar-completamente-android-studio-de-windows-10/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Si la instalación no sale como se espera porque hay una versión de Android Studio instalada, revise el siguiente enlace para desinstalarlo totalmente y repita los pasos 4.1 y 4.2: [Desinstalar completamente Android Studio](https://blog.buhoos.com/como-desinstalar-completamente-android-studio-de-windows-10/)
 
-- En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguiente programa para eliminar carpetas o archivos: [iobit-unlocker](https://www.iobit.com/es/iobit-unlocker.php#)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguiente programa para eliminar carpetas o archivos: [iobit-unlocker](https://www.iobit.com/es/iobit-unlocker.php#)
 
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
 
