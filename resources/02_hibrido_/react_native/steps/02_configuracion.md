@@ -47,46 +47,46 @@
 npx create-expo-app frontend --template blank-typescript
 ```	
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;? Select an Expo SDK version: » - Use arrow-keys. Return to submit.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> Latest (SDK 57) - Recommended for most projects **# <ins>Seleccionar esta opción**</ins><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other SDK version…<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ? Select an Expo SDK version: » - Use arrow-keys. Return to submit.<br>
+&nbsp;&nbsp;&nbsp;&nbsp; > Latest (SDK 57) - Recommended for most projects **# <ins>Seleccionar esta opción**</ins><br>
+&nbsp;&nbsp;&nbsp;&nbsp; Other SDK version…<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating frontend using the blank-typescript template.<br>
+&nbsp;&nbsp;&nbsp;&nbsp; Creating frontend using the blank-typescript template.<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;√ Downloaded and extracted project files.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> npm install<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm warn deprecated uuid@7.0.3: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CommonJS codebases, use uuid@11 (butbe aware this version will likely be deprecated in 2028).<br>
+&nbsp;&nbsp;&nbsp;&nbsp; √ Downloaded and extracted project files.<br>
+&nbsp;&nbsp;&nbsp;&nbsp; > npm install<br>
+&nbsp;&nbsp;&nbsp;&nbsp; npm warn deprecated uuid@7.0.3: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For<br>
+&nbsp;&nbsp;&nbsp;&nbsp; CommonJS codebases, use uuid@11 (butbe aware this version will likely be deprecated in 2028).<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;added 467 packages, and audited 468 packages in 3m<br>
+&nbsp;&nbsp;&nbsp;&nbsp; added 467 packages, and audited 468 packages in 3m<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;45 packages are looking for funding<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  run `npm fund` for details<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 45 packages are looking for funding<br>
+&nbsp;&nbsp;&nbsp;&nbsp;   run `npm fund` for details<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10 moderate severity vulnerabilities<br>
+&nbsp;&nbsp;&nbsp;&nbsp; 10 moderate severity vulnerabilities<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To address issues that do not require attention, run:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  npm audit fix<br>
+&nbsp;&nbsp;&nbsp;&nbsp; To address issues that do not require attention, run:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;   npm audit fix<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To address all issues (including breaking changes), run:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm audit fix --force<br>
+&nbsp;&nbsp;&nbsp;&nbsp; To address all issues (including breaking changes), run:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; npm audit fix --force<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Run `npm audit` for details.<br>
+&nbsp;&nbsp;&nbsp;&nbsp; Run `npm audit` for details.<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Your project is ready!<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ✅ Your project is ready!<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To run your project, navigate to the directory and run one of the following npm commands.<br>
+&nbsp;&nbsp;&nbsp;&nbsp; To run your project, navigate to the directory and run one of the following npm commands.<br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- cd frontend<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- npm run android<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- npm run web<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;? You are creating a project inside of an existing Git repository. Skip initializing a new git repository? » (Y/n) **# <ins>Escribir YES**</ins><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm notice<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm notice New minor version of npm available! 11.9.0 -> 11.19.1<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.19.1<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm notice To update run: npm install -g npm@11.19.1<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm notice<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - cd frontend<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - npm run android<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac<br>
+&nbsp;&nbsp;&nbsp;&nbsp; - npm run web<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ? You are creating a project inside of an existing Git repository. Skip initializing a new git repository? » (Y/n) **# <ins>Escribir YES**</ins><br>
+&nbsp;&nbsp;&nbsp;&nbsp; npm notice<br>
+&nbsp;&nbsp;&nbsp;&nbsp; npm notice New minor version of npm available! 11.9.0 -> 11.19.1<br>
+&nbsp;&nbsp;&nbsp;&nbsp; npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.19.1<br>
+&nbsp;&nbsp;&nbsp;&nbsp; npm notice To update run: npm install -g npm@11.19.1<br>
+&nbsp;&nbsp;&nbsp;&nbsp; npm notice<br>
 <br>
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
