@@ -1,542 +1,449 @@
-# Punto 1: Entorno de Desarrollo
+# 📝Punto 3: Frontend
 
-## 📚 Explicación
+3.1. **[Vista del Formulario de Registro](#31-vista-del-formulario-de-registro)**
+3.2. **[Vista del Formulario de Inicio de Sesión](#2-iniciar-el-proyecto)**
 
-Antes de empezar a codificar, necesitamos preparar nuestro entorno de trabajo. Este proyecto utiliza **React** con **Vite** como bundler, y se conecta a un **backend Node.js + Express** con autenticación JWT.
+<br>
 
-### Tecnologías principales
-
-| Tecnología | Versión | Propósito |
-| ------------------------------ | ------ | -------------------------------------- |
-| **Node.js**                    | v18+   | Entorno de ejecución JavaScript        |
-| **Vite**                       | 8.0.4  | Bundler rápido para aplicaciones React |
-| **React**                      | 19.2.4 | Biblioteca para interfaces de usuario  |
-| **React Router DOM**           | 7.14.0 | Enrutamiento para SPA                  |
-| **JWT Decode**                 | 4.0.0  | Decodificación de tokens JWT           |
-| **ESLint**                     | 9.39.4 | Linter para calidad de código          |
-
-### Requisitos previos
-
-- ✅ Node.js instalado (v18+)
-- ✅ Editor de código (VS Code recomendado)
-- ✅ Conocimiento básico de terminal
-- ✅ Conexión a Internet
-
-### Estructura del proyecto al finalizar
-
-```bash
-frontend_web/
-└── react_node_express/
-    ├── node_modules/          # Dependencias del proyecto
-    ├── public/                # Archivos estáticos
-    │   └── vite.svg           # Favicon de Vite
-    ├── src/                   # Código fuente (lo crearemos después)
-    │   ├── App.css
-    │   ├── App.jsx
-    │   ├── index.css
-    │   └── main.jsx
-    ├── .gitignore             # Archivos ignorados por Git
-    ├── eslint.config.js       # Configuración de ESLint
-    ├── index.html             # Página principal HTML
-    ├── package-lock.json      # Versiones exactas de dependencias
-    ├── package.json           # Configuración del proyecto
-    ├── README.md              # Documentación
-    └── vite.config.js         # Configuración de Vite
-```
+**<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 
 ---
+## 3.1. Vista del Formulario de Registro
+&nbsp;
 
-## 📝 Paso a paso
+### 3.1.1. Descargar el '.ZIP' del Repositorio :
 
-### 1. Verificar Node.js instalado
+- Ir a **[07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main)** y descargar el archivo '.ZIP'.
+- Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
 
-Abre tu terminal (PowerShell, CMD o Bash) y ejecuta:
+### 1.2. Crear un repositorio en Github
 
-```bash
-node --version
-# Debe mostrar v18.x.x o superior
+- Colocar el nombre del proyecto al Repositorio Creado 
+- En caso de no tener cuenta en Github, crear una (**[Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_trabajar_con_github.md)**).
 
-npm --version
-# Debe mostrar v9.x.x o superior
-```
+### 1.3. Abrir el Proyecto en Visual Studio Code
 
-**Si no tienes Node.js:** Descárgalo desde [https://nodejs.org/](https://nodejs.org/)
+- Asociar el proyecto con Visual Studio Code
+- Abrir una terminal de Visual Studio Code
+	- Cambiar el nombre de la terminal a **'frontend'**, seleccionándola en la parte inferior derecha y presionando F2 / Rename...            
+	- Cambiar el color de la terminal **'frontend'**, dando click derecho / Chage Color... / Seleccionar el color
+- Ingresar a la carpeta **'frontend'** y eliminar el archivo **'delete'**:
 
-### 2. Crear la carpeta del proyecto
-
-```bash
-# Crear la estructura de carpetas
-mkdir -p frontend_web/react_node_express
-
-# Navegar a la carpeta del proyecto
-cd frontend_web/react_node_express
-```
-
-**Explicación:**
-
-- `mkdir -p` crea las carpetas padre si no existen
-- En Windows funciona igual en PowerShell
-
-### 3. Inicializar el proyecto con Vite
-
-```bash
-npm create vite@latest . -- --template react
-```
-
-**¿Qué hace este comando?**
-
-- Crea un nuevo proyecto React con Vite
-- El `.` indica que use la carpeta actual
-- `--template react` usa la plantilla oficial de React
-
-**⚠️ IMPORTANTE: Seleccionar ESLint**
-
-Cuando aparezca el prompt, selecciona **ESLint**:
-
-```bash
-◆  Which linter to use?
-│  ● Oxlint       ← Opción por defecto
-│  ○ ESLint       ← ¡Selecciona esta! (flecha abajo + Enter)
-│  ↑/↓ to navigate • Enter: confirm
-```
-
-**¿Por qué ESLint y no Oxlint?**
-
-| Característica | ESLint | Oxlint |
-| ------------------------------ | ------------------------ | ------------------------------- |
-| Madurez                        | ✅ Maduro (2013)          | ❌ Nuevo (2024)                  |
-| Plugins                        | ✅ Miles disponibles      | ❌ Limitados                     |
-| Configuración                  | ✅ Altamente configurable | ❌ Menos opciones                |
-| Ecosistema React               | ✅ Soporte completo       | ⚠️ En desarrollo                |
-| **Educativo**                  | ✅ Estándar industrial    | ❌ No recomendado para enseñanza |
-
-### 4. Instalar dependencias base
-
-```bash
-npm install
-```
-
-Este comando instala todas las dependencias que Vite configuró automáticamente.
-
-### 5. Instalar dependencias adicionales
-
-**Dependencias de producción (necesarias para la aplicación):**
-
-```bash
-npm install react@19.2.4 react-dom@19.2.4 react-router-dom@7.14.0 jwt-decode@4.0.0
-```
-
-**Dependencias de desarrollo (solo para desarrollo):**
-
-```bash
-npm install -D @vitejs/plugin-react@6.0.1 @eslint/js@9.39.4 eslint@9.39.4 eslint-plugin-react-hooks@7.0.1 eslint-plugin-react-refresh@0.5.2 globals@17.4.0 @types/react@19.2.14 @types/react-dom@19.2.3 vite@8.0.4
-```
-
-**📦 Resumen de dependencias con versiones exactas:**
-
-| Paquete | Versión | Tipo | Propósito |
-| ------------------------------- | ------- | ---- | ---------------------------------- |
-| **Dependencias de producción**  |         |      |                                    |
-| react                           | 19.2.4  | prod | Biblioteca principal de React      |
-| react-dom                       | 19.2.4  | prod | Renderizado de React en el DOM     |
-| react-router-dom                | 7.14.0  | prod | Enrutamiento en React              |
-| jwt-decode                      | 4.0.0   | prod | Decodificar tokens JWT             |
-| **Dependencias de desarrollo**  |         |      |                                    |
-| vite                            | 8.0.4   | dev  | Bundler y servidor de desarrollo   |
-| @vitejs/plugin-react            | 6.0.1   | dev  | Plugin de React para Vite          |
-| eslint                          | 9.39.4  | dev  | Linter de JavaScript               |
-| @eslint/js                      | 9.39.4  | dev  | Configuración base de ESLint       |
-| eslint-plugin-react-hooks       | 7.0.1   | dev  | Reglas para React Hooks            |
-| eslint-plugin-react-refresh     | 0.5.2   | dev  | Reglas para React Refresh          |
-| globals                         | 17.4.0  | dev  | Variables globales para ESLint     |
-| @types/react                    | 19.2.14 | dev  | Tipos de TypeScript para React     |
-| @types/react-dom                | 19.2.3  | dev  | Tipos de TypeScript para React DOM |
-
-### 6. Verificar el archivo package.json
-
-Abre `package.json` y confirma que tenga estas scripts y dependencias:
-
-```json
-{
-  "name": "sis-web-mvc",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "jwt-decode": "^4.0.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "react-router-dom": "^7.14.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.39.4",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.1",
-    "eslint": "^9.39.4",
-    "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.5.2",
-    "globals": "^17.4.0",
-    "vite": "^8.0.4"
-  }
-}
-```
-
-### 7. Configurar vite.config.js
-
-Crea el archivo `vite.config.js` en la raíz del proyecto con este contenido:
-
-```javascript
-// vite.config.js
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-export default defineConfig({
-  plugins: [react()],
-  server: {
-    port: 5173,
-    open: true // Abre automáticamente el navegador
-  },
-  define: {
-    'process.env': {} // Para compatibilidad con variables de entorno
-  }
-})
-```
-
-**Explicación de la configuración:**
-
-| Propiedad | Valor | Explicación |
-| ----------------------------- | ----------- | -------------------------------------- |
-| `plugins`                     | `[react()]` | Habilita el soporte de React en Vite   |
-| `server.port`                 | `5173`      | Puerto donde corre la aplicación       |
-| `server.open`                 | `true`      | Abre el navegador automáticamente      |
-| `define['process.env']`       | `{}`        | Evita errores con variables de entorno |
-
-### 8. Configurar ESLint (eslint.config.js)
-
-El archivo `eslint.config.js` ya existe después de la instalación. Verifica que tenga este contenido:
-
-```javascript
-import js from '@eslint/js'
-import globals from 'globals'
-import reactHooks from 'eslint-plugin-react-hooks'
-import reactRefresh from 'eslint-plugin-react-refresh'
-import { defineConfig, globalIgnores } from 'eslint/config'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{js,jsx}'],
-    extends: [
-      js.configs.recommended,
-      reactHooks.configs.flat.recommended,
-      reactRefresh.configs.vite,
-    ],
-    languageOptions: {
-      ecmaVersion: 2020,
-      globals: globals.browser,
-      parserOptions: {
-        ecmaVersion: 'latest',
-        ecmaFeatures: { jsx: true },
-        sourceType: 'module',
-      },
-    },
-    rules: {
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
-    },
-  },
-])
-```
-
-**Explicación de la configuración ESLint:**
-
-| Sección | Función |
-| -------------------------- | -------------------------------------- |
-| `globalIgnores(['dist'])`  | Ignora la carpeta de build             |
-| `files: ['**/*.{js,jsx}']` | Aplica a archivos .js y .jsx           |
-| `extends`                  | Usa configuraciones recomendadas       |
-| `ecmaVersion: 2020`        | Soporta características modernas de JS |
-| `globals: globals.browser` | Reconoce variables del navegador       |
-| `'no-unused-vars'`         | Previene variables sin usar            |
-
-### 9. Verificar/Actualizar index.html
-
-Abre `index.html` y confirma que tenga este contenido:
-
-```html
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Sistema de Información Web con React + MVC + JWT" />
-    <title>Sistema de Información Web</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
-```
-
-**Elementos importantes:**
-
-- `lang="es"` - Idioma español
-- `meta description` - SEO y descripción
-- `div id="root"` - Contenedor principal de React
-- `script src="/src/main.jsx"` - Punto de entrada de la aplicación
-
-### 10. Actualizar src/main.jsx
-
-Modifica el archivo `src/main.jsx` con este contenido:
-
-```jsx
-// src/main.jsx
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
-```
-
-### 11. Actualizar src/App.jsx
-
-Modifica el archivo `src/App.jsx` con este contenido base (lo ampliaremos después):
-
-```jsx
-// src/App.jsx
-import './App.css'
-
-function App() {
-  return (
-    <div>
-      <h1>Sistema de Información Web</h1>
-      <p>Configuración inicial completada</p>
-    </div>
-  )
-}
-
-export default App
-```
-
-### 12. Verificar estructura de carpetas
-
-Al finalizar este punto, tu estructura debe verse así:
-
-```bash
-frontend_web/
-└── react_node_express/
-    ├── node_modules/          # Dependencias (no se sube a Git)
-    ├── public/                # Archivos estáticos
-    │   └── vite.svg           # Favicon de Vite
-    ├── src/                   # Código fuente
-    │   ├── App.css
-    │   ├── App.jsx
-    │   ├── index.css
-    │   └── main.jsx
-    ├── .gitignore             # Archivos ignorados por Git
-    ├── eslint.config.js       # Configuración de ESLint
-    ├── index.html             # Página principal HTML
-    ├── package-lock.json      # Versiones exactas de dependencias
-    ├── package.json           # Configuración del proyecto
-    ├── README.md              # Documentación
-    └── vite.config.js         # Configuración de Vite
-```
+**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
+## 2. Iniciar el Proyecto
+&nbsp;
 
-## ✅ Verificación
+### 2.1. Crear el Proyecto
 
-Para probar que todo está correctamente configurado:
+- En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
 
-### 1. Iniciar el servidor de desarrollo
+  ```bash
+  npx create-expo-app frontend --template blank-typescript
+	```	
 
-```bash
-npm run dev
-```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ? Select an Expo SDK version: » - Use arrow-keys. Return to submit.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > Latest (SDK 57) - Recommended for most projects **# <ins>Seleccionar esta opción**</ins><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Other SDK version…<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Creating frontend using the blank-typescript template.<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; √ Downloaded and extracted project files.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > npm install<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; npm warn deprecated uuid@7.0.3: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CommonJS codebases, use uuid@11 (butbe aware this version will likely be deprecated in 2028).<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; added 467 packages, and audited 468 packages in 3m<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 45 packages are looking for funding<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   run `npm fund` for details<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 moderate severity vulnerabilities<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To address issues that do not require attention, run:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   npm audit fix<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To address all issues (including breaking changes), run:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; npm audit fix --force<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Run `npm audit` for details.<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✅ Your project is ready!<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To run your project, navigate to the directory and run one of the following npm commands.<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - cd frontend<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - npm run android<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - npm run web<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ? You are creating a project inside of an existing Git repository. Skip initializing a new git repository? » (Y/n) **# <ins>Escribir YES**</ins><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; npm notice<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; npm notice New minor version of npm available! 11.9.0 -> 11.19.1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.19.1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; npm notice To update run: npm install -g npm@11.19.1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; npm notice<br>
+<br>
 
-### 2. Resultado esperado en la terminal
-
-```bash
-VITE v8.0.4  ready in 500 ms
-
-➜  Local:   http://localhost:5173/
-➜  Network: use --host to expose
-➜  press h + enter to show help
-```
-
-### 3. Resultado esperado en el navegador
-
-✅ Se abre automáticamente el navegador en `http://localhost:5173`
-✅ Se muestra la página de inicio de React con Vite
-✅ No hay errores en la consola del navegador (F12 → Consola)
-
----
-
-## 🚨 Solución de problemas comunes
-
-### Error: "Node.js version is too old"
-
-**Problema:** La versión de Node.js es menor a v18
-
-**Solución:** Actualiza Node.js a v18 o superior
-
-```bash
-# Verificar versión
-node --version
-
-# Descargar actualización desde:
-# https://nodejs.org/
-```
-
-### Error: "Cannot find module 'vite'"
-
-**Problema:** Las dependencias no se instalaron correctamente
-
-**Solución:** Reinstala las dependencias
-
-```bash
-# En Windows:
-rmdir /s node_modules
-del package-lock.json
-
-# En Mac/Linux:
-rm -rf node_modules package-lock.json
-
-# Luego:
-npm install
-```
-
-### Error: "ESLint configuration is invalid"
-
-**Problema:** El archivo `eslint.config.js` tiene formato incorrecto
-
-**Solución:** Asegúrate de usar `export default` y la sintaxis moderna
-
-```bash
-// ✅ Correcto (ES Modules)
-export default defineConfig([...])
-
-// ❌ Incorrecto (CommonJS)
-module.exports = defineConfig([...])
-```
-
-### El puerto 5173 está ocupado
-
-**Problema:** Otro proceso está usando el puerto 5173
-
-**Solución 1:** Cambia el puerto en `vite.config.js`:
-
-```bash
-server: {
-  port: 5174,  // Cambia a otro puerto
-  open: true
-}
-```
-
-**Solución 2:** Encontrar y cerrar el proceso que usa el puerto
-
-```bash
-# En Windows (PowerShell):
-netstat -ano | findstr :5173
-taskkill /PID <PID> /F
-
-# En Mac/Linux:
-lsof -i :5173
-kill -9 <PID>
-```
-
-### Error al instalar dependencias con versiones exactas
-
-**Problema:** Conflictos de versiones entre paquetes
-
-**Solución:** Instala sin versiones exactas primero
-
-```bash
-npm install react react-dom react-router-dom jwt-decode
-npm install -D @vitejs/plugin-react eslint
-```
+**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
+## 3. Ejecutar el Proyecto
+&nbsp;
 
-## 📚 Recursos adicionales
+### 3.1. Ingresar a la carpeta "frontend"
 
-- [Documentación oficial de Vite](https://vitejs.dev/)
-- [Documentación de React](https://react.dev/)
-- [Guía de ESLint](https://eslint.org/docs/latest/)
-- [React Router DOM](https://reactrouter.com/)
-- [Node.js](https://nodejs.org/)
+- En la terminal de Visual Studio Code ingresar al proyecto creado "frontend" con el siguiente comando:
+
+	```bash
+	cd frontend
+	```
+
+### 3.2. Ejecutar el proyecto en el Emulador Android
+
+- En la terminal de Visual Studio Code ejecutar el siguiente comando para iniciar el proyecto en el emulador Android:
+
+	```bash
+	npm run android
+	```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > frontend@1.0.0 android<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > expo start --android<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Starting project at D:\PROYECTOS\07_computacion_movil\frontend<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Starting Metro Bundler<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Opening emulator Pixel_6a<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Opening exp://192.168.78.145:8081 on Pixel_6a<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![QR](img/expo_go/01_expo_go.PNG)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Scan the QR code above to open in Expo Go.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Metro: exp://192.168.78.145:8081<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Using Expo Go (Press s to switch to development build)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; › Press ? │ show all commands<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Logs for your project will appear below. Press Ctrl+C to exit.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Android Bundled 4881ms index.ts (708 modules)
+
+### 3.3. Ejecutar el proyecto en el Dispositivo Móvil
+
+- **Requisito previo**: Descargar e instalar la aplicación **"Expo Go"** desde la **Google Play Store (Android)** o **App Store (iOS)** en el teléfono.
+- Asegurar que el teléfono y el computador estén **conectados a la misma red Wi-Fi**.
+- Abrir la app Expo Go en el teléfono.
+- **Android**: Tocar el botón **"Scan QR code"** y escanear el código QR que aparece en la terminal del computador.
+- **iOS**: Abrir la aplicación de **Cámara de tu iPhone** y apuntar al código QR. Preguntará si se desea abrir en Expo Go.
+
+### 3.4. Ejecutar el proyecto en el Dispositivo Móvil a través de un Tunel (sin abrir el Emulador Android)
+
+- Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code. 
+
+- Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el dispositivo móvil a través de un túnel: 
+
+	```bash
+	npm install -g @expo/ngrok@^4.1.0 # instalación global
+	```
+
+	```bash
+	npm install --save-dev @expo/ngrok@^4.1.0 # instalación local como dependencia de desarrollo
+	```
+
+- Modificar el package.json:
+
+	```json
+	 1    {
+	 2      "name": "frontend",
+	 3      "version": "1.0.0",
+	 4      "main": "index.ts",
+	 5      "dependencies": {
+	 6        "expo": "~57.0.23",
+	 7        "expo-status-bar": "~57.0.1",
+	 8        "react": "19.2.3",
+	 9        "react-native": "0.86.3"
+	10      },
+	11      "devDependencies": {
+	12        "@expo/ngrok": "^4.1.3",
+	13        "@types/react": "~19.2.2",
+	14        "typescript": "~6.0.3"
+	15      },
+	16      "scripts": {
+	17        "start": "expo start --tunnel --clear",
+	18        "start:local": "expo start --host lan --clear",
+	19        "start:offline": "expo start --offline --clear",
+	20        "android": "expo start --android",
+	21        "ios": "expo start --ios",
+	22        "web": "expo start --web"
+	23      },
+	24      "private": true
+	25    }
+	```
+
+- Ejecutar en el Visual Studio Code el siguiente comando:
+
+	```bash
+	npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
+	```
+
+### 3.5. Ejecutar el proyecto en el Navegador Web
+
+- Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
+
+- Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el navegador web: 
+
+	```bash
+	npx expo install react-dom react-native-web
+	```
+
+- Ejecutar en el Visual Studio Code el siguiente comando:
+
+	```bash
+	npm run web
+	```
+
+- Con el Navegador Web abierto, Presionar la **Tecla F12** para abrir el inspector de propiedades.
+
+- Seleccionar la opción **'Toggle device toolbar'**.
+
+- Seleccionar en **'Dimensions'** un dispositivo móvil.
+
+### 3.6. Modificar el Mensaje e Inicio de la App
+
+- En 'frontend_mob/App.tsx' modificar la línea 7 :
+
+  ```tsx
+   1    import { StatusBar } from 'expo-status-bar';
+   2    import { StyleSheet, Text, View } from 'react-native';
+   3  
+   4    export default function App() {
+   5      return (
+   6        <View style={styles.container}>
+   7          <Text>¡Hola Mundo!</Text>
+   8          <StatusBar style="auto" />
+   9        </View>
+  10      );
+  11    }
+  12  
+  13    const styles = StyleSheet.create({
+  14      container: {
+  15        flex: 1,
+  16        backgroundColor: '#fff',
+  17        alignItems: 'center',
+  18        justifyContent: 'center',
+  19      },
+  20    });
+  ```
+
+**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
+## 4. Configurar el Proyecto
+&nbsp;
 
-## ✅ Checklist de verificación
+### 4.1. Modificar el archivo 'package.json' 
 
-Marca cada elemento cuando esté completado:
+- Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
 
-- [ ] Node.js v18+ instalado y verificado
-- [ ] Proyecto creado con `npm create vite@latest`
-- [ ] ESLint seleccionado como linter
-- [ ] Dependencias de producción instaladas
-- [ ] Dependencias de desarrollo instaladas
-- [ ] `vite.config.js` configurado correctamente
-- [ ] `eslint.config.js` verificado
-- [ ] `index.html` actualizado con lang="es" y meta tags
-- [ ] `main.jsx` verificado
-- [ ] `App.jsx` actualizado
-- [ ] `npm run dev` funciona correctamente
-- [ ] Aplicación visible en `http://localhost:5173`
+- Incluir en el código del 'package.json' las dependencias para asegurar que el proyecto funcione correctamente:
+                    
+	```json
+    1    {
+    2      "name": "frontend",
+    3      "version": "1.0.0",
+    4      "main": "index.ts",
+    5      "dependencies": {
+    6        "expo": "~57.0.23",
+    7        "expo-status-bar": "~57.0.1",
+    8        "react": "19.2.3",
+    9        "react-dom": "19.2.3",
+   10        "react-native": "0.86.3",
+   11        "react-native-web": "^0.21.2",
+   12        "@react-native-async-storage/async-storage": "2.2.0",
+   13        "@react-navigation/native": "^7.1.28",
+   14        "@react-navigation/native-stack": "^7.10.1",    
+   15        "@react-navigation/stack": "^7.6.16",
+   16        "axios": "^1.13.2",
+   17        "react-native-safe-area-context": "~5.6.0",
+   18        "react-native-screens": "~4.16.0"    
+   19      },
+   20      "devDependencies": {
+   21        "@expo/ngrok": "^4.1.3",
+   22        "@types/react": "~19.2.2",
+   23        "typescript": "~6.0.3"
+   24      },
+   25      "scripts": {
+   26        "start": "expo start --tunnel --clear",
+   27        "start:local": "expo start --host lan --clear",
+   28        "start:offline": "expo start --offline --clear",
+   29        "android": "expo start --android",
+   30        "ios": "expo start --ios",
+   31        "web": "expo start --web"
+   32      },
+   33      "private": true
+   34    }
+	```
+
+### 4.2. Instalar las dependencias del Proyecto:
+
+- Actualizar las dependencias incluidas en el **'package.json'** desde la terminar de Visual Studio Code el siguiente comando:
+
+	```bash
+	npm i
+	```
+
+
+**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
+## 5. Estructurar el Proyecto
+&nbsp;
 
-## 📝 Resumen de comandos (cheatsheet)
+### 5.1. Estructura del Proyecto:
 
-```bash
-# 1. Verificar Node.js
-node --version
-npm --version
+	# C = Carpetas
+	# A = Archivos
 
-# 2. Crear proyecto
-mkdir -p frontend_web/react_node_express
-cd frontend_web/react_node_express
-npm create vite@latest . -- --template react
-# Seleccionar: ESLint
+	proyecto/                                      		     # C. Proyecto móvil en React Native.
+	└── frontend/                                     		 # C. Carpeta raíz del proyecto en React Native.
+			├── .claude/                                     # C. Importaciones al proyecto que vienen de 'Claude'
+			├── .expo/                                       # C. Configuraciones del proyecto utilizados por 'Expo'
+			├── assets/                                      # C. Recursos estáticos (imágenes, fuentes).
+			├── node_modules/                                # C. Dependencias (librerías) instaladas para el frontend.
+			├── src/                                         # C. Carpetas y archivos de la aplicación React Native.
+			│   ├── data/                                    # C. Capa para obtención y manipulación de datos.
+			│   │   ├── repositories/                        # C. Interfaces para acceder a diferentes fuentes de datos.
+			│   │   │   ├── AuthRepository.tsx               # A. Lógica para la autenticación.
+			│   │   │   └── UserLocalRepository.tsx          # A. Gestión de datos del usuario a nivel local (AsyncStorage).
+			│   │   └── sources/                             # C. Implementaciones  de las fuentes de datos (local, remota).
+			│   │       ├── local/                           # C. Lógica para acceder a datos almacenados localmente.
+			│   │       │   └── LocalStorage.tsx             # A. Interactua con el almacenamiento local (AsyncStorage).
+			│   │       └── remote/                          # C. Interactua con la API del backend (clientes API).
+			│   │           ├── api/                         # C. Clientes o servicios para realizar llamadas a la API.
+			│   │           │   └── ApiDelivery.tsx          # A. Cliente para interactuar la API con "delivery".
+			│   │           └── models/                      # C. Estructuras de datos que se reciben de la API.
+			│   │               └── ResponseApiDelivery.tsx	 # A. Tipo de la respuesta de la API de "delivery".
+			│   ├── domain/                                  # C. Lógica de negocio y entidades del dominio (independiente).
+			│   │   ├── entities/                            # C. Estructuras de los objetos del negocio (User).
+			│   │   │   └── User.tsx                         # A. Entidad de usuario con sus propiedades (nombre, email).
+			│   │   ├── repositories/                        # C. Interfaces para acceder a los datos (implementado en Data).
+			│   │   │   ├── AuthRepository.tsx               # A. Interfaz para las operaciones de autenticación.
+			│   │   │   └── UserLocalRepository.tsx          # A. Interfaz para la gestión de datos locales del usuario.
+			│   │   └── useCases/                            # C. Lógica de negocio de la aplicación (dominio/data).
+			│   │       ├── auth/                            # C. Casos de uso para la autenticación (Login, Register).
+			│   │       │   ├── LoginAuth.tsx                # A. Lógica para el proceso de inicio de sesión del usuario.
+			│   │       │   └── RegisterAuth.tsx             # A. Lógica para el proceso de registro de nuevos usuarios.
+			│   │       └── userLocal/                       # C. Casos de uso relacionados con la gestión local del usuario.
+			│   │           ├── GetUserLocal.tsx             # A. Obtener información del usuario almacenado localmente.
+			│   │           ├── RemoveUserLocal.tsx          # A. Eliminar información del usuario almacenado localmente.
+			│   │           └── SaveUserLocal.tsx            # A. Guardar la información del usuario localmente.
+			│   └── presentation/                            # C. Capa de interfaz y presentación de datos (components, views).
+			│       ├── components/                          # C. Componentes de interfaz de usuario (inputs, buttons).
+			│       │   ├── CustomTextInput.tsx              # A. Componente de entrada de texto personalizado con estilos.
+			│       │   └── RoundedButton.tsx                # A. Componente de botón con estilos de bordes redondeados.
+			│       ├── hooks/                               # C. Hooks personalizados para lógica de presentación reutilizable.
+			│       │   └── useUserLocal.tsx                 # A. Hook para manipular la información local del usuario.
+			│       ├── theme/                               # C. Estilos y la temática visual general de la aplicación.
+			│       │   └── AppTheme.tsx                     # A. Paleta de colores, tipografía y estilos consistentes.
+			│       └── views/                               # C. Pantallas o vistas principales de la aplicación.
+			│           ├── home/                            # C. Archivos relacionados con la pantalla principal.
+			│           │   ├── Home.tsx                     # A. Componente principal de la pantalla inicio (Home).
+			│           │   ├── Styles.tsx                   # A. Estilos para los componentes de la pantalla inicio.
+			│           │   └── ViewModel.tsx                # A. Lógica de presentación para la pantalla inicio.
+			│           ├── profile/                         # C. Archivos relacionados con el perfil del usuario.
+			│           │   └── info/                        # C. Archivos relacionados con el perfil del usuario.
+			│           │       ├── ProfileInfo.tsx          # A. Componente para mostrar información del perfil del usuario.
+			│           │       └── ViewModel.tsx            # A. Lógica de presentación para el perfil del usuario.
+			│           └── register/                        # C. Archivos relacionados con la pantalla de registro de usuarios.
+			│               ├── Register.tsx                 # A. Componente principal de la pantalla de registro de usuarios.
+			│               ├── Styles.tsx                   # A. Estilos para los componentes de la pantalla de registro.
+			│               └── ViewModel.tsx                # A. Lógica de presentación para la pantalla registro de usuarios.
+			├── .gitignore                                   # A. Archivos y carpetas que Git debe ignorar.
+			├── AGENTS.md                                    # A. Archivo específico para trabajar con Agentes de Claude.
+			├── app.json                                     # A. Configuración utilizada por Expo para configurar la app.
+			├── App.tsx                                      # A. Raíz de la aplicación React Native (punto de entrada UI).
+			├── CLAUDE.md                                    # A. Contexto para los asistentes de IA (como Claude Code)
+			├── index.ts                                     # A. Punto de entrada para la aplicación React Native.
+			├── LICENSE                                      # A. Define qué se puede y qué no puede hacer en el código.
+			├── package-lock.json                            # A. Registra las versiones de las dependencias del frontend.
+			├── package.json                                 # A. Manifiesto del frontend (nombre, dependencias, scripts).
+			└── tsconfig.json                                # A. Configuración para el compilador de TypeScript.
 
-# 3. Instalar dependencias
-npm install
-npm install react@19.2.4 react-dom@19.2.4 react-router-dom@7.14.0 jwt-decode@4.0.0
-npm install -D @vitejs/plugin-react@6.0.1 @eslint/js@9.39.4 eslint@9.39.4 eslint-plugin-react-hooks@7.0.1 eslint-plugin-react-refresh@0.5.2 globals@17.4.0 @types/react@19.2.14 @types/react-dom@19.2.3 vite@8.0.4
 
-# 4. Iniciar servidor
-npm run dev
+### 5.2. Crear la Estructura del Proyecto:
 
-# 5. Si hay errores, reinstalar
-rm -rf node_modules package-lock.json
-npm install
-```
+- Crear las **Carpetas** y **Archivos** del proyecto, copiando el siguiente código:
+
+  ```bash
+  mkdir -p src/data
+  mkdir -p src/data/repositories
+  ni src/data/repositories/AuthRepository.tsx -ItemType File -Force
+  ni src/data/repositories/UserLocalRepository.tsx -ItemType File -Force
+  mkdir -p src/data/sources
+  mkdir -p src/data/sources/local
+  ni src/data/sources/local/LocalStorage.tsx -ItemType File -Force
+  mkdir -p src/data/sources/remote
+  mkdir -p src/data/sources/remote/api
+  ni src/data/sources/remote/api/ApiDelivery.tsx -ItemType File -Force
+  mkdir -p src/data/sources/remote/models
+  ni src/data/sources/remote/models/ResponseApiDelivery.tsx -ItemType File -Force
+  mkdir -p src/domain
+  mkdir -p src/domain/entities
+  ni src/domain/entities/User.tsx -ItemType File -Force
+  mkdir -p src/domain/repositories
+  ni src/domain/repositories/AuthRepository.tsx -ItemType File -Force
+  ni src/domain/repositories/UserLocalRepository.tsx -ItemType File -Force
+  mkdir -p src/domain/useCases
+  mkdir -p src/domain/useCases/auth
+  ni src/domain/useCases/auth/LoginAuth.tsx -ItemType File -Force
+  ni src/domain/useCases/auth/RegisterAuth.tsx -ItemType File -Force
+  mkdir -p src/domain/useCases/userLocal
+  ni src/domain/useCases/userLocal/GetUserLocal.tsx -ItemType File -Force
+  ni src/domain/useCases/userLocal/RemoveUserLocal.tsx -ItemType File -Force
+  ni src/domain/useCases/userLocal/SaveUserLocal.tsx -ItemType File -Force
+  mkdir -p src/presentation
+  mkdir -p src/presentation/components
+  ni src/presentation/components/CustomTextInput.tsx -ItemType File -Force
+  ni src/presentation/components/RoundedButton.tsx -ItemType File -Force
+  mkdir -p src/presentation/hooks
+  ni src/presentation/hooks/useUserLocal.tsx -ItemType File -Force
+  mkdir -p src/presentation/theme
+  ni src/presentation/theme/AppTheme.tsx -ItemType File -Force
+  mkdir -p src/presentation/views
+  mkdir -p src/presentation/views/home
+  ni src/presentation/views/home/Home.tsx -ItemType File -Force
+  ni src/presentation/views/home/Styles.tsx -ItemType File -Force
+  ni src/presentation/views/home/ViewModel.tsx -ItemType File -Force
+  mkdir -p src/presentation/views/profile
+  mkdir -p src/presentation/views/profile/info
+  ni src/presentation/views/profile/info/ProfileInfo.tsx -ItemType File -Force
+  ni src/presentation/views/profile/info/ViewModel.tsx -ItemType File -Force
+  mkdir -p src/presentation/views/register
+  ni src/presentation/views/register/Register.tsx -ItemType File -Force
+  ni src/presentation/views/register/Styles.tsx -ItemType File -Force
+  ni src/presentation/views/register/ViewModel.tsx -ItemType File -Force
+
+	```
+
+- Pegar el código en la terminal de Visual Studio Code (Verificar que esté en **..\frontend>**) y presione la tecla **ENTER**.
+
+### 5.3. Cargar las imágenes del Proyecto a la carpeta '../frontend/assets':
+
+- Copiar las imágenes del proyecto que se encuentran en la carpeta **../resources/02_hibrido_/react_native/assets**. 
+
+- Pegar las imágenes en la carpeta **'../frontend/assets'**. 
+
+
+**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
+<div align="right">
+  <table border="0">
+    <tr>      
+      <td align="center">1. <a href="01_entorno.md">Entorno de Desarrollo</a></td>
+      <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
+      <td align="center">3. <a href="03_frontend.md">Frontend</a></td>
+    </tr>
+  </table>
+</div>
 
-## 🎯 Resultado final del Punto 1
-
-Al completar este punto, tendrás:
-
-#### ✅ Un proyecto React con Vite configurado
-#### ✅ ESLint instalado y configurado
-#### ✅ Todas las dependencias necesarias instaladas
-#### ✅ El servidor de desarrollo funcionando
-#### ✅ La aplicación visible en el navegador
-
----
-**¡Estás listo para comenzar a desarrollar!**
+<!-- ![Pantalla Principal Android](img/01_android_studio.png) -->

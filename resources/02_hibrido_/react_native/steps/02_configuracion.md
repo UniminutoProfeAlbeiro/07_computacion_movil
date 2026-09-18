@@ -14,7 +14,7 @@
 ## 1. Preparar el Proyecto
 &nbsp;
 
-### 1.1. Descargar el '.ZIP' del Repositorio :
+### 1.1. Descargar el '.ZIP' del Repositorio
 
 - Ir a **[07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main)** y descargar el archivo '.ZIP'.
 - Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
@@ -24,7 +24,7 @@
 - Colocar el nombre del proyecto al Repositorio Creado 
 - En caso de no tener cuenta en Github, crear una (**[Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_trabajar_con_github.md)**).
 
-### 1.3. Abrir el Proyecto en Visual Studio Code.
+### 1.3. Abrir el Proyecto en Visual Studio Code
 
 - Asociar el proyecto con Visual Studio Code
 - Abrir una terminal de Visual Studio Code
