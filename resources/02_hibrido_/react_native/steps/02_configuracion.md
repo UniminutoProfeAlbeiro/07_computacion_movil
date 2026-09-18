@@ -301,6 +301,8 @@
 ## 5. Estructurar el Proyecto
 &nbsp;
 
+### 5.1. Estructura del Proyecto:
+
 	# C = Carpetas
 	# A = Archivos
 
@@ -370,11 +372,30 @@
 			└── tsconfig.json                                # A. Configuración para el compilador de TypeScript.
 
 
-### 5.1. Crear la Estructura del Proyecto:
+### 5.2. Crear la Estructura del Proyecto:
 
-- 
+- Crear las **Carpetas** y **Archivos** del proyecto
 
-### 5.2. Cargar las imágenes del Proyecto a la carpeta 'assets':
+  ```bash
+  mkdir -p src/data
+  mkdir -p src/data/entities
+  touch src/data/AuthRepository.tsx
+  mkdir -p src/data/repositories
+  mkdir -p src/data/sources
+  mkdir -p src/data/sources/local
+  mkdir -p src/data/sources/remote
+  mkdir -p src/data/sources/remote/api
+  mkdir -p src/data/sources/remote/models
+  mkdir -p src/domain
+  mkdir -p src/domain/entities
+  mkdir -p src/domain/repositories
+  mkdir -p src/domain/useCases
+  mkdir -p src/domain/useCases/auth
+  mkdir -p src/domain/useCases/userLocal
+  mkdir -p src/presentation
+	```
+
+### 5.3. Cargar las imágenes del Proyecto a la carpeta 'assets':
 
 - Ubicar las imágenes del proyecto que se encuentran en **[assets](../assets/)**. 
 
