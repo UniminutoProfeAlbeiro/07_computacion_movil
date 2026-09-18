@@ -41,11 +41,11 @@
 
 #### 2.2.1. Crear el Proyecto
 
-- En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
 
-  ```bash
-  npx create-expo-app frontend --template blank-typescript
-	```	
+```bash
+npx create-expo-app frontend --template blank-typescript
+```	
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ? Select an Expo SDK version: » - Use arrow-keys. Return to submit.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > Latest (SDK 57) - Recommended for most projects **# <ins>Seleccionar esta opción**</ins><br>
