@@ -142,53 +142,53 @@ npm run android
 
 #### 2.3.4. Ejecutar el proyecto en el Dispositivo Móvil a través de un Tunel (sin abrir el Emulador Android)
 
-- Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code. 
 
-- Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el dispositivo móvil a través de un túnel: 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Instalar las siguientes dependencias de desarrollo para poder ejecutar el proyecto en el dispositivo móvil a través de un túnel: 
 
-	```bash
-	npm install -g @expo/ngrok@^4.1.0 # instalación global
-	```
+```bash
+npm install -g @expo/ngrok@^4.1.0 # instalación global
+```
 
-	```bash
-	npm install --save-dev @expo/ngrok@^4.1.0 # instalación local como dependencia de desarrollo
-	```
+```bash
+npm install --save-dev @expo/ngrok@^4.1.0 # instalación local como dependencia de desarrollo
+```
 
-- Modificar el package.json:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Modificar el package.json:
 
-	```json
-	 1    {
-	 2      "name": "frontend",
-	 3      "version": "1.0.0",
-	 4      "main": "index.ts",
-	 5      "dependencies": {
-	 6        "expo": "~57.0.23",
-	 7        "expo-status-bar": "~57.0.1",
-	 8        "react": "19.2.3",
-	 9        "react-native": "0.86.3"
-	10      },
-	11      "devDependencies": {
-	12        "@expo/ngrok": "^4.1.3",
-	13        "@types/react": "~19.2.2",
-	14        "typescript": "~6.0.3"
-	15      },
-	16      "scripts": {
-	17        "start": "expo start --tunnel --clear",
-	18        "start:local": "expo start --host lan --clear",
-	19        "start:offline": "expo start --offline --clear",
-	20        "android": "expo start --android",
-	21        "ios": "expo start --ios",
-	22        "web": "expo start --web"
-	23      },
-	24      "private": true
-	25    }
-	```
+```json
+ 1    {
+ 2      "name": "frontend",
+ 3      "version": "1.0.0",
+ 4      "main": "index.ts",
+ 5      "dependencies": {
+ 6        "expo": "~57.0.23",
+ 7        "expo-status-bar": "~57.0.1",
+ 8        "react": "19.2.3",
+ 9        "react-native": "0.86.3"
+10      },
+11      "devDependencies": {
+12        "@expo/ngrok": "^4.1.3",
+13        "@types/react": "~19.2.2",
+14        "typescript": "~6.0.3"
+15      },
+16      "scripts": {
+17        "start": "expo start --tunnel --clear",
+18        "start:local": "expo start --host lan --clear",
+19        "start:offline": "expo start --offline --clear",
+20        "android": "expo start --android",
+21        "ios": "expo start --ios",
+22        "web": "expo start --web"
+23      },
+24      "private": true
+25    }
+```
 
-- Ejecutar en el Visual Studio Code el siguiente comando:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Ejecutar en el Visual Studio Code el siguiente comando:
 
-	```bash
-	npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
-	```
+```bash
+npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
+```
 
 #### 2.3.5. Ejecutar el proyecto en el Navegador Web
 
