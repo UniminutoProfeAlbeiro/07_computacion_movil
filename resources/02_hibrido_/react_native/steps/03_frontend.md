@@ -23,11 +23,65 @@
 5    }
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
-
 #### 3.1.2. Componente controles tipo Texto
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Colocar el nombre del proyecto al Repositorio Creado 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar el componente para los controles de 'Texto' en 'frontend_mob/src/presentation/components/CustomTextInput.tsx':
+
+```tsx
+ 1    import React from 'react';
+ 2    import { StyleSheet, View, Image, TextInput, KeyboardType } from 'react-native';
+ 3    
+ 4    interface Props {
+ 5      image: any;
+ 6      placeholder: string;
+ 7      value: string;
+ 8      keyboardType: KeyboardType;
+ 9      secureTextEntry?: boolean;
+10      property: string, onChangeText: (property: string, value: any) => void,
+11    }
+12    
+13    export const CustomTextInput = ({
+14      image,
+15      placeholder,
+16      value,
+17      keyboardType,
+18      secureTextEntry = false,
+19      property,
+20      onChangeText
+21    }: Props) => {
+22      return (
+23        <View style={styles.formInput}>
+24          <Image style={styles.formIcon} source={image} />
+25          <TextInput style={styles.formTextInput}
+26            placeholder={placeholder}
+27            keyboardType={keyboardType}
+28            value={value}
+29            onChangeText={text => onChangeText(property, text)}
+30            secureTextEntry={secureTextEntry}
+31          />
+32        </View>
+33      )
+34    }
+35    
+36    const styles = StyleSheet.create({
+37      formIcon: {
+38        width: 25,
+39        height: 25,
+40        marginTop: 5,
+41      },
+42      formInput: {
+43        flexDirection: 'row',
+44        marginTop: 30,
+45      },
+46      formTextInput: {
+47        flex: 1,
+48        borderBottomWidth: 1,
+49        borderBottomColor: '#AAAAAA',
+50        marginLeft: 15,
+51      }
+52    })
+```
+
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso de no tener cuenta en Github, crear una (**[Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_trabajar_con_github.md)**).
 
 #### 3.1.3. Componente controles tipo Botón
