@@ -65,12 +65,12 @@ TypeScript importerM
 
 #### 1.3.2. Verificar restricciones del 'npm'
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar el siguiente comando en PowerShell para verificar la política de ejecución:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar el siguiente comando en PowerShell para verificar la política de ejecución:
 
 ```powershell
 Get-ExecutionPolicy
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Si aparece 'Restricted', hay que cambiarla a 'Unrestricted' de la siguiente forma:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Si aparece 'Restricted', hay que cambiarla a 'Unrestricted' de la siguiente forma:
 
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser
@@ -98,15 +98,15 @@ npm --version # Debe mostrar v9.x.x o superior
 
 #### 1.4.2. Instalar Android Studio
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; 'Next' / ✅ 'Android Virtual Device' - 'Next' / ✅ 'Standard' - 'Next' / 'Next' / ✅ 'Accept' - 'Next' / 'Install' / 'Finish'.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; 'Next' / ✅ 'Android Virtual Device' - 'Next' / ✅ 'Standard' - 'Next' / 'Next' / ✅ 'Accept' - 'Next' / 'Install' / 'Finish'.
 
 
 ### Nota:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Si la instalación no sale como se espera porque hay una versión de Android Studio instalada, revise el siguiente enlace para 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Si la instalación no sale como se espera porque hay una versión de Android Studio instalada, revise el siguiente enlace para 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; desinstalarlo totalmente y repita los pasos 4.1 y 4.2: [Desinstalar completamente Android Studio](https://blog.buhoos.com/como-desinstalar-completamente-android-studio-de-windows-10/)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguiente programa para eliminar carpetas
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso que los archivos y/o carpetas no se dejen eliminar, descargue el siguiente programa para eliminar carpetas
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o archivos: [iobit-unlocker](https://www.iobit.com/es/iobit-unlocker.php#)
 
 **<div align="right"><a href="#punto-1-entorno-de-desarrollo">Volver al Menú</a></div>**
