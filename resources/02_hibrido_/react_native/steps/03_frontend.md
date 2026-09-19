@@ -13,8 +13,17 @@
 
 #### 3.1.1. Estilos Globales
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ir a **[07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main)** y descargar el archivo '.ZIP'.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar los estilos globales 'frontend_mob/src/presentation/theme/AppTheme.tsx':
+
+```tsx
+1    export const MyColors = {
+2      background: '#EEEEEE',
+3      primary: '#F4991A',
+4      secondary: '#E14D2A',
+5    }
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
 
 #### 3.1.2. Componente controles tipo Texto
 
@@ -45,7 +54,7 @@
 
 
 
-**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
+**<div align="right"><a href="#punto-3-frontend">Volver al Menú</a></div>**
 
 ---
 ## 3.2. Vista del Formulario de Inicio de Sesión
@@ -102,7 +111,7 @@ npx create-expo-app frontend --template blank-typescript
 <br>
 
 
-**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
+**<div align="right"><a href="#punto-3-frontend">Volver al Menú</a></div>**
 
 ---
 <div align="right">
