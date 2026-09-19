@@ -394,56 +394,248 @@ npx expo start --tunnel --clear # Túnel para sortear restricciones de red
 ## 3.2. Vista del Formulario de Inicio de Sesión
 &nbsp;
 
-#### 3.2.1. Crear el Proyecto
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
+#### 3.2.1. Estilos Formulario de Inicio de Sesión
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar los estilos del formulario de inicio de sesión de 'frontend_mob/src/presentation/views/home/Styles.tsx':
+
+```tsx
+ 1    import { StyleSheet } from "react-native";
+ 2  
+ 3    const HomeStyles = StyleSheet.create({
+ 4      container: {
+ 5        flex: 1,
+ 6        backgroundColor: 'black',
+ 7      },
+ 8      imageBackground: {
+ 9        width: '100%',
+10        height: '100%',
+11        opacity: 0.7,
+12        bottom: '30%',
+13      },
+14      logoContainer: {
+15        position: 'absolute',
+16        alignSelf: 'center',
+17        top: '15%',
+18      },
+19      logoImage: {
+20        width: 100,
+21        height: 100,
+22      },
+23      logoText: {
+24        color: 'white',
+25        textAlign: 'center',
+26        fontSize: 20,
+27        marginTop: 10,
+28        fontWeight: 'bold',
+29      },
+30      form: {
+31        width: '100%',
+32        height: '40%',
+33        backgroundColor: 'white',
+34        position: 'absolute',
+35        bottom: 0,
+36        borderTopLeftRadius: 40,
+37        borderTopRightRadius: 40,
+38        padding: 30,
+39      },
+40      formText: {
+41        fontWeight: 'bold',
+42        fontSize: 16,
+43      },
+44      formIcon: {
+45        width: 25,
+46        height: 25,
+47        marginTop: 5,
+48      },
+49      formInput: {
+50        flexDirection: 'row',
+51        marginTop: 30,
+52      },
+53      formTextInput: {
+54        flex: 1,
+55        borderBottomWidth: 1,
+56        borderBottomColor: '#AAAAAA',
+57        marginLeft: 15,
+58      },
+59      formRegister: {
+60        flexDirection: 'row',
+61        justifyContent: 'center',
+62        marginTop: 20,
+63      },
+64      formRegisterText: {
+65        fontStyle: 'italic',
+66        color: 'orange',
+67        borderBottomWidth: 1,
+68        borderBottomColor: 'orange',
+69        fontWeight: 'bold',
+70        marginLeft: 10,
+71      },
+72    });
+73  
+74    export default HomeStyles;
+```
+
+#### 3.2.2. Lógica Pantalla de Inicio de Sesión
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar los estados de los controles del formulario de inicio de sesión en 'frontend_mob/src/presentation/views/home/ViewModel.tsx':
+
+```tsx
+ 1    import { useState } from 'react';
+ 2  
+ 3    const HomeViewModel = () => {
+ 4      const [values, setValues] = useState({
+ 5        email: '',
+ 6        password: '',
+ 7      });
+ 8  
+ 9      const onChange = (property: string, value: any) => {
+10        setValues({
+11          ...values,
+12          [property]: value
+13        });
+14      };
+15  
+16      return {
+17        ...values,
+18        onChange
+19      };
+20    };
+21  
+22    export default HomeViewModel;
+```
+
+#### 3.2.3. Presentación Pantalla de Inicio de Sesión
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar formulario de inicio de sesión en 'frontend_mob/src/presentation/views/home/Home.tsx':
+
+```tsx
+ 1    import React from 'react';
+ 2    import styles from './Styles';
+ 3    import { Text, View, Image, TouchableOpacity } from 'react-native';
+ 4    import { RoundedButton } from '../../components/RoundedButton';
+ 5    import { CustomTextInput } from '../../components/CustomTextInput';
+ 6    import { StackNavigationProp } from '@react-navigation/stack';
+ 7    import { RootStackParamList } from '../../../../App';
+ 8    import { useNavigation } from '@react-navigation/native';
+ 9    import useViewModel from './ViewModel';
+10  
+11    export const HomeScreen = () => {
+12  
+13      const { email, password, onChange } = useViewModel();
+14      const navigation = useNavigation<StackNavigationProp<RootStackParamList>>();
+15  
+16      return (
+17        <View style={styles.container}>
+18          <Image
+19            source={require('../../../../assets/chef.jpg')}
+20            style={styles.imageBackground}
+21          />
+22          <View style={styles.logoContainer}>
+23            <Image
+24              source={require('../../../../assets/logo.png')}
+25              style={styles.logoImage}
+26            />
+27            <Text style={styles.logoText}>FOOD APP</Text>
+28          </View>
+29          <View style={styles.form}>
+30            <Text style={styles.formText}>INGRESAR</Text>
+31            <CustomTextInput
+32              image={require('../../../../assets/email.png')}
+33              placeholder='Correo Electrónico'
+34              keyboardType='email-address'
+35              property='email'
+36              onChangeText={onChange}
+37              value={email}
+38            />
+39            <CustomTextInput
+40              image={require('../../../../assets/password.png')}
+41              placeholder='Contraseña'
+42              keyboardType='default'
+43              property='password'
+44              onChangeText={onChange}
+45              value={password}
+46              secureTextEntry={true}
+47            />
+48            <View style={{ marginTop: 30 }}>
+49              <RoundedButton text='ENVIAR' onPress={() => {
+50                console.log('Email: ' + email);
+51                console.log('Password: ' + password);
+52              }} />
+53            </View>
+54            <View style={styles.formRegister}>
+55              <Text>¿No tienes cuenta?</Text>
+56              <TouchableOpacity onPress={() => navigation.navigate('RegisterScreen')}>
+57                <Text style={styles.formRegisterText}>Regístrate</Text>
+58              </TouchableOpacity>
+59            </View>
+60          </View>
+61        </View>
+62      );
+63    };
+```
+
+#### 3.2.4. Ajustes Finales
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Modificar la raíz del proyecto en 'frontend/App.tsx':
+
+```tsx
+ 1    import * as React from 'react';
+ 2    import { NavigationContainer } from '@react-navigation/native';
+ 3    import { createNativeStackNavigator } from '@react-navigation/native-stack';
+ 4    import { HomeScreen } from './src/presentation/views/home/Home';
+ 5    import { RegisterScreen } from './src/presentation/views/register/Register';
+ 6  
+ 7    export type RootStackParamList = {
+ 8      HomeScreen: undefined;
+ 9      RegisterScreen: undefined;
+10    }
+11  
+12    const Stack = createNativeStackNavigator<RootStackParamList>();
+13  
+14    const App = () => {
+15      return (
+16        <NavigationContainer>
+17          <Stack.Navigator screenOptions={{ headerShown: false }}>
+18            <Stack.Screen
+19              name="HomeScreen"
+20              component={HomeScreen}
+21            />
+22            <Stack.Screen
+23              name="RegisterScreen"
+24              component={RegisterScreen}
+25              options={{
+26                headerShown: true,
+27                title: "Registro",
+28              }}
+29            />
+30          </Stack.Navigator>
+31        </NavigationContainer>
+32      );
+33    };
+34  
+35    export default App;
+```
+
+#### 3.1.8. Ejecutar la App
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar la terminal el siguiente comando:
 
 ```bash
-npx create-expo-app frontend --template blank-typescript
-```	
+npm run web # Web
+```
 
-&nbsp;&nbsp;&nbsp;&nbsp;? Select an Expo SDK version: » - Use arrow-keys. Return to submit.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;> Latest (SDK 57) - Recommended for most projects **# <ins>Seleccionar esta opción**</ins><br>
-&nbsp;&nbsp;&nbsp;&nbsp;Other SDK version…<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Creating frontend using the blank-typescript template.<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;√ Downloaded and extracted project files.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;> npm install<br>
-&nbsp;&nbsp;&nbsp;&nbsp;npm warn deprecated uuid@7.0.3: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For<br>
-&nbsp;&nbsp;&nbsp;&nbsp;CommonJS codebases, use uuid@11 (butbe aware this version will likely be deprecated in 2028).<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;added 467 packages, and audited 468 packages in 3m<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;45 packages are looking for funding<br>
-&nbsp;&nbsp;&nbsp;&nbsp;  run `npm fund` for details<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;10 moderate severity vulnerabilities<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;To address issues that do not require attention, run:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;  npm audit fix<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;To address all issues (including breaking changes), run:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;npm audit fix --force<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Run `npm audit` for details.<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;✅ Your project is ready!<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;To run your project, navigate to the directory and run one of the following npm commands.<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;- cd frontend<br>
-&nbsp;&nbsp;&nbsp;&nbsp;- npm run android<br>
-&nbsp;&nbsp;&nbsp;&nbsp;- npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac<br>
-&nbsp;&nbsp;&nbsp;&nbsp;- npm run web<br>
-&nbsp;&nbsp;&nbsp;&nbsp;? You are creating a project inside of an existing Git repository. Skip initializing a new git repository? » (Y/n) **# <ins>Escribir YES**</ins><br>
-&nbsp;&nbsp;&nbsp;&nbsp;npm notice<br>
-&nbsp;&nbsp;&nbsp;&nbsp;npm notice New minor version of npm available! 11.9.0 -> 11.19.1<br>
-&nbsp;&nbsp;&nbsp;&nbsp;npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.19.1<br>
-&nbsp;&nbsp;&nbsp;&nbsp;npm notice To update run: npm install -g npm@11.19.1<br>
-&nbsp;&nbsp;&nbsp;&nbsp;npm notice<br>
-<br>
+### Nota:
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Recuerde los demás comandos:
+
+```bash
+npm run android # Emulador de Android
+```
+
+```bash
+npx expo start --tunnel --clear # Túnel para sortear restricciones de red
+```
 
 **<div align="right"><a href="#punto-3-frontend">Volver al Menú</a></div>**
 
@@ -451,9 +643,9 @@ npx create-expo-app frontend --template blank-typescript
 <div align="right">
   <table border="0">
     <tr>      
-      <td align="center">1. <a href="01_entorno.md">Entorno de Desarrollo</a></td>
+      <td align="center">2. <a href="02_configuracion.md">Entorno de Desarrollo</a></td>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
-      <td align="center">3. <a href="03_frontend.md">Frontend</a></td>
+      <td align="center">4. <a href="04_backend.md">Frontend</a></td>
     </tr>
   </table>
 </div>
