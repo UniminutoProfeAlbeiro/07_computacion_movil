@@ -397,7 +397,7 @@ npx expo start --tunnel --clear # Túnel para sortear restricciones de red
 
 #### 3.2.1. Estilos Formulario de Inicio de Sesión
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar los estilos del formulario de inicio de sesión de 'frontend_mob/src/presentation/views/home/Styles.tsx':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar los estilos del formulario de inicio de sesión de 'frontend/src/presentation/views/home/Styles.tsx':
 
 ```tsx
  1    import { StyleSheet } from "react-native";
@@ -478,7 +478,7 @@ npx expo start --tunnel --clear # Túnel para sortear restricciones de red
 
 #### 3.2.2. Lógica Pantalla de Inicio de Sesión
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar los estados de los controles del formulario de inicio de sesión en 'frontend_mob/src/presentation/views/home/ViewModel.tsx':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar los estados de los controles del formulario de inicio de sesión en 'frontend/src/presentation/views/home/ViewModel.tsx':
 
 ```tsx
  1    import { useState } from 'react';
@@ -507,7 +507,7 @@ npx expo start --tunnel --clear # Túnel para sortear restricciones de red
 
 #### 3.2.3. Presentación Pantalla de Inicio de Sesión
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar formulario de inicio de sesión en 'frontend_mob/src/presentation/views/home/Home.tsx':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar formulario de inicio de sesión en 'frontend/src/presentation/views/home/Home.tsx':
 
 ```tsx
  1    import React from 'react';
