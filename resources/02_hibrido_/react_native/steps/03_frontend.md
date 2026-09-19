@@ -13,7 +13,7 @@
 
 #### 3.1.1. Estilos Globales
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar los estilos globales 'frontend_mob/src/presentation/theme/AppTheme.tsx':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar los estilos globales 'frontend/src/presentation/theme/AppTheme.tsx':
 
 ```tsx
 1    export const MyColors = {
@@ -25,7 +25,7 @@
 
 #### 3.1.2. Componente controles tipo Texto
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar el componente para los controles de 'Texto' en 'frontend_mob/src/presentation/components/CustomTextInput.tsx':
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar el componente para los controles de tipo **'Texto'** en 'frontend/src/presentation/components/CustomTextInput.tsx':
 
 ```tsx
  1    import React from 'react';
@@ -82,31 +82,311 @@
 52    })
 ```
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso de no tener cuenta en Github, crear una (**[Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_trabajar_con_github.md)**).
-
 #### 3.1.3. Componente controles tipo Botón
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Asociar el proyecto con Visual Studio Code
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir una terminal de Visual Studio Code
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el nombre de la terminal a **'frontend'**, seleccionándola en la parte inferior derecha y presionando 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F2 / Rename...
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el color de la terminal **'frontend'**, dando click derecho / Chage Color... / Seleccionar el color
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ingresar a la carpeta **'frontend'** y eliminar el archivo **'delete'**:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar el componente para controles tipo **'Botón'** en 'frontend/src/presentation/components/RoundedButton.tsx':
+
+```tsx
+ 1    import React from 'react'
+ 2    import { TouchableOpacity, Text, StyleSheet } from 'react-native'
+ 3    import { MyColors } from '../theme/AppTheme';
+ 4    
+ 5    interface Props {
+ 6      text: string;
+ 7      onPress: () => void,
+ 8    }
+ 9    
+10    export const RoundedButton = ({ text, onPress }: Props) => {
+11      return (
+12        <TouchableOpacity
+13          style={styles.RoundedButton}
+14          onPress={() => onPress()}
+15        >
+16          <Text style={styles.textButton}>{text}</Text>
+17        </TouchableOpacity>
+18      )
+19    }
+20    
+21    const styles = StyleSheet.create({
+22      RoundedButton: {
+23        width: '100%',
+24        height: 40,
+25        backgroundColor: MyColors.primary,
+26        alignItems: 'center',
+27        justifyContent: 'center',
+28        borderRadius: 10,
+29      },
+30      textButton: {
+31        color: 'white',
+32      }
+33    });
+```
 
 #### 3.1.4. Estilos Formulario de Autoregistro
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar los estilos del Formulario de Autoregistro de 'frontend/src/presentation/views/register/Styles.tsx':
 
+```tsx
+ 1    import { StyleSheet } from "react-native";
+ 2    
+ 3    const RegisterStyles = StyleSheet.create({
+ 4      container: {
+ 5        flex: 1,
+ 6        backgroundColor: 'black',
+ 7      },
+ 8      imageBackground: {
+ 9        width: '100%',
+10        height: '100%',
+11        opacity: 0.7,
+12        bottom: '30%',
+13      },
+14      logoContainer: {
+15        position: 'absolute',
+16        alignSelf: 'center',
+17        top: '5%',
+18        alignItems: 'center',
+19      },
+20      logoImage: {
+21        width: 100,
+22        height: 100,
+23      },
+24      logoText: {
+25        color: 'white',
+26        textAlign: 'center',
+27        fontSize: 20,
+28        marginTop: 10,
+29        fontWeight: 'bold',
+30      },
+31      form: {
+32        width: '100%',
+33        height: '70%',
+34        backgroundColor: 'white',
+35        position: 'absolute',
+36        bottom: 0,
+37        borderTopLeftRadius: 40,
+38        borderTopRightRadius: 40,
+39        padding: 30,
+40      },
+41      formText: {
+42        fontWeight: 'bold',
+43        fontSize: 16,
+44      },
+45      formIcon: {
+46        width: 25,
+47        height: 25,
+48        marginTop: 5,
+49      },
+50      formInput: {
+51        flexDirection: 'row',
+52        marginTop: 25,
+53      },
+54      formTextInput: {
+55        flex: 1,
+56        borderBottomWidth: 1,
+57        borderBottomColor: '#AAAAAA',
+58        marginLeft: 15,
+59      },
+60      formRegister: {
+61        flexDirection: 'row',
+62        justifyContent: 'center',
+63        marginTop: 10,
+64      },
+65      formRegisterText: {
+66        fontStyle: 'italic',
+67        color: 'orange',
+68        borderBottomWidth: 1,
+69        borderBottomColor: 'orange',
+70        fontWeight: 'bold',
+71        marginLeft: 10,
+72      },
+73    });
+74    
+75    export default RegisterStyles;
+```
 
 #### 3.1.5. Lógica Pantalla de Autoregistro
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar los estados de los controles del Formulario de Autoregistro en 'frontend/src/presentation/views/register/ViewModel.tsx':
+
+```tsx
+ 1    import { useState } from "react";
+ 2  
+ 3    const RegisterViewModel = () => {
+ 4      const [values, setValues] = useState({
+ 5        name: '',
+ 6        lastname: '',
+ 7        phone: '',
+ 8        email: '',
+ 9        password: '',
+10        confirmPassword: '',
+11      });
+12  
+13      const onChange = (property: string, value: any) => {
+14        setValues({ ...values, [property]: value });
+15      };
+16  
+17      const register = () => {
+18        console.log(JSON.stringify(values));
+19      };
+20  
+21      return {
+22        ...values,
+23        onChange,
+24        register
+25      };
+26    }
+27  
+28    export default RegisterViewModel;
+```
 
 #### 3.1.6. Presentación Pantalla de Autoregistro
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Codificar Formulario de Autoregistro en 'frontend/src/presentation/views/register/Register.tsx':
 
+```tsx
+ 1    import React from 'react';
+ 2    import styles from './Styles';
+ 3    import { Text, View, Image, ScrollView } from 'react-native';
+ 4    import { CustomTextInput } from '../../components/CustomTextInput';
+ 5    import { RoundedButton } from '../../components/RoundedButton';
+ 6    import useViewModel from './ViewModel';
+ 7  
+ 8    export const RegisterScreen = () => {
+ 9  
+10      const { name, lastname, phone, email, password, confirmPassword, onChange, register } = useViewModel();
+11  
+12      return (
+13        <View style={styles.container}>
+14          <Image
+15            source={require('../../../../assets/chef.jpg')}
+16            style={styles.imageBackground}
+17          />
+18          <View style={styles.logoContainer}>
+19            <Image
+20              source={require('../../../../assets/logo.png')}
+21              style={styles.logoImage}
+22            />
+23            <Text style={styles.logoText}>FOOD APP</Text>
+24          </View>
+25          <View style={styles.form}>
+26            <ScrollView>
+27              <Text style={styles.formText}>REGÍSTRATE</Text>
+28              <CustomTextInput
+29                image={require('../../../../assets/user.png')}
+30                placeholder='Nombres'
+31                keyboardType='default'
+32                property='name'
+33                onChangeText={onChange}
+34                value={name}
+35              />
+36              <CustomTextInput
+37                image={require('../../../../assets/my_user.png')}
+38                placeholder='Apellidos'
+39                keyboardType='default'
+40                property='lastname'
+41                onChangeText={onChange}
+42                value={lastname}
+43              />
+44              <CustomTextInput
+45                image={require('../../../../assets/email.png')}
+46                placeholder='Correo Electrónico'
+47                keyboardType='email-address'
+48                property='email'
+49                onChangeText={onChange}
+50                value={email}
+51              />
+52              <CustomTextInput
+53                image={require('../../../../assets/phone.png')}
+54                placeholder='Teléfono'
+55                keyboardType='numeric'
+56                property='phone'
+57                onChangeText={onChange}
+58                value={phone}
+59              />
+60              <CustomTextInput
+61                image={require('../../../../assets/password.png')}
+62                placeholder='Contraseña'
+63                keyboardType='default'
+64                property='password'
+65                onChangeText={onChange}
+66                value={password}
+67                secureTextEntry={true}
+68              />
+69              <CustomTextInput
+70                image={require('../../../../assets/confirm_password.png')}
+71                placeholder='Confirmar Contraseña'
+72                keyboardType='default'
+73                property='confirmPassword'
+74                onChangeText={onChange}
+75                value={confirmPassword}
+76                secureTextEntry={true}
+77              />
+78              <View style={{ marginTop: 10 }}>
+79                <RoundedButton text='CONFIRMAR' onPress={() => register()} />
+80              </View>
+81            </ScrollView>
+82          </View>
+83        </View>
+84      );
+85  
+86    }
+```
 
 #### 3.1.7. Ajustes Finales
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Modificar la raíz del proyecto en 'frontend/App.tsx':
 
+```tsx
+ 1    import * as React from 'react';
+ 2    import { NavigationContainer } from '@react-navigation/native';
+ 3    import { createNativeStackNavigator } from '@react-navigation/native-stack';
+ 4    import { RegisterScreen } from './src/presentation/views/register/Register';
+ 5  
+ 6    export type RootStackParamList = {
+ 7      RegisterScreen: undefined;
+ 8    }
+ 9  
+10    const Stack = createNativeStackNavigator<RootStackParamList>();
+11  
+12    const App = () => {
+13      return (
+14        <NavigationContainer>
+15          <Stack.Navigator screenOptions={{ headerShown: false }}>
+16            <Stack.Screen
+17              name="RegisterScreen"
+18              component={RegisterScreen}
+19              options={{
+20                headerShown: true,
+21                title: "Registro",
+22              }}
+23            />
+24          </Stack.Navigator>
+25        </NavigationContainer>
+26      );
+27    };
+28  
+29    export default App;
+```
+
+#### 3.1.8. Ejecutar la App
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar la terminal el siguiente comando:
+
+```bash
+npm run web # Web
+```
+
+### Nota:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Recuerde los demás comandos:
+
+```bash
+npm run android # Emulador de Android
+```
+
+```bash
+npx expo start --tunnel --clear # Túnel para sortear restricciones de red
+```
 
 **<div align="right"><a href="#punto-3-frontend">Volver al Menú</a></div>**
 
