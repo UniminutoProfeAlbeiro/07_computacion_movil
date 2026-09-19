@@ -643,7 +643,7 @@ npx expo start --tunnel --clear # Túnel para sortear restricciones de red
 <div align="right">
   <table border="0">
     <tr>      
-      <td align="center">2. <a href="02_configuracion.md">Entorno de Desarrollo</a></td>
+      <td align="center">2. <a href="02_configuracion.md">Configuración del Proyecto</a></td>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
       <td align="center">4. <a href="04_backend.md">Frontend</a></td>
     </tr>
