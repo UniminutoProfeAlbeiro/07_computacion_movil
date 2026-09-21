@@ -1,4 +1,5 @@
-# 📝Punto 3: Frontend
+## <h1 align="center">III. Frontend Móvil</h1>
+## 3. Codificación
 
 3.1. **[Vista del Formulario de Autoregistro](#31-vista-del-formulario-de-autoregistro)**
 <br>3.2. **[Vista del Formulario de Inicio de Sesión](#32-vista-del-formulario-de-inicio-de-sesión)**
