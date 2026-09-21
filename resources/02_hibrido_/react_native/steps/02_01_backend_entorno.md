@@ -25,19 +25,7 @@
 Material Icon Theme
 ```
 ```
-ES7 React/Redux/React-Native snippets
-```
-```
-Simple React Snippets
-```
-```
-Auto Close Tag
-```
-```
-Paste JSON as Code
-```
-```
-TypeScript importerM
+Windows Live Server
 ```
 
 #### 1.1.5. Cerrar Visual Studio Code
