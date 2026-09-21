@@ -1,4 +1,4 @@
-###  <h2 align="center">III. Frontend Móvil</h2>
+##  <h2 align="center">III. Frontend Móvil</h2>
 ## 1. Entorno de Desarrollo
 
 1.1. **[Instalar Visual Studio Code](#11-instalar-visual-studio-code)**
