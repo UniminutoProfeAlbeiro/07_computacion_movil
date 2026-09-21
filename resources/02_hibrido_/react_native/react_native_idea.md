@@ -17,15 +17,9 @@ II. &nbsp;&nbsp; **[Backend](steps/)**
 III.&nbsp;&nbsp; **[Frontend Móvil](steps/01_frontend_mob.md)**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **[Entorno de Desarrollo](steps/01_01_entorno.md)**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **[Configuración del Proyecto](steps/02_config_proj.md)**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Vista del Formulario de Autoregistro**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **Vista del Formulario de Inicio de Sesión**
-
-
-5. **[Integración Backend - Frontend](steps/05_integracion_front_back.md)**
-<br> 5.1. **Registrar un Usuario**
-<br> 5.2. **Iniciar Sesión**
-<br> 5.3. **Cerrar Sesión**
-6. **[Pruebas de Software](steps/06_pruebas_software.md)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Autoregistro**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **Iniciar Sesión**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **Cerrar Sesión**
 
 **<div align="center"><a href="../../../README.md">Menú Principal</a></div>**
 
