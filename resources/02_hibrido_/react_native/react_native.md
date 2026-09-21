@@ -1,19 +1,19 @@
 ###  <h2 align="center">REACT NATIVE</h2>
 
-I.  &nbsp;&nbsp;&nbsp; **[Database](steps)**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **Entorno de Desarrollo de la Base de Datos**
+I.  &nbsp;&nbsp;&nbsp; **Database**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **[Entorno de Desarrollo de la Base de Datos](steps/)**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **Configuración de la Base de Datos**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Codificación de la Base de Datos**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **Ejecución de la Base de Datos**
 
-II. &nbsp;&nbsp; **[Backend](steps/)**
+II. &nbsp;&nbsp; **Backend**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **Entorno de Desarrollo del Backend**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **Configuración del Backend**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Codificación del Backend**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **Pruebas del Backend con Postman**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. **Documentación del Backend con Swagger**
 
-III.&nbsp;&nbsp; **[Frontend Móvil](steps/)**
+III.&nbsp;&nbsp; **Frontend Móvil**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **Entorno de Desarrollo del Frontend**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **Configuración del Frontend**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Codificacion del Frontend**
