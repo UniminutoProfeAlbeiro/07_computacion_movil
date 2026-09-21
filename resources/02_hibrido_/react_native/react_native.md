@@ -1,22 +1,22 @@
 ###  <h2 align="center">REACT NATIVE</h2>
 
 I.  &nbsp;&nbsp;&nbsp; **Database**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **[Entorno de Desarrollo de la Base de Datos](steps/01_01_db_entorno.md)**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **[Configuración de la Base de Datos](steps/01_02_db_config.md)**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **[Codificación de la Base de Datos](steps/01_03_db_code.md)**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **[Ejecución de la Base de Datos](steps/01_04_db_ejecucion.md)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **[Entorno de Desarrollo](steps/01_01_db_entorno.md)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **[Configuración](steps/01_02_db_config.md)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **[Codificación](steps/01_03_db_code.md)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **[Ejecución](steps/01_04_db_ejecucion.md)**
 
 II. &nbsp;&nbsp; **Backend**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **[Entorno de Desarrollo del Backend](steps/02_01_backend_entorno.md)**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **[Configuración del Backend](steps/02_02_backend_config.md)**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **[Codificación del Backend](steps/02_03_backend_code.md)**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **[Pruebas del Backend con Postman](steps/02_04_backend_pruebas_postman.md)**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. **[Documentación del Backend con Swagger](steps/02_05_backend_doc_swagger.md)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **[Entorno de Desarrollo](steps/02_01_backend_entorno.md)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **[Configuración](steps/02_02_backend_config.md)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **[Codificación](steps/02_03_backend_code.md)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **[Pruebas con Postman](steps/02_04_backend_pruebas_postman.md)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. **[Documentación con Swagger](steps/02_05_backend_doc_swagger.md)**
 
 III.&nbsp;&nbsp; **Frontend Móvil**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **[Entorno de Desarrollo del Frontend](steps/03_01_frontend_entorno.md)**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **[Configuración del Frontend](steps/03_02_frontend_config.md)**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **[Codificacion del Frontend](steps/03_03_frontend_code.md)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **[Entorno de Desarrollo](steps/03_01_frontend_entorno.md)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **[Configuración](steps/03_02_frontend_config.md)**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **[Codificacion](steps/03_03_frontend_code.md)**
 
 **<div align="center"><a href="../../../README.md">Menú Principal</a></div>**
 

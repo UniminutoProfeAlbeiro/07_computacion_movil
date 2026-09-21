@@ -1,4 +1,4 @@
-# 📝Punto 1: Entorno de Desarrollo
+# 📝 III. FRONTEND: Entorno de Desarrollo
 
 1.1. **[Instalar Visual Studio Code](#11-instalar-visual-studio-code)**
 <br>1.2. **[Instalar Node.js](#12-instalar-nodejs)**
