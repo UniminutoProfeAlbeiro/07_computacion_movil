@@ -1,23 +1,17 @@
 ###  <h2 align="center">REACT NATIVE</h2>
 
-
-I.  &nbsp;&nbsp;&nbsp; **[Database](steps)**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **Entorno de Desarrollo de la Base de Datos**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **Configuración de la Base de Datos**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Codificar la Base de Datos**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **Ejecutar la Base de Datos**
-
-II. &nbsp;&nbsp; **[Backend](steps/)**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **Entorno de Desarrollo del Backend**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **Configuración del Backend**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Codificar la API Usuarios**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **Pruebas de la API Usuarios con Postman**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. **Documentación con Swagger**
-
-III.&nbsp;&nbsp; **[Frontend Móvil](steps/)**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **Entorno de Desarrollo del Frontend**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **Configuración del Frontend**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Codificar el Frontend**
+1. **[Entorno de Desarrollo](steps/01_entorno.md)**
+2. **[Configuración del Proyecto](steps/02_configuracion.md)**
+3. **[Frontend](steps/03_frontend.md)**
+<br> 3.1. **Vista del Formulario de Autoregistro**
+<br> 3.2. **Vista del Formulario de Inicio de Sesión**
+4. **[Backend](steps/04_backend.md)**
+<br> 4.1. **API de Usuarios**
+5. **[Integración Backend - Frontend](steps/05_integracion_front_back.md)**
+<br> 5.1. **Registrar un Usuario**
+<br> 5.2. **Iniciar Sesión**
+<br> 5.3. **Cerrar Sesión**
+6. **[Pruebas de Software](steps/06_pruebas_software.md)**
 
 **<div align="center"><a href="../../../README.md">Menú Principal</a></div>**
 
