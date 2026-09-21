@@ -1,4 +1,5 @@
-# 📝Punto 2: Configuración del Proyecto
+## <h1 align="center">III. Frontend Móvil</h1>
+## 2: Configuración del Proyecto
 
 2.1. **[Preparar del Proyecto](#21-preparar-el-proyecto)**
 <br>2.2. **[Iniciar del Proyecto](#22-iniciar-el-proyecto)**
