@@ -1,14 +1,35 @@
 ## <h1 align="center">I. Database</h1>
 ## 1. Entorno de Desarrollo
 
-1.1. **[Instalar Xampp](#11-instalar-xampp)**
+1.1. **[Instalar Visual Studio Code](#11-instalar-visual-studio-code)**
+1.2. **[Instalar Xampp](#12-instalar-xampp)**
 
 <br>
 
 **<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 
 ---
-## 1.1. Instalar Xampp
+## 1.1. Instalar Visual Studio Code
+&nbsp;
+
+#### 1.1.1. [Desacargar Visual Studio Code](https://code.visualstudio.com/download)
+
+#### 1.1.2. Instalar Visual Studio Code. 
+
+#### 1.1.3. Abrir Visual Studio Code
+
+#### 1.1.4. Instalar extensiones en Visual Studio Code
+
+```
+Material Icon Theme
+```
+```
+Windows Live Server
+```
+
+
+---
+## 1.2. Instalar Xampp
 &nbsp;
 
 #### 1.1.1. [Desacargar Xampp](https://www.apachefriends.org/es/download.html)

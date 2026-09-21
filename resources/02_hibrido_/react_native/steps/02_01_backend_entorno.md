@@ -103,9 +103,9 @@ npm --version # Debe mostrar v9.x.x o superior
 <div align="right">
   <table border="0">
     <tr>      
-      <td align="center">1. <a href="01_02_db_code.md">Codificación de la Base de Datos</a></td>
+      <td align="center"><a href="01_02_db_code.md">Codificación de la Base de Datos</a></td>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
-      <td align="center">2. <a href="02_configuracion.md">Configuración del Proyecto</a></td>
+      <td align="center"><a href="02_02_backend_config.md">Configuración del Backend</a></td>
     </tr>
   </table>
 </div>
