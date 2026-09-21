@@ -49,7 +49,7 @@
 30    );
 ```
 
-**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
+**<div align="right"><a href="#i-database">Volver al Menú</a></div>**
 
 ---
 ## 2.2. Ejecutar la Base de Datos
@@ -68,7 +68,7 @@
 #### 2.2.6. Dar click en 'Importar'
 
 
-**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
+**<div align="right"><a href="#i-database">Volver al Menú</a></div>**
 
 ---
 <div align="right">
