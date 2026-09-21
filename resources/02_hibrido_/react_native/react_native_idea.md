@@ -9,7 +9,10 @@ I.&nbsp;&nbsp; **[Database](steps)**
 
 II.&nbsp;&nbsp; **[Backend](steps/)**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **Entorno de Desarrollo**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **Configuración del Proyecto**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **Configuración del Proyecto**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Codificar la API**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **Pruebas de la API con Postman**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. **Documentación con Swagger**
 
 1. **[Frontend Móvil](steps/01_frontend_mob.md)**
 <br> 1.1. **[Entorno de Desarrollo](steps/01_01_entorno.md)**
