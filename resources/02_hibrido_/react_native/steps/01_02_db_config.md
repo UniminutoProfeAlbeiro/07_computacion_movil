@@ -1,4 +1,5 @@
-# 📝Punto 1: Database
+## <h1 align="center">I. Database</h1>
+## 2. Configuración
 
 3.1. **[Vista del Formulario de Autoregistro](#31-vista-del-formulario-de-autoregistro)**
 <br>3.2. **[Vista del Formulario de Inicio de Sesión](#32-vista-del-formulario-de-inicio-de-sesión)**

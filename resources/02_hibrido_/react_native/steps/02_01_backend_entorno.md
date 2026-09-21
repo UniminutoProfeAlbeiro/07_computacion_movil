@@ -1,4 +1,5 @@
-# 📝Punto 1: Entorno de Desarrollo
+## <h1 align="center">II. Backend</h1>
+## 1. Entorno de Desarrollo
 
 1.1. **[Instalar Visual Studio Code](#11-instalar-visual-studio-code)**
 <br>1.2. **[Instalar Node.js](#12-instalar-nodejs)**

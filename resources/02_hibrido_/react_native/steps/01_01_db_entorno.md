@@ -1,4 +1,5 @@
-# 📝 1: Entorno de Desarrollo de la Base de Datos
+## <h1 align="center">I. Database</h1>
+## 1. Entorno de Desarrollo
 
 1.1. **[Instalar Visual Studio Code](#11-instalar-visual-studio-code)**
 <br>1.2. **[Instalar Node.js](#12-instalar-nodejs)**
