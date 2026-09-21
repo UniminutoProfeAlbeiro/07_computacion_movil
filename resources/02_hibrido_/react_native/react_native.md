@@ -1,4 +1,4 @@
-###  <h2 align="center">REACT NATIVE</h2>
+## <h1 align="center">React Native</h1>
 
 I.  &nbsp;&nbsp;&nbsp; **Database**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **[Entorno de Desarrollo](steps/01_01_db_entorno.md)**
