@@ -1,18 +1,18 @@
 ## <h1 align="center">III. Frontend Móvil</h1>
 ## 2. Configuración
 
-2.1. **[Preparar del Proyecto](#21-preparar-el-proyecto)**
-<br>2.2. **[Iniciar del Proyecto](#22-iniciar-el-proyecto)**
-<br>2.3. **[Ejecutar el Proyecto](#23-ejecutar-el-proyecto)**
-<br>2.4. **[Configurar el Proyecto](#24-configurar-el-proyecto)**
-<br>2.5. **[Estructurar el Proyecto](#25-estructurar-el-proyecto)**
+2.1. **[Preparar el Frontend Móvil](#21-preparar-el-proyecto)**
+<br>2.2. **[Iniciar del Frontend Móvil](#22-iniciar-el-proyecto)**
+<br>2.3. **[Ejecutar el Frontend Móvil](#23-ejecutar-el-proyecto)**
+<br>2.4. **[Configurar el Frontend Móvil](#24-configurar-el-proyecto)**
+<br>2.5. **[Estructurar el Frontend Móvil](#25-estructurar-el-proyecto)**
 
 <br>
 
 **<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 
 ---
-## 2.1. Preparar el Proyecto
+## 2.1. Preparar el Frontend Móvil
 &nbsp;
 
 #### 2.1.1. Descargar el '.ZIP' del Repositorio
@@ -37,7 +37,7 @@
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
-## 2.2. Iniciar el Proyecto
+## 2.2. Iniciar el Frontend Móvil
 &nbsp;
 
 #### 2.2.1. Crear el Proyecto
@@ -93,7 +93,7 @@ npx create-expo-app frontend --template blank-typescript
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
-## 2.3. Ejecutar el Proyecto
+## 2.3. Ejecutar el Frontend Móvil
 &nbsp;
 
 #### 2.3.1. Ingresar a la carpeta "frontend"
@@ -239,7 +239,7 @@ npm run web
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
-## 2.4. Configurar el Proyecto
+## 2.4. Configurar el Frontend Móvil
 &nbsp;
 
 #### 2.4.1. Modificar el archivo 'package.json' 
@@ -295,10 +295,10 @@ npm i
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
-## 2.5. Estructurar el Proyecto
+## 2.5. Estructurar el Frontend Móvil
 &nbsp;
 
-#### 2.5.1. Estructura del Proyecto:
+#### 2.5.1. Estructura del  Frontend Móvil:
 
 	# C = Carpetas
 	# A = Archivos
