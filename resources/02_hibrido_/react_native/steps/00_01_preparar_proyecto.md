@@ -1,33 +1,33 @@
-## <h1 align="center">II. Backend</h1>
+## <h1 align="center">III. Frontend Móvil</h1>
 ## 2. Configuración
 
-2.1. **[Preparar del backend](#21-preparar-el-proyecto)**
-<br>2.2. **[Iniciar el backend](#22-iniciar-el-proyecto)**
-<br>2.3. **[Ejecutar el backend](#23-ejecutar-el-proyecto)**
-<br>2.4. **[Configurar el backend](#24-configurar-el-proyecto)**
-<br>2.5. **[Estructurar el backend](#25-estructurar-el-proyecto)**
+2.1. **[Preparar el Frontend Móvil](#21-preparar-el-frontend-móvil)**
+<br>2.2. **[Iniciar del Frontend Móvil](#22-iniciar-el-frontend-móvil)**
+<br>2.3. **[Ejecutar el Frontend Móvil](#23-ejecutar-el-frontend-móvil)**
+<br>2.4. **[Configurar el Frontend Móvil](#24-configurar-el-frontend-móvil)**
+<br>2.5. **[Estructurar el Frontend Móvil](#25-estructurar-el-frontend-móvil**
 
 <br>
 
 **<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 
 ---
-## 2.1. Preparar el backend
+## 2.1. Preparar el Frontend Móvil
 &nbsp;
 
 #### 2.1.1. Descargar el '.ZIP' del Repositorio
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ir a **[07_Computacion_movil](https://github.com/UniminutoProfeAlbeiro/07_computacion_movil/tree/main)** y descargar el archivo '.ZIP'.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Descomprimir el '.ZIP' y cambiar el nombre del backend.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Descomprimir el '.ZIP' y cambiar el nombre del proyecto.
 
 #### 2.1.2. Crear un repositorio en Github
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Colocar el nombre del backend al Repositorio Creado 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Colocar el nombre del proyecto al Repositorio Creado 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso de no tener cuenta en Github, crear una (**[Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_trabajar_con_github.md)**).
 
-#### 2.1.3. Abrir el backend en Visual Studio Code
+#### 2.1.3. Abrir el Proyecto en Visual Studio Code
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Asociar el backend con Visual Studio Code
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Asociar el proyecto con Visual Studio Code
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir una terminal de Visual Studio Code
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el nombre de la terminal a **'frontend'**, seleccionándola en la parte inferior derecha y presionando 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F2 / Rename...
@@ -37,12 +37,12 @@
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
-## 2.2. Iniciar el backend
+## 2.2. Iniciar el Frontend Móvil
 &nbsp;
 
-#### 2.2.1. Crear el backend
+#### 2.2.1. Crear el Proyecto
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la terminal de Visual Studio Code, crear el backend con el siguiente comando:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la terminal de Visual Studio Code, crear el proyecto con el siguiente comando:
 
 ```bash
 npx create-expo-app frontend --template blank-typescript
@@ -93,7 +93,7 @@ npx create-expo-app frontend --template blank-typescript
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
-## 2.3. Ejecutar el backend
+## 2.3. Ejecutar el Frontend Móvil
 &nbsp;
 
 #### 2.3.1. Ingresar a la carpeta "frontend"
@@ -104,9 +104,9 @@ npx create-expo-app frontend --template blank-typescript
 cd frontend
 ```
 
-#### 2.3.2. Ejecutar el backend en el Emulador Android
+#### 2.3.2. Ejecutar el proyecto en el Emulador Android
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Para abrir el backend en el emulador Android, escribir en la terminal:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Para abrir el proyecto en el emulador Android, escribir en la terminal:
 
 ```bash
 npm run android
@@ -132,7 +132,7 @@ npm run android
 &nbsp;&nbsp;&nbsp;&nbsp;Logs for your project will appear below. Press Ctrl+C to exit.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Android Bundled 4881ms index.ts (708 modules)
 
-#### 2.3.3. Ejecutar el backend en el Dispositivo Móvil
+#### 2.3.3. Ejecutar el proyecto en el Dispositivo Móvil
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **Requisito previo**: Descargar e instalar la aplicación **"Expo Go"** desde la **Google Play Store (Android)** o **App 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Store (iOS)** en el teléfono.
@@ -141,10 +141,10 @@ npm run android
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **Android**: Tocar el botón **"Scan QR code"** y escanear el código QR que aparece en la terminal del computador.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **iOS**: Abrir la aplicación de **Cámara de tu iPhone** y apuntar al código QR para abrir en Expo Go.
 
-#### 2.3.4. Ejecutar el backend en el Dispositivo Móvil a través de un Tunel (sin abrir el Emulador Android)
+#### 2.3.4. Ejecutar el proyecto en el Dispositivo Móvil a través de un Tunel (sin abrir el Emulador Android)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del backend, presionando **Ctrl + C** en la terminal de Visual Studio Code.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias para ejecutar el backend en el móvil a través de un túnel: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias para ejecutar el proyecto en el móvil a través de un túnel: 
 
 ```bash
 npm install -g @expo/ngrok@^4.1.0 # instalación global
@@ -190,10 +190,10 @@ npm install --save-dev @expo/ngrok@^4.1.0 # instalación local como dependencia 
 npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
 ```
 
-#### 2.3.5. Ejecutar el backend en el Navegador Web
+#### 2.3.5. Ejecutar el proyecto en el Navegador Web
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del backend, presionando **Ctrl + C** en la terminal de Visual Studio Code.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias para poder ejecutar el backend en el navegador web: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias para poder ejecutar el proyecto en el navegador web: 
 
 ```bash
 npx expo install react-dom react-native-web
@@ -239,13 +239,13 @@ npm run web
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
-## 2.4. Configurar el backend
+## 2.4. Configurar el Frontend Móvil
 &nbsp;
 
 #### 2.4.1. Modificar el archivo 'package.json' 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del backend, presionando **Ctrl + C** en la terminal de Visual Studio Code.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Incluir en el código del 'package.json' las dependencias para asegurar que el backend funcione correctamente:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del proyecto, presionando **Ctrl + C** en la terminal de Visual Studio Code.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Incluir en el código del 'package.json' las dependencias para asegurar que el proyecto funcione correctamente:
                     
 ```json
  1    {
@@ -284,7 +284,7 @@ npm run web
 34    }
 ```
 
-#### 2.4.2. Instalar las dependencias del backend:
+#### 2.4.2. Instalar las dependencias del Proyecto:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Actualizar las dependencias incluidas en el **'package.json'** desde la terminar de Visual Studio Code el siguiente comando:
 
@@ -295,18 +295,18 @@ npm i
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
-## 2.5. Estructurar el backend
+## 2.5. Estructurar el Frontend Móvil
 &nbsp;
 
-#### 2.5.1. Estructura del backend:
+#### 2.5.1. Estructura del  Frontend Móvil:
 
 	# C = Carpetas
 	# A = Archivos
 
 	proyecto/                                      		     # C. Proyecto móvil en React Native.
-	└── frontend/                                     		 # C. Carpeta raíz del backend en React Native.
+	└── frontend/                                     		 # C. Carpeta raíz del proyecto en React Native.
 			├── .claude/                                     # C. Importaciones al proyecto que vienen de 'Claude'
-			├── .expo/                                       # C. Configuraciones del backend utilizados por 'Expo'
+			├── .expo/                                       # C. Configuraciones del proyecto utilizados por 'Expo'
 			├── assets/                                      # C. Recursos estáticos (imágenes, fuentes).
 			├── node_modules/                                # C. Dependencias (librerías) instaladas para el frontend.
 			├── src/                                         # C. Carpetas y archivos de la aplicación React Native.
@@ -369,9 +369,9 @@ npm i
 			└── tsconfig.json                                # A. Configuración para el compilador de TypeScript.
 
 
-#### 2.5.2. Crear la Estructura del backend:
+#### 2.5.2. Crear la Estructura del Proyecto:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Crear las **Carpetas** y **Archivos** del backend, copiando el siguiente código:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Crear las **Carpetas** y **Archivos** del proyecto, copiando el siguiente código:
 
 ```bash
 mkdir -p src/data
@@ -426,9 +426,9 @@ ni src/presentation/views/register/ViewModel.tsx -ItemType File -Force
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Pegar el código en la terminal (Verificar que esté en **..\frontend>**) y presione la tecla **ENTER**.
 
-#### 2.5.3. Cargar las imágenes del backend a la carpeta '../frontend/assets':
+#### 2.5.3. Cargar las imágenes del Proyecto a la carpeta '../frontend/assets':
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Copiar las imágenes del backend que se encuentran en la carpeta: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Copiar las imágenes del proyecto que se encuentran en la carpeta: 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **../resources/02_hibrido_/react_native/assets**.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Pegar las imágenes en la carpeta **'../frontend/assets'**. 
 
@@ -438,7 +438,7 @@ ni src/presentation/views/register/ViewModel.tsx -ItemType File -Force
 <div align="right">
   <table border="0">
     <tr>      
-      <td align="center">1. <a href="01_entorno.md">Entorno de Desarrollo</a></td>
+      <td align="center">1. <a href="01_entorno.md">Entorno de Desarrollo Frontend</a></td>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
       <td align="center">3. <a href="03_frontend.md">Frontend</a></td>
     </tr>
