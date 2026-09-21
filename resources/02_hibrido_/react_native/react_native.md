@@ -1,6 +1,6 @@
 ## <h1 align="center">React Native</h1>
 
-&nbsp;&nbsp;&nbsp; **Preparación del Proyecto**
+**[Preliminares](steps/00_01_preliminares.md)**
 
 I.  &nbsp;&nbsp;&nbsp; **Database**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **[Entorno de Desarrollo](steps/01_01_db_entorno.md)**
