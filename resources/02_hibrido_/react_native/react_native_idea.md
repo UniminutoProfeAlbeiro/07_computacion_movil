@@ -1,10 +1,10 @@
 ###  <h2 align="center">REACT NATIVE</h2>
 
 
-I. **[Database]()**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. **[Entorno de Desarrollo]()**
-<br> 2. **[Codificar la Base de Datos]()**
-<br> 3. **[Ejecutar la Base de Datos]()**
+I.&nbsp;&nbsp; **[Database]()**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. **Entorno de Desarrollo**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. **Codificar la Base de Datos**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. **Ejecutar la Base de Datos**
 
 1. **[Frontend Móvil](steps/01_frontend_mob.md)**
 <br> 1.1. **[Entorno de Desarrollo](steps/01_01_entorno.md)**
