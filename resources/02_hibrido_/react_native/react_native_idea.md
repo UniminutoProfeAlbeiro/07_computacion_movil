@@ -1,11 +1,10 @@
 ###  <h2 align="center">REACT NATIVE</h2>
 
 
-1. **[Database]()**
-<br> 1.1. **[Codificar la base de datos]()**
-<br> 1.2. **[Configuración del Proyecto]()**
-<br> 1.3. **Vista del Formulario de Autoregistro**
-<br> 1.4. **Vista del Formulario de Inicio de Sesión**
+I. **[Database]()**
+<br> 1. **[Entorno de Desarrollo]()**
+<br> 2. **[Codificar la Base de Datos]()**
+<br> 3. **[Ejecutar la Base de Datos]()**
 
 1. **[Frontend Móvil](steps/01_frontend_mob.md)**
 <br> 1.1. **[Entorno de Desarrollo](steps/01_01_entorno.md)**
