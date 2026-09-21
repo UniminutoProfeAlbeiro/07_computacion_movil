@@ -26,7 +26,7 @@
     <tr>      
       <td align="center"><a href="#i-database">Entorno de Desarrollo de la Base de Datos</a></td>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
-      <td align="center"><a href="01_02_db_config.md">Configuración de la Base de Datos</a></td>
+      <td align="center"><a href="01_02_db_code.md">Codificación de la Base de Datos</a></td>
     </tr>
   </table>
 </div>
