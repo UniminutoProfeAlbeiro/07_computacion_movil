@@ -10,11 +10,11 @@ I.  &nbsp;&nbsp;&nbsp; **[Database](steps)**
 II. &nbsp;&nbsp; **[Backend](steps/)**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **Entorno de Desarrollo**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **Configuración del Proyecto**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Codificar la API**
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **Pruebas de la API con Postman**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Codificar la API Usuarios**
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **Pruebas de la API Usuarios con Postman**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. **Documentación con Swagger**
 
-III.&nbsp;&nbsp; **[Frontend Móvil](steps/01_frontend_mob.md)**
+III.&nbsp;&nbsp; **[Frontend Móvil](steps/)**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **[Entorno de Desarrollo](steps/01_01_entorno.md)**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **[Configuración del Proyecto](steps/02_config_proj.md)**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Autoregistro**
