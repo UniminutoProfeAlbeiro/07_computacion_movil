@@ -1,11 +1,11 @@
 ## <h1 align="center">III. Frontend Móvil</h1>
 ## 2. Configuración
 
-2.1. **[Preparar el Frontend Móvil](#21-preparar-el-proyecto)**
-<br>2.2. **[Iniciar del Frontend Móvil](#22-iniciar-el-proyecto)**
-<br>2.3. **[Ejecutar el Frontend Móvil](#23-ejecutar-el-proyecto)**
-<br>2.4. **[Configurar el Frontend Móvil](#24-configurar-el-proyecto)**
-<br>2.5. **[Estructurar el Frontend Móvil](#25-estructurar-el-proyecto)**
+2.1. **[Preparar el Frontend Móvil](#21-preparar-el-frontend-móvil)**
+<br>2.2. **[Iniciar del Frontend Móvil](#22-iniciar-el-frontend-móvil)**
+<br>2.3. **[Ejecutar el Frontend Móvil](#23-ejecutar-el-frontend-móvil)**
+<br>2.4. **[Configurar el Frontend Móvil](#24-configurar-el-frontend-móvil)**
+<br>2.5. **[Estructurar el Frontend Móvil](#25-estructurar-el-frontend-móvil**
 
 <br>
 
@@ -438,7 +438,7 @@ ni src/presentation/views/register/ViewModel.tsx -ItemType File -Force
 <div align="right">
   <table border="0">
     <tr>      
-      <td align="center">1. <a href="01_entorno.md">Entorno de Desarrollo</a></td>
+      <td align="center">1. <a href="01_entorno.md">Entorno de Desarrollo Frontend</a></td>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
       <td align="center">3. <a href="03_frontend.md">Frontend</a></td>
     </tr>

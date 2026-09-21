@@ -24,9 +24,9 @@
 <div align="right">
   <table border="0">
     <tr>      
-      <td align="center">1. <a href="#i-database">Entorno de Desarrollo</a></td>
+      <td align="center"><a href="#i-database">Entorno de Desarrollo de la Base de Datos</a></td>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
-      <td align="center">2. <a href="01_02_db_config.md">Configuración</a></td>
+      <td align="center"><a href="01_02_db_config.md">Configuración de la Base de Datos</a></td>
     </tr>
   </table>
 </div>
