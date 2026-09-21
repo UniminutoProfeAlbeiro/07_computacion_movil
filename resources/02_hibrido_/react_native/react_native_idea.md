@@ -1,7 +1,7 @@
 ###  <h2 align="center">REACT NATIVE</h2>
 
 
-I.  &nbsp;&nbsp; **[Database](steps)**
+I.  &nbsp;&nbsp;&nbsp; **[Database](steps)**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **Entorno de Desarrollo**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **Configuración del Proyecto**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Codificar la Base de Datos**
