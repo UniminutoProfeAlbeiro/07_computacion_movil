@@ -1,20 +1,20 @@
 ###  <h2 align="center">REACT NATIVE</h2>
 
 
-I. &nbsp;&nbsp; **[Database](steps)**
+I.  &nbsp;&nbsp; **[Database](steps)**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **Entorno de Desarrollo**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **Configuración del Proyecto**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Codificar la Base de Datos**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **Ejecutar la Base de Datos**
 
-II.&nbsp;&nbsp; **[Backend](steps/)**
+II. &nbsp;&nbsp; **[Backend](steps/)**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. **Entorno de Desarrollo**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **Configuración del Proyecto**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **Codificar la API**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. **Pruebas de la API con Postman**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. **Documentación con Swagger**
 
-1. **[Frontend Móvil](steps/01_frontend_mob.md)**
+III.&nbsp;&nbsp; **[Frontend Móvil](steps/01_frontend_mob.md)**
 <br> 1.1. **[Entorno de Desarrollo](steps/01_01_entorno.md)**
 <br> 1.2. **[Configuración del Proyecto](steps/02_config_proj.md)**
 <br> 1.3. **Vista del Formulario de Autoregistro**
