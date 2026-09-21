@@ -27,17 +27,17 @@ Material Icon Theme
 Windows Live Server
 ```
 
+#### 1.1.5. Cerrar Visual Studio Code
+
 **<div align="right"><a href="#i-database">Volver al Menú</a></div>**
 
 ---
 ## 1.2. Instalar Xampp
 &nbsp;
 
-#### 1.1.1. [Desacargar Xampp](https://www.apachefriends.org/es/download.html)
+#### 1.2.1. [Desacargar Xampp](https://www.apachefriends.org/es/download.html)
 
-#### 1.1.2. Instalar Xampp. 
-
-#### 1.1.3. Abrir Visual Studio Code
+#### 1.2.2. Instalar Xampp. 
 
 **<div align="right"><a href="#i-database">Volver al Menú</a></div>**
 
