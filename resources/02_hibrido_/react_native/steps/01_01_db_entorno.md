@@ -2,7 +2,7 @@
 ## 1. Entorno de Desarrollo
 
 1.1. **[Instalar Visual Studio Code](#11-instalar-visual-studio-code)**
-1.2. **[Instalar Xampp](#12-instalar-xampp)**
+<br>1.2. **[Instalar Xampp](#12-instalar-xampp)**
 
 <br>
 
