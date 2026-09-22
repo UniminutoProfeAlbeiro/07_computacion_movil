@@ -30,7 +30,7 @@
     <tr>      
       <td align="center"><a href="#preliminares">Preliminares</a></td>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
-      <td align="center"><a href="01_01_db_entorno.md">Entorno de Desarrollo de la Base de Datos</a></td>
+      <td align="center"><a href="00_02_puesta_marcha.md">Puesta en Marcha del Proyecto</a></td>
     </tr>
   </table>
 </div>
