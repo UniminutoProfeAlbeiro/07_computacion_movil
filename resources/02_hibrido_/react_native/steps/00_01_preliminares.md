@@ -28,7 +28,7 @@
 <div align="right">
   <table border="0">
     <tr>      
-      <td align="center"><a href="00_01_preliminares.md">Preliminares</a></td>
+      <td align="center"><a href="#preliminares">Preliminares</a></td>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
       <td align="center"><a href="01_01_db_entorno.md">Entorno de Desarrollo de la Base de Datos</a></td>
     </tr>
