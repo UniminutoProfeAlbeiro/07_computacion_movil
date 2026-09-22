@@ -100,7 +100,6 @@ git push
 <div align="right"><a href="#anexo-01-trabajar-con-github">Volver al Menú</a></div>
 
 ---
-&nbsp;
 ## 3. Clonar un Proyecto 'Github'
 &nbsp;
 
