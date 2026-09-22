@@ -6,13 +6,17 @@
 <br>&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; [Entorno de Desarrollo del Backend](02_02_backend_config.md)
 <br>&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; [Entorno de Desarrollo del Frontend](03_01_frontend_entorno.md)
 
-#### 2. Clonar el proyecto desde Github (Anexo 01. ).
+#### 2. Clonar el proyecto desde Github.
 
 &nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; [Anexo 01: Trabajar con GitHub](../../../anexos/anexo01_trabajar_con_github.md)
 
-#### 3. Asociar el Proyecto con Visual Studio Code
+#### 3. Cargar la Base de Datos
 
-#### 4. Cargar la Base de Datos
+&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; 
+<br>&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; 
+<br>&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; 
+
+#### 3. Asociar el Proyecto con Visual Studio Code
 
 #### 5. Ejecutar el Backend
 
