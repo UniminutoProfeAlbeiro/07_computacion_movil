@@ -2,7 +2,7 @@
 
 1. [Instalar Git](#1-instalar-git)
 2. [Subir el proyecto a un repositorio 'Github'](#2-subir-el-proyecto-a-un-repositorio-github)
-3. [Clonar un Proyecto 'Github'](#3-clonar-un-proyecto-github)
+3. [Clonar un Repositorio en 'Github'](#3-clonar-un-repositorio-github)
 
 <br>
 
@@ -125,30 +125,33 @@ git push
 <div align="right"><a href="#anexo-01-trabajar-con-github">Volver al Menú</a></div>
 
 ---
-## 3. Clonar un Proyecto 'Github'
+## 3. Clonar un Repositorio 'Github'
 &nbsp;
 
-1. Abrir su cuenta de 'Github' y en la parte superior derecha, dar click al 'Nombre de su cuenta / Your Repositories'. 
+#### 3.1. Abrir su cuenta de 'Github'
 
-2. Dar click al proyecto que desea clonar, en el caso del ejemplo es 'proyecto'.
+#### 3.2. Clonar el 'Repositorio'
 
-3. Dar click en la opción '<> Code / Copy url to clipboard'.
-
-4. En alguna parte de su computador dar click derecho sobre el área de trabajo y seleccionar la opción 'Open Git Bash here'.
-
-6. En el 'Git Bash' pegar el repositorio clonado de 'Github' con 'CTRL + INSERT', quedando como sigue:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la parte superior derecha, dar click al 'Nombre de su cuenta / Your Repositories'. 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click al proyecto que desea clonar
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en la opción '<> Code / Copy url to clipboard'.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En su computador dar click derecho sobre el área de trabajo 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Seleccionar la opción 'Open Git Bash here'.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En el 'Git Bash' pegar el repositorio clonado de 'Github' con 'CTRL + INSERT':
 
 ```bash
 git clone 'pegar el enlace del repositorio de Github'
 ```
-NOTA:
-Si el proyecto ya se encuentra en el computador, puede utilizar el siguiente comando para actualizar la información:
+
+### Nota:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Si el proyecto ya se encuentra en el computador, puede actualizar la información con:
 				
 ```bash
 git pull
 ```
 
-7. Abrir el proyecto en Visual Studio Code.
+#### 3.3. Abrir el proyecto en Visual Studio Code.
 
 
 <div align="right"><a href="#anexo-01-trabajar-con-github">Volver al Menú</a></div>
