@@ -12,9 +12,10 @@
 ## 1. Instalar Git
 &nbsp;
 
-1. Descargar [Git](https://git-scm.com/downloads).
+## 1.1. Descargar [Git](https://git-scm.com/downloads).
 
-2. Instalar Git, siguiendo los pasos del instalador.
+## 1.2. Instalar Git, siguiendo los pasos del instalador.
+
 
 <div align="right"><a href="#anexo-01-trabajar-con-github">Volver al Menú</a></div>
 
