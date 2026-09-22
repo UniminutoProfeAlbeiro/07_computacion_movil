@@ -1,6 +1,10 @@
 ## <h1 align="center">Puesta en Marcha del Proyecto</h1>
 
-#### 1. Garantizar en el Computador el Entorno de Desarrollo (1. [Entorno de Desarrollo](steps/01_entorno.md)).
+#### 1. Garantizar en el Computador el Entorno de Desarrollo
+
+&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; [Entorno de Desarrollo de la Base de Datos](01_01_db_entorno.md)
+<br>&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; [Entorno de Desarrollo del Backend](02_02_backend_config.md)
+<br>&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; [Entorno de Desarrollo del Frontend](03_01_frontend_entorno.md)
 
 #### 2. Clonar el proyecto desde Github (Anexo 01. [Trabajar con Github](../../anexos/anexo01_trabajar_con_github.md)).
 
@@ -10,14 +14,14 @@
 
 #### 5. Ejecutar el Backend
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir otra terminal de Visual Studio Code
+&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir una terminal de Visual Studio Code
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el nombre de la terminal a **'backend'**, seleccionándola en la parte inferior derecha y presionando 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F2 / Rename...
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el color de la terminal **'backend'**, dando click derecho / Chage Color... / Seleccionar el color
 
 #### 6. Ejecutar el Frontend
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir una terminal de Visual Studio Code
+&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir otra terminal de Visual Studio Code
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el nombre de la terminal a **'frontend'**, seleccionándola en la parte inferior derecha y presionando 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F2 / Rename...
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el color de la terminal **'frontend'**, dando click derecho / Chage Color... / Seleccionar el color
