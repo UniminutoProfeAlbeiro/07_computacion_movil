@@ -37,7 +37,7 @@ Para evitar confusiones y seguir los pasos correctamente, la carpeta raíz del p
 
 ### Nota:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; De no funcionar este método porque no tiene acceso al Panel de control, pruebe abriendo el 'Windows PowerShell' y digite el siguiente comando: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; De no funcionar este método porque no tiene acceso al Panel de control, abra el 'PowerShell' y escriba lo siguiente: 
 
 ```powershell
 echo "protocol=https`nhost=github.com`n" | git credential-manager erase
