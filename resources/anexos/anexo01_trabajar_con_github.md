@@ -27,17 +27,18 @@ Para evitar confusiones y seguir los pasos correctamente, la carpeta raíz del p
 
 #### 2.1. Verificar que no haya una cuenta de 'Github' asociada al computador
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Abrir el 'Panel de Control'
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Dar click en 'Cuentas de usuario / Administrar credenciales de Windows'. 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Si hay una cuenta asociada (Ver imagen), click sobre la cuenta y la opción 'Quitar'. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir el 'Panel de Control'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en 'Cuentas de usuario / Administrar credenciales de Windows'. 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Si hay una cuenta asociada (Ver imagen), click sobre la cuenta y la opción 'Quitar'. 
 
 
 
 ![Pantalla Principal Android](../02_hibrido_/react_native/steps/img/github/01_github.png)
 
-NOTA:
-De no funcionar este método porque no tiene acceso al Panel de control, pruebe abriendo el 'Windows PowerShell' y digite el siguiente comando:
-      
+### Nota:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; De no funcionar este método porque no tiene acceso al Panel de control, pruebe abriendo el 'Windows PowerShell' y digite el siguiente comando: 
+
 ```powershell
 echo "protocol=https`nhost=github.com`n" | git credential-manager erase
 ```
