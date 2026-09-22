@@ -1,16 +1,19 @@
-###  <h2 align="center">NATIVO</h2>
+##  <h1 align="center">COMPUTACIÓN MÓVIL</h1>
+
+
+###  <h2 align="left">NATIVO</h2>
 
 1. **[Android](#)**
 
 ---
-###  <h2 align="center">HÍBRIDO</h2>
+###  <h2 align="left">HÍBRIDO</h2>
 
 1. **[Capacitor](#)**
 2. **[Flutter](#)**
 3. **[React Native](resources/02_hibrido_/react_native/react_native.md)**
 
 ---
-###  <h2 align="center">PWA</h2>
+###  <h2 align="left">PWA</h2>
 
 1. **[Angular](#)**
 2. **[PHP](#)**
