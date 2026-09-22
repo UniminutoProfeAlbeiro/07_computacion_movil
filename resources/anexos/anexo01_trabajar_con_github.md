@@ -6,7 +6,7 @@
 
 <br>
 
-**<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
+**<div align="center"><a href="../02_hibrido_/react_native/react_native.md">Menú React Native</a></div>**
 
 ---
 ## 1. Instalar Git
@@ -25,7 +25,9 @@
 
 Para evitar confusiones y seguir los pasos correctamente, la carpeta raíz del proyecto se llamará 'proyecto'.
 
-1. Verificar que no haya una cuenta de 'Github' asociada al computador, para ello, debe abrir el 'Panel de Control', dar click en 'Cuentas de usuario / Administrar credenciales de Windows'. Si hay una cuenta asociada (Ver imagen), dar click sobre la cuenta y sobre la opción 'Quitar'. 
+#### 2.1. Verificar que no haya una cuenta de 'Github' asociada al computador, para ello, debe abrir el 'Panel de Control', dar click en 'Cuentas de usuario / Administrar credenciales de Windows'. Si hay una cuenta asociada (Ver imagen), dar click sobre la cuenta y sobre la opción 'Quitar'. 
+
+
 
 ![Pantalla Principal Android](../02_hibrido_/react_native/steps/img/github/01_github.png)
 
