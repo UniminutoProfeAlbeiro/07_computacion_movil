@@ -57,7 +57,7 @@ echo "protocol=https`nhost=github.com`n" | git credential-manager erase
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; La carpeta raíz no debe tener espacios, ni caracteres compuestos, ni caracteres especiales
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en 'Create Repository'.
 
-#### 2.5. Abrir el 'Git Bash' 
+#### 2.5. Subir el Proyecto a Github
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Click derecho sobre la carpeta raíz y seleccionar la opción 'Open Git Bash here'.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En el 'Git Bash' escribir lo siguiente:
