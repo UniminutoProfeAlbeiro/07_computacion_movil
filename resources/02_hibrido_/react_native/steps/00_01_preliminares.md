@@ -10,17 +10,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Colocar el nombre del proyecto al Repositorio Creado 
 <br>&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso de no tener cuenta en Github, crear una (**[Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_trabajar_con_github.md)**).
 
-#### 3. Abrir el Proyecto en Visual Studio Code
-
-&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Asociar el proyecto con Visual Studio Code
-<br>&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir una terminal de Visual Studio Code
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el nombre de la terminal a **'frontend'**, seleccionándola en la parte inferior derecha y presionando 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F2 / Rename...
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el color de la terminal **'frontend'**, dando click derecho / Chage Color... / Seleccionar el color
-<br>&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir otra terminal de Visual Studio Code
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el nombre de la terminal a **'backend'**, seleccionándola en la parte inferior derecha y presionando 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F2 / Rename...
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el color de la terminal **'backend'**, dando click derecho / Chage Color... / Seleccionar el color
+#### 3. Asociar el Proyecto con Visual Studio Code
 
 **<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 

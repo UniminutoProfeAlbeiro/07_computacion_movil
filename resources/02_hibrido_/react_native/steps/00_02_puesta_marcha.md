@@ -1,19 +1,28 @@
 ## <h1 align="center">Puesta en Marcha del Proyecto</h1>
 
-database
-backend
-frontend
-
-## 📝 Puesta en Marcha del Proyecto
-&nbsp;
-
 #### 1. Garantizar en el Computador el Entorno de Desarrollo (1. [Entorno de Desarrollo](steps/01_entorno.md)).
 
 #### 2. Clonar el proyecto desde Github (Anexo 01. [Trabajar con Github](../../anexos/anexo01_trabajar_con_github.md)).
 
-#### 3. Abrir el proyecto en Visual Studio Code.
+#### 3. Asociar el Proyecto con Visual Studio Code
 
-#### 4. Abrir una terminal en 'Visual Studio Code' y ejecutar los siguientes comandos:
+#### 4. Cargar la Base de Datos
+
+#### 5. Ejecutar el Backend
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir otra terminal de Visual Studio Code
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el nombre de la terminal a **'backend'**, seleccionándola en la parte inferior derecha y presionando 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F2 / Rename...
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el color de la terminal **'backend'**, dando click derecho / Chage Color... / Seleccionar el color
+
+#### 6. Ejecutar el Frontend
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir una terminal de Visual Studio Code
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el nombre de la terminal a **'frontend'**, seleccionándola en la parte inferior derecha y presionando 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F2 / Rename...
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el color de la terminal **'frontend'**, dando click derecho / Chage Color... / Seleccionar el color
+
+
 
 ```powershell
 ipconfig
@@ -30,7 +39,7 @@ npm i
 node index.js
 ```
 
-#### 5. Abrir otra terminal en 'Visual Studio Code' y ejecutar los siguientes comandos:
+#### 7. Abrir otra terminal en 'Visual Studio Code' y ejecutar los siguientes comandos:
 
 ```powershell
 cd frontend_mob
@@ -45,9 +54,9 @@ npm i
 npm run android
 ```
 
-#### 6. Comprobar que se ejecute correctamente la aplicación.
+#### 8. Comprobar que se ejecute correctamente la aplicación.
 
-**<div align="right"><a href="#i-database">Volver al Menú</a></div>**
+**<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 
 ---
 
