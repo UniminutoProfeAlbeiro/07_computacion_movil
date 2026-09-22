@@ -27,9 +27,9 @@ Para evitar confusiones y seguir los pasos correctamente, la carpeta raíz del p
 
 #### 2.1. Verificar que no haya una cuenta de 'Github' asociada al computador
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Abrir el 'Panel de Control'
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Dar click en 'Cuentas de usuario / Administrar credenciales de Windows'. 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Si hay una cuenta asociada (Ver imagen), click sobre la cuenta y la opción 'Quitar'. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Abrir el 'Panel de Control'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Dar click en 'Cuentas de usuario / Administrar credenciales de Windows'. 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● Si hay una cuenta asociada (Ver imagen), click sobre la cuenta y la opción 'Quitar'. 
 
 
 
