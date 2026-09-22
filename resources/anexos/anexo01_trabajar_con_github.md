@@ -43,15 +43,24 @@ Para evitar confusiones y seguir los pasos correctamente, la carpeta raíz del p
 echo "protocol=https`nhost=github.com`n" | git credential-manager erase
 ```
 
-2. Crear una carpeta en su computador con el nombre 'proyecto'. Verificar que tenga por lo menos un archivo, ya que Github no guarda carpetas, solo archivos.
+#### 2.2. Crear una carpeta en su computador con el nombre 'proyecto'. 
 
-3. Crear una cuenta en [Github](https://github.com/signup?source=login).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Verificar que tenga por lo menos un archivo, ya que Github no guarda carpetas, solo archivos.
 
-4. Estando en su cuenta de 'Github', en la parte superior derecha dar click al 'Nombre de su cuenta / Your Repositories'. Dar click en 'New'. En el control de texto 'Repository name', escribir el nombre de la carpeta raíz de su proyecto (ejemplo, 'proyecto'. La carpeta raíz no debe tener espacios, ni caracteres compuesto, ni caracteres especiales) y dar click en 'Create Repository'.
+#### 2.3. Crear una cuenta en [Github](https://github.com/signup?source=login).
 
-5. Click derecho sobre la carpeta raíz (ejemplo, 'proyecto') y seleccionar la opción 'Open Git Bash here'.
+#### 2.4. Crear un Repositorio
 
-6. En el 'Git Bash' escribir lo siguiente:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click al 'Nombre de su cuenta / Your Repositories'. 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en 'New'. 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En 'Repository name', escribir el nombre de la carpeta raíz de su proyecto (ejemplo, 'proyecto'). 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; La carpeta raíz no debe tener espacios, ni caracteres compuestos, ni caracteres especiales
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en 'Create Repository'.
+
+#### 2.5. Abrir el 'Git Bash' 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Click derecho sobre la carpeta raíz y seleccionar la opción 'Open Git Bash here'.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En el 'Git Bash' escribir lo siguiente:
 
 ```bash
 git config --global user.name "nombre de su cuenta"  # Nombre con el que creò su cuenta en 'Github'.
@@ -78,7 +87,13 @@ git commit -m "Subiendo Proyecto"
 git push -u origin main
 ```
 
-7. Va a aparecer una ventana denominada 'Connect to Github', dar click en la opción 'Sign in with your browser', dar click en 'Authentication Succeeded'. Verificar que se haya abierto en el navegador en donde tiene la cuenta activa, de lo contrario hay que escribir nuevamente las credenciales de 'Github'. En el 'Git Bash' debe aparecer texto similar al siguiente:
+#### 2.6. Aceptar Autenticación de Credenciales
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Va a aparecer una ventana denominada 'Connect to Github'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en la opción 'Sign in with your browser'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en 'Authentication Succeeded'. 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Escribir las credenciales de 'Github'. 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En el 'Git Bash' debe aparecer texto similar al siguiente:
 
 ```
 Enumerating objects: 3, done.
@@ -90,10 +105,12 @@ To https://github.com/SenaProfeAlbeiro/proyecto.git
 branch 'main' set up to track 'origin/main'.
 ```
 
-8. Actualizar la ventana del navegador donde se encuentra abierta su cuenta de 'Github'
+#### 2.7. Actualizar la ventana del navegador donde se encuentra abierta su cuenta de 'Github'
 
 
-9. Para actualizar la información del proyecto en 'Github' (Cuando haya realizado cualquier cambio en los archivos o el código), en el 'Git bash' escribir los siguientes comandos:
+#### 2.8. Actualizar el Proyecto cuando se realice algún cambio
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En el 'Git bash' escribir los siguientes comandos:
 
 ```bash
 git add .
