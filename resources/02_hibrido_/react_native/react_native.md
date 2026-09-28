@@ -18,7 +18,7 @@ III.&nbsp;&nbsp; **Frontend Móvil**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. **[Configuración](steps/03_02_frontend_config.md)**
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. **[Codificacion](steps/03_03_frontend_code.md)**
 
-<br>**[Puesta en Marcha del Proyecto](steps/00_02_puesta_marcha.md)**
+**[Puesta en Marcha del Proyecto](steps/00_02_puesta_marcha.md)**
 
 **<div align="center"><a href="../../../README.md">Menú Principal</a></div>**
 
