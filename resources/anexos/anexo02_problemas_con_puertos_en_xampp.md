@@ -11,10 +11,21 @@
 ## 1. Cambiar los puertos de 'Apache' en 'XAMPP'
 &nbsp;
 
-#### 1.1. Descargar [Git](https://git-scm.com/downloads).
+#### 1.1. En el Panel de control de XAMPP y en la misma línea del servicio 'Apache' dar click en 'Config / Apache (httpd.conf)'.
 
-#### 1.2. Instalar Git, siguiendo los pasos del instalador.
+#### 1.2. Se abrirá un 'Bloc de Notas'. Dar click en la opción 'Edición / Buscar...' (o presionar las teclas 'CTRL + B').
 
+#### 1.3. En la ventana emergente y en el control de texto 'Buscar: ', escribir '80' y dar click en 'Buscar siguiente'.
+
+#### 1.4. Reemplazar todos los valores donde se encentre el puerto '80' con el puerto nuevo de trabajo, por ejemplo, '8080'. Dar click en 'cancelar' y guardar los cambios en el archivo.
+
+#### 1.5. En el Panel de control de XAMPP dar click en 'start' de 'Apache' para iniciar el servicio.
+
+#### 1.6. Comprobar que quedó de la forma correcta a través del navegador, con el siguiente enlace:
+
+```powershell
+http://localhost:8080/proyecto/
+```
 
 <div align="right"><a href="#anexo-01-trabajar-con-github">Volver al Menú</a></div>
 
@@ -162,7 +173,7 @@ git pull
   <table border="0">
     <tr>
       <td align="center"><a href="../../README.md">Menú Principal</a></td>
-      <td align="center">2. <a href="anexo02_problemas_con_puertos_en_xampp.md">Problemas de Puertos con Xampp</a></td>
+      <td align="center">1. <a href="anexo01_trabajar_con_github.md">Trabajar con Github</a></td>
     </tr>
   </table>
 </div>
