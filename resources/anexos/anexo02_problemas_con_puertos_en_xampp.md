@@ -14,9 +14,11 @@
 #### 1.1. En el Panel de control de XAMPP 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la misma línea del servicio 'Apache' dar click en 'Config / Apache (httpd.conf)'.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Se abrirá un 'Bloc de Notas'. Dar click en la opción 'Edición / Buscar...' (o presionar las teclas 'CTRL + B').
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en la opción 'Edición / Buscar...' (o presionar las teclas 'CTRL + B'). Se abrirá un 'Bloc de Notas'.
 
-#### 1.2. 
+#### 1.2. En el Block de Notas
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en la opción 'Edición / Buscar...' (o presionar las teclas 'CTRL + B').
 
 #### 1.3. En la ventana emergente y en el control de texto 'Buscar: ', escribir '80' y dar click en 'Buscar siguiente'.
 
