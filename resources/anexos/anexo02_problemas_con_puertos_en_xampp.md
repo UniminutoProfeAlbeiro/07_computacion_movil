@@ -14,7 +14,7 @@
 #### 1.1. En el Panel de control de XAMPP 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la misma línea del servicio 'Apache' dar click en 'Config / Apache (httpd.conf)'.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Se abrirá un 'Bloc de Notas'. Dar click en la opción 'Edición / Buscar...' (o presionar las teclas 'CTRL + B').
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Se abrirá un 'Bloc de Notas'. Dar click en la opción 'Edición / Buscar...' (o presionar las teclas 'CTRL + B').
 
 #### 1.2. 
 
