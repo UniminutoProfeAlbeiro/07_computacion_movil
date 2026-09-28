@@ -6,10 +6,10 @@
 
 <br>
 
-**<div align="center">
+<div align="center">
   <a href="../../README.md">Menú Principal</a>
   <a href="../02_hibrido_/react_native/react_native.md">Menú React Native</a>
-</div>**
+</div>
 
 ---
 ## 1. Instalar Git
