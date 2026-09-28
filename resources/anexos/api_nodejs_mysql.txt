@@ -2273,7 +2273,7 @@
 
             12. Comprobar que quedó de la forma correcta a través del navegador, con el siguiente enlace:
 
-                         http://localhost:8080/phpmyadmin/            
+                         http://localhost:8080/phpmyadmin/
 
 
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
