@@ -1,8 +1,9 @@
-## ANEXO 02: Problemas con Puertos
+## ANEXO 02: Problemas con Puertos en Xampp
 
-1. [Instalar Git](#1-instalar-git)
-2. [Subir el proyecto a un repositorio 'Github'](#2-subir-el-proyecto-a-un-repositorio-github)
-3. [Clonar un Proyecto 'Github'](#3-clonar-un-proyecto-github)
+- [ANEXO 02: Problemas con Puertos](#anexo-02-problemas-con-puertos)
+- [1. Instalar Git](#1-instalar-git)
+- [2. Subir el proyecto a un repositorio 'Github'](#2-subir-el-proyecto-a-un-repositorio-github)
+- [3. Clonar un Proyecto 'Github'](#3-clonar-un-proyecto-github)
 
 ---
 &nbsp;
@@ -109,13 +110,13 @@ $ git push
 
 <div align="right"><a href="#anexo-01-trabajar-con-github">Volver al Menú</a></div>
 
+
 ---
 
 <div align="right">
   <table border="0">
-    <tr>
-      <td align="left">Anexo 01. <a href="anexo01_trabajar_con_github.md">Trabajar con Github</a></td>
-      <td align="right">Anexo 03. <a href="#">Otro Anexo</a></td>
+    <tr>      
+      <td align="right">Anexo 01. <a href="anexo02_problemas_con_puertos_en_xampp.md">Trabajar con Github</a></td>
     </tr>
   </table>
 </div>
