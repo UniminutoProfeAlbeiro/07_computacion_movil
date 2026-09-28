@@ -15,14 +15,3 @@
 **<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 
 ---
-<div align="right">
-  <table border="0">
-    <tr>      
-      <td align="center"><a href="#preliminares">Preliminares</a></td>
-      <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
-      <td align="center"><a href="00_02_puesta_marcha.md">Puesta en Marcha del Proyecto</a></td>
-    </tr>
-  </table>
-</div>
-
-<!-- ![Pantalla Principal Android](img/01_android_studio.png) -->
