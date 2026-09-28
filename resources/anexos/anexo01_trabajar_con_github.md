@@ -49,7 +49,7 @@ echo "protocol=https`nhost=github.com`n" | git credential-manager erase
 
 #### 2.3. Crear una cuenta en [Github](https://github.com/signup?source=login).
 
-#### 2.4. Seguier los pasos para crear la cuenta Github.
+#### 2.4. Seguir los pasos para crear la cuenta Github.
 
 #### 2.5. Crear un Repositorio
 
@@ -65,7 +65,7 @@ echo "protocol=https`nhost=github.com`n" | git credential-manager erase
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En el 'Git Bash' escribir lo siguiente:
 
 ```bash
-git config --global user.name "nombre de su cuenta"  # Nombre con el que creò su cuenta en 'Github'.
+git config --global user.name "nombre de su cuenta"  # Nombre con el que creó su cuenta en 'Github'.
 ```
 ```bash
 git config --global user.email "correo de su cuenta" # Correo con el que registró su cuenta en 'Github'.
