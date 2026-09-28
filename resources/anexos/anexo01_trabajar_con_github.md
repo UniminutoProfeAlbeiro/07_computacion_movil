@@ -25,7 +25,7 @@
 
 Para evitar confusiones y seguir los pasos correctamente, la carpeta raíz del proyecto se llamará 'proyecto'.
 
-#### 2.1. Verificar que no haya una cuenta de 'Github' asociada al computador
+#### 2.1. Verificar que NO haya una cuenta de 'Github' asociada al computador
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir el 'Panel de Control'
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en 'Cuentas de usuario / Administrar credenciales de Windows'. 
@@ -49,7 +49,9 @@ echo "protocol=https`nhost=github.com`n" | git credential-manager erase
 
 #### 2.3. Crear una cuenta en [Github](https://github.com/signup?source=login).
 
-#### 2.4. Crear un Repositorio
+#### 2.4. Instalar Git, siguiendo los pasos del instalador.
+
+#### 2.5. Crear un Repositorio
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click al 'Nombre de su cuenta / Your Repositories'. 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en 'New'. 
@@ -57,7 +59,7 @@ echo "protocol=https`nhost=github.com`n" | git credential-manager erase
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; La carpeta raíz no debe tener espacios, ni caracteres compuestos, ni caracteres especiales
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en 'Create Repository'.
 
-#### 2.5. Subir el Proyecto a Github
+#### 2.6. Subir el Proyecto a Github
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Click derecho sobre la carpeta raíz y seleccionar la opción 'Open Git Bash here'.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En el 'Git Bash' escribir lo siguiente:
@@ -87,7 +89,7 @@ git commit -m "Subiendo Proyecto"
 git push -u origin main
 ```
 
-#### 2.6. Aceptar Autenticación de Credenciales
+#### 2.7. Aceptar Autenticación de Credenciales
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Va a aparecer una ventana denominada 'Connect to Github'
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en la opción 'Sign in with your browser'
@@ -105,10 +107,10 @@ To https://github.com/SenaProfeAlbeiro/proyecto.git
 branch 'main' set up to track 'origin/main'.
 ```
 
-#### 2.7. Actualizar la ventana del navegador donde se encuentra abierta su cuenta de 'Github'
+#### 2.8. Actualizar la ventana del navegador donde se encuentra abierta su cuenta de 'Github'
 
 
-#### 2.8. Actualizar el Proyecto cuando se realice algún cambio
+#### 2.9. Actualizar el Proyecto cuando se realice algún cambio
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En el 'Git bash' escribir los siguientes comandos:
 
