@@ -27,7 +27,7 @@
 http://localhost:8080/proyecto/
 ```
 
-<div align="right"><a href="#anexo-01-trabajar-con-github">Volver al Menú</a></div>
+<div align="right"><a href="#anexo-02-problemas-de-puertos-con-xampp">Volver al Menú</a></div>
 
 ---
 ## 2. Cambiar los puertos de 'MySQL' en 'XAMPP'
@@ -133,7 +133,7 @@ git commit -m "Comentario del cambio"
 git push 
 ```
 
-<div align="right"><a href="#anexo-01-trabajar-con-github">Volver al Menú</a></div>
+<div align="right"><a href="#anexo-02-problemas-de-puertos-con-xampp">Volver al Menú</a></div>
 
 ---
 ## 3. Clonar un Repositorio 'Github'
@@ -165,7 +165,7 @@ git pull
 #### 3.3. Abrir el proyecto en Visual Studio Code.
 
 
-<div align="right"><a href="#anexo-01-trabajar-con-github">Volver al Menú</a></div>
+<div align="right"><a href="#anexo-02-problemas-de-puertos-con-xampp">Volver al Menú</a></div>
 
 
 ---
