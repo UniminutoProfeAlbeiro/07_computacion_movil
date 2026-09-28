@@ -162,8 +162,8 @@ git pull
 <div align="right">
   <table border="0">
     <tr>
-      <td align="center"><a href="../react_native.md">Menú Principal</a></td>
-      <td align="center">2. <a href="03_frontend.md">Problemas de Puertos con Xampp</a></td>
+      <td align="center"><a href="../../README.md">Menú Principal</a></td>
+      <td align="center">2. <a href="anexo02_problemas_con_puertos_en_xampp.md">Problemas de Puertos con Xampp</a></td>
     </tr>
   </table>
 </div>
