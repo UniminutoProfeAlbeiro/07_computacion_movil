@@ -11,22 +11,22 @@
 ## 1. Cambiar los puertos de 'Apache' en 'XAMPP'
 &nbsp;
 
-#### 1.1. En el Panel de control de XAMPP 
+#### 1.1. Ir al archivo de configuración 'httpd.conf' de 'Apache' 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la misma línea del servicio 'Apache' dar click en 'Config / Apache (httpd.conf)'.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en la opción 'Edición / Buscar...' (o presionar las teclas 'CTRL + B'). Se abrirá un 'Bloc de Notas'.
 
-#### 1.2. En el Block de Notas
+#### 1.2. En el Bloc de Notas
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en la opción 'Edición / Buscar...' (o presionar las teclas 'CTRL + B').
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en la opción 'Edición / Buscar...' (o presionar las teclas 'CTRL + B').
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la ventana emergente y en el control de texto 'Buscar: ', escribir '80' y dar click en 'Buscar siguiente'.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Reemplazar todos los valores donde se encentre el puerto '80' con el puerto nuevo de trabajo, por ejemplo, '8080'. Dar click en 'cancelar' y guardar los cambios en el archivo.
 
-#### 1.3. En la ventana emergente y en el control de texto 'Buscar: ', escribir '80' y dar click en 'Buscar siguiente'.
+#### 1.3. Iniciar el servicio 'Apache' en el puerto nuevo de trabajo
 
-#### 1.4. Reemplazar todos los valores donde se encentre el puerto '80' con el puerto nuevo de trabajo, por ejemplo, '8080'. Dar click en 'cancelar' y guardar los cambios en el archivo.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En el Panel de control de XAMPP dar click en 'start' de 'Apache' para iniciar el servicio.
 
-#### 1.5. En el Panel de control de XAMPP dar click en 'start' de 'Apache' para iniciar el servicio.
-
-#### 1.6. Comprobar que quedó de la forma correcta a través del navegador, con el siguiente enlace:
+#### 1.5. En el navegador:
 
 ```powershell
 http://localhost:8080/proyecto/
