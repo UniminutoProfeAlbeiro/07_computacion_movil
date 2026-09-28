@@ -99,12 +99,12 @@ git push -u origin main
 
 
 &nbsp;&nbsp;&nbsp;&nbsp; Enumerating objects: 3, done.
-&nbsp;&nbsp;&nbsp;&nbsp; Counting objects: 100% (3/3), done.
-&nbsp;&nbsp;&nbsp;&nbsp; Writing objects: 100% (3/3), 226 bytes | 226.00 KiB/s, done.
-&nbsp;&nbsp;&nbsp;&nbsp; Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-&nbsp;&nbsp;&nbsp;&nbsp; To https://github.com/SenaProfeAlbeiro/proyecto.git
-&nbsp;&nbsp;&nbsp;&nbsp; * [new branch]      main -> main
-&nbsp;&nbsp;&nbsp;&nbsp; branch 'main' set up to track 'origin/main'.
+<br>&nbsp;&nbsp;&nbsp;&nbsp; Counting objects: 100% (3/3), done.
+<br>&nbsp;&nbsp;&nbsp;&nbsp; Writing objects: 100% (3/3), 226 bytes | 226.00 KiB/s, done.
+<br>&nbsp;&nbsp;&nbsp;&nbsp; Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+<br>&nbsp;&nbsp;&nbsp;&nbsp; To https://github.com/SenaProfeAlbeiro/proyecto.git
+<br>&nbsp;&nbsp;&nbsp;&nbsp; * [new branch]      main -> main
+<br>&nbsp;&nbsp;&nbsp;&nbsp; branch 'main' set up to track 'origin/main'.
 
 
 #### 2.8. Actualizar la ventana del navegador donde se encuentra abierta su cuenta de 'Github'
