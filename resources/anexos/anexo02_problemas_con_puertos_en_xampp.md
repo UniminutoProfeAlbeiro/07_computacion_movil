@@ -67,7 +67,8 @@ http://localhost:8080/proyecto/
 #### 2.6. En el Bloc de Notas
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en la opción 'Edición / Buscar...' (o presionar las teclas 'CTRL + B').
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la ventana emergente y en el control de texto 'Buscar: ', escribir '$cfg['Servers'][$i]['host'] = '127.0.0.1;' y agregar el puerto nuevo '3308' de la siguiente forma:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la ventana emergente y en el control de texto 'Buscar: ', escribir '$cfg['Servers'][$i]['host'] = '127.0.0.1;'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Agregar el puerto nuevo '3308' de la siguiente forma:
 
 ```
 $cfg['Servers'][$i]['host'] = '127.0.0.1:3308';
@@ -75,7 +76,7 @@ $cfg['Servers'][$i]['host'] = '127.0.0.1:3308';
 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Dar click en 'cancelar' y guardar los cambios en el archivo.
 
-#### 1.3. Iniciar el servicio 'Apache' en el puerto nuevo de trabajo
+#### 2.7. Iniciar el servicio 'MySQL' en el puerto nuevo de trabajo
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En el Panel de control de XAMPP dar click en 'start' de 'MySQL' para iniciar el servicio.
 
