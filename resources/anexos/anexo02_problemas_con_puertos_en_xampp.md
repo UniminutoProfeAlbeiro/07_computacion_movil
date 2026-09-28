@@ -90,7 +90,7 @@ http://localhost:8080/phpmyadmin/
 <div align="right">
   <table border="0">
     <tr>
-      <td align="center">1. <a href="anexo01_trabajar_con_github.md">Trabajar con Github</a></td>
+      <td align="center">Anexo 01. <a href="anexo01_trabajar_con_github.md">Trabajar con Github</a></td>
       <td align="center"><a href="../../README.md">Menú Principal</a></td>
     </tr>
   </table>
