@@ -49,7 +49,7 @@ echo "protocol=https`nhost=github.com`n" | git credential-manager erase
 
 #### 2.3. Crear una cuenta en [Github](https://github.com/signup?source=login).
 
-#### 2.4. Instalar Git, siguiendo los pasos del instalador.
+#### 2.4. Seguier los pasos para crear la cuenta Github.
 
 #### 2.5. Crear un Repositorio
 
@@ -97,15 +97,15 @@ git push -u origin main
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Escribir las credenciales de 'Github'. 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En el 'Git Bash' debe aparecer texto similar al siguiente:
 
-```
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 226 bytes | 226.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-To https://github.com/SenaProfeAlbeiro/proyecto.git
-* [new branch]      main -> main
-branch 'main' set up to track 'origin/main'.
-```
+
+&nbsp;&nbsp;&nbsp;&nbsp; Enumerating objects: 3, done.
+&nbsp;&nbsp;&nbsp;&nbsp; Counting objects: 100% (3/3), done.
+&nbsp;&nbsp;&nbsp;&nbsp; Writing objects: 100% (3/3), 226 bytes | 226.00 KiB/s, done.
+&nbsp;&nbsp;&nbsp;&nbsp; Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+&nbsp;&nbsp;&nbsp;&nbsp; To https://github.com/SenaProfeAlbeiro/proyecto.git
+&nbsp;&nbsp;&nbsp;&nbsp; * [new branch]      main -> main
+&nbsp;&nbsp;&nbsp;&nbsp; branch 'main' set up to track 'origin/main'.
+
 
 #### 2.8. Actualizar la ventana del navegador donde se encuentra abierta su cuenta de 'Github'
 
