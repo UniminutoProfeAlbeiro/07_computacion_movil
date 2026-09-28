@@ -11,9 +11,12 @@
 ## 1. Cambiar los puertos de 'Apache' en 'XAMPP'
 &nbsp;
 
-#### 1.1. En el Panel de control de XAMPP y en la misma línea del servicio 'Apache' dar click en 'Config / Apache (httpd.conf)'.
+#### 1.1. En el Panel de control de XAMPP 
 
-#### 1.2. Se abrirá un 'Bloc de Notas'. Dar click en la opción 'Edición / Buscar...' (o presionar las teclas 'CTRL + B').
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la misma línea del servicio 'Apache' dar click en 'Config / Apache (httpd.conf)'.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Se abrirá un 'Bloc de Notas'. Dar click en la opción 'Edición / Buscar...' (o presionar las teclas 'CTRL + B').
+
+#### 1.2. 
 
 #### 1.3. En la ventana emergente y en el control de texto 'Buscar: ', escribir '80' y dar click en 'Buscar siguiente'.
 
