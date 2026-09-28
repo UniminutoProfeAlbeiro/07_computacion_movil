@@ -7,7 +7,7 @@
 
 <div align="center">
   <a href="../../README.md">Menú Principal</a>
-  <a href="../02_hibrido_/react_native/react_native.md">Menú React Native</a>
+  <br><a href="../02_hibrido_/react_native/react_native.md">Menú React Native</a>
 </div>
 
 ---
