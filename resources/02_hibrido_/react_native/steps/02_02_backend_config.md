@@ -3,9 +3,9 @@
 
 2.1. **[Preparar del backend](#21-preparar-el-proyecto)**
 <br>2.2. **[Iniciar el backend](#22-iniciar-el-proyecto)**
-<br>2.3. **[Ejecutar el backend](#23-ejecutar-el-proyecto)**
-<br>2.4. **[Configurar el backend](#24-configurar-el-proyecto)**
-<br>2.5. **[Estructurar el backend](#25-estructurar-el-proyecto)**
+<br>2.3. **[Configurar el backend](#23-ejecutar-el-backend)**
+<br>2.4. **[Estructurar el backend](#24-configurar-el-backend)**
+<br>2.5. **[Ejecutar el backend](#25-estructurar-el-backend)**
 
 **<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 
@@ -46,7 +46,7 @@ ni package.json -ItemType File -Force
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
-## 2.3. Ejecutar el backend
+## 2.3. Configurar el backend
 &nbsp;
 
 #### 2.2.1. Configurar el 'package.json'
@@ -100,153 +100,7 @@ npm i
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
-## 2.3. Ejecutar el backend
-&nbsp;
-
-#### 2.3.1. Ingresar a la carpeta "frontend"
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la terminal ir a la carpeta "frontend" con el siguiente comando:
-
-```bash
-cd frontend
-```
-
-#### 2.3.2. Ejecutar el backend en el Emulador Android
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Para abrir el backend en el emulador Android, escribir en la terminal:
-
-```bash
-npm run android
-```
-
-&nbsp;&nbsp;&nbsp;&nbsp;> frontend@1.0.0 android<br>
-&nbsp;&nbsp;&nbsp;&nbsp;> expo start --android<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Starting project at D:\PROYECTOS\07_computacion_movil\frontend<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Starting Metro Bundler<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;› Opening emulator Pixel_6a<br>
-&nbsp;&nbsp;&nbsp;&nbsp;› Opening exp://192.168.78.145:8081 on Pixel_6a<br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;![QR](img/expo_go/01_expo_go.PNG)
-
-&nbsp;&nbsp;&nbsp;&nbsp;› Scan the QR code above to open in Expo Go.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;› Metro: exp://192.168.78.145:8081<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;› Using Expo Go (Press s to switch to development build)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;› Press ? │ show all commands<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Logs for your project will appear below. Press Ctrl+C to exit.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Android Bundled 4881ms index.ts (708 modules)
-
-#### 2.3.3. Ejecutar el backend en el Dispositivo Móvil
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **Requisito previo**: Descargar e instalar la aplicación **"Expo Go"** desde la **Google Play Store (Android)** o **App 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Store (iOS)** en el teléfono.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Asegurar que el teléfono y el computador estén **conectados a la misma red Wi-Fi**.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir la app Expo Go en el teléfono.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **Android**: Tocar el botón **"Scan QR code"** y escanear el código QR que aparece en la terminal del computador.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **iOS**: Abrir la aplicación de **Cámara de tu iPhone** y apuntar al código QR para abrir en Expo Go.
-
-#### 2.3.4. Ejecutar el backend en el Dispositivo Móvil a través de un Tunel (sin abrir el Emulador Android)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del backend, presionando **Ctrl + C** en la terminal de Visual Studio Code.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias para ejecutar el backend en el móvil a través de un túnel: 
-
-```bash
-npm install -g @expo/ngrok@^4.1.0 # instalación global
-```
-
-```bash
-npm install --save-dev @expo/ngrok@^4.1.0 # instalación local como dependencia de desarrollo
-```
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Modificar el package.json:
-
-```json
- 1    {
- 2      "name": "frontend",
- 3      "version": "1.0.0",
- 4      "main": "index.ts",
- 5      "dependencies": {
- 6        "expo": "~57.0.23",
- 7        "expo-status-bar": "~57.0.1",
- 8        "react": "19.2.3",
- 9        "react-native": "0.86.3"
-10      },
-11      "devDependencies": {
-12        "@expo/ngrok": "^4.1.3",
-13        "@types/react": "~19.2.2",
-14        "typescript": "~6.0.3"
-15      },
-16      "scripts": {
-17        "start": "expo start --tunnel --clear",
-18        "start:local": "expo start --host lan --clear",
-19        "start:offline": "expo start --offline --clear",
-20        "android": "expo start --android",
-21        "ios": "expo start --ios",
-22        "web": "expo start --web"
-23      },
-24      "private": true
-25    }
-```
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar en el Visual Studio Code el siguiente comando:
-
-```bash
-npx expo start --tunnel --clear # Esto usa un túnel para sortear restricciones de red
-```
-
-#### 2.3.5. Ejecutar el backend en el Navegador Web
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del backend, presionando **Ctrl + C** en la terminal de Visual Studio Code.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las siguientes dependencias para poder ejecutar el backend en el navegador web: 
-
-```bash
-npx expo install react-dom react-native-web
-```
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ejecutar en el Visual Studio Code el siguiente comando:
-
-```bash
-npm run web
-```
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Con el Navegador Web abierto, Presionar la **Tecla F12** para abrir el inspector de propiedades.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Seleccionar la opción **'Toggle device toolbar'**.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Seleccionar en **'Dimensions'** un dispositivo móvil.
-
-#### 2.3.6. Modificar el Mensaje e Inicio de la App
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En 'frontend_mob/App.tsx' modificar la línea 7 :
-
-```tsx
- 1    import { StatusBar } from 'expo-status-bar';
- 2    import { StyleSheet, Text, View } from 'react-native';
- 3  
- 4    export default function App() {
- 5      return (
- 6        <View style={styles.container}>
- 7          <Text>¡Hola Mundo!</Text>
- 8          <StatusBar style="auto" />
- 9        </View>
-10      );
-11    }
-12  
-13    const styles = StyleSheet.create({
-14      container: {
-15        flex: 1,
-16        backgroundColor: '#fff',
-17        alignItems: 'center',
-18        justifyContent: 'center',
-19      },
-20    });
-```
-
-**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
-
----
-## 2.4. Configurar el backend
+## 2.4. Estructurar el backend
 &nbsp;
 
 #### 2.4.1. Modificar el archivo 'package.json' 
@@ -302,7 +156,7 @@ npm i
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
 ---
-## 2.5. Estructurar el backend
+## 2.5. Ejecutar el backend
 &nbsp;
 
 #### 2.5.1. Estructura del backend:
