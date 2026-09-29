@@ -34,7 +34,7 @@ cd backend
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la Terminal de 'Visual Studio Code' digitar lo siguiente:
 
-```bash
+```powershell
 ni package.json -ItemType File -Force
 ```
 
@@ -78,56 +78,11 @@ ni package.json -ItemType File -Force
 35    }
 ```
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;It only covers the most common items, and tries to guess sensible defaults.
-<br>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;See `npm help init` for definitive documentation on these fields
-<br>&nbsp;&nbsp;&nbsp;&nbsp;and exactly what they do.
-<br>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;Use `npm install <pkg>` afterwards to install a package and
-<br>&nbsp;&nbsp;&nbsp;&nbsp;save it as a dependency in the package.json file.
-<br>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;Press ^C at any time to quit.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;package name: (backend) api_nodejs_express
-<br>&nbsp;&nbsp;&nbsp;&nbsp;version: (1.0.0)
-<br>&nbsp;&nbsp;&nbsp;&nbsp;description: API en Node.js con Express y JWT
-<br>&nbsp;&nbsp;&nbsp;&nbsp;entry point: (index.js)
-<br>&nbsp;&nbsp;&nbsp;&nbsp;test command:
-<br>&nbsp;&nbsp;&nbsp;&nbsp;git repository:
-<br>&nbsp;&nbsp;&nbsp;&nbsp;keywords: api nodejs express
-<br>&nbsp;&nbsp;&nbsp;&nbsp;author: Albeiro Ramos
-<br>&nbsp;&nbsp;&nbsp;&nbsp;license: (ISC) MIT
-<br>&nbsp;&nbsp;&nbsp;&nbsp;About to write to C:\Users\Instructor\Documents\_albe_\react_native\backend\package.json:
-<br>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;{
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name": "mi-api-node",
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"version": "1.0.0",
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"description": "API en Node.js con Express y JWT",
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"main": "index.js",
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"scripts": {
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  "test": "echo \"Error: no test specified\" && exit 1"
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"keywords": [
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  "NodeJs"
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"author": "Instructor Albeiro Ramos",
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"license": "MIT"
-<br>&nbsp;&nbsp;&nbsp;&nbsp;}
-<br>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;Is this OK? (yes) yes
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las dependencias:
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; 
-
-
-#### 2.1.3. Abrir el backend en Visual Studio Code
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Asociar el backend con Visual Studio Code
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir una terminal de Visual Studio Code
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el nombre de la terminal a **'frontend'**, seleccionándola en la parte inferior derecha y presionando 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F2 / Rename...
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el color de la terminal **'frontend'**, dando click derecho / Chage Color... / Seleccionar el color
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ingresar a la carpeta **'frontend'** y eliminar el archivo **'delete'**:
-
-**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
+```bash
+npm i
+```
 
 ---
 ## 2.2. Iniciar el backend
