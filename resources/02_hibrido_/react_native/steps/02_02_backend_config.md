@@ -60,18 +60,18 @@ cd npm init
 <br>&nbsp;&nbsp;&nbsp;&nbsp;About to write to C:\Users\Instructor\Documents\_albe_\react_native\backend\package.json:
 <br>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;{
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  "name": "mi-api-node",
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  "version": "1.0.0",
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  "description": "API en Node.js con Express y JWT",
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  "main": "index.js",
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  "scripts": {
-<br>&nbsp;&nbsp;&nbsp;&nbsp;    "test": "echo \"Error: no test specified\" && exit 1"
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  },
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  "keywords": [
-<br>&nbsp;&nbsp;&nbsp;&nbsp;    "NodeJs"
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  ],
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  "author": "Instructor Albeiro Ramos",
-<br>&nbsp;&nbsp;&nbsp;&nbsp;  "license": "MIT"
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name": "mi-api-node",
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"version": "1.0.0",
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"description": "API en Node.js con Express y JWT",
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"main": "index.js",
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"scripts": {
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  "test": "echo \"Error: no test specified\" && exit 1"
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"keywords": [
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  "NodeJs"
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"author": "Instructor Albeiro Ramos",
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"license": "MIT"
 <br>&nbsp;&nbsp;&nbsp;&nbsp;}
 <br>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;Is this OK? (yes) yes
