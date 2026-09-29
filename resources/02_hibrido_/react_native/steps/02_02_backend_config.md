@@ -7,8 +7,6 @@
 <br>2.4. **[Configurar el backend](#24-configurar-el-proyecto)**
 <br>2.5. **[Estructurar el backend](#25-estructurar-el-proyecto)**
 
-<br>
-
 **<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 
 ---
@@ -17,17 +15,20 @@
 
 #### 2.1.1. Ingresar a la carpeta "backend"
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir una terminal de Visual Studio Code ('Terminal / New Terminal' ó 'Ctrl + Shift + ñ')
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ingresar a la carpeta **'backend'** y eliminar el archivo **'delete'**:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Abrir una terminal de Visual Studio Code ('Terminal / New Terminal' ó 'Ctrl + Shift + ñ')
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la terminal ir a la carpeta "backend" con el siguiente comando:
 
 ```bash
 cd backend
 ```
 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el nombre de la terminal a **'backend'**, seleccionándola en la parte inferior derecha y presionando 
+#### 2.1.2. Personalizar la Terminal
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Cambiar el nombre de la terminal a **'backend'**, seleccionándola en la parte inferior derecha y presionando 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F2 / Rename...
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▹ &nbsp;Cambiar el color de la terminal **'backend'**, dando click derecho / Chage Color... / Seleccionar el color
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Ingresar a la carpeta **'backend'** y eliminar el archivo **'delete'**:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Cambiar el color de la terminal **'backend'**, dando click derecho / Chage Color... / Seleccionar el color
+
 
 
 #### 2.1.2. Crear un repositorio en Github
