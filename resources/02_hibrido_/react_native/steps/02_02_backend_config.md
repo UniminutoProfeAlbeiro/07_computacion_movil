@@ -5,7 +5,6 @@
 <br>2.2. **[Iniciar el backend](#22-iniciar-el-backend)**
 <br>2.3. **[Configurar el backend](#23-configurar-el-backend)**
 <br>2.4. **[Estructurar el backend](#24-estructurar-el-backend)**
-<br>2.5. **[Ejecutar el backend](#25-ejecutar-el-backend)**
 
 **<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 
@@ -29,7 +28,7 @@ cd backend
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Cambiar el color de la terminal **'backend'**, dando click derecho / Chage Color... / Seleccionar el color
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Cambiar el icono de la terminal **'backend'**, dando click derecho / Chage Icon... / Seleccionar el icono
 
-**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
+**<div align="right"><a href="#2-configuración">Volver al Menú</a></div>**
 
 ---
 ## 2.2. Iniciar el backend
@@ -43,7 +42,7 @@ cd backend
 ni package.json -ItemType File -Force
 ```
 
-**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
+**<div align="right"><a href="#2-configuración">Volver al Menú</a></div>**
 
 ---
 ## 2.3. Configurar el backend
@@ -97,7 +96,7 @@ ni package.json -ItemType File -Force
 npm i
 ```
 
-**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
+**<div align="right"><a href="#2-configuración">Volver al Menú</a></div>**
 
 ---
 ## 2.4. Estructurar el backend
@@ -159,11 +158,7 @@ ni server.js -ItemType File -Force
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Pegar el código en la terminal (Verificar que esté en **..\backend>**) y presione la tecla **ENTER**.
 
----
-## 2.5. Ejecutar el backend
-&nbsp;
-
-**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
+**<div align="right"><a href="#2-configuración">Volver al Menú</a></div>**
 
 ---
 <div align="right">
