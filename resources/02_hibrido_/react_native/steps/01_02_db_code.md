@@ -67,7 +67,6 @@
 
 #### 2.2.6. Dar click en 'Importar'
 
-
 **<div align="right"><a href="#i-database">Volver al Menú</a></div>**
 
 ---

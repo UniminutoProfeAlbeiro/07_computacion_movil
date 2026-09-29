@@ -47,7 +47,13 @@ Windows Live Server
 
 #### 1.3.1. [Desacargar Xampp](https://www.apachefriends.org/es/download.html)
 
-#### 1.3.2. Instalar Xampp. 
+#### 1.3.2. Instalar Xampp.
+
+### Nota:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso de tener dificultades con los puertos de 'Apache' y 'MySQL', hay que cambiarlos (**[Ver Anexo 02. Problemas con Puertos en Xampp](../../../anexos/anexo02_problemas_con_puertos_en_xampp.md)**). 
+
+
 
 **<div align="right"><a href="#i-database">Volver al Menú</a></div>**
 
