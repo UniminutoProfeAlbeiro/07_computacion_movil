@@ -4,8 +4,6 @@
 2.1. **[Codificar la Base de Datos](#21-codificar-la-base-de-datos)**
 <br>2.2. **[Ejecutar la Base de Datos](#22-ejecutar-la-base-de-datos)**
 
-<br>
-
 **<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 
 ---
