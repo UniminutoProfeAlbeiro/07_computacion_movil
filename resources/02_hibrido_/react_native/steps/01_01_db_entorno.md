@@ -6,8 +6,6 @@
 <br>1.2. **[Instalar MySQL Workbench](#12-instalar-mysql-workbench)**
 <br>1.3. **[Instalar Xampp](#13-instalar-xampp)**
 
-<br>
-
 **<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 
 ---
