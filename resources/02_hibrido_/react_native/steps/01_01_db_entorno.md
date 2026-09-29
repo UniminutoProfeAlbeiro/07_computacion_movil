@@ -61,8 +61,7 @@ Windows Live Server
 
 <div align="right">
   <table border="0">
-    <tr>      
-      <td align="center"><a href="00_01_preliminares.md">Preliminares</a></td>
+    <tr>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
       <td align="center"><a href="01_02_db_code.md">Codificación</a></td>
     </tr>
