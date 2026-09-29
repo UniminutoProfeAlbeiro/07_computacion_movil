@@ -30,10 +30,54 @@ cd backend
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Cambiar el icono de la terminal **'backend'**, dando click derecho / Chage Icon... / Seleccionar el icono
 
 
-#### 2.1.2. Crear un repositorio en Github
+#### 2.1.2. Crear el archivo para manejar las dependencias 'package.json'
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Colocar el nombre del backend al Repositorio Creado 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso de no tener cuenta en Github, crear una (**[Ver Anexo 01. Trabajar con Github](../../../anexos/anexo01_trabajar_con_github.md)**).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En la Terminal de 'Visual Studio Code' digitar lo siguiente:
+
+```bash
+cd npm init
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;This utility will walk you through creating a package.json file.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;It only covers the most common items, and tries to guess sensible defaults.
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;See `npm help init` for definitive documentation on these fields
+<br>&nbsp;&nbsp;&nbsp;&nbsp;and exactly what they do.
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Use `npm install <pkg>` afterwards to install a package and
+<br>&nbsp;&nbsp;&nbsp;&nbsp;save it as a dependency in the package.json file.
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Press ^C at any time to quit.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;package name: (backend) api_nodejs_express
+<br>&nbsp;&nbsp;&nbsp;&nbsp;version: (1.0.0)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;description: API en Node.js con Express y JWT
+<br>&nbsp;&nbsp;&nbsp;&nbsp;entry point: (index.js)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;test command:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;git repository:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;keywords: api nodejs express
+<br>&nbsp;&nbsp;&nbsp;&nbsp;author: Albeiro Ramos
+<br>&nbsp;&nbsp;&nbsp;&nbsp;license: (ISC) MIT
+<br>&nbsp;&nbsp;&nbsp;&nbsp;About to write to C:\Users\Instructor\Documents\_albe_\react_native\backend\package.json:
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;{
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  "name": "mi-api-node",
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  "version": "1.0.0",
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  "description": "API en Node.js con Express y JWT",
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  "main": "index.js",
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  "scripts": {
+<br>&nbsp;&nbsp;&nbsp;&nbsp;    "test": "echo \"Error: no test specified\" && exit 1"
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  },
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  "keywords": [
+<br>&nbsp;&nbsp;&nbsp;&nbsp;    "NodeJs"
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  ],
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  "author": "Instructor Albeiro Ramos",
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  "license": "MIT"
+<br>&nbsp;&nbsp;&nbsp;&nbsp;}
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Is this OK? (yes) yes
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; 
+
 
 #### 2.1.3. Abrir el backend en Visual Studio Code
 
