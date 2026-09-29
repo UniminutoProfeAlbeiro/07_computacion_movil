@@ -103,131 +103,33 @@ npm i
 ## 2.4. Estructurar el backend
 &nbsp;
 
-#### 2.4.1. Modificar el archivo 'package.json' 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Parar la ejecución del backend, presionando **Ctrl + C** en la terminal de Visual Studio Code.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Incluir en el código del 'package.json' las dependencias para asegurar que el backend funcione correctamente:
-                    
-```json
- 1    {
- 2      "name": "frontend",
- 3      "version": "1.0.0",
- 4      "main": "index.ts",
- 5      "dependencies": {
- 6        "expo": "~57.0.23",
- 7        "expo-status-bar": "~57.0.1",
- 8        "react": "19.2.3",
- 9        "react-dom": "19.2.3",
-10        "react-native": "0.86.3",
-11        "react-native-web": "^0.21.2",
-12        "@react-native-async-storage/async-storage": "2.2.0",
-13        "@react-navigation/native": "^7.1.28",
-14        "@react-navigation/native-stack": "^7.10.1",    
-15        "@react-navigation/stack": "^7.6.16",
-16        "axios": "^1.13.2",
-17        "react-native-safe-area-context": "~5.6.0",
-18        "react-native-screens": "~4.16.0"    
-19      },
-20      "devDependencies": {
-21        "@expo/ngrok": "^4.1.3",
-22        "@types/react": "~19.2.2",
-23        "typescript": "~6.0.3"
-24      },
-25      "scripts": {
-26        "start": "expo start --tunnel --clear",
-27        "start:local": "expo start --host lan --clear",
-28        "start:offline": "expo start --offline --clear",
-29        "android": "expo start --android",
-30        "ios": "expo start --ios",
-31        "web": "expo start --web"
-32      },
-33      "private": true
-34    }
-```
-
-#### 2.4.2. Instalar las dependencias del backend:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Actualizar las dependencias incluidas en el **'package.json'** desde la terminar de Visual Studio Code el siguiente comando:
-
-```bash
-npm i
-```
-
-**<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
-
----
-## 2.5. Ejecutar el backend
-&nbsp;
-
-#### 2.5.1. Estructura del backend:
+#### 2.4.1. Estructura del backend:
 
 	# C = Carpetas
 	# A = Archivos
 
-	proyecto/                                      		     # C. Proyecto móvil en React Native.
-	└── frontend/                                     		 # C. Carpeta raíz del backend en React Native.
-			├── .claude/                                     # C. Importaciones al proyecto que vienen de 'Claude'
-			├── .expo/                                       # C. Configuraciones del backend utilizados por 'Expo'
-			├── assets/                                      # C. Recursos estáticos (imágenes, fuentes).
-			├── node_modules/                                # C. Dependencias (librerías) instaladas para el frontend.
-			├── src/                                         # C. Carpetas y archivos de la aplicación React Native.
-			│   ├── data/                                    # C. Capa para obtención y manipulación de datos.
-			│   │   ├── repositories/                        # C. Interfaces para acceder a diferentes fuentes de datos.
-			│   │   │   ├── AuthRepository.tsx               # A. Lógica para la autenticación.
-			│   │   │   └── UserLocalRepository.tsx          # A. Gestión de datos del usuario a nivel local (AsyncStorage).
-			│   │   └── sources/                             # C. Implementaciones  de las fuentes de datos (local, remota).
-			│   │       ├── local/                           # C. Lógica para acceder a datos almacenados localmente.
-			│   │       │   └── LocalStorage.tsx             # A. Interactua con el almacenamiento local (AsyncStorage).
-			│   │       └── remote/                          # C. Interactua con la API del backend (clientes API).
-			│   │           ├── api/                         # C. Clientes o servicios para realizar llamadas a la API.
-			│   │           │   └── ApiDelivery.tsx          # A. Cliente para interactuar la API con "delivery".
-			│   │           └── models/                      # C. Estructuras de datos que se reciben de la API.
-			│   │               └── ResponseApiDelivery.tsx	 # A. Tipo de la respuesta de la API de "delivery".
-			│   ├── domain/                                  # C. Lógica de negocio y entidades del dominio (independiente).
-			│   │   ├── entities/                            # C. Estructuras de los objetos del negocio (User).
-			│   │   │   └── User.tsx                         # A. Entidad de usuario con sus propiedades (nombre, email).
-			│   │   ├── repositories/                        # C. Interfaces para acceder a los datos (implementado en Data).
-			│   │   │   ├── AuthRepository.tsx               # A. Interfaz para las operaciones de autenticación.
-			│   │   │   └── UserLocalRepository.tsx          # A. Interfaz para la gestión de datos locales del usuario.
-			│   │   └── useCases/                            # C. Lógica de negocio de la aplicación (dominio/data).
-			│   │       ├── auth/                            # C. Casos de uso para la autenticación (Login, Register).
-			│   │       │   ├── LoginAuth.tsx                # A. Lógica para el proceso de inicio de sesión del usuario.
-			│   │       │   └── RegisterAuth.tsx             # A. Lógica para el proceso de registro de nuevos usuarios.
-			│   │       └── userLocal/                       # C. Casos de uso relacionados con la gestión local del usuario.
-			│   │           ├── GetUserLocal.tsx             # A. Obtener información del usuario almacenado localmente.
-			│   │           ├── RemoveUserLocal.tsx          # A. Eliminar información del usuario almacenado localmente.
-			│   │           └── SaveUserLocal.tsx            # A. Guardar la información del usuario localmente.
-			│   └── presentation/                            # C. Capa de interfaz y presentación de datos (components, views).
-			│       ├── components/                          # C. Componentes de interfaz de usuario (inputs, buttons).
-			│       │   ├── CustomTextInput.tsx              # A. Componente de entrada de texto personalizado con estilos.
-			│       │   └── RoundedButton.tsx                # A. Componente de botón con estilos de bordes redondeados.
-			│       ├── hooks/                               # C. Hooks personalizados para lógica de presentación reutilizable.
-			│       │   └── useUserLocal.tsx                 # A. Hook para manipular la información local del usuario.
-			│       ├── theme/                               # C. Estilos y la temática visual general de la aplicación.
-			│       │   └── AppTheme.tsx                     # A. Paleta de colores, tipografía y estilos consistentes.
-			│       └── views/                               # C. Pantallas o vistas principales de la aplicación.
-			│           ├── home/                            # C. Archivos relacionados con la pantalla principal.
-			│           │   ├── Home.tsx                     # A. Componente principal de la pantalla inicio (Home).
-			│           │   ├── Styles.tsx                   # A. Estilos para los componentes de la pantalla inicio.
-			│           │   └── ViewModel.tsx                # A. Lógica de presentación para la pantalla inicio.
-			│           ├── profile/                         # C. Archivos relacionados con el perfil del usuario.
-			│           │   └── info/                        # C. Archivos relacionados con el perfil del usuario.
-			│           │       ├── ProfileInfo.tsx          # A. Componente para mostrar información del perfil del usuario.
-			│           │       └── ViewModel.tsx            # A. Lógica de presentación para el perfil del usuario.
-			│           └── register/                        # C. Archivos relacionados con la pantalla de registro de usuarios.
-			│               ├── Register.tsx                 # A. Componente principal de la pantalla de registro de usuarios.
-			│               ├── Styles.tsx                   # A. Estilos para los componentes de la pantalla de registro.
-			│               └── ViewModel.tsx                # A. Lógica de presentación para la pantalla registro de usuarios.
-			├── .gitignore                                   # A. Archivos y carpetas que Git debe ignorar.
-			├── AGENTS.md                                    # A. Archivo específico para trabajar con Agentes de Claude.
-			├── app.json                                     # A. Configuración utilizada por Expo para configurar la app.
-			├── App.tsx                                      # A. Raíz de la aplicación React Native (punto de entrada UI).
-			├── CLAUDE.md                                    # A. Contexto para los asistentes de IA (como Claude Code)
-			├── index.ts                                     # A. Punto de entrada para la aplicación React Native.
-			├── LICENSE                                      # A. Define qué se puede y qué no puede hacer en el código.
-			├── package-lock.json                            # A. Registra las versiones de las dependencias del frontend.
-			├── package.json                                 # A. Manifiesto del frontend (nombre, dependencias, scripts).
-			└── tsconfig.json                                # A. Configuración para el compilador de TypeScript.
+	proyecto/                               # C. Backend y Frontend de un proyecto software (web o móvil).
+		└── backend/                         	# C. Lógica del servidor Node.js para la gestión de datos y API.
+		    ├── config/                      	# C. Configuración del backend (base de datos, claves, autenticación).
+		    │   ├── config.js                	# A. Configuración principal del backend (variables de entorno, BD, etc.).
+		    │   ├── keys.js                  	# A. Claves secretas para seguridad (JWT, OAuth, servicios externos).
+		    │   ├── passport.js              	# A. Configuración de la estrategia de autenticación con Passport.js.
+		    │   └── swagger.js               	# A. Documentación con swagger.
+		    ├── controllers/                 	# C. Manejan la lógica de negocio y conexión entre rutas y modelos.
+		    │   └── userController.js        	# A. Controlador para las operaciones relacionadas con los usuarios (CRUD, login).
+		    ├── middlewares/                 	# C. Funciones que interceptan las peticiones HTTP (autenticación, validaciones).
+		    │   └── authMiddleware.js        	# A. Middleware para verificar autenticación/autorización de usuarios.
+		    ├── models/                      	# C. Definición de modelos de datos que representan tablas en la base de datos.
+		    │   └── user.js                  	# A. Esquema del modelo de usuario (campos, validaciones, consultas SQL).
+		    ├── node_modules/                	# C. Dependencias externas instaladas vía NPM.
+		    ├── routes/                      	# C. Define las rutas de la API que conectan con los controladores.
+		    │   └── userRoutes.js            	# A. Endpoints relacionados con usuarios (registro, login, CRUD).
+		    ├── .env                         	# A. Cadena de conexión a la base de datos.
+		    ├── .gitignore                   	# A. Ignorar archivos y carpetas del proyecto
+		    ├── index.js                     	# A. Punto principal de entrada del backend. Carga 'server.js' y arranca la app.
+		    ├── package-lock.json            	# A. Versiones exactas de las dependencias instaladas.
+		    ├── package.json                 	# A. Manifest del backend (nombre del proyecto, scripts, dependencias).
+		    └── server.js                    	# A. Configuración del servidor Express (middlewares, rutas, DB, etc.).
 
 
 #### 2.5.2. Crear la Estructura del backend:
@@ -287,11 +189,9 @@ ni src/presentation/views/register/ViewModel.tsx -ItemType File -Force
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Pegar el código en la terminal (Verificar que esté en **..\frontend>**) y presione la tecla **ENTER**.
 
-#### 2.5.3. Cargar las imágenes del backend a la carpeta '../frontend/assets':
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Copiar las imágenes del backend que se encuentran en la carpeta: 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **../resources/02_hibrido_/react_native/assets**.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Pegar las imágenes en la carpeta **'../frontend/assets'**. 
+---
+## 2.4. Estructurar el backend
+&nbsp;
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
 
