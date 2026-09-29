@@ -1,8 +1,10 @@
 ## <h1 align="center">I. Database</h1>
+
 ## 1. Entorno de Desarrollo
 
 1.1. **[Instalar Visual Studio Code](#11-instalar-visual-studio-code)**
-<br>1.2. **[Instalar Xampp](#12-instalar-xampp)**
+<br>1.2. **[Instalar MySQL Workbench](#12-instalar-mysql-workbench)**
+<br>1.3. **[Instalar Xampp](#13-instalar-xampp)**
 
 <br>
 
@@ -32,12 +34,22 @@ Windows Live Server
 **<div align="right"><a href="#i-database">Volver al Menú</a></div>**
 
 ---
-## 1.2. Instalar Xampp
+## 1.2. Instalar MySQL Workbench
 &nbsp;
 
-#### 1.2.1. [Desacargar Xampp](https://www.apachefriends.org/es/download.html)
+#### 1.2.1. [Desacargar MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
-#### 1.2.2. Instalar Xampp. 
+#### 1.2.2. Instalar MySQL Workbench. 
+
+**<div align="right"><a href="#i-database">Volver al Menú</a></div>**
+
+---
+## 1.3. Instalar Xampp
+&nbsp;
+
+#### 1.3.1. [Desacargar Xampp](https://www.apachefriends.org/es/download.html)
+
+#### 1.3.2. Instalar Xampp. 
 
 **<div align="right"><a href="#i-database">Volver al Menú</a></div>**
 
