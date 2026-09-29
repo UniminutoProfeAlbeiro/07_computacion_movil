@@ -108,28 +108,28 @@ npm i
 	# C = Carpetas
 	# A = Archivos
 
-	proyecto/                               # C. Backend y Frontend de un proyecto software (web o móvil).
-		└── backend/                         	# C. Lógica del servidor Node.js para la gestión de datos y API.
-		    ├── config/                      	# C. Configuración del backend (base de datos, claves, autenticación).
-		    │   ├── config.js                	# A. Configuración principal del backend (variables de entorno, BD, etc.).
-		    │   ├── keys.js                  	# A. Claves secretas para seguridad (JWT, OAuth, servicios externos).
-		    │   ├── passport.js              	# A. Configuración de la estrategia de autenticación con Passport.js.
-		    │   └── swagger.js               	# A. Documentación con swagger.
-		    ├── controllers/                 	# C. Manejan la lógica de negocio y conexión entre rutas y modelos.
-		    │   └── userController.js        	# A. Controlador para las operaciones relacionadas con los usuarios (CRUD, login).
-		    ├── middlewares/                 	# C. Funciones que interceptan las peticiones HTTP (autenticación, validaciones).
-		    │   └── authMiddleware.js        	# A. Middleware para verificar autenticación/autorización de usuarios.
-		    ├── models/                      	# C. Definición de modelos de datos que representan tablas en la base de datos.
-		    │   └── user.js                  	# A. Esquema del modelo de usuario (campos, validaciones, consultas SQL).
-		    ├── node_modules/                	# C. Dependencias externas instaladas vía NPM.
-		    ├── routes/                      	# C. Define las rutas de la API que conectan con los controladores.
-		    │   └── userRoutes.js            	# A. Endpoints relacionados con usuarios (registro, login, CRUD).
-		    ├── .env                         	# A. Cadena de conexión a la base de datos.
-		    ├── .gitignore                   	# A. Ignorar archivos y carpetas del proyecto
-		    ├── index.js                     	# A. Punto principal de entrada del backend. Carga 'server.js' y arranca la app.
-		    ├── package-lock.json            	# A. Versiones exactas de las dependencias instaladas.
-		    ├── package.json                 	# A. Manifest del backend (nombre del proyecto, scripts, dependencias).
-		    └── server.js                    	# A. Configuración del servidor Express (middlewares, rutas, DB, etc.).
+	proyecto/                               	# C. Backend y Frontend de un proyecto software (web o móvil).
+		└── backend/                      # C. Lógica del servidor Node.js para la gestión de datos y API.
+		    ├── config/                   # C. Configuración del backend (base de datos, claves, autenticación).
+		    │   ├── config.js             # A. Configuración principal del backend (variables de entorno, BD, etc.).
+		    │   ├── keys.js               # A. Claves secretas para seguridad (JWT, OAuth, servicios externos).
+		    │   ├── passport.js           # A. Configuración de la estrategia de autenticación con Passport.js.
+		    │   └── swagger.js            # A. Documentación con swagger.
+		    ├── controllers/              # C. Manejan la lógica de negocio y conexión entre rutas y modelos.
+		    │   └── userController.js     # A. Controlador para las operaciones relacionadas con los usuarios (CRUD, login).
+		    ├── middlewares/              # C. Funciones que interceptan las peticiones HTTP (autenticación, validaciones).
+		    │   └── authMiddleware.js     # A. Middleware para verificar autenticación/autorización de usuarios.
+		    ├── models/                   # C. Definición de modelos de datos que representan tablas en la base de datos.
+		    │   └── user.js               # A. Esquema del modelo de usuario (campos, validaciones, consultas SQL).
+		    ├── node_modules/             # C. Dependencias externas instaladas vía NPM.
+		    ├── routes/                   # C. Define las rutas de la API que conectan con los controladores.
+		    │   └── userRoutes.js         # A. Endpoints relacionados con usuarios (registro, login, CRUD).
+		    ├── .env                      # A. Cadena de conexión a la base de datos.
+		    ├── .gitignore                # A. Ignorar archivos y carpetas del proyecto
+		    ├── index.js                  # A. Punto principal de entrada del backend. Carga 'server.js' y arranca la app.
+		    ├── package-lock.json         # A. Versiones exactas de las dependencias instaladas.
+		    ├── package.json              # A. Manifest del backend (nombre del proyecto, scripts, dependencias).
+		    └── server.js                 # A. Configuración del servidor Express (middlewares, rutas, DB, etc.).
 
 
 #### 2.5.2. Crear la Estructura del backend:
