@@ -1,11 +1,11 @@
 ## <h1 align="center">II. Backend</h1>
 ## 2. Configuración
 
-2.1. **[Preparar del backend](#21-preparar-el-proyecto)**
-<br>2.2. **[Iniciar el backend](#22-iniciar-el-proyecto)**
-<br>2.3. **[Configurar el backend](#23-ejecutar-el-backend)**
-<br>2.4. **[Estructurar el backend](#24-configurar-el-backend)**
-<br>2.5. **[Ejecutar el backend](#25-estructurar-el-backend)**
+2.1. **[Preparar del backend](#21-preparar-el-backend)**
+<br>2.2. **[Iniciar el backend](#22-iniciar-el-backend)**
+<br>2.3. **[Configurar el backend](#23-configurar-el-backend)**
+<br>2.4. **[Estructurar el backend](#24-estructurar-el-backend)**
+<br>2.5. **[Ejecutar el backend](#25-ejecutar-el-backend)**
 
 **<div align="center"><a href="../react_native.md">Menú React Native</a></div>**
 
@@ -132,7 +132,7 @@ npm i
 		    └── server.js                 # A. Configuración del servidor Express (middlewares, rutas, DB, etc.).
 
 
-#### 2.5.2. Crear la Estructura del backend:
+#### 2.4.2. Crear la Estructura del backend:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Crear las **Carpetas** y **Archivos** del backend, copiando el siguiente código:
 
@@ -157,10 +157,10 @@ ni server.js -ItemType File -Force
 
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Pegar el código en la terminal (Verificar que esté en **..\frontend>**) y presione la tecla **ENTER**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Pegar el código en la terminal (Verificar que esté en **..\backend>**) y presione la tecla **ENTER**.
 
 ---
-## 2.4. Estructurar el backend
+## 2.5. Ejecutar el backend
 &nbsp;
 
 **<div align="right"><a href="#punto-2-configuración-del-proyecto">Volver al Menú</a></div>**
