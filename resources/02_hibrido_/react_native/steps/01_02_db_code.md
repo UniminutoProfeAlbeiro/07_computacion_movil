@@ -55,7 +55,11 @@
 
 #### 2.2.1. Abrir el 'XAMPP Control Panel' y ejecutar los servicios de 'Apache' y 'MySQL'.
 
-#### 2.2.2. Abrir el navegador y escribir http://localhost/phpmyadmin/
+#### 2.2.2. Abrir el navegador y escribir http://localhost/phpmyadmin/ 
+
+### Nota:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; **[Ver Anexo 02. Problemas con Puertos en Xampp](../../../anexos/anexo02_problemas_con_puertos_en_xampp.md)**) si cambió los puertos de 'Apache' y 'MySQL'.
 
 #### 2.2.3. Dar click en 'Importar'
 
