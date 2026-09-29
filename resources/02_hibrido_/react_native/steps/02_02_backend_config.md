@@ -164,9 +164,9 @@ ni server.js -ItemType File -Force
 <div align="right">
   <table border="0">
     <tr>      
-      <td align="center">1. <a href="01_entorno.md">Entorno de Desarrollo</a></td>
+      <td align="center">1. <a href="02_01_backend_entorno.md">Entorno de Desarrollo</a></td>
       <td align="center"><a href="../react_native.md">Menú Principal de React</a></td>
-      <td align="center">3. <a href="03_frontend.md">Frontend</a></td>
+      <td align="center">3. <a href="02_03_backend_code.md">Codificación</a></td>
     </tr>
   </table>
 </div>
