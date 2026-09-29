@@ -25,10 +25,9 @@ cd backend
 
 #### 2.1.2. Personalizar la Terminal
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Cambiar el nombre de la terminal a **'backend'**, seleccionándola en la parte inferior derecha y presionando 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; F2 / Rename...
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Cambiar el color de la terminal **'backend'**, dando click derecho / Chage Color... / Seleccionar el color
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Cambiar el nombre de la terminal a **'backend'**, seleccionándola en la parte inferior derecha y presionando F2 / Rename...
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Cambiar el color de la terminal **'backend'**, dando click derecho / Chage Color... / Seleccionar el color
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Cambiar el icono de la terminal **'backend'**, dando click derecho / Chage Icon... / Seleccionar el icono
 
 
 #### 2.1.2. Crear un repositorio en Github
