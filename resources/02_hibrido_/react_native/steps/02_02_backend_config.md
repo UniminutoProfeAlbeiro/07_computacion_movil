@@ -41,41 +41,41 @@ ni package.json -ItemType File -Force
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Copiar y pegar el siguiente código en el archivo 'package.json':
 
 ```json
- 1    {
- 2      "name": "api_nodejs_express",
- 3      "version": "1.0.0",
- 4      "description": "",
- 5      "main": "index.js",
- 6      "scripts": {
- 7        "start": "node server.js",
- 8        "dev": "nodemon index.js",
- 9        "test": "echo \"Error: no test specified\" && exit 1"
-10      },
-11      "keywords": [
-12        "api",
-13        "nodejs",
-14        "express"
-15      ],
-16      "author": "Albeiro Ramos",
-17      "license": "MIT",
-18      "dependencies": {
-19        "bcryptjs": "^3.0.2",
-20        "cors": "^2.8.5",
-21        "dotenv": "^17.2.3",
-22        "express": "^4.21.2",
-23        "http": "^0.0.1-security",
-24        "jsonwebtoken": "^9.0.2",
-25        "morgan": "^1.10.0",
-26        "mysql": "^2.18.1",
-27        "passport": "^0.7.0",
-28        "passport-jwt": "^4.0.1",
-29        "swagger-jsdoc": "^6.2.8",
-30        "swagger-ui-express": "^5.0.1"
-31      },
-32      "devDependencies": {
-33        "nodemon": "^3.1.11"
-34      }
-35    }
+ 1  {
+ 2    "name": "api_nodejs_express",
+ 3    "version": "1.0.0",
+ 4    "description": "",
+ 5    "main": "index.js",
+ 6    "scripts": {
+ 7      "start": "node server.js",
+ 8      "dev": "nodemon index.js",
+ 9      "test": "echo \"Error: no test specified\" && exit 1"
+10    },
+11    "keywords": [
+12      "api",
+13      "nodejs",
+14      "express"
+15    ],
+16    "author": "Albeiro Ramos",
+17    "license": "MIT",
+18    "dependencies": {
+19      "bcryptjs": "^3.0.2",
+20      "cors": "^2.8.5",
+21      "dotenv": "^17.2.3",
+22      "express": "^4.21.2",
+23      "http": "^0.0.1-security",
+24      "jsonwebtoken": "^9.0.2",
+25      "morgan": "^1.10.0",
+26      "mysql": "^2.18.1",
+27      "passport": "^0.7.0",
+28      "passport-jwt": "^4.0.1",
+29      "swagger-jsdoc": "^6.2.8",
+30      "swagger-ui-express": "^5.0.1"
+31    },
+32    "devDependencies": {
+33      "nodemon": "^3.1.11"
+34    }
+35  }
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Instalar las dependencias:
