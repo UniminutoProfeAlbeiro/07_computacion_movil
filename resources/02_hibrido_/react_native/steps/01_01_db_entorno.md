@@ -51,7 +51,7 @@ Windows Live Server
 
 ### Nota:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; En caso de tener dificultades con los puertos de 'Apache' y 'MySQL', hay que cambiarlos (**[Ver Anexo 02. Problemas con Puertos en Xampp](../../../anexos/anexo02_problemas_con_puertos_en_xampp.md)**). 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● &nbsp; Si tiene dificultades con los puertos de 'Apache' y 'MySQL', hay que cambiarlos (**[Ver Anexo 02. Problemas con Puertos en Xampp](../../../anexos/anexo02_problemas_con_puertos_en_xampp.md)**). 
 
 
 
